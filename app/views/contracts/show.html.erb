@@ -1,0 +1,36 @@
+<div class="container">
+
+<h1>Contract Details</h1>
+
+<div class="row">
+<div class="form-group row">
+  <label for="inputContractId" class="col-2 col-form-label">Contract ID</label>
+	<div class="col-10">
+  	<input type="number" class="form-control" id="inputContractId" value=<%= @contract.contract_id %> >
+	</div>
+</div>
+
+<div class="form-group row">
+  <label for="inputSupplier" class="col-2 col-form-label">Supplier</label>
+	<div class="col-10">
+  	<input type="text" class="form-control" id="inputSupplier" value=<%= @contract.supplier %> >
+	</div>
+</div>
+
+<div class="form-group row">
+  <label for="inputProduct" class="col-2 col-form-label">Product</label>
+	<div class="col-10">
+  	<input type="text" class="form-control" id="inputProduct" value=<%= @contract.product %> >
+	</div>
+</div>
+
+<button type="submit" class="btn btn-default">
+	<%= link_to 'Edit', edit_contract_path(@contract) %>
+</button>
+<button type="submit" class="btn btn-default">
+	<%= link_to 'Back', contracts_path %>
+</button>
+
+</div>
+
+</div>

@@ -1,0 +1,11 @@
+.notice-banner {
+  box-size: border-box;
+  padding: 15px;
+  margin: 15px;
+  background-color: #dff0d8;
+}
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
+@import "bootstrap-sprockets";
+@import "bootstrap";

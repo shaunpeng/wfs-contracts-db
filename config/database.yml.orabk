@@ -1,0 +1,5 @@
+development:
+  adapter: oracle_enhanced
+  database: BICOMD2
+  username: bidw
+  password: bidw
