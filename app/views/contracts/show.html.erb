@@ -24,6 +24,13 @@
 	</div>
 </div>
 
+<div class="form-group row">
+  <label for="inputProduct" class="col-2 col-form-label">Status</label>
+	<div class="col-10">
+  	<input type="text" class="form-control" id="inputProduct" value=<%= @contract.status %> >
+	</div>
+</div>
+
 <button type="submit" class="btn btn-default">
 	<%= link_to 'Edit', edit_contract_path(@contract) %>
 </button>

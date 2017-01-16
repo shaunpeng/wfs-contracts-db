@@ -8,7 +8,8 @@
       <th>Contract ID</th>
       <th>Supplier</th>
       <th>Product</th>
-      <th colspan="3"></th>
+      <th>Status</th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
@@ -18,6 +19,7 @@
         <td><%= contract.contract_id %></td>
         <td><%= contract.supplier %></td>
         <td><%= contract.product %></td>
+        <td><%= contract.status %></td>
         <td><%= link_to 'Details', contract %></td>
         <td><%= link_to 'Edit', edit_contract_path(contract) %></td>
         <td><%= link_to 'Delete', contract, method: :delete, data: { confirm: 'Are you sure?' } %></td>

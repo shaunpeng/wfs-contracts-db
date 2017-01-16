@@ -14,7 +14,7 @@
 
 <div class="form-group row">
   <div class="field">
-    <label for="inputContractId" class="col-2 col-form-label"><%= f.label :contract_id %></label>
+    <label for="inputContractId" class="col-2 col-form-label">Contract ID</label>
     <%= f.number_field :contract_id, class: "form-control" %>
   </div>
 </div>
@@ -30,6 +30,13 @@
   <div class="field">
     <label for="inputProduct" class="col-2 col-form-label"><%= f.label :product %></label>
     <%= f.text_field :product, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputStatus" class="col-2 col-form-label"><%= f.label :status %></label>
+    <%= f.text_field :status, class: "form-control" %>
   </div>
 </div>
 
