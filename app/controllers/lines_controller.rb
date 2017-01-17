@@ -1,4 +1,4 @@
-class LinesController < ApplicationController
+class LinesController < ContractsController
   before_action :set_line, only: [:show, :edit, :update, :destroy]
 
   # GET /lines
@@ -15,6 +15,7 @@ class LinesController < ApplicationController
   # GET /lines/new
   def new
     @line = Line.new
+    @contract = Contract.find(params[:contract])
   end
 
   # GET /lines/1/edit
@@ -66,4 +67,5 @@ class LinesController < ApplicationController
     def line_params
       params.require(:line).permit(:formula, :volume, :contract_id)
     end
+    
 end
