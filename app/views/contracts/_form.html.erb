@@ -22,7 +22,17 @@
 <div class="form-group row">
   <div class="field">
     <label for="inputSupplier" class="col-2 col-form-label"><%= f.label :supplier %></label>
+    <div class='input-group date' id='datetimepicker1'>
     <%= f.text_field :supplier, class: "form-control" %>
+      <span class="input-group-addon">
+          <span class="glyphicon glyphicon-calendar"></span>
+      </span>
+    </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
   </div>
 </div>
 
@@ -36,7 +46,7 @@
 <div class="form-group row">
   <div class="field">
     <label for="inputStatus" class="col-2 col-form-label"><%= f.label :status %></label>
-    <%= f.text_field :status, class: "form-control" %>
+    <%= f.select(:status, ["A", "I"], {}, { :class => "form-control" }) %>
   </div>
 </div>
 

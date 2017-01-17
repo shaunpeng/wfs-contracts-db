@@ -1,11 +1,31 @@
-.notice-banner {
-  box-size: border-box;
-  padding: 15px;
-  margin: 15px;
-  background-color: #dff0d8;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'bootstrap-datetimepicker';
+
+.container, .dropdown-menu, .btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+tbody td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 105%;
+}
+
+.notice-banner {
+    box-size: border-box;
+    margin: 15px;
+}
+
+.row {
+    position: relative;
+}
+
+.bottom-align-right {
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+

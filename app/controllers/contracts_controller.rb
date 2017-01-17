@@ -1,10 +1,10 @@
 class ContractsController < ApplicationController
-  before_action :set_contract, only: [:show, :edit, :update, :destroy]
+  before_action :set_contract, only: [:show, :edit, :update, :destroy, :set_status_inactive]
 
   # GET /contracts
   # GET /contracts.json
   def index
-    @contracts = Contract.all
+    @contracts = Contract.where("status <> 'I'").order(updated_at: :desc)
   end
 
   # GET /contracts/1
@@ -49,6 +49,14 @@ class ContractsController < ApplicationController
         format.json { render json: @contract.errors, status: :unprocessable_entity }
       end
     end
+  end
+  
+  
+  # PUT /contracts/1
+  def set_status_inactive
+      @contract = Contract.find params[:id]
+      @contract.update(:status => "I")
+      redirect_to contracts_url, danger: 'Contract was successfully deleted.'
   end
 
   # DELETE /contracts/1
