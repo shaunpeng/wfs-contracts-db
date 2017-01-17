@@ -1,0 +1,9 @@
+<div class="container">
+
+<h1>New Contract Line</h1>
+
+<%= render 'form', line:@line %>
+
+<%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %>
+
+</div>

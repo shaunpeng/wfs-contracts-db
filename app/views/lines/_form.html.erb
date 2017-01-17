@@ -1,0 +1,43 @@
+<%= form_for(line) do |f| %>
+  <% if line.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(line.errors.count, "error") %> prohibited this line from being saved:</h2>
+
+      <ul>
+      <% line.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	</p>
+
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputContractId" class="col-2 col-form-label"><%= f.label :contract_id, "Contract ID" %></label>
+    <%= f.number_field :contract_id, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputFormula" class="col-2 col-form-label"><%= f.label :formula %></label>
+    <%= f.text_field :formula, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputVolume" class="col-2 col-form-label"><%= f.label :volume %></label>
+    <%= f.number_field :volume, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="actions">
+    <%= f.submit class:"btn btn-primary" %>
+  </div>
+</div>
+
+<% end %>

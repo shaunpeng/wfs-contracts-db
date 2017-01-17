@@ -1,12 +1,15 @@
 <div class="container">
 
-<h1>Editing Contract</h1>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-8"><h1>Edit Contract</h1></div>
+  <div class="bottom-align-right col-xs-6 col-md-4">
+    <ul class="nav nav-pills pull-right">
+    	<li><%= button_to 'Details', contract_path(@contract), method: :get, class:"btn btn-default" %></li>
+	    <li><%= button_to 'Back', contracts_path, method: :get, class:"btn btn-default" %></li>
+		</ul>
+  </div>
+</div>
 
 <%= render 'form', contract: @contract %>
-
-<ul class="nav nav-pills">
-	<li><%= button_to 'Details', contract_path(@contract), method: :get, class:"btn btn-default" %></li>
-	<li><%= button_to 'Back', contracts_path, method: :get, class:"btn btn-default" %></li>
-</ul>
 
 </div>

@@ -1,0 +1,12 @@
+<div class="container">
+
+<h1>Editing Line</h1>
+
+<%= render 'form', line: @line %>
+
+<ul class="nav nav-pills">
+	<li><%= button_to 'Details', line_path(@line), method: :get, class:"btn btn-default" %></li>
+	<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
+</ul>
+
+</div>

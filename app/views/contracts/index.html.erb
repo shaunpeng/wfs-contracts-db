@@ -12,7 +12,8 @@
 <table class="table table-striped table-hover table-sm">
   <thead>
     <tr>
-      <th>Contract ID</th>
+      <th>ID</th>
+       <th>Contract #</th>
       <th>Start Date</th>
       <th>Product</th>
       <th>Status</th>
@@ -23,6 +24,7 @@
   <tbody>
     <% @contracts.each do |contract| %>
       <tr>
+        <td><%= contract.id %></td>
         <td><%= contract.contract_id %></td>
         <td><%= contract.supplier %></td>
         <td><%= contract.product %></td>
