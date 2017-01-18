@@ -1,7 +1,7 @@
 <div class="container">
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-8"><h1>Contract Details</h1></div>
-  <div class="bottom-align-right col-xs-6 col-md-4">
+  <div class="bottom-align col-xs-6 col-md-4">
     <ul class="nav nav-pills pull-right">
 	<li><%= button_to 'Edit', edit_contract_path(@contract), method: :get, class:"btn btn-default" %></li>
 	<li><%= button_to 'Back', contracts_path, method: :get, class:"btn btn-default" %></li>
@@ -43,7 +43,7 @@
 
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-8"><h3>Contract Lines</h3></div>
-  <div class="bottom-align-right col-xs-6 col-md-4">
+  <div class="bottom-align col-xs-6 col-md-4">
     <%= link_to 'New Line', new_line_path(:contract => @contract.id), method: :get, class:"a btn btn-primary pull-right" %>
   </div>
 </div>
