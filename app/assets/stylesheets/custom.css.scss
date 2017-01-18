@@ -18,6 +18,10 @@ tbody td {
     font-size: 100%;
 }
 
+.smfont {
+    font-size: 90%;
+}
+
 .notice-banner {
     box-size: border-box;
     margin: 15px;
@@ -27,9 +31,8 @@ tbody td {
     position: relative;
 }
 
-.bottom-align-right {
-    position: absolute;
-    bottom:0;
-    right:0;
-}
-
+// .bottom-align-right {
+//     position: absolute;
+//     bottom:0;
+//     right:0;
+// }
