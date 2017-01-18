@@ -1,4 +1,4 @@
-class LinesController < ContractsController
+class LinesController < ApplicationController
   before_action :set_line, only: [:show, :edit, :update, :destroy]
 
   # GET /lines

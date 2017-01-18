@@ -44,7 +44,7 @@
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-8"><h3>Contract Lines</h3></div>
   <div class="bottom-align-right col-xs-6 col-md-4">
-    <%= button_to 'Create New', new_line_path, method: :get, class:"btn btn-primary pull-right" %>
+    <%= link_to 'New Line', new_line_path(:contract => @contract.id), method: :get, class:"a btn btn-primary pull-right" %>
   </div>
 </div>
 
