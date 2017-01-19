@@ -1,7 +1,9 @@
 <%= form_for(contract) do |f| %>
+<div class="container">
+  <div class="row">
   <% if contract.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(contract.errors.count, "error") %> prohibited this contract from being saved:</h2>
+    <div id="error_explanation" class="alert alert-danger fade in">
+      <h2>Please correct the following <%= pluralize(contract.errors.count, "error") %>:</h2>
       <ul>
       <% contract.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -9,7 +11,9 @@
       </ul>
     </div>
   <% end %>
-	</p>
+  </div>
+</div>
+<br>
 
 <div class="form-group row">
   <div class="field">
