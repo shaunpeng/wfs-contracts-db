@@ -1,8 +1,9 @@
-<div class="container">
-
 <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-8"><h1>Supply Contracts</h1></div>
-  <div class="bottom-align col-xs-6 col-md-4">
+  <div class="col-xs-12 col-sm-6 col-md-8">
+    <h1><img class="document-icon" src="/document.png" />
+    Supply Contracts</h1>
+  </div>
+  <div class="bottom-align-right col-xs-6 col-md-4">
     <%= button_to 'Create New', new_contract_path, method: :get, class:"btn btn-primary pull-right" %>
   </div>
 </div>
@@ -39,7 +40,7 @@
               <li><%= link_to 'Details', contract %></li>
               <li><%= link_to 'Edit', edit_contract_path(contract) %></li>
               <li>
-                <%= link_to 'Delete', set_status_inactive_contract_path(contract), method: :put, data: { confirm: 'Are you sure?' } %>
+                <%= link_to 'Delete', set_status_inactive_contract_path(contract), method: :put, data: { confirm: 'Are you sure that you want to delete?' } %>
               </li>
             </ul>
           </div>
@@ -48,5 +49,3 @@
     <% end %>
   </tbody>
 </table>
-
-</div>

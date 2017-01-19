@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   
+  root 'contracts#home'
+  get 'contracts/index', to: 'contracts#index'
+  
   resources :lines
   
   resources :contracts do

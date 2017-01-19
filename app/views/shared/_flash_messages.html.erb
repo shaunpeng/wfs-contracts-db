@@ -1,8 +1,11 @@
 <div class="container">
-<% flash.each do |type, message| %>
-  <div class="alert alert-<%= type %> fade in">
-    <button class="close" data-dismiss="alert">x</button>
-    <%= message %>
+  <div class="row">
+    <% flash.each do |type, message| %>
+      <div class="message-center alert alert-<%= type %> fade in">
+        <button class="close" data-dismiss="alert">x</button>
+        <%= message %>
+      </div>
+    <% end %>
   </div>
-<% end %>
 </div>
+<br>

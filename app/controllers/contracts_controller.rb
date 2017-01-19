@@ -1,5 +1,5 @@
 class ContractsController < ApplicationController
-  before_action :set_contract, only: [:show, :edit, :update, :destroy, :set_status_inactive]
+  before_action :set_contract, only: [:show, :edit, :update, :set_status_inactive]
 
   # GET /contracts
   # GET /contracts.json
