@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tcn: MyString
+  city_abbr: MyString
+  city: MyString
+  city_state: MyString
+  name: MyString
+  abbr: MyString
+  rack_id: 1
+
+two:
+  tcn: MyString
+  city_abbr: MyString
+  city: MyString
+  city_state: MyString
+  name: MyString
+  abbr: MyString
+  rack_id: 1

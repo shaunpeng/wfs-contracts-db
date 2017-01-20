@@ -1,0 +1,2324 @@
+ID,TCN,NAME,ABBR,RACK_ID,city_id
+1001,T-92-AK-4504,Tesoro West,Tesoro W,1,1
+1002,T-92-AK-4505,Tesoro,Tesoro,1,2
+1003,T-92-AK-4502,Tesoro East,Tesoro E,1,1
+1004,T-92-AK-4501,Flint Hills Resources,FlintHills,1,1
+1005,T-92-AK-4503,Flint Hills Resources,FlintHills,408,3
+1006,T-63-AL-2333,Murphy,Murphy,2,4
+1007,T-72-AL-2343,Allied,Allied,3,5
+1008,T-63-AL-2312,Buckeye,Buckeye,3,5
+1009,T-92-AK-4500,Chevron,Chevron,1,1
+1010,T-63-AL-2301,Chevron,Chevron,3,5
+1011,T-63-AL-2302,Citgo,Citgo,3,5
+1012,T-63-AL-2303,Crown,Crown,3,5
+1013,T-63-AL-2329,Hunt Refining,Hunt Ref,3,6
+1014,T-63-AL-2306,Marathon Petroleum Corporation,Marathon,3,5
+1015,T-63-AL-2307,Kinder Morgan Energy Partners,KMEP,3,5
+1016,T-63-AL-2308,Motiva Enterprise,Motiva,3,5
+1017,T-63-AL-2309,Magellan Pipeline Company,Magellan,3,5
+1018,T-63-AL-2330,Epic Midstream LLC,Epic,3,7
+1019,T-63-AL-2310,Motiva Enterprise old Star Ent terminal,Motiva Tx,3,5
+1021,T-63-AL-2314,Radcliff Economy Marine,Radcliff,4,8
+1022,T-63-AL-2336,BP Oil Products,BP Oil,4,8
+1023,T-63-AL-2315,ElPaso Merchant Petroleum Energy Company,ElPaso,4,8
+1024,T-72-AL-2338,Plains All American Pipeline LP,PAA,4,8
+1025,T-63-AL-2334,Shell Chemical Company,ShellChem,4,9
+1026,T-63-AL-2322,Magellan Pipeline Company,Magellan,5,10
+1027,T-63-AL-2304,Buckeye,Buckeye,5,10
+1029,T-63-AL-2325,Marathon Petroleum Corporation,Marathon,5,10
+1030,T-63-AL-2327,Murphy,Murphy,5,10
+1031,T-63-AL-2326,Epic Midstream LLC,Epic,5,10
+1032,T-63-AL-2335,Murphy,Murphy,554,11
+1033,T-71-AR-2451,Lion Oil,Lion Oil,6,12
+1034,T-71-AR-2452,Texas Eastern Petroleum Products Company,TEPPCO,6,12
+1035,T-71-AR-2453,Magellan Pipeline Company,Magellan,7,13
+1036,T-71-AR-2454,Texas Eastern Petroleum Products Company,TEPPCO,8,14
+1037,T-71-AR-2457,Delek Refining,Delek,9,15
+1038,T-71-AR-2458,Hartford Wood River Terminal,HWRT,9,15
+1040,T-71-AR-2456,Magellan Pipeline Company South,MagellanS,9,15
+1041,T-71-AR-2464,JP Energy Partners/ATT,JP Energy,9,15
+1043,T-71-AR-2463,Valero Refining and Marketing,Valero,11,16
+1045,T-86-AZ-4300,Caljet Inc.,CALJET,12,17
+1046,T-86-AZ-4301,Kinder Morgan Energy Partners East,KMEP E,12,17
+1048,T-86-AZ-4303,Pro Petroleum,Pro Petro,12,17
+1049,T-86-AZ-4306,Shell Oil Products US,SOPUS,12,17
+1050,T-86-AZ-4307,Kinder Morgan Energy Partners South,KMEP S,12,17
+1052,T-86-AZ-4310,Kinder Morgan Energy Partners West,KMEP W,13,18
+1054,T-86-AZ-4312,Shell Oil Products US,SOPUS,13,18
+1055,T-77-CA-4655,Kern Oil,Kern Oil,14,19
+1057,T-33-CA-4761,Kinder Morgan Energy Partners,KMEP,15,20
+1058,T-94-CA-4700,Kinder Morgan Energy Partners,KMEP,16,21
+1060,T-68-CA-4620,Valero Refining and Marketing,Valero,17,22
+1061,T-33-CA-4753,Tesoro,Tesoro,18,23
+1062,T-33-CA-4755,Calnev Pipe Line Company,CALNEV,18,23
+1064,T-33-CA-4757,Kinder Morgan Energy Partners,KMEP,18,23
+1066,T-33-CA-4759,Equilon Texaco,Equilon Tx,18,23
+1067,T-33-CA-4760,Phillips 66 Company PSX,PSX,18,23
+1068,T-33-CA-4766,Unocal,Unocal,18,23
+1070,T-77-CA-4651,Kinder Morgan Energy Partners,KMEP,20,24
+1071,T-33-CA-4763,Kinder Morgan Energy Partners,KMEP,21,25
+1074,T-33-CA-4764,Tesoro,Tesoro,22,26
+1075,T-95-CA-4807,Tesoro,Tesoro,22,27
+1077,T-95-CA-4800,Chevron,Chevron,22,28
+1079,T-95-CA-4811,Chevron,Chevron,22,29
+1080,T-95-CA-4810,Chevron,Chevron,22,30
+1081,T-33-CA-4751,Kinder Morgan Energy Partners,KMEP,22,31
+1082,T-33-CA-4780,Kinder Morgan Energy Partners,KMEP,22,32
+1085,T-33-CA-4750,ExxonMobil,XOM,22,33
+1086,T-33-CA-4786,ExxonMobil,XOM,22,34
+1088,T-95-CA-4801,Powerine,Powerine,22,35
+1090,T-33-CA-4785,Shell Oil Products US,SOPUS,22,36
+1091,T-95-CA-4804,Shell Oil Products US,SOPUS,22,30
+1092,T-77-CA-4654,Equilon Shell,Equilon Sh,22,37
+1093,T-33-CA-4770,Equilon Texaco,Equilon Tx,22,26
+1096,T-95-CA-4806,Phillips 66 Company PSX East,PSX E,22,38
+1097,T-95-CA-4803,Phillips 66 Company PSX,PSX,22,38
+1098,T-33-CA-4745,Vopak Terminal,Volpak,22,39
+1101,T-68-CA-4613,Kinder Morgan Energy Partners,KMEP,23,40
+1102,T-68-CA-4622,Shell Oil Products US,SOPUS,23,41
+1103,T-68-CA-4631,Tesoro,Tesoro,23,41
+1104,,None,None,23,42
+1106,,Tosco West,Tosco W,23,42
+1107,T-33-CA-4782,Tesoro,Tesoro,24,43
+1108,T-33-CA-4773,Chevron,Chevron,24,43
+1111,T-33-CA-4778,Shell Oil Products US,SOPUS,24,43
+1112,T-33-CA-4790,Phillips 66 Company PSX,PSX,24,43
+1113,T-68-CA-4614,Kinder Morgan Energy Partners,KMEP,25,44
+1114,T-68-CA-4607,Chevron,Chevron,25,45
+1117,T-68-CA-4619,International Matex Tank Terminal,IMTT,25,44
+1118,T-68-CA-4610,Shell Oil Products US,SOPUS,25,46
+1119,T-94-CA-4703,Shell Oil Products US,SOPUS,25,47
+1120,T-94-CA-4705,Plains All American Pipeline LP,PAA,25,44
+1123,T-68-CA-4605,NuStar,NuStar,25,48
+1124,T-77-CA-4650,Chevron,Chevron,26,49
+1125,,Gibson,Gibson,26,50
+1128,T-68-CA-4609,Buckeye,Buckeye,27,51
+1129,T-68-CA-4604,Chevron,Chevron,27,52
+1130,,Kinder Morgan Energy Partners,KMEP,27,51
+1132,T-68-CA-4626,NuStar,NuStar,27,51
+1134,T-68-CA-4630,Time Oil,Time Oil,27,51
+1135,T-68-CA-4625,Phillips 66 Company PSX,PSX,27,51
+1136,T-84-CO-4100,Magellan Pipeline Company,Magellan,28,53
+1138,T-84-CO-4102,Suncor West,Suncor W,28,54
+1139,T-84-CO-4105,Magellan Pipeline Company,Magellan,28,55
+1142,T-84-CO-4109,Sinclair,Sinclair,28,56
+1143,T-84-CO-4106,Magellan Pipeline Company,Magellan,29,57
+1145,D-00-CO-1145,Suncor West,Suncor W,30,58
+1146,D-00-CO-1146,Suncor East,Suncor E,30,58
+1147,,Westec,Westec,30,58
+1148,T-84-CO-4110,Phillips 66 Company PSX,PSX,31,59
+1150,T-06-CT-1267,Global Companies LLC,Global,32,60
+1153,T-06-CT-1252,Citgo,Citgo,33,61
+1154,T-06-CT-1284,Port Oil,Port Oil,33,62
+1155,T-06-CT-1270,Global Companies LLC,Global,33,63
+1156,T-06-CT-1253,Motiva Enterprise,Motiva,33,64
+1158,T-06-CT-1264,Gateway Terminal,Gateway,34,65
+1159,T-06-CT-1261,Getty,Getty,34,65
+1161,,Morgan,Morgan,34,65
+1162,T-06-CT-1258,New Haven Term,NH Term,34,65
+1163,T-06-CT-1254,Motiva Enterprise,Motiva,34,65
+1166,T-06-CT-1260,Transmontaigne,TPSI,35,66
+1167,T-52-MD-1564,ST Service,ST Service,36,67
+1168,T-52-MD-1574,Magellan Pipeline Company,Magellan,37,68
+1169,T-52-MD-1572,Sico,Sico,37,68
+1171,,Transmontaigne,TPSI,37,68
+1172,,Aectra,Aectra,38,69
+1174,T-59-FL-2103,Magellan Pipeline Company,Magellan,38,69
+1175,T-59-FL-2109,Apex Oil,Apex Oil,38,69
+1177,T-59-FL-2104,Apex Oil North,Apex Oil N,38,69
+1178,T-59-FL-2105,Transmontaigne,TPSI,38,69
+1179,T-59-FL-2108,Flint Hills Resources,FlintHills,38,69
+1180,T-59-FL-2112,NuStar,NuStar,38,69
+1182,T-65-FL-2152,Kinder Morgan Energy Partners,KMEP,39,70
+1183,T-65-FL-2153,Chevron,Chevron,39,71
+1184,T-65-FL-2157,Citgo,Citgo,39,71
+1188,T-65-FL-2161,ExxonMobil,XOM,39,71
+1189,T-65-FL-2163,Marathon Petroleum Corporation South,MarathonS,39,70
+1192,T-59-FL-2114,Citgo,Citgo,40,72
+1193,T-59-FL-2115,Murphy,Murphy,40,73
+1194,T-59-FL-2138,Transmontaigne,TPSI,41,74
+1197,T-59-FL-2117,Citgo,Citgo,42,75
+1198,T-59-FL-2140,Whitaker,Whitaker,42,75
+1199,T-59-FL-2118,ElPaso Merchant Petroleum Energy Company,ElPaso,43,76
+1200,T-59-FL-2119,Transmontaigne East,TPSI E,43,76
+1201,T-59-FL-2120,Transmontaigne West,TPSI W,43,76
+1202,T-59-FL-2125,Murphy,Murphy,44,77
+1205,T-59-FL-2130,Buckeye,Buckeye,45,78
+1206,T-59-FL-2135,Amoco,Amoco,45,78
+1207,T-59-FL-2131,Chevron,Chevron,45,78
+1209,T-59-FL-2122,Transmontaigne,TPSI,45,79
+1210,T-59-FL-2123,Kinder Morgan Energy Partners,KMEP,45,78
+1213,T-59-FL-2124,Motiva Enterprise,Motiva,45,78
+1214,T-59-FL-2137,Motiva Enterprise old Star Ent terminal,Motiva Tx,45,78
+1216,T-58-GA-2502,Transmontaigne,TPSI,46,80
+1217,T-58-GA-2505,Transmontaigne,TPSI,46,81
+1219,T-58-GA-2501,Magellan Pipeline Company,Magellan,46,80
+1222,T-58-GA-2508,Transmontaigne,TPSI,47,82
+1225,T-58-GA-2525,Transmontaigne,TPSI,48,83
+1226,T-58-GA-2526,Kinder Morgan Energy Partners North,KMEP N,48,83
+1228,,BP & TPSI - Southeast Terminals,SE Term,48,84
+1229,T-58-GA-2528,Chevron,Chevron,48,83
+1231,T-58-GA-2530,Crown,Crown,48,83
+1233,T-58-GA-2519,Magellan Pipeline Company,Magellan,48,85
+1234,T-58-GA-2532,Marathon Petroleum Corporation,Marathon,48,83
+1236,T-58-GA-2535,Magellan Pipeline Company West,MagellanW,48,83
+1237,T-58-GA-2517,NuStar,NuStar,48,86
+1241,T-58-GA-2533,Magellan Pipeline Company East,MagellanE,48,83
+1242,T-58-GA-2515,Transmontaigne,TPSI,49,87
+1243,T-58-GA-2514,Motiva Enterprise,Motiva,49,87
+1244,T-58-GA-2516,Stratus,Stratus,49,88
+1247,T-58-GA-2521,Crown,Crown,50,89
+1248,T-58-GA-2522,Omega Partners lll LLC North,Omega N,50,89
+1249,T-58-GA-2523,Marathon Petroleum Corporation,Marathon,50,89
+1250,T-58-GA-2537,Transmontaigne,TPSI,51,90
+1253,T-58-GA-2538,Vecenergy,Vecenergy,52,91
+1254,T-58-GA-2541,Marathon Petroleum Corporation,Marathon,52,91
+1255,T-58-GA-2543,Magellan Pipeline Company,Magellan,52,91
+1256,T-58-GA-2542,Epic Midstream LLC,Epic,52,91
+1258,T-58-GA-2547,Transmontaigne,TPSI,53,92
+1261,T-58-GA-2550,Colonial,Colonial,54,93
+1262,T-58-GA-2551,Vopak Terminal,Volpak,54,93
+1263,T-58-GA-2507,Epic Midstream LLC West,Epic W,54,93
+1264,T-58-GA-2548,Epic Midstream LLC East,Epic E,54,93
+1266,T-99-HI-4552,Chevron,Chevron,404,94
+1267,T-99-HI-4558,Aloha Petroleum West,Aloha PetW,404,94
+1268,,Port of Hilo,Pt of Hilo,404,94
+1269,T-99-HI-4567,Midpac Petroleum,Midpac,404,95
+1270,T-99-HI-4560,Aloha Petroleum East,Aloha PetE,404,94
+1271,T-99-HI-4551,Aloha Petroleum,Aloha Pet,55,96
+1273,T-99-HI-4557,Aloha Petroleum,Aloha Pet,55,97
+1274,,Shell Oil Products US,SOPUS,55,96
+1275,T-99-HI-4556,Phillips 66 Company PSX,PSX,55,97
+1277,T-99-HI-4566,Aloha Petroleum,Aloha Pet,405,98
+1278,T-42-IA-3450,Buckeye,Buckeye,56,99
+1279,T-42-IA-3471,Magellan Pipeline Company,Magellan,56,99
+1280,T-42-IA-3451,Flint Hills Resources,FlintHills,56,99
+1281,T-42-IA-3452,U.S.Oil Company,U.S.Oil,56,99
+1283,T-42-IA-3454,Buckeye,Buckeye,58,100
+1284,T-42-IA-3455,National Coop Refinery Association,NCRA,58,100
+1285,D-00-IA-1285,Sapp Brothers,Sapp Bros,58,101
+1286,T-42-IA-3456,Buckeye,Buckeye,59,102
+1287,T-42-IA-3470,Phillips 66 Company PSX,PSX,59,103
+1288,T-42-IA-3457,Magellan Pipeline Company,Magellan,59,103
+1290,T-42-IA-3459,Flint Hills Resources,FlintHills,60,104
+1291,T-42-IA-3460,Magellan Pipeline Company,Magellan,60,104
+1292,T-42-IA-3461,Growmark,Growmark,61,105
+1294,T-42-IA-3468,Buckeye,Buckeye,63,106
+1295,T-42-IA-3463,Magellan Pipeline Company,Magellan,63,107
+1296,T-42-IA-3464,NuStar,NuStar,64,108
+1297,T-42-IA-3466,NuStar,NuStar,65,109
+1298,T-42-IA-3467,Magellan Pipeline Company,Magellan,65,109
+1300,T-42-IA-3472,NuStar,NuStar,67,110
+1301,T-42-IA-3473,Magellan Pipeline Company,Magellan,68,111
+1302,T-42-IA-3474,Magellan Pipeline Company,Magellan,69,112
+1303,T-82-ID-4150,Sinclair,Sinclair,70,113
+1305,T-82-ID-4151,Tesoro East,Tesoro E,70,113
+1306,T-82-ID-4155,Tesoro,Tesoro,71,114
+1307,T-82-ID-4157,Burley Products Terminal,BurleyProd,71,114
+1308,T-82-ID-4159,Tesoro,Tesoro,72,115
+1309,T-36-IL-3319,Magellan Pipeline Company,Magellan,73,116
+1311,T-36-IL-3301,Kinder Morgan Energy Partners,KMEP,75,117
+1312,T-36-IL-3302,Kinder Morgan Energy Partners,KMEP,75,118
+1313,T-36-IL-3318,Citgo,Citgo,75,117
+1315,T-36-IL-3304,Citgo,Citgo,75,119
+1316,T-36-IL-3300,Valero Refining and Marketing,Valero,75,120
+1317,T-36-IL-3305,Kinder Morgan Energy Partners,KMEP,75,121
+1318,T-36-IL-3307,Marathon Petroleum Corporation,Marathon,75,117
+1319,T-36-IL-3309,Marathon Petroleum Corporation,Marathon,75,122
+1322,T-36-IL-3315,Buckeye,Buckeye,75,121
+1323,T-36-IL-3316,Buckeye,Buckeye,75,117
+1325,T-36-IL-3320,Magellan Pipeline Company,Magellan,75,123
+1326,T-37-IL-3365,Buckeye,Buckeye,76,124
+1327,T-37-IL-3369,Buckeye,Buckeye,76,125
+1330,T-43-IL-3729,Omega Partners lll LLC,Omega,78,126
+1331,T-37-IL-3356,Buckeye,Buckeye,78,126
+1334,T-37-IL-3362,Petroleum Fuel & Terminal Co.,PF&T Co,78,127
+1335,T-37-IL-3366,Phillips 66 Company PSX,PSX,78,128
+1336,T-37-IL-3371,Magellan Pipeline Company,Magellan,79,129
+1337,T-37-IL-3364,Growmark,Growmark,80,130
+1340,T-37-IL-3350,BP Oil Products,BP Oil,82,131
+1341,T-37-IL-3352,Equilon,Equilon,82,132
+1342,T-37-IL-3355,Hicks,Hicks,82,132
+1343,T-37-IL-3367,ARC Terminals Holding LLC,ARC,82,133
+1344,T-36-IL-3323,Buckeye,Buckeye,82,133
+1345,T-37-IL-3360,Marathon Petroleum Corporation,Marathon,83,134
+1348,T-36-IL-3308,Marathon Petroleum Corporation,Marathon,84,135
+1349,T-35-IN-3214,CountryMark,CntryMark,85,136
+1352,T-35-IN-3207,Marathon Petroleum Corporation,Marathon,85,137
+1353,T-35-IN-3220,Marathon Petroleum Corporation,Marathon,85,136
+1355,T-35-IN-3213,Transmontaigne,TPSI,85,137
+1356,T-61-KY-3279,Transmontaigne,TPSI,85,138
+1359,T-35-IN-3209,Citgo,Citgo,86,139
+1360,T-35-IN-3202,Valero Refining and Marketing,Valero,86,140
+1361,T-35-IN-3218,Marathon Petroleum Corporation,Marathon,86,140
+1362,T-35-IN-3224,ExxonMobil,XOM,86,140
+1365,,Transmontaigne,TPSI,86,139
+1366,T-35-IN-3210,Citgo,Citgo,87,141
+1367,T-35-IN-3208,Marathon Petroleum Corporation,Marathon,87,141
+1369,T-35-IN-3204,Kinder Morgan Energy Partners,KMEP,88,142
+1370,T-35-IN-3233,Marathon Petroleum Corporation,Marathon,88,143
+1371,T-35-IN-3217,Buckeye West,Buckeye W,88,143
+1373,T-35-IN-3219,Marathon Petroleum Corporation,Marathon,88,142
+1374,T-35-IN-3222,Marathon Petroleum Corporation,Marathon,88,144
+1375,T-35-IN-3226,Buckeye North,Buckeye N,88,143
+1376,T-35-IN-3230,Buckeye,Buckeye,88,145
+1378,T-35-IN-3238,Buckeye East,Buckeye E,88,143
+1379,T-35-IN-3221,Marathon Petroleum Corporation,Marathon,90,146
+1380,T-35-IN-3229,Buckeye,Buckeye,90,146
+1381,T-35-IN-3232,Texas Eastern Petroleum Products Company,TEPPCO,91,147
+1382,T-35-IN-3203,Buckeye,Buckeye,92,148
+1384,T-35-IN-3237,CountryMark,CntryMark,93,149
+1385,T-48-KS-3651,Coffeyville Resources R&M LLC,CRR&M LLC,94,150
+1386,T-48-KS-3652,NuStar,NuStar,95,151
+1388,T-48-KS-3655,Magellan Pipeline Company,Magellan,97,152
+1389,T-48-KS-3656,NuStar,NuStar,98,153
+1390,T-43-KS-3672,Phillips 66 Company PSX,PSX,99,154
+1391,T-48-KS-3658,Sinclair,Sinclair,99,154
+1392,T-48-KS-3659,Magellan Pipeline Company,Magellan,99,154
+1393,T-48-KS-3660,National Coop Refinery Association,NCRA,100,155
+1394,T-48-KS-3661,Magellan Pipeline Company,Magellan,101,156
+1395,T-48-KS-3662,Coffeyville Resources R&M LLC,CRR&M LLC,102,157
+1396,T-48-KS-3663,NuStar,NuStar,103,158
+1399,T-48-KS-3667,Growmark,Growmark,106,159
+1400,T-48-KS-3666,Magellan Pipeline Company,Magellan,107,160
+1401,T-48-KS-3669,ElPaso Merchant Petroleum Energy Company,ElPaso,107,161
+1403,T-48-KS-3671,Phillips 66 Company PSX North,PSX N,107,161
+1404,T-48-KS-3669,Magellan Pipeline Company,Magellan,107,161
+1405,T-61-KY-3262,Marathon Petroleum Corporation,Marathon,108,162
+1406,T-61-KY-3263,Marathon Petroleum Corporation,Marathon,109,163
+1407,T-61-KY-3264,Transmontaigne,TPSI,109,163
+1408,T-61-KY-3267,Valero Refining and Marketing,Valero,110,164
+1409,T-61-KY-3266,Marathon Petroleum Corporation,Marathon,110,164
+1411,T-61-KY-3270,Valero Refining and Marketing,Valero,111,165
+1412,T-61-KY-3274,Citgo,Citgo,111,165
+1413,T-35-IN-3216,Hartford Wood River Terminal,HWRT,412,166
+1415,T-61-KY-3272,Marathon Petroleum Corporation,Marathon,111,165
+1416,T-61-KY-3273,Sunoco Logistics Partners LP,Sunoco,111,165
+1417,T-61-KY-3271,Transmontaigne,TPSI,111,165
+1418,T-35-IN-3212,Transmontaigne,TPSI,111,167
+1419,T-61-KY-3276,Marathon Petroleum Corporation,Marathon,112,168
+1420,T-61-KY-3278,Transmontaigne,TPSI,112,168
+1421,T-62-KY-2244,Transmontaigne South,TPSI S,112,168
+1422,T-72-LA-2351,Chevron,Chevron,113,169
+1423,T-72-LA-2352,Citgo,Citgo,113,169
+1425,T-72-LA-2392,Placid,Placid,114,170
+1426,,Canal,Canal,115,171
+1427,T-72-LA-2357,Chevron,Chevron,115,172
+1428,T-72-LA-2375,Buckeye,Buckeye,115,173
+1429,T-72-LA-2358,ExxonMobil,XOM,115,172
+1431,T-72-LA-2366,Alon USA LP,Alon USA,115,174
+1433,T-72-LA-2361,Motiva Enterprise,Motiva,116,175
+1434,T-72-LA-2368,Citgo,Citgo,117,176
+1435,T-72-LA-2381,Phillips 66 Company PSX,PSX,117,177
+1436,T-72-LA-2393,Monroe Terminal Company LLC,Monroe,118,178
+1437,T-72-LA-2360,PBF Holding Company LLC,PBF,119,179
+1440,T-72-LA-2373,Motiva Enterprise,Motiva,119,180
+1441,T-72-LA-2378,Calumet,Calumet,120,181
+1442,T-04-MA-1155,Citgo,Citgo,121,182
+1443,T-04-MA-1161,ElPaso Merchant Petroleum Energy Company,ElPaso,121,183
+1444,T-04-MA-1165,ElPaso Merchant Petroleum Energy Company,ElPaso,121,184
+1447,T-04-MA-1162,Global Companies LLC,Global,121,183
+1449,T-04-MA-1154,Sunoco Logistics Partners LP,Sunoco,121,185
+1450,T-04-MA-1163,Northeast,Northeast,121,186
+1452,T-04-MA-1160,Irving Oil,Irving,121,183
+1454,T-04-MA-1168,Buckeye,Buckeye,122,187
+1455,T-04-MA-1179,Springfield Terminals Inc,STI,122,187
+1456,T-52-MD-1550,Buckeye,Buckeye,123,188
+1457,T-52-MD-1551,Kinder Morgan Energy Partners,KMEP,123,189
+1458,T-52-MD-1554,Apex Oil North,Apex Oil N,123,188
+1460,T-52-MD-1556,Crown,Crown,123,188
+1461,T-52-MD-1558,ExxonMobil,XOM,123,188
+1462,T-52-MD-1561,Motiva Enterprise,Motiva,123,188
+1463,T-52-MD-1562,Citgo,Citgo,123,188
+1467,T-52-MD-1568,"Center Point Terminal Company, LLC",Center Pt,124,190
+1468,T-01-ME-1002,Coldbrook,Coldbrook,125,191
+1469,,Irving Oil,Irving,125,192
+1472,T-01-ME-1012,Webber,Webber,125,193
+1473,T-01-ME-1003,Sprague,Sprague,126,194
+1474,T-01-ME-1007,Getty,Getty,126,194
+1476,T-01-ME-1001,Flint Hills Resources,FlintHills,126,194
+1478,T-01-ME-1009,Global Companies LLC,Global,126,194
+1479,T-01-ME-1010,Citgo,Citgo,126,194
+1480,T-38-MI-3031,Valero Refining and Marketing,Valero,127,195
+1481,T-38-MI-3036,Citgo,Citgo,128,196
+1483,T-38-MI-3001,U.S.Oil Company,U.S.Oil,129,197
+1486,T-38-MI-3014,Buckeye East,Buckeye E,130,198
+1487,T-38-MI-3007,Buckeye North,Buckeye N,130,198
+1488,T-38-MI-3037,Sunoco Logistics Partners LP,Sunoco,130,199
+1489,T-38-MI-3044,Buckeye,Buckeye,130,198
+1490,T-38-MI-3039,Delta,Delta,130,200
+1492,T-38-MI-3042,Marathon Petroleum Corporation,Marathon,130,198
+1494,T-38-MI-3030,Sunoco Logistics Partners LP,Sunoco,130,201
+1495,T-38-MI-3025,Buckeye,Buckeye,130,202
+1499,T-38-MI-3029,Sunoco Logistics Partners LP,Sunoco,131,203
+1500,T-38-MI-3004,Buckeye,Buckeye,132,204
+1501,T-38-MI-3009,Citgo,Citgo,132,205
+1502,T-38-MI-3043,Buckeye,Buckeye,132,206
+1504,T-38-MI-3027,Buckeye,Buckeye,132,205
+1506,T-38-MI-3008,Citgo,Citgo,134,207
+1507,T-38-MI-3013,Buckeye,Buckeye,134,207
+1509,T-38-MI-3010,Citgo,Citgo,135,208
+1510,T-38-MI-3011,Marathon Petroleum Corp-old Ashland loc,MarathonA,135,208
+1511,T-38-MI-3019,Marathon Petroleum Corporation,Marathon,135,208
+1513,T-38-MI-3028,Buckeye North,Buckeye N,135,208
+1514,T-38-MI-3040,Buckeye South,Buckeye S,135,208
+1515,T-38-MI-3035,Marathon Petroleum Corporation,Marathon,136,209
+1518,T-41-MN-3405,Magellan Pipeline Company,Magellan,138,210
+1520,T-41-MN-3413,Magellan Pipeline Company,Magellan,139,211
+1522,T-41-MN-3403,NuStar,NuStar,141,212
+1524,D-00-MN-1524,Flint Hills Resources,FlintHills,141,212
+1525,T-41-MN-3404,Saint Paul Park Refining LLC,StPaulPrk,141,213
+1526,T-41-MN-3415,Magellan Pipeline Company,Magellan,141,212
+1530,T-43-MO-3715,Sinclair,Sinclair,144,214
+1531,T-43-MO-3705,Texas Eastern Petroleum Products Company,TEPPCO,144,215
+1532,T-43-MO-3704,Transmontaigne,TPSI,144,216
+1534,T-43-MO-3707,Magellan Pipeline Company,Magellan,146,217
+1535,T-43-MO-3708,Magellan Pipeline Company,Magellan,147,218
+1536,T-43-MO-3709,Phillips 66 Company PSX,PSX,148,219
+1538,T-43-MO-3713,Phillips 66 Company PSX,PSX,150,220
+1539,T-43-MO-3727,Transmontaigne,TPSI,150,220
+1542,T-43-MO-3710,Phillips 66 Company PSX,PSX,152,221
+1543,T-43-MO-3718,Magellan Pipeline Company,Magellan,153,222
+1544,T-43-MO-3726,Kinder Morgan Energy Partners,KMEP,154,223
+1545,,Phillips 66 Company PSX,PSX,154,224
+1547,T-43-MO-3725,Buckeye North,Buckeye N,154,223
+1548,T-43-MO-3721,Magellan Pipeline Company,Magellan,154,224
+1549,T-72-MS-2422,Texas Eastern Petroleum Products Company,TEPPCO,155,225
+1550,T-64-MS-2400,Munro Petroleum & Terminal,Munro P&T,156,226
+1551,,Placid,Placid,156,227
+1552,T-64-MS-2417,Transmontaigne,TPSI,157,228
+1555,T-64-MS-2402,Kinder Morgan Energy Partners,KMEP,157,229
+1556,T-64-MS-2404,Motiva Enterprise,Motiva,157,229
+1557,,Transmontaigne South,TPSI S,157,229
+1558,T-72-MS-2421,Delta,Delta,158,230
+1560,,Valero Refining and Marketing,Valero,158,230
+1561,T-64-MS-2408,Transmontaigne North,TPSI N,158,230
+1562,T-64-MS-2410,Maples Gas Company North,Maples N,159,231
+1563,T-64-MS-2415,Transmontaigne,TPSI,159,231
+1564,T-64-MS-2412,Citgo,Citgo,159,231
+1565,T-64-MS-2414,Murphy,Murphy,159,231
+1568,T-64-MS-2419,Citgo,Citgo,161,232
+1570,T-81-MT-4005,Cenex Harvest States,Cenex,162,233
+1571,T-81-MT-4000,Phillips 66 Company PSX,PSX,162,234
+1572,T-81-MT-4007,ExxonMobil,XOM,162,234
+1573,T-81-MT-4001,Phillips 66 Company PSX,PSX,163,235
+1575,T-81-MT-4006,Cenex Harvest States,Cenex,164,236
+1576,T-81-MT-4002,Phillips 66 Company PSX,PSX,165,237
+1577,T-81-MT-4011,Montana Refining Company,MT Ref,165,237
+1579,T-81-MT-4009,ExxonMobil,XOM,166,238
+1580,T-81-MT-4004,Phillips 66 Company PSX,PSX,167,239
+1581,T-81-MT-4010,ExxonMobil,XOM,167,239
+1582,T-56-NC-2027,Motiva Enterprise,Motiva,168,240
+1583,T-56-NC-2023,Transmontaigne,TPSI,169,241
+1584,T-56-NC-2024,Magellan Pipeline Company West,MagellanW,169,241
+1586,T-56-NC-2001,Citgo,Citgo,169,241
+1587,T-56-NC-2003,Lincoln Energy Solutions,LincolnOil,169,241
+1588,T-56-NC-2000,Kinder Morgan Energy Partners South,KMEP S,169,241
+1589,T-56-NC-2002,Marathon Petroleum Corporation,Marathon,169,241
+1590,T-56-NC-2004,Kinder Morgan Energy Partners North,KMEP N,169,241
+1592,T-56-NC-2006,Magellan Pipeline Company East,MagellanE,169,241
+1593,T-56-NC-2007,Motiva Enterprise North,Motiva N,169,241
+1595,T-56-NC-2026,Kinder Morgan Energy Partners East,KMEP E,169,241
+1597,T-56-NC-2010,Transmontaigne West,TPSI W,171,242
+1598,T-56-NC-2011,Magellan Pipeline Company West,MagellanW,171,242
+1599,T-56-NC-2022,Transmontaigne East,TPSI E,171,242
+1600,T-56-NC-2014,Kinder Morgan Energy Partners North,KMEP N,171,242
+1601,T-56-NC-2012,Marathon Ashland Petroleum LLC,MAPLLC,171,242
+1603,T-56-NC-2021,Motiva Enterprise,Motiva,171,242
+1605,T-56-NC-2015,Kinder Morgan Energy Partners South,KMEP S,171,242
+1606,T-56-NC-2028,Transmontaigne,TPSI,172,243
+1607,T-56-NC-2029,Marathon Petroleum Corporation East,MarathonE,172,243
+1608,T-56-NC-2030,Citgo,Citgo,172,243
+1610,T-56-NC-2031,Marathon Petroleum Corporation,Marathon,172,243
+1611,T-56-NC-2034,Kinder Morgan Energy Partners North,KMEP N,172,243
+1612,T-56-NC-2036,Magellan Pipeline Company,Magellan,172,243
+1614,T-56-NC-2033,Kinder Morgan Energy Partners South,KMEP S,172,243
+1615,T-56-NC-2037,Buckeye,Buckeye,173,244
+1616,T-56-NC-2041,Flint Hills Resources,FlintHills,173,244
+1617,T-56-NC-2043,Petroleum Fuel & Terminal Co.,PF&T Co,173,244
+1618,T-41-MN-3400,NuStar,NuStar,174,245
+1619,T-45-ND-3501,Magellan Pipeline Company,Magellan,174,246
+1624,T-45-ND-3503,NuStar East,NuStar E,176,247
+1625,T-45-ND-3505,Tesoro,Tesoro,177,248
+1626,T-45-ND-3504,Cenex Harvest States,Cenex,178,249
+1627,T-47-NE-3600,NuStar,NuStar,179,250
+1630,T-47-NE-3603,Phillips 66 Company PSX,PSX,182,251
+1631,T-47-NE-3605,Magellan Pipeline Company,Magellan,182,251
+1632,T-47-NE-3606,NuStar,NuStar,183,252
+1633,T-47-NE-3607,NuStar,NuStar,184,253
+1636,T-47-NE-3609,Holly Refining and Marketing,Holly,187,254
+1637,D-00-NH-1637,None,None,188,255
+1639,T-04-NH-1057,Sprague Avery Lane,SpragueAL,188,255
+1640,T-22-NJ-1500,Buckeye,Buckeye,189,256
+1641,T-22-NJ-1505,Buckeye,Buckeye,189,257
+1644,T-22-NJ-1545,Buckeye,Buckeye,189,258
+1645,T-22-NJ-1535,Buckeye,Buckeye,189,259
+1647,T-22-NJ-1506,Kinder Morgan Energy Partners West,KMEP W,189,260
+1648,T-22-NJ-1513,Citgo,Citgo,189,261
+1650,T-22-NJ-1509,Crown,Crown,189,262
+1651,T-22-NJ-1520,Getty,Getty,189,263
+1653,T-22-NJ-1511,Flint Hills Resources,FlintHills,242,264
+1654,T-22-NJ-1516,NuStar,NuStar,189,261
+1655,T-22-NJ-1523,Sunoco Logistics Partners LP,Sunoco,189,263
+1658,T-22-NJ-1521,Motiva Enterprise,Motiva,189,263
+1659,T-22-NJ-1522,Apex Oil,Apex Oil,189,263
+1661,,Phillips 66 Company PSX,PSX,189,263
+1662,T-22-NJ-1512,Phillips 66 Company PSX,PSX,189,265
+1664,T-22-NJ-1525,PBF Holding Company LLC,PBF,190,266
+1665,T-22-NJ-1540,Gulf Oil,Gulf Oil,190,267
+1667,T-22-NJ-1548,Consumers,Consumers,191,268
+1668,T-22-NJ-1542,ExxonMobil,XOM,191,268
+1670,T-85-NM-4251,Vecenergy,Vecenergy,192,269
+1672,T-85-NM-4255,Western Refining Company,WRC,192,269
+1673,T-85-NM-4254,Phillips 66 Company PSX,PSX,192,269
+1674,T-85-NM-4253,NuStar,NuStar,192,269
+1677,T-85-NM-4258,Western Refining Company,WRC,195,270
+1678,T-88-NV-4350,Kinder Morgan Energy Partners,KMEP,196,271
+1679,T-88-NV-4351,Equilon,Equilon,196,271
+1680,T-88-NV-4360,Flyers Energy LLC South,Flyers S,197,272
+1683,T-14-NY-1400,Agway,Agway,198,273
+1684,T-14-NY-1402,Citgo,Citgo,198,274
+1685,T-14-NY-1418,Getty,Getty,198,275
+1686,T-14-NY-1419,Gulf Oil,Gulf Oil,198,275
+1688,,All Energy (old Pal Oil),All Energy,198,273
+1689,T-14-NY-1420,Transmontaigne,TPSI,198,275
+1691,T-14-NY-1406,Apex Oil,Apex Oil,198,276
+1692,T-16-NY-1471,Griffith,Griffith,199,277
+1693,T-16-NY-1488,Buckeye West,Buckeye W,200,278
+1694,T-16-NY-1489,Hess Corporation,Hess,200,278
+1697,T-16-NY-1451,Buckeye East,Buckeye E,200,278
+1698,T-16-NY-1455,Sunoco Logistics Partners LP,Sunoco,200,279
+1699,T-16-NY-1458,Buckeye,Buckeye,201,280
+1700,T-16-NY-1459,NOCO Enrgy,NOCO Enrgy,201,281
+1703,T-11-NY-1324,Carbo Industries,Carbo Ind,202,282
+1704,T-13-NY-1364,Commander,Commander,202,283
+1706,T-11-NY-1311,Getty,Getty,202,284
+1708,T-11-NY-1460,ExxonMobil,XOM,202,285
+1710,T-11-NY-1305,Global Companies LLC,Global,202,286
+1711,T-11-NY-1315,Sprague,Sprague,202,287
+1712,T-11-NY-1320,Motiva Enterprise old Shell terminal,Motiva Sh,202,286
+1713,T-11-NY-1312,Motiva Enterprise,Motiva,202,286
+1715,T-11-NY-1303,Phillips 66 Company PSX,PSX,202,288
+1716,T-11-NY-1318,United Riverhead Terminal Inc,UnitedRvhd,202,289
+1718,,Getty,Getty,204,290
+1719,T-13-NY-1361,West Vernon Terminal,W. Vernon,204,290
+1721,T-11-NY-1325,Bayside North,Bayside N,204,291
+1722,T-11-NY-1307,Castle,Castle,204,292
+1724,D-00-NY-1724,Castle,Castle,204,293
+1726,T-13-NY-1354,Getty,Getty,204,294
+1727,T-11-NY-1302,United Refining,United Ref,204,291
+1728,T-11-NY-1304,ARC Terminals Holding LLC,ARC,204,291
+1729,T-11-NY-1326,Bayside South,Bayside S,204,291
+1730,T-14-NY-1409,Agway,Agway,205,295
+1731,T-14-NY-1421,Buckeye,Buckeye,205,296
+1732,T-16-NY-1499,Global Companies LLC North,Global N,205,297
+1733,T-16-NY-1497,Heritage Energy,Heritage,205,298
+1735,T-14-NY-1411,Global Companies LLC West,Global W,205,297
+1736,T-14-NY-1414,Global Companies LLC South,Global S,205,297
+1737,T-16-NY-1468,Buckeye West,Buckeye W,206,299
+1739,T-16-NY-1469,Buckeye - Lyell,Buc-Lyell,206,299
+1740,T-16-NY-1470,Griffith,Griffith,206,299
+1741,T-16-NY-1472,Buckeye East,Buckeye E,206,299
+1742,T-16-NY-1473,Sunoco Logistics Partners LP,Sunoco,206,299
+1743,T-16-NY-1474,United Refining,United Ref,206,299
+1744,T-16-NY-1456,Buckeye,Buckeye,207,300
+1746,T-16-NY-1480,Hess Corporation,Hess,207,301
+1747,T-16-NY-1478,Citgo,Citgo,207,301
+1748,T-16-NY-1479,ElPaso Merchant Petroleum Energy Company,ElPaso,207,301
+1749,T-16-NY-1476,Buckeye,Buckeye,207,302
+1750,,NOCO Enrgy,NOCO Enrgy,207,301
+1752,T-16-NY-1450,Stratus,Stratus,207,303
+1753,T-16-NY-1463,Buckeye,Buckeye,208,304
+1754,T-16-NY-1464,Buckeye West,Buckeye W,208,304
+1755,T-16-NY-1486,Buckeye,Buckeye,208,305
+1756,T-34-OH-3173,Transmontaigne,TPSI,209,306
+1757,T-34-OH-3143,Buckeye,Buckeye,210,307
+1759,T-34-OH-3140,Marathon Petroleum Corporation,Marathon,210,307
+1760,T-34-OH-3159,Sunoco Logistics Partners LP,Sunoco,210,308
+1761,T-34-OH-3156,Equilon,Equilon,210,309
+1762,T-61-KY-3261,BP Oil Products,BP Oil,211,310
+1763,T-31-OH-3104,Kinder Morgan Energy Partners,KMEP,211,311
+1765,T-34-OH-3168,Bulk Terminal Storage,BTS,212,312
+1766,T-34-OH-3144,Buckeye,Buckeye,212,313
+1767,T-34-OH-3163,Citgo,Citgo,212,314
+1768,T-34-OH-3170,Equilon South,Equilon S,212,315
+1769,,EOTT Energy Corporation,EOTT,212,315
+1770,T-34-OH-3151,Marathon Petroleum Corporation,Marathon,212,315
+1772,T-34-OH-3157,Buckeye,Buckeye,212,314
+1773,T-31-OH-3105,Buckeye South,Buckeye S,213,316
+1774,T-31-OH-3120,Citgo,Citgo,213,317
+1775,T-31-OH-3107,Buckeye East,Buckeye E,213,316
+1776,,EOTT Energy Corporation,EOTT,213,316
+1778,T-31-OH-3102,Marathon Petroleum Corporation,Marathon,213,318
+1779,T-31-OH-3112,Marathon Petroleum Corporation,Marathon,213,316
+1780,T-31-OH-3111,Sunoco Logistics Partners LP West,Sunoco W,213,316
+1781,T-31-OH-3116,Sunoco Logistics Partners LP East,Sunoco E,213,316
+1782,T-31-OH-3114,Buckeye North,Buckeye N,213,316
+1784,T-31-OH-3121,Citgo,Citgo,214,319
+1785,T-31-OH-3117,Sunoco Logistics Partners LP,Sunoco,214,319
+1786,T-31-OH-3115,Buckeye,Buckeye,214,319
+1787,T-31-OH-3113,Marathon Petroleum Corporation,Marathon,215,320
+1789,T-34-OH-3146,Buckeye North,Buckeye N,216,321
+1790,T-34-OH-3141,Marathon Petroleum Corporation,Marathon,216,322
+1791,T-34-OH-3152,Marathon Petroleum Corporation,Marathon,216,321
+1792,T-34-OH-3158,Buckeye South,Buckeye S,216,321
+1793,T-34-OH-3145,Buckeye,Buckeye,217,323
+1794,T-31-OH-3110,ITAPCO,ITAPCO,218,324
+1795,T-31-OH-3103,Marathon Petroleum Corporation,Marathon,218,325
+1796,T-31-OH-3108,Buckeye,Buckeye,219,326
+1797,T-34-OH-3147,Buckeye,Buckeye,220,327
+1799,T-34-OH-3165,Citgo,Citgo,221,328
+1800,T-34-OH-3169,ARC Terminals Holding LLC,ARC,221,329
+1801,T-34-OH-3149,Delta,Delta,221,329
+1802,T-34-OH-3153,Marathon Petroleum Corporation,Marathon,221,328
+1805,T-34-OH-3155,Marathon Petroleum Corporation,Marathon,222,330
+1806,T-34-OH-3162,Sunoco Logistics Partners LP,Sunoco,222,330
+1807,T-73-OK-2600,Valero Refining and Marketing,Valero,223,331
+1810,T-73-OK-2612,Phillips 66 Company PSX,PSX,226,332
+1811,T-73-OK-2614,Transmontaigne,TPSI,226,332
+1812,T-73-OK-2616,Williams High Street Terminal,Wlm High,226,332
+1815,T-73-OK-2618,Sinclair,Sinclair,228,333
+1816,T-73-OK-2608,Phillips 66 Company PSX,PSX,229,334
+1817,T-73-OK-2621,Holly Refining and Marketing West,Holly W,229,335
+1818,T-73-OK-2620,Holly Refining and Marketing East,Holly E,229,335
+1819,T-73-OK-2622,Magellan Pipeline Company,Magellan,229,335
+1820,T-73-OK-2623,Valero Refining and Marketing,Valero,230,336
+1823,T-93-OR-4455,BP Oil Products,BP Oil,233,337
+1824,T-91-WA-4417,NuStar,NuStar,233,338
+1825,T-93-OR-4456,Chevron,Chevron,233,337
+1829,T-93-OR-4459,NuStar,NuStar,233,337
+1830,T-91-WA-4419,Tesoro,Tesoro,233,338
+1832,T-93-OR-4463,Time Oil,Time Oil,233,337
+1833,T-93-OR-4464,Phillips 66 Company PSX,PSX,233,337
+1834,T-93-OR-4452,Tidewater,Tidewater,234,339
+1837,T-23-PA-1748,Gulf Oil,Gulf Oil,235,340
+1838,D-00-PA-1838,Buckeye,Buckeye,242,341
+1839,T-23-PA-1701,Pyramid LLC Petroleum Terminals,PPT,235,342
+1840,T-23-PA-1711,Sunoco Logistics Partners LP,Sunoco,235,343
+1841,T-23-PA-1744,Sunoco Logistics Partners LP,Sunoco,235,344
+1844,T-25-PA-1785,ARC Terminals Holding LLC,ARC,236,345
+1845,T-25-PA-1764,Pyramid LLC Petroleum Terminals,PPT,236,346
+1846,T-25-PA-1767,Pyramid LLC Petroleum Terminals,PPT,236,347
+1849,T-25-PA-1778,Gulf Oil,Gulf Oil,237,348
+1850,T-25-PA-1761,Sunoco Logistics Partners LP,Sunoco,237,348
+1853,T-23-PA-1714,Pyramid LLC Petroleum Terminals,PPT,238,349
+1854,T-23-PA-1716,Pyramid LLC Petroleum Terminals,PPT,238,350
+1856,T-23-PA-1726,Sunoco Logistics Partners LP,Sunoco,238,351
+1857,T-23-PA-1724,BP Oil Products,BP Oil,238,351
+1859,T-23-PA-1728,Pyramid LLC Petroleum Terminals,PPT,240,352
+1860,T-23-PA-1729,Sunoco Logistics Partners LP,Sunoco,240,352
+1861,T-25-PA-1782,Pennzoil,Pennzoil,241,353
+1864,T-23-PA-1731,Kinder Morgan Energy Partners,KMEP,242,354
+1865,T-22-NJ-1533,Citgo,Citgo,242,355
+1866,T-23-PA-1734,PBF Holding Company LLC South,PBF South,242,354
+1867,T-23-PA-1755,Heating Oil Partners LP,HeatingOil,242,354
+1868,T-23-PA-1737,PBF Holding Company LLC North,PBF North,242,354
+1871,T-23-PA-1705,Petron,Petron,242,356
+1872,,Sunoco Logistics Partners LP,Sunoco,242,357
+1873,T-23-PA-1710,Sunoco Logistics Partners LP,Sunoco,242,358
+1874,T-23-PA-1722,Sunoco Logistics Partners LP,Sunoco,242,359
+1875,T-23-PA-1736,Sunoco Logistics Partners LP,Sunoco,242,354
+1878,T-22-NJ-1529,Motiva Enterprise,Motiva,242,355
+1879,T-23-PA-1732,Phillips 66 Company PSX,PSX,242,354
+1880,T-23-PA-1759,Transmontaigne,TPSI,242,354
+1881,T-25-PA-1771,Kinder Morgan Energy Partners,KMEP,243,360
+1882,T-25-PA-1775,BP Oil Products,BP Oil,243,361
+1885,T-25-PA-1776,Pyramid LLC Petroleum Terminals North,PPT N,243,361
+1886,T-25-PA-1777,Gulf Oil,Gulf Oil,243,362
+1890,T-25-PA-1779,Pennzoil,Pennzoil,243,361
+1891,T-25-PA-1791,Sunoco Logistics Partners LP,Sunoco,243,363
+1892,T-25-PA-1781,Sunoco Logistics Partners LP,Sunoco,243,361
+1893,T-25-PA-1780,Pyramid LLC Petroleum Terminals South,PPT S,243,364
+1894,T-23-PA-1706,Agway,Agway,244,365
+1895,T-23-PA-1719,BP Oil Products,BP Oil,244,366
+1898,T-23-PA-1720,Sunoco Logistics Partners LP,Sunoco,244,366
+1899,T-23-PA-1754,Pyramid LLC Petroleum Terminals,PPT,247,367
+1900,T-23-PA-1708,Pyramid LLC Petroleum Terminals 2,PPT 2,245,368
+1901,T-23-PA-1745,Pyramid LLC Petroleum Terminals,PPT,245,369
+1902,T-23-PA-1742,Pyramid LLC Petroleum Terminals,PPT,245,368
+1905,T-25-PA-1783,United Refining,United Ref,246,370
+1906,T-23-PA-1717,Warex Terminals Corp,Warex,247,371
+1907,T-23-PA-1749,ARC Terminals Holding LLC,ARC,247,372
+1910,T-05-RI-1202,Global Companies LLC,Global,248,373
+1911,T-05-RI-1203,Capitol Terminal Company,Capitol,248,374
+1912,T-05-RI-1200,Getty,Getty,248,374
+1913,T-05-RI-1207,ExxonMobil,XOM,248,374
+1914,T-05-RI-1204,Northeast,Northeast,248,373
+1916,T-05-RI-1205,Motiva Enterprise,Motiva,248,373
+1917,T-57-SC-2050,Transmontaigne,TPSI,249,375
+1918,T-57-SC-2051,Buckeye,Buckeye,249,375
+1919,T-57-SC-2053,Marathon Petroleum Corporation,Marathon,249,375
+1921,T-57-SC-2054,Kinder Morgan Energy Partners,KMEP,250,376
+1922,T-57-SC-2064,Buckeye,Buckeye,250,377
+1924,T-57-SC-2066,Kinder Morgan Energy Partners,KMEP,250,377
+1925,T-57-SC-2059,Magellan Pipeline Company West,MagellanW,251,378
+1926,T-57-SC-2061,Buckeye,Buckeye,251,378
+1927,T-57-SC-2060,Kinder Morgan Energy Partners South,KMEP S,251,378
+1929,T-57-SC-2063,Magellan Pipeline Company East,MagellanE,251,378
+1930,T-58-GA-2504,ST Service,ST Service,251,379
+1931,T-57-SC-2067,Transmontaigne,TPSI,252,380
+1932,T-57-SC-2068,Magellan Pipeline Company South,MagellanS,252,380
+1933,T-57-SC-2052,Buckeye,Buckeye,252,380
+1934,,CLOSED TERMINAL,CLOSED,252,380
+1935,T-57-SC-2071,Crown,Crown,252,380
+1936,T-57-SC-2074,Kinder Morgan Energy Partners,KMEP,252,380
+1938,T-57-SC-2076,Magellan Pipeline Company North,MagellanN,252,380
+1939,T-57-SC-2077,Citgo,Citgo,252,380
+1941,T-46-SD-3550,NuStar,NuStar,253,381
+1942,T-46-SD-3551,NuStar,NuStar,254,382
+1943,T-46-SD-3552,Magellan Pipeline Company,Magellan,255,383
+1945,T-46-SD-3554,Magellan Pipeline Company,Magellan,256,384
+1946,T-46-SD-3555,Magellan Pipeline Company,Magellan,257,385
+1948,T-46-SD-3557,NuStar,NuStar,259,386
+1949,T-62-TN-2200,Magellan Pipeline Company South,MagellanS,260,387
+1950,T-58-GA-2556,Transmontaigne,TPSI,260,388
+1951,T-62-TN-2201,Kinder Morgan Energy Partners,KMEP,260,387
+1953,T-62-TN-2205,Marathon Petroleum Corporation,Marathon,260,387
+1954,T-62-TN-2208,Magellan Pipeline Company North,MagellanN,260,389
+1955,D-00-TN-1955,J. I. T.,JIT,260,387
+1957,T-62-TN-2216,BP Oil Products,BP Oil,261,390
+1958,,Chevron,Chevron,261,390
+1959,T-62-TN-2213,Citgo,Citgo,261,390
+1961,T-62-TN-2243,Cummins West,Cummins W,261,390
+1962,T-62-TN-2215,Kinder Morgan Energy Partners,KMEP,261,390
+1963,T-62-TN-2217,Marathon Petroleum Corporation,Marathon,261,390
+1964,T-62-TN-2218,Motiva Enterprise old Shell terminal,Motiva Sh,261,390
+1965,T-62-TN-2219,Magellan Pipeline Company East,MagellanE,261,390
+1966,D-00-TN-1966,Motiva Enterprise old Star Ent terminal,Motiva Tx,261,390
+1968,T-62-TN-2211,Magellan Pipeline Company West,MagellanW,261,390
+1969,T-62-TN-2225,ExxonMobil,XOM,262,391
+1970,T-62-TN-2226,Lion Oil,Lion Oil,262,391
+1971,T-62-TN-2228,Petroleum Fuel & Terminal Co.,PF&T Co,262,391
+1972,T-62-TN-2203,Valero Refining and Marketing West,Valero W,262,391
+1973,T-62-TN-2227,Valero Refining and Marketing East,Valero E,262,391
+1974,T-62-TN-2231,Magellan Pipeline Company East,MagellanE,263,392
+1976,T-62-TN-2233,Citgo,Citgo,263,392
+1977,T-62-TN-2234,Cumberland,Cumberland,263,392
+1978,T-62-TN-2236,ExxonMobil,XOM,263,392
+1980,T-62-TN-2232,Marathon Petroleum Corp-old Ashland loc,MarathonA,263,392
+1981,T-62-TN-2238,Marathon Petroleum Corporation,Marathon,263,392
+1983,T-62-TN-2241,Motiva Enterprise,Motiva,263,392
+1984,T-75-TX-2651,Alon USA LP,Alon USA,264,393
+1986,T-75-TX-2652,Delek Refining,Delek,264,394
+1987,T-75-TX-2654,Phillips 66 Company PSX,PSX,265,395
+1990,T-76-TX-2813,Phillips 66 Company PSX,PSX,267,396
+1991,,Way Energy,Way Energy,267,397
+1992,T-76-TX-2783,Motiva Enterprise,Motiva,268,398
+1993,T-74-TX-2733,Alon USA LP,Alon USA,268,399
+1995,T-76-TX-2785,Motiva Enterprise,Motiva,268,399
+1996,T-76-TX-2784,Chevron,Chevron,292,400
+1999,T-74-TX-2709,Citgo,Citgo,271,401
+2000,T-74-TX-2713,U.S.Oil Company,U.S.Oil,272,402
+2002,T-75-TX-2701,Citgo,Citgo,274,403
+2004,T-74-TX-2716,Citgo,Citgo,275,404
+2005,T-74-TX-2718,ElPaso Merchant Petroleum Energy Company,ElPaso,275,404
+2006,,Corpus Refining & Marketing,Corpus R&M,275,404
+2008,T-74-TX-2711,Citgo - North Port Road Terminal,Citgo NoPt,275,404
+2009,T-74-TX-2719,Diamond Shamrock,Shamrock,275,404
+2010,T-74-TX-2714,Valero Refining and Marketing,Valero,275,404
+2011,T-75-TX-2666,Chevron,Chevron,276,405
+2014,T-75-TX-2660,ExxonMobil,XOM,276,406
+2015,T-75-TX-2672,Alon USA LP,Alon USA,276,407
+2017,T-75-TX-2661,Magellan Pipeline Company,Magellan,276,408
+2018,T-75-TX-2668,ExxonMobil,XOM,276,405
+2019,T-75-TX-2655,Phillips 66 Company PSX,PSX,276,409
+2020,T-75-TX-2665,Magellan Pipeline Company,Magellan,276,410
+2021,T-75-TX-2680,NuStar,NuStar,276,407
+2024,T-74-TX-2724,Western Refining Company,WRC,277,411
+2025,T-74-TX-2726,Holly Refining and Marketing,Holly,277,411
+2027,T-74-TX-2710,CLOSED TERMINAL,CLOSED,277,411
+2028,T-74-TX-2729,NuStar,NuStar,279,412
+2029,T-74-TX-2704,Exxon,Exxon,280,413
+2032,T-74-TX-2700,NuStar,NuStar,281,414
+2033,T-74-TX-2730,ElPaso Merchant Petroleum Energy Company,ElPaso,281,415
+2035,T-76-TX-2794,U.S.Oil Company,U.S.Oil,282,416
+2036,T-76-TX-2793,Valero Refining and Marketing,Valero,282,417
+2037,T-76-TX-2795,ElPaso Merchant Petroleum Energy Company,ElPaso,282,418
+2038,T-76-TX-2808,ExxonMobil,XOM,282,416
+2041,T-75-TX-2674,Phillips 66 Company PSX,PSX,284,419
+2042,T-75-TX-2650,NuStar,NuStar,284,420
+2043,T-75-TX-2679,Chevron,Chevron,285,421
+2046,,Bell Point,Bell Point,287,422
+2047,T-76-TX-2781,ExxonMobil,XOM,287,423
+2048,T-76-TX-2812,ExxonMobil,XOM,287,424
+2049,T-76-TX-2809,Kinder Morgan Energy Partners,KMEP,287,425
+2052,T-75-TX-2686,Delek Refining,Delek,288,426
+2053,T-74-TX-2737,Citgo,Citgo,289,427
+2054,T-74-TX-2738,NuStar East,NuStar E,289,427
+2055,T-74-TX-2740,ExxonMobil,XOM,289,427
+2058,T-74-TX-2745,Motiva Enterprise,Motiva,289,427
+2059,T-75-TX-2682,Valero Refining and Marketing,Valero,290,428
+2061,T-75-TX-2681,Delek Refining,Delek,292,429
+2062,T-74-TX-2703,Citgo,Citgo,293,430
+2064,T-74-TX-2749,Fikes Wholeale Inc,Fikes,294,431
+2065,T-74-TX-2707,Flint Hills Resources,FlintHills,294,431
+2068,T-75-TX-2687,Motiva Enterprise,Motiva,295,432
+2069,T-75-TX-2684,Phillips 66 Company PSX,PSX,296,433
+2070,T-75-TX-2683,Holly Refining and Marketing,Holly,296,433
+2072,T-87-UT-4202,Tesoro,Tesoro,298,434
+2073,T-87-UT-4203,Chevron,Chevron,298,434
+2075,T-87-UT-4200,Big West - Flying J,Big West,298,435
+2076,T-87-UT-4205,Silver Eagle Refining,SilverEagl,298,436
+2079,T-54-VA-1661,Citgo,Citgo,299,437
+2080,T-54-VA-1670,Crown,Crown,299,438
+2082,T-54-VA-1663,Sunoco Logistics Partners LP,Sunoco,299,439
+2083,T-54-VA-1660,Transmontaigne,TPSI,299,437
+2084,T-54-VA-1675,Quarles,Quarles,299,438
+2085,T-54-VA-1692,Kinder Morgan Energy Partners,KMEP,299,440
+2087,T-54-VA-1650,Buckeye,Buckeye,300,441
+2089,T-54-VA-1694,Plains All American Pipeline LP,PAA,300,442
+2090,T-54-VA-1699,Chesapeake Terminal,Ches Term,300,441
+2091,T-54-VA-1652,Citgo,Citgo,300,441
+2092,T-54-VA-1653,Kinder Morgan Energy Partners North,KMEP N,300,441
+2093,T-54-VA-1673,ARC Terminals Holding LLC,ARC,300,441
+2094,T-54-VA-1674,Transmontaigne West,TPSI W,300,441
+2095,T-54-VA-1669,SemFuels L.P.,SemFuels,300,443
+2096,T-54-VA-1654,Kinder Morgan Energy Partners,KMEP,300,441
+2098,T-54-VA-1656,Transmontaigne East,TPSI E,300,441
+2099,T-54-VA-1682,First Energy,First Engy,301,444
+2100,T-54-VA-1677,Buckeye,Buckeye,301,444
+2102,T-54-VA-1679,Citgo,Citgo,301,444
+2103,T-54-VA-1680,Crown,Crown,301,444
+2104,T-54-VA-1681,Kinder Morgan Energy Partners,KMEP,301,444
+2105,T-54-VA-1683,Kinder Morgan Energy Partners South,KMEP S,301,444
+2106,T-54-VA-1657,Kinder Morgan Energy Partners North,KMEP N,301,444
+2108,T-54-VA-1685,Motiva Enterprise,Motiva,301,444
+2109,T-54-VA-1687,Transmontaigne West,TPSI W,301,444
+2110,T-54-VA-1664,Transmontaigne South,TPSI S,302,445
+2111,T-54-VA-1665,Buckeye,Buckeye,302,445
+2112,T-54-VA-1666,Transmontaigne North,TPSI N,302,445
+2113,,Citgo,Citgo,302,445
+2115,T-54-VA-1689,Magellan Pipeline Company,Magellan,302,446
+2116,T-54-VA-1690,Kinder Morgan Energy Partners South,KMEP S,302,446
+2117,T-54-VA-1668,Magellan Pipeline Company,Magellan,302,445
+2118,T-54-VA-1691,Motiva Enterprise,Motiva,302,445
+2119,T-03-VT-1100,Global Companies LLC,Global,303,447
+2120,,Rutland,Rutland,304,448
+2121,T-91-WA-4418,BP Oil Products,BP Oil,305,449
+2123,T-91-WA-4427,Phillips 66 Company PSX,PSX,305,450
+2124,T-91-WA-4401,Phillips 66 Company PSX,PSX,306,451
+2125,T-91-WA-4402,Tesoro,Tesoro,307,452
+2127,T-91-WA-4425,BP Oil Products,BP Oil,308,453
+2128,T-91-WA-4406,Kinder Morgan Energy Partners,KMEP,308,453
+2129,T-91-WA-4408,Shell Oil Products US,SOPUS,308,453
+2130,T-91-WA-4409,Time Oil,Time Oil,308,453
+2131,T-91-WA-4404,Phillips 66 Company PSX,PSX,308,454
+2132,T-91-WA-4410,Phillips 66 Company PSX,PSX,309,455
+2134,T-91-WA-4412,Holly Refining and Marketing,Holly,309,455
+2135,T-91-WA-4416,Shell Oil Products US,SOPUS,310,456
+2136,T-91-WA-4415,NuStar,NuStar,310,457
+2137,T-91-WA-4413,Phillips 66 Company PSX,PSX,310,457
+2138,T-91-WA-4422,Phillips 66 Company PSX North,PSX N,310,457
+2140,T-91-WA-4423,Tidewater,Tidewater,311,458
+2141,T-39-WI-3064,Cenex Harvest States,Cenex,312,459
+2142,T-39-WI-3082,U.S.Oil Company,U.S.Oil,312,459
+2144,T-39-WI-3066,Citgo,Citgo,313,460
+2145,T-39-WI-3078,Clark,Clark,313,460
+2146,T-39-WI-3075,Marathon Petroleum Corporation,Marathon,313,460
+2147,T-39-WI-3077,Buckeye,Buckeye,313,460
+2148,T-39-WI-3091,SemFuels L.P. South,SemFuels S,313,460
+2149,T-39-WI-3089,U.S.Oil Company West,U.S.Oil W,313,460
+2151,T-39-WI-3065,Cenex Harvest States,Cenex,315,461
+2152,T-39-WI-3083,ARC Terminals Holding LLC,ARC,315,461
+2154,T-39-WI-3069,Terminal Oil Group LTD,TOG,315,462
+2155,T-39-WI-3072,Flint Hills Resources,FlintHills,315,461
+2156,T-39-WI-3079,Buckeye,Buckeye,315,461
+2159,T-39-WI-3062,Buckeye,Buckeye,316,463
+2160,T-39-WI-3068,Citgo,Citgo,316,463
+2163,T-39-WI-3076,U.S.Oil Company West,U.S.Oil W,316,463
+2164,T-39-WI-3094,PTW Inc.,"PTW, Inc",316,463
+2165,T-39-WI-3081,NuStar,NuStar,316,463
+2166,T-39-WI-3086,U.S.Oil Company North,U.S.Oil N,316,463
+2168,T-39-WI-3063,BP Oil Products,BP Oil,317,464
+2170,T-39-WI-3074,Flint Hills Resources,FlintHills,318,465
+2171,T-39-WI-3087,Magellan Pipeline Company,Magellan,319,466
+2172,T-55-WV-3181,Marathon Petroleum Corporation,Marathon,320,467
+2173,T-55-WV-3188,Baker Oil Company,Baker,320,468
+2176,T-83-WY-4055,Holly Refining and Marketing,Holly,322,469
+2177,T-83-WY-4053,Magellan Pipeline Company,Magellan,322,469
+2180,T-83-WY-4050,Phillips 66 Company PSX,PSX,325,470
+2181,T-83-WY-4057,Sinclair,Sinclair,326,471
+2182,D-00-AB-2182,Canadian,CA,327,472
+2183,D-00-AB-2183,Canadian,CA,329,473
+2184,T-CA-000034,Suncor - Canada,Suncor CA,331,474
+2185,D-00-BC-2185,Canadian,CA,333,475
+2188,D-00-NB-2188,Canadian,CA,339,476
+2189,D-00-NS-2189,Canadian,CA,341,477
+2190,D-00-ON-2190,Canadian,CA,343,478
+2191,D-00-ON-2191,ESSO - Canada,ESSO CA,345,479
+2192,D-00-ON-2192,Suncor - Canada,Suncor CA,347,480
+2194,D-00-ON-2194,Canadian,CA,351,481
+2195,D-00-QC-2195,Canadian,CA,353,482
+2197,D-00-MB-2197,Canadian,CA,337,483
+2198,T-CA-000016,ESSO - Canada,ESSO CA,359,484
+2199,D-00-AL-2199,Dixie Pipeline Company,Dixie,361,485
+2201,D-00-AR-2201,NGL Energy Partners LP,NGL,11,16
+2202,D-00-CA-2202,Enterprise Terminals & Storage LLC,EPO,14,19
+2204,D-00-GA-2204,Dixie Pipeline Company,Dixie,46,80
+2205,D-00-GA-2205,Dixie Pipeline Company,Dixie,363,486
+2206,D-00-GA-2206,Dixie Pipeline Company,Dixie,364,487
+2207,D-00-IA-2207,Enterprise Terminals & Storage LLC,EPO,365,488
+2209,D-00-IA-2209,Kinder Morgan Energy Partners,KMEP,59,102
+2210,D-00-IA-2210,Enterprise Terminals & Storage LLC,EPO,60,104
+2212,D-00-IA-2212,Enterprise Terminals & Storage LLC,EPO,63,107
+2213,D-00-IA-2213,Dome Pipeline Company,Dome,367,489
+2214,D-00-IA-2214,Enterprise Terminals & Storage LLC,EPO,368,490
+2215,D-00-IA-2215,Enterprise Terminals & Storage LLC,EPO,369,491
+2218,D-00-IA-2218,Enterprise Terminals & Storage LLC,EPO,370,492
+2219,D-00-IL-2219,Buckeye,Buckeye,74,493
+2220,D-00-IL-2220,Kinder Morgan Energy Partners,KMEP,75,494
+2221,D-00-IL-2221,Enterprise Terminals & Storage LLC,EPO,371,495
+2223,D-00-IL-2223,Kinder Morgan Energy Partners,KMEP,84,135
+2224,D-00-IL-2224,Kinder Morgan Energy Partners,KMEP,373,496
+2226,D-00-IN-2226,Buckeye,Buckeye,87,141
+2227,D-00-IN-2227,NGL Energy Partners LP,NGL,88,497
+2228,D-00-IN-2228,Dome Pipeline Company,Dome,89,498
+2229,T-48-KS-3675,Kinder Morgan Energy Partners,KMEP,402,499
+2232,D-00-KS-2232,Heetco,Heetco,377,500
+2233,D-00-KS-2233,Phillips 66 Company PSX,PSX,378,501
+2234,D-00-MI-2234,BP Oil Products,BP Oil,407,502
+2235,D-00-MN-2235,Dome Pipeline Company,Dome,379,503
+2236,D-00-MN-2236,Cochin,Cochin,403,504
+2237,D-00-MN-2237,Enterprise Terminals & Storage LLC,EPO,139,505
+2238,D-00-MN-2238,Dome Pipeline Company,Dome,139,211
+2240,D-00-MO-2240,NGL Energy Partners LP,NGL,380,506
+2242,D-00-MO-2242,Enterprise Terminals & Storage LLC,EPO,382,507
+2243,D-00-MS-2243,Targa Midstream,Targa,158,230
+2244,D-00-MS-2244,Dixie Pipeline Company,Dixie,383,508
+2245,D-00-MS-2245,Targa Midstream,Targa,383,508
+2246,D-00-ND-2246,Dome Pipeline Company,Dome,384,509
+2248,D-00-NE-2248,Kinder Morgan Energy Partners,KMEP,386,510
+2249,D-00-NV-2249,Amerigas,Amerigas,197,511
+2251,T-99-NY-9999,Texas Eastern Petroleum Products Company,TEPPCO,388,512
+2252,D-00-NY-2252,Texas Eastern Petroleum Products Company,TEPPCO,389,513
+2253,D-00-OH-2253,Texas Eastern Petroleum Products Company,TEPPCO,390,514
+2254,T-31-OH-3119,Texas Eastern Petroleum Products Company,TEPPCO,391,515
+2255,D-00-OK-2255,Tonkawa,Tonkawa,392,516
+2257,T-99-PA-9999,Texas Eastern Petroleum Products Company,TEPPCO,394,517
+2258,D-00-PA-2258,Texas Eastern Petroleum Products Company,TEPPCO,237,518
+2259,D-00-SC-2259,Dixie Pipeline Company,Dixie,395,519
+2260,D-00-SC-2260,Dixie Pipeline Company,Dixie,396,520
+2261,D-00-SD-2261,Growmark,Growmark,256,521
+2264,D-00-TX-2264,Enterprise Terminals & Storage LLC,EPO,400,522
+2265,D-00-TX-2265,Targa Midstream,Targa,400,522
+2266,D-00-WI-2266,Enterprise Terminals & Storage LLC,EPO,401,523
+2267,D-00-NC-2267,Dixie Pipeline Company,Dixie,168,240
+2269,T-35-IN-3206,Marathon Ashland Petroleum LLC,MAPLLC,111,524
+2270,T-85-NM-4260,Diamond Shamrock,Shamrock,410,525
+2271,T-16-NY-1452,Hess Corporation - Cairn,Hess-Cairn,206,299
+2272,T-14-NY-1415,Buckeye,Buckeye,198,275
+2273,T-38-MI-3041,Holland Terminal,Holland,411,526
+2274,T-91-WA-4428,Tesoro,Tesoro,305,527
+2275,T-11-NY-1308,Buckeye,Buckeye,204,291
+2277,D-00-TX-2277,P G & E NGL Marketing LP,P G & E,275,404
+2278,T-35-IN-3234,Lassus Brothers,Lassus,87,141
+2279,D-00-WI-2279,Dome Pipeline Company,Dome,317,464
+2280,D-00-KY-2280,Targa Midstream,Targa,112,528
+2281,T-64-MS-2411,Maples Gas Company South,Maples S,159,231
+2282,T-23-PA-1709,Superior Plus Energy Services,Supr Plus,247,529
+2283,T-56-NC-2039,Colonial,Colonial,173,244
+2284,T-84-CO-4115,Holly Refining and Marketing,Holly,28,56
+2285,T-61-KY-3265,CountryMark,CntryMark,85,138
+2287,D-00-AZ-2287,Western Refining Company,WRC,423,530
+2288,T-04-MA-1176,Sprague,Sprague,121,531
+2289,D-00-WA-2289,Texon,Texon,233,338
+2290,D-00-AR-2290,NGL Energy Partners LP,NGL,424,532
+2291,D-00-AR-2291,NGL Energy Partners LP,NGL,425,533
+2293,T-14-NY-1417,Sprague,Sprague,198,275
+2294,T-06-CT-1277,Sprague,Sprague,33,64
+2295,T-35-IN-3201,BP Oil Products,BP Oil,439,534
+2296,T-35-IN-3236,CountryMark,CntryMark,87,535
+2297,T-16-NY-1462,Buckeye,Buckeye,206,536
+2298,T-35-IN-3235,CountryMark,CntryMark,88,537
+2299,T-14-NY-1404,Petroleum Fuel & Terminal Co.,PF&T Co,198,275
+2300,T-34-OH-3150,ARC Terminals Holding LLC,ARC,212,314
+2303,T-01-ME-1013,Webber,Webber,125,192
+2304,T-CA-000035,Suncor - Canada,Suncor CA,432,538
+2305,T-CA-000013,ESSO - Canada,ESSO CA,429,539
+2306,D-00-ON-2306,Canadian,CA,430,540
+2307,T-CA-000010,ESSO - Canada,ESSO CA,431,541
+2308,D-00-NL-2308,ESSO - Canada,ESSO CA,433,542
+2309,D-00-PE-2309,Canadian,CA,434,543
+2310,T-01-ME-1011,Webber,Webber,125,544
+2312,T-04-MA-1167,L. E. Belcher West,LEBelcherW,122,187
+2313,T-38-MI-3046,Marysville Underground Storage,Marysville,435,545
+2314,D-00-MI-2314,Plains All American Pipeline LP,PAA,435,546
+2315,T-86-AZ-4318,Pro Petroleum,Pro Petro,12,547
+2316,D-00-TN-2316,Williams Delivered Price,Wlms Dlvd,262,391
+2317,T-02-NH-1050,Sprague River Road,SpragueRR,188,255
+2318,T-02-NH-1054,Sprague,Sprague,188,548
+2319,T-72-LA-2372,Asco USA LLC,Asco USA,438,549
+2320,D-00-SC-2320,Williams Retail Price,Wlms RTL,252,380
+2322,D-00-GA-2322,Williams Retail Price,Wlms RTL,46,80
+2323,D-00-GA-2323,Williams Retail Price,Wlms RTL,48,83
+2324,D-00-TN-2324,Williams Retail Price,Wlms RTL,260,387
+2325,D-00-GA-2325,Williams Retail Price,Wlms RTL,47,82
+2326,T-25-PA-1760,Buckeye West,Buckeye W,243,364
+2327,T-56-NC-2019,Apex Oil,Apex Oil,171,242
+2328,T-86-NM-4262,Holly Refining and Marketing,Holly,192,550
+2330,T-75-TX-2690,Direct Fuels,Direct,276,409
+2331,D-00-IL-2331,Texas Eastern Petroleum Products Company,TEPPCO,75,551
+2333,,Coast Gas Inc.,Coast Gas,123,188
+2334,T-34-OH-3166,Marathon Petroleum Corporation,Marathon,220,552
+2335,T-14-NY-1401,Buckeye,Buckeye,198,273
+2336,T-22-NJ-1519,BP Oil Products,BP Oil,189,263
+2337,T-86-NM-4250,Holly Refining and Marketing,Holly,194,553
+2338,D-00-NB-2338,Canadian,CA,453,554
+2339,D-00-NT-2339,Suncor - Canada,Suncor CA,454,555
+2340,T-CA-000025,Valero Energy - Canada,Valero CA,455,556
+2342,D-00-NB-2342,Canadian,CA,453,557
+2343,T-CA-000033,Suncor - Canada,Suncor CA,458,558
+2344,D-00-ON-2344,Suncor - Canada,Suncor CA,459,559
+2345,D-00-NM-2345,Enterprise Terminals & Storage LLC,EPO,460,560
+2346,D-00-OH-2346,BP Oil Products,BP Oil,462,561
+2347,T-31-OH-3128,Buckeye,Buckeye,211,311
+2348,T-11-NY-1332,Bayside,Bayside,204,291
+2349,T-13-NY-1353,Buckeye,Buckeye,204,294
+2350,T-CA-000015,ESSO - Canada,ESSO CA,327,472
+2352,T-CA-00-0084,Shell - Canada,Shell CA,327,472
+2354,T-CA-000032,Suncor - Canada,Suncor CA,329,473
+2355,D-00-ON-2355,Husky - Canada,Husky CA,343,478
+2356,D-00-SK-2356,Husky - Canada,Husky CA,359,484
+2357,D-00-SK-2357,Suncor - Canada,Suncor CA,359,484
+2358,D-00-ON-2358,Husky - Canada,Husky CA,347,480
+2360,T-CA-000038,Shell - Canada,Shell CA,347,480
+2361,D-00-SK-2361,Shell - Canada,Shell CA,359,484
+2362,D-00-MB-2362,Husky - Canada,Husky CA,337,483
+2363,D-00-MB-2363,Suncor - Canada,Suncor CA,337,483
+2365,D-00-BC-2365,Husky - Canada,Husky CA,333,475
+2366,D-00-BC-2366,Suncor - Canada,Suncor CA,333,475
+2368,D-00-BC-2368,ESSO - Canada,ESSO CA,333,475
+2369,T-CA-000017,ESSO - Canada,ESSO CA,337,562
+2370,D-00-MB-2370,Suncor - Canada,Suncor CA,337,562
+2372,D-00-VT-2372,Green Mountain Railroad,Green Mnt,304,448
+2373,T-99-AZ-9999,Musket Oil,Musket,473,563
+2374,T-99-AZ-9997,Musket Oil,Musket,474,564
+2376,T-CA-000027,ESSO - Canada,ESSO CA,476,565
+2377,T-CA-000062,ESSO - Canada,ESSO CA,477,566
+2378,D-00-ON-2378,Canadian,CA,478,567
+2379,T-43-MO-3719,J.D. Streett Inc.,JD Streett,154,568
+2380,T-CA-000003,ESSO - Canada,ESSO CA,480,569
+2382,D-00-IA-2382,West Central Soy,WCS,482,570
+2384,D-00-SD-2384,Aventine Renewable Energy,Aventine,256,571
+2386,T-72-LA-2394,Texas Eastern Petroleum Products Company,TEPPCO,120,572
+2387,T-64-MS-2409,Hunt Refining,Hunt Ref,157,573
+2388,T-64-MS-2418,Hunt Refining,Hunt Ref,157,574
+2390,,Sprague,Sprague,304,575
+2391,D-00-ME-2391,Dead River Oil,DeadRiver,125,576
+2393,D-00-NY-2393,New Hyde Park,New Hyde,202,577
+2394,D-00-NY-2394,Romanelli,Romanelli,202,578
+2396,D-00-MA-2396,L. E. Belcher Direct,LEBelcherD,122,187
+2397,T-54-VA-1695,Lincoln Energy Solutions,LincolnOil,299,579
+2398,D-00-VT-2398,"D&C Terminals, D&C Transportation Inc.",D&C Term,303,580
+2400,D-00-MN-2400,Central Minnesota Ethanol Coop,Central MN,137,581
+2402,D-00-WI-2402,United Wisconsin Grain Producers LLC,UWGP,318,582
+2404,D-00-IL-2404,Lincolnland Agri-Energy LLC,Lincoln Ld,83,583
+2407,D-00-MN-2407,Minnesota Energy,Minn Engy,139,584
+2408,D-00-MN-2408,AL Corn Clean Fuel,AL Corn,142,585
+2409,D-00-MN-2409,Denco LLC,Denco,137,586
+2410,D-00-MN-2410,Corn Plus LLC,Corn Plus,139,587
+2411,D-00-MN-2411,Heartland Corn Products,HrtlndCorn,139,588
+2412,D-00-MO-2412,Mid-MissouriEnergy Inc,Mid-Missri,145,589
+2415,T-74-TX-2751,Magellan Pipeline Company,Magellan,277,411
+2416,T-76-TX-2805,Petroleum Wholesale Inc.,PWI,282,418
+2417,D-00-AZ-2417,Musket Oil,Musket,12,17
+2418,D-00-UT-2418,Musket Oil,Musket,594,590
+2420,D-00-CA-2420,Zone Pricing,Zone,25,591
+2421,D-00-CA-2421,Zone Pricing,Zone,25,592
+2423,D-00-CA-2423,Zone Pricing,Zone,27,593
+2424,D-00-CA-2424,Zone Pricing,Zone,27,594
+2425,D-00-CA-2425,Zone Pricing,Zone,27,595
+2426,D-00-CA-2426,Zone Pricing,Zone,27,596
+2427,D-00-CA-2427,Zone Pricing,Zone,23,597
+2430,D-00-CA-2430,Zone Pricing,Zone,23,598
+2431,D-00-CA-2431,Zone Pricing,Zone,23,599
+2432,D-00-CA-2432,Zone Pricing,Zone,23,600
+2433,D-00-CA-2433,Zone Pricing,Zone,23,601
+2434,D-00-CA-2434,Zone Pricing,Zone,23,602
+2435,D-00-CA-2435,Zone Pricing,Zone,17,603
+2438,D-00-CA-2438,Zone Pricing,Zone,18,604
+2439,D-00-CA-2439,Zone Pricing,Zone,18,605
+2440,D-00-CA-2440,Zone Pricing,Zone,18,606
+2441,D-00-CA-2441,Zone Pricing,Zone,22,607
+2442,D-00-CA-2442,Zone Pricing,Zone,18,608
+2444,D-00-CA-2444,Zone Pricing,Zone,22,609
+2445,D-00-CA-2445,Zone Pricing,Zone,18,610
+2446,D-00-CA-2446,Zone Pricing,Zone,18,611
+2447,D-00-CA-2447,Zone Pricing,Zone,18,612
+2448,D-00-CA-2448,Zone Pricing,Zone,22,613
+2449,D-00-CA-2449,Zone Pricing,Zone,22,614
+2451,D-00-CA-2451,Zone Pricing,Zone,18,615
+2452,D-00-CA-2452,Zone Pricing,Zone,22,616
+2453,D-00-CA-2453,Zone Pricing,Zone,22,617
+2454,D-00-CA-2454,Zone Pricing,Zone,22,618
+2455,D-00-CA-2455,Zone Pricing,Zone,22,619
+2456,D-00-CA-2456,Zone Pricing,Zone,22,620
+2457,D-00-CA-2457,Zone Pricing,Zone,22,621
+2459,D-00-CA-2459,Zone Pricing,Zone,22,622
+2460,D-00-CA-2460,Zone Pricing,Zone,22,623
+2461,D-00-CA-2461,Zone Pricing,Zone,22,624
+2462,D-00-CA-2462,Zone Pricing,Zone,18,625
+2463,D-00-CA-2463,Zone Pricing,Zone,24,626
+2466,D-00-CA-2466,Zone Pricing,Zone,22,627
+2467,D-00-CA-2467,Zone Pricing,Zone,22,625
+2468,D-00-CA-2468,Zone Pricing,Zone,25,629
+2469,D-00-CA-2469,Zone Pricing,Zone,27,630
+2470,D-00-CO-2470,Musket Oil,Musket,28,631
+2471,D-00-NV-2471,Musket Oil,Musket,196,632
+2472,T-74-TX-2752,Flint Hills Resources,FlintHills,266,633
+2474,D-00-CA-2474,Zone Pricing,Zone,20,634
+2475,D-00-IA-2475,LincolnWay Energy LLC,LncolnWay,59,635
+2476,D-00-CA-2476,Zone Pricing,Zone,25,636
+2477,D-00-CA-2477,Zone Pricing,Zone,20,637
+2478,D-00-CA-2478,Zone Pricing,Zone,17,638
+2479,D-00-CA-2479,Zone Pricing,Zone,23,639
+2481,D-00-CA-2481,Zone Pricing,Zone,20,640
+2482,D-00-CA-2482,Zone Pricing,Zone,22,641
+2483,D-00-CA-2483,Zone Pricing,Zone,22,642
+2484,D-00-CA-2484,Zone Pricing,Zone,22,643
+2485,D-00-CA-2485,Zone Pricing,Zone,22,644
+2486,D-00-CA-2486,Zone Pricing,Zone,22,645
+2487,D-00-CA-2487,Zone Pricing,Zone,22,646
+2489,D-00-CA-2489,Zone Pricing,Zone,26,647
+2490,D-00-CA-2490,Zone Pricing,Zone,26,648
+2491,D-00-CA-2491,Zone Pricing,Zone,18,649
+2492,D-00-CA-2492,Zone Pricing,Zone,18,650
+2493,D-00-CA-2493,Zone Pricing,Zone,24,651
+2494,D-00-CA-2494,Zone Pricing,Zone,24,652
+2496,D-00-CA-2496,Zone Pricing,Zone,17,653
+2497,D-00-CA-2497,Zone Pricing,Zone,17,654
+2498,D-00-CA-2498,Zone Pricing,Zone,26,655
+2499,D-00-CA-2499,Zone Pricing,Zone,25,656
+2500,D-00-CA-2500,Zone Pricing,Zone,25,657
+2501,D-00-CA-2501,Zone Pricing,Zone,25,658
+2502,D-00-CA-2502,Zone Pricing,Zone,23,659
+2504,D-00-CA-2504,Zone Pricing,Zone,27,660
+2505,D-00-CA-2505,Zone Pricing,Zone,23,661
+2506,D-00-CA-2506,Zone Pricing,Zone,26,662
+2507,D-00-CA-2507,Zone Pricing,Zone,23,663
+2508,D-00-CA-2508,Zone Pricing,Zone,25,664
+2509,D-00-CA-2509,Zone Pricing,Zone,26,665
+2511,D-00-CA-2511,Zone Pricing,Zone,27,666
+2512,D-00-CA-2512,Zone Pricing,Zone,27,667
+2513,D-00-CA-2513,Zone Pricing,Zone,27,668
+2514,D-00-CA-2514,Zone Pricing,Zone,27,669
+2515,D-00-CA-2515,Zone Pricing,Zone,27,670
+2516,D-00-CA-2516,Zone Pricing,Zone,27,671
+2517,D-00-CA-2517,Zone Pricing,Zone,27,672
+2519,D-00-CA-2519,Zone Pricing,Zone,27,673
+2520,D-00-CA-2520,Zone Pricing,Zone,22,674
+2521,D-00-CA-2521,Zone Pricing,Zone,22,675
+2522,T-23-PA-1733,Global Companies LLC,Global,235,676
+2523,D-00-MN-2523,NGL Energy Partners LP,NGL,141,677
+2525,D-00-WI-2525,NGL Energy Partners LP,NGL,401,523
+2526,D-00-IN-2526,Wolf Lake Terminal,Wolf Lake,86,140
+2527,T-76-TX-2790,Lone Star,Lone Star,282,416
+2528,D-00-OR-2528,Pacific Oil - Carson Oil,PacifcOil,233,337
+2530,D-00-IL-2530,Kinder Morgan Energy Partners,KMEP,75,678
+2531,D-00-NY-2531,ExxonMobil,XOM,303,679
+2532,D-00-VT-2532,ExxonMobil,XOM,303,680
+2533,D-00-CA-2533,Zone Pricing,Zone,22,681
+2534,D-00-CA-2534,Zone Pricing,Zone,22,682
+2535,D-00-CA-2535,Zone Pricing,Zone,22,683
+2536,D-00-CA-2536,Zone Pricing,Zone,22,684
+2538,D-00-CA-2538,Zone Pricing,Zone,22,685
+2539,D-00-CA-2539,Zone Pricing,Zone,22,686
+2540,D-00-CA-2540,Zone Pricing,Zone,22,687
+2541,D-00-CA-2541,Zone Pricing,Zone,22,688
+2542,D-00-CA-2542,Zone Pricing,Zone,22,689
+2543,D-00-CA-2543,Zone Pricing,Zone,23,690
+2544,D-00-CA-2544,Zone Pricing,Zone,23,691
+2546,T-11-NY-1313,Bayside East,Bayside E,204,291
+2547,D-00-CA-2547,Zone Pricing,Zone,25,692
+2548,D-00-CA-2548,Zone Pricing,Zone,26,693
+2549,D-00-CA-2549,Zone Pricing,Zone,25,694
+2550,D-00-CA-2550,Zone Pricing,Zone,26,695
+2551,D-00-CA-2551,Zone Pricing,Zone,26,696
+2553,D-00-CA-2553,Zone Pricing,Zone,22,697
+2554,T-22-NJ-1503,International Matex Tank Terminal,IMTT,189,256
+2555,D-00-NV-2555,Musket Rail,MusketRail,197,698
+2556,D-00-MN-2556,Minnesota Soybean Processers,MN Soy,494,699
+2557,D-00-MN-2557,FUMPA,FUMPA,495,700
+2559,D-00-NE-2559,Hansen-Heartland Coop,Hansen,497,701
+2560,D-00-CA-2560,Zone Pricing,Zone,25,702
+2561,D-00-IA-2561,Soy Solutions,Soy Solutn,65,109
+2562,D-00-AK-2562,ExxonMobil,XOM,499,703
+2563,D-00-MA-2563,CSX Transportation,CSX,121,704
+2564,D-00-NC-2564,CSX Transportation,CSX,169,241
+2566,D-00-CT-2566,CSX Transportation,CSX,34,705
+2567,D-00-PA-2567,CSX Transportation,CSX,242,354
+2568,T-13-NY-1357,Schildwachter Fuel Oil,Schldwchtr,204,294
+2569,D-00-SC-2569,Carolina Polymers,CrlinaPoly,252,706
+2570,D-00-CO-2570,Hill Petroleum,Hill Petro,28,707
+2571,D-00-OR-2571,Tyree Oil,Tyree Oil,232,708
+2572,D-00-TX-2572,Volpak / Dow,VolpakDow,282,418
+2574,D-00-CA-2574,Maxum Petroleum,Maxum,22,709
+2575,D-00-GA-2575,US Biofuels,US Biofuel,53,92
+2576,D-00-CA-2576,Golden Gate Petroleum,GoldenGate,25,46
+2577,D-00-MO-2577,Slay Bulk Terminals,Slay Bulk,154,223
+2578,D-00-MN-2578,Westway Terminal Company,Westway,141,710
+2581,D-00-CA-2581,Zone Pricing,Zone,26,711
+2582,D-00-CA-2582,Zone Pricing,Zone,26,712
+2583,D-00-CA-2583,Zone Pricing,Zone,22,713
+2584,D-00-CA-2584,Zone Pricing,Zone,26,714
+2585,D-00-CA-2585,Zone Pricing,Zone,26,715
+2586,D-00-CA-2586,Zone Pricing,Zone,22,716
+2589,D-00-CO-2589,Williams Plant Sales,Williams,194,717
+2590,D-00-WY-2590,Williams Plant Sales,Williams,324,718
+2591,D-00-NM-2591,Williams Plant Sales,Williams,194,719
+2592,D-00-NH-2592,Green Mountain Railroad,Green Mnt,304,720
+2593,D-00-NV-2593,Golden Gate Petroleum,GoldenGate,197,721
+2596,T-72-LA-2389,Calumet,Calumet,120,722
+2597,T-72-LA-2396,Red River Terminals,Red River,120,181
+2598,T-52-MD-1559,Apex Oil South,Apex Oil S,123,188
+2599,D-00-IA-2599,Cargill Inc,Cargill,500,723
+2600,D-00-MN-2600,EXOL,EXOL,496,724
+2603,T-71-AR-2462,Murphy,Murphy,555,725
+2604,D-00-AZ-2604,Musket Rail,MusketRail,12,726
+2605,D-00-MA-2605,Bursaw Gas and Oil,Bursaw,121,727
+2606,D-00-CA-2606,Zone Pricing,Zone,23,728
+2608,D-00-CA-2608,Zone Pricing,Zone,22,729
+2609,D-00-CA-2609,Zone Pricing,Zone,22,730
+2610,D-00-CA-2610,Zone Pricing,Zone,23,731
+2611,D-00-CA-2611,Zone Pricing,Zone,23,732
+2612,D-00-CA-2612,Zone Pricing,Zone,27,733
+2615,D-00-CA-2615,Zone Pricing,Zone,25,734
+2616,T-33-CA-4746,Shell Oil Products US,SOPUS,22,31
+2617,D-00-MD-2617,CSX Transportation,CSX,123,188
+2618,D-00-CA-2618,Zone Pricing,Zone,15,735
+2619,D-00-MA-2619,JJ Donovan,JJDonovan,121,736
+2620,T-76-TX-2831,Magellan Pipeline Company,Magellan,282,737
+2621,T-06-CT-1263,Magellan Pipeline Company East,MagellanE,34,65
+2623,D-00-NJ-2623,Food Haulers DLVD,FoodHauler,189,738
+2624,D-00-CA-2624,Zone Pricing,Zone,22,739
+2625,D-00-CA-2625,Zone Pricing,Zone,22,740
+2626,D-00-CA-2626,Zone Pricing,Zone,22,741
+2627,D-00-TX-2627,Gulf Hydrocarbon Inc,GulfHydro,276,408
+2628,T-75-TX-2693,Burlington Northern Santa Fe Railroad,BNSF,265,395
+2629,D-00-CA-2629,Zone Pricing,Zone,25,742
+2631,D-00-CA-2631,Zone Pricing,Zone,22,743
+2632,T-54-VA-1696,International Matex Tank Terminal,IMTT,301,444
+2633,D-00-CA-2633,Zone Pricing,Zone,25,744
+2634,D-00-CA-2634,Zone Pricing,Zone,24,745
+2635,D-00-CA-2635,Zone Pricing,Zone,22,625
+2637,D-00-NE-2637,Aventine Renewable Energy,Aventine,180,747
+2638,D-00-IA-2638,Xethanol BioFuels LLC,Xethanol,63,748
+2639,D-00-IA-2639,Quad-County Corn Processors,Quad-Cnty,68,749
+2640,D-00-IL-2640,Adkins Energy LLC,Adkins,84,750
+2642,T-33-CA-4789,Valero Refining and Marketing,Valero,22,39
+2643,D-00-VT-2643,Sprague,Sprague,304,751
+2644,D-00-VT-2644,Valero Refining and Marketing,Valero,303,447
+2645,T-23-PA-1752,Buckeye,Buckeye,245,752
+2646,T-59-FL-2678,South Florida Materials,So FL Mat,551,753
+2647,T-23-PA-1747,Sunoco Logistics Partners LP,Sunoco,242,754
+2649,T-35-IN-3211,Gladieux Trading & Marketing Co,Gladieux,87,141
+2650,T-31-OH-3126,Norfolk Southern Railway Co,Norfolk So,213,316
+2651,D-00-CA-2651,Zone Pricing,Zone,27,755
+2652,D-00-CA-2652,Zone Pricing,Zone,17,756
+2653,D-00-CA-2653,Zone Pricing,Zone,27,757
+2654,D-00-CA-2654,Zone Pricing,Zone,17,758
+2655,D-00-FL-2655,Transflo Services,Transflo,41,759
+2656,D-00-CA-2656,Zone Pricing,Zone,25,760
+2658,D-00-CA-2658,Zone Pricing,Zone,25,761
+2659,D-00-CA-2659,Zone Pricing,Zone,25,762
+2660,D-00-CA-2660,Zone Pricing,Zone,23,763
+2661,D-00-CA-2661,Zone Pricing,Zone,25,764
+2662,D-00-CA-2662,Zone Pricing,Zone,23,765
+2663,D-00-CA-2663,Zone Pricing,Zone,27,766
+2664,D-00-CA-2664,Zone Pricing,Zone,25,767
+2666,D-00-CA-2666,Zone Pricing,Zone,22,768
+2667,,None,None,248,373
+2668,D-00-CA-2668,Zone Pricing,Zone,22,769
+2669,D-00-CA-2669,Zone Pricing,Zone,26,770
+2670,T-CA-000065,Shell - Canada,Shell CA,353,482
+2671,T-CA-00-0088,Vopak Terminals of Canada,Vopak CA,353,482
+2672,T-CA-000023,Suncor - Canada,Suncor CA,353,482
+2674,T-CA-000050,Irving - Canada,Irving CA,339,476
+2675,T-CA-000051,Irving - Canada,Irving CA,433,542
+2676,T-CA-000008,ESSO - Canada,ESSO CA,341,771
+2677,D-00-NB-2677,Valero Energy - Canada,Valero CA,453,772
+2678,D-00-ON-2678,Valero Energy - Canada,Valero CA,345,479
+2679,T-CA-000043,Valero Energy - Canada,Valero CA,355,773
+2681,D-00-CA-2681,Zone Pricing,Zone,18,774
+2682,D-00-CA-2682,Zone Pricing,Zone,24,775
+2683,D-00-CA-2683,Zone Pricing,Zone,24,776
+2684,D-00-CA-2684,Zone Pricing,Zone,22,777
+2685,D-00-CA-2685,Zone Pricing,Zone,22,778
+2686,D-00-CA-2686,Zone Pricing,Zone,22,779
+2687,D-00-CA-2687,Zone Pricing,Zone,22,780
+2689,D-00-CA-2689,Zone Pricing,Zone,22,781
+2691,D-00-CA-2691,Zone Pricing,Zone,22,782
+2692,D-00-CA-2692,Zone Pricing,Zone,22,783
+2693,D-00-CA-2693,Zone Pricing,Zone,22,784
+2694,D-00-CA-2694,Zone Pricing,Zone,22,785
+2695,D-00-CA-2695,Zone Pricing,Zone,22,786
+2696,D-00-CA-2696,Zone Pricing,Zone,22,787
+2697,D-00-CA-2697,Zone Pricing,Zone,22,788
+2699,D-00-NC-2699,Lincoln Energy Solutions,LincolnOil,172,243
+2700,D-00-NC-2700,Lincoln Energy Solutions,LincolnOil,170,789
+2701,D-00-NC-2701,Lincoln Energy Solutions,LincolnOil,170,790
+2702,D-00-GA-2702,Lincoln Energy Solutions,LincolnOil,47,82
+2703,D-00-SC-2703,Lincoln Energy Solutions,LincolnOil,249,375
+2704,D-00-GA-2704,David I. Peterson,Peterson,46,80
+2705,D-00-GA-2705,Seminole BioDiesel,SemnoleBIO,49,87
+2707,D-00-NC-2707,Lincoln Energy Solutions,LincolnOil,172,791
+2708,T-56-NC-2013,Kinder Morgan Energy Partners East,KMEP E,172,243
+2709,D-00-NC-2709,Lincoln Energy Solutions,LincolnOil,169,792
+2710,D-00-SC-2710,Lincoln Energy Solutions,LincolnOil,249,793
+2712,D-00-CA-2712,Zone Pricing,Zone,24,794
+2713,D-00-CA-2713,Zone Pricing,Zone,24,795
+2714,D-00-OK-2714,Musket Oil,Musket,226,332
+2715,D-00-CA-2715,Zone Pricing,Zone,26,796
+2716,D-00-CA-2716,Zone Pricing,Zone,24,797
+2717,D-00-CA-2717,Zone Pricing,Zone,22,798
+2718,D-00-CA-2718,Zone Pricing,Zone,24,799
+2719,D-00-CA-2719,Zone Pricing,Zone,22,800
+2721,D-00-CA-2721,Zone Pricing,Zone,15,801
+2722,D-00-OH-2722,Husky Marketing and Supply Co,Husky M&S,216,321
+2723,D-00-MB-2723,Canadian,CA,558,802
+2724,D-00-GA-2724,Big Bend Agri-Services,Big Bend,49,803
+2725,D-00-CA-2725,Zone Pricing,Zone,22,804
+2727,D-00-CA-2727,Zone Pricing,Zone,22,805
+2728,T-04-MA-1172,Sprague,Sprague,121,806
+2729,D-00-CO-2729,Alta Fuels,Alta Fuels,31,807
+2730,D-00-NC-2730,Bailey Feed Mill,BaileyFeed,172,243
+2731,T-41-MT-0001,Cenex Harvest States,Cenex,167,239
+2732,D-00-VT-2732,"D&C Terminals, D&C Transportation Inc.",D&C Term,303,808
+2733,D-00-CO-2733,DCP Midstream LP,DCP Mdstrm,559,809
+2736,D-00-OK-2736,Phillips 66 Company PSX,PSX,560,810
+2737,D-00-NM-2737,Phillips 66 Company PSX,PSX,195,811
+2738,D-00-PA-2738,Buckeye,Buckeye,242,812
+2739,D-00-NM-2739,Musket Rail,MusketRail,192,269
+2740,D-00-WY-2740,Musket Rail,MusketRail,322,469
+2742,D-00-NM-2742,Musket Rail,MusketRail,195,813
+2743,D-00-NV-2743,Musket Rail,MusketRail,196,271
+2744,D-00-WY-2744,Musket Rail,MusketRail,326,814
+2745,D-00-GA-2745,CLOSED TERMINAL,CLOSED,46,80
+2747,D-00-TN-2747,Regal Petroleum,Regal,261,390
+2748,D-00-TN-2748,Cone Solvents,Cone,263,392
+2750,D-00-GA-2750,Atkinson Oil,Atkinson,52,815
+2751,D-00-MO-2751,Fuel Marketing Corporation,Fuel Mktng,153,222
+2752,D-00-MO-2752,Fuel Marketing Corporation,Fuel Mktng,146,217
+2755,D-00-KS-2755,Presta Oil,Presta,103,158
+2756,D-00-KS-2756,Presta Oil,Presta,107,816
+2757,D-00-MS-2757,Mississippi Export Railroad Company,MS Export,160,817
+2758,D-00-CA-2758,Zone Pricing,Zone,18,818
+2759,D-00-CA-2759,Zone Pricing,Zone,18,819
+2760,D-00-CA-2760,Zone Pricing,Zone,18,820
+2761,D-00-CA-2761,Zone Pricing,Zone,18,821
+2763,D-00-CA-2763,Zone Pricing,Zone,15,822
+2764,D-00-GA-2764,Lincoln Energy Solutions,LincolnOil,46,823
+2765,D-00-OK-2765,Griswold Energy Partners,Griswold,226,332
+2767,D-00-TN-2767,Blendstar LLC,Blendstar,263,392
+2768,T-17-TX-0001,Flying J,Flying J,285,824
+2769,D-00-KS-2769,Plains All American Pipeline LP,PAA,571,825
+2770,D-00-IN-2770,POET Biorefining,POET,90,826
+2772,D-00-SD-2772,POET Biorefining,POET,256,827
+2773,D-00-MN-2773,POET Biorefining,POET,496,828
+2774,D-00-SD-2774,POET Biorefining,POET,256,829
+2775,D-00-OH-2775,POET Biorefining,POET,216,830
+2777,D-00-CA-2777,Zone Pricing,Zone,18,831
+2779,D-00-CA-2779,Zone Pricing,Zone,18,832
+2780,D-00-CA-2780,Zone Pricing,Zone,18,833
+2781,D-00-CA-2781,Zone Pricing,Zone,22,834
+2782,D-00-CA-2782,Zone Pricing,Zone,22,835
+2783,D-00-CA-2783,Zone Pricing,Zone,22,836
+2784,D-00-CA-2784,Zone Pricing,Zone,22,837
+2787,D-00-CA-2787,Zone Pricing,Zone,22,838
+2788,D-00-CA-2788,Zone Pricing,Zone,22,839
+2789,D-00-CA-2789,Zone Pricing,Zone,22,840
+2790,D-00-CA-2790,Zone Pricing,Zone,22,841
+2791,D-00-CA-2791,Zone Pricing,Zone,22,842
+2792,D-00-CA-2792,Zone Pricing,Zone,22,843
+2794,D-00-CA-2794,Zone Pricing,Zone,25,844
+2795,D-00-CA-2795,Zone Pricing,Zone,25,845
+2797,D-00-CA-2797,Zone Pricing,Zone,26,846
+2798,D-00-CA-2798,Zone Pricing,Zone,26,847
+2799,D-00-CA-2799,Zone Pricing,Zone,26,848
+2800,D-00-CA-2800,Zone Pricing,Zone,22,849
+2801,D-00-CA-2801,Zone Pricing,Zone,22,850
+2802,D-00-CA-2802,Zone Pricing,Zone,26,851
+2803,D-00-TX-2803,Westway Terminal Company,Westway,282,418
+2804,D-00-CT-2804,Plainville Terminal,Plainville,33,852
+2806,D-00-CA-2806,Zone Pricing,Zone,22,853
+2807,D-00-CA-2807,Zone Pricing,Zone,21,854
+2808,D-00-CA-2808,Zone Pricing,Zone,18,855
+2809,D-00-CA-2809,Zone Pricing,Zone,24,856
+2810,D-00-CA-2810,Zone Pricing,Zone,18,857
+2811,D-00-CA-2811,Zone Pricing,Zone,18,858
+2812,D-00-CA-2812,Zone Pricing,Zone,24,859
+2814,D-00-CA-2814,Zone Pricing,Zone,18,860
+2815,D-00-CA-2815,Zone Pricing,Zone,24,861
+2816,T-63-AL-2317,Hunt Refining,Hunt Ref,4,862
+2817,T-16-NY-1461,International Petroleum Traders LLC,IPT LLC,198,275
+2818,D-00-OK-2818,Plains All American Pipeline LP,PAA,229,335
+2820,D-00-QC-2820,Superior,Superior,353,863
+2821,D-00-SC-2821,Palmetto Propane,Palmetto,251,864
+2822,D-00-FL-2822,South Florida Petroleum,So FL Pet,39,71
+2823,T-95-CA-4808,Paramount,Paramount,22,865
+2824,D-00-TN-2824,Pacific Pride,Pac Pride,260,387
+2826,D-00-NY-2826,Blue Flame,BlueFlame,202,866
+2827,D-00-PA-2827,Amerigreen,Amerigreen,239,867
+2828,D-00-PA-2828,Amerigreen,Amerigreen,239,868
+2829,D-00-TX-2829,Paquin,Paquin,276,405
+2830,D-00-TX-2830,Bighorn,Bighorn,265,395
+2831,D-00-TX-2831,Musket Oil,Musket,265,395
+2833,D-00-OK-2833,Star Fuel,Star Fuel,226,332
+2834,D-00-OK-2834,Star Fuel,Star Fuel,223,331
+2835,D-00-OR-2835,Musket Oil,Musket,70,869
+2836,D-00-OH-2836,Benchmark Biodiesel Inc,Benchmark,213,316
+2837,D-00-NY-2837,Frank Brothers,Frank Bros,202,870
+2838,D-00-NY-2838,Swezey Fuel,Swezey,202,871
+2840,D-00-NY-2840,Shore Properties,ShorePrpts,202,872
+2841,D-00-NY-2841,Lewisy Fuel Oil,Lewisy,202,873
+2842,D-00-OH-2842,Gas America,GasAmerica,215,320
+2843,D-00-MN-2843,Loadmaster Lubricants,Loadmastr,141,874
+2844,D-00-CA-2844,Zone Pricing,Zone,26,875
+2845,D-00-CA-2845,Zone Pricing,Zone,26,876
+2846,T-86-NM-4261,Southwest Terminals,SW Term,277,877
+2848,D-00-CA-2848,Zone Pricing,Zone,24,878
+2849,D-00-OK-2849,Musket Rail,MusketRail,226,332
+2850,T-33-CA-4779,Chemoil Terminals Corporation,Chem Oil,22,26
+2851,T-33-CA-4767,Petro-Diamond Terminal Company,Petro Dia,22,26
+2852,T-33-CA-4800,Vopak Terminal,Volpak,22,32
+2854,D-00-OK-2854,Targa Midstream,Targa,223,331
+2855,T-76-TX-2815,Intercontinental Terminals Co,ITC Term,287,879
+2856,D-00-PA-2856,Lake Erie Biofuels LLC,LEB LLC,561,880
+2857,D-00-CA-2857,Zone Pricing,Zone,25,881
+2858,D-00-CA-2858,Zone Pricing,Zone,25,882
+2860,D-00-NY-2860,Sprague,Sprague,207,883
+2861,T-74-TX-2712,Calumet,Calumet,289,427
+2862,D-00-CA-2862,Zone Pricing,Zone,26,884
+2863,D-00-CA-2863,Zone Pricing,Zone,27,885
+2864,D-00-GA-2864,Southwest Georgia Oil,SW GA Oil,49,87
+2866,D-00-NY-2866,Scalzo Utilities,Scalzo,204,886
+2867,D-00-MA-2867,Edgemont Oil LLC,Edgemont,188,887
+2868,T-75-TX-2694,Pro Petroleum,Pro Petro,284,419
+2869,T-72-LA-2397,Five Star Fuels,Five Star,115,888
+2871,D-00-NC-2871,Laney Oil Company,Laney,169,889
+2872,D-00-IA-2872,West Central Soy,WCS,59,102
+2873,D-00-NH-2873,Palmer Gas Company INC,Palmer,188,890
+2874,D-00-NH-2874,Palmer Gas Company INC,Palmer,188,891
+2875,T-99-HI-4562,Aloha Petroleum,Aloha Pet,406,892
+2876,D-00-CA-2876,Zone Pricing,Zone,25,893
+2877,D-00-CA-2877,Zone Pricing,Zone,25,894
+2879,D-00-CA-2879,Zone Pricing,Zone,25,895
+2880,D-00-CA-2880,Zone Pricing,Zone,25,896
+2881,D-00-AZ-2881,Musket Rail,MusketRail,12,17
+2882,D-00-ND-2882,Murphy,Murphy,174,897
+2883,D-00-MA-2883,Arlex Oil Corporation,Arlex,121,898
+2884,D-00-MA-2884,Ashland Diesel Inc,Ashland,121,899
+2886,D-00-MA-2886,Taylor & Murphy Inc,Taylor&Mur,121,900
+2887,D-00-MA-2887,Roses Oil,Roses Oil,121,901
+2888,T-91-WA-4414,Sound Refining Inc,Sound,310,457
+2889,T-16-NY-1493,Superior Mohawk,Sup Mohawk,208,304
+2890,D-00-NY-2890,Hub Truck,Hub Truck,202,902
+2892,D-00-NY-2892,Hub Truck,Hub Truck,202,903
+2893,D-00-NY-2893,Hub Truck,Hub Truck,204,904
+2894,D-00-CT-2894,Peter Pan Trailways,Peter Pan,198,905
+2895,D-00-MA-2895,Peter Pan Trailways,Peter Pan,121,906
+2896,D-00-NJ-2896,Peter Pan Trailways,Peter Pan,189,907
+2897,D-00-RI-2897,Peter Pan Trailways,Peter Pan,248,373
+2899,D-00-NY-2899,Hart Petroleum,Hart Petro,202,577
+2900,D-00-NY-2900,Total Fuel Services,TotalFuel,204,908
+2901,D-00-NY-2901,Westmore Petroleum,Westmore,204,909
+2902,D-00-NY-2902,Burt's Reliable,Burts,202,910
+2903,D-00-CT-2903,Biodiesel One Inc,BioOneInc,33,911
+2904,D-00-ME-2904,Frontier Energy,FrontNRG,126,194
+2905,D-00-VA-2905,Private Terminal,PVT TERM,300,441
+2907,D-00-NC-2907,Private Terminal,PVT TERM,172,243
+2908,D-00-NC-2908,Private Terminal,PVT TERM,171,242
+2909,D-00-VA-2909,Private Terminal,PVT TERM,299,437
+2910,D-00-VA-2910,Private Terminal,PVT TERM,302,445
+2912,D-00-MD-2912,Private Terminal,PVT TERM,123,188
+2913,D-00-NJ-2913,Food Haulers DLVD,FoodHauler,189,912
+2915,D-00-PA-2915,National Transport,NatTrnsprt,235,913
+2916,D-00-NJ-2916,Food Haulers DLVD,FoodHauler,189,262
+2917,T-CA-000024,Suncor - Canada,Suncor CA,351,914
+2918,T-CA-000029,Suncor - Canada,Suncor CA,480,915
+2920,T-CA-000030,Suncor - Canada,Suncor CA,345,479
+2921,T-CA-000036,Shell - Canada,Shell CA,351,481
+2922,T-CA-000045,Suncor - Canada,Suncor CA,351,481
+2924,T-CA-000037,Shell - Canada,Shell CA,478,567
+2925,T-06-RI-1208,Inland Fuel Terminal INC,IFT Inc,248,916
+2926,T-06-CT-1279,Inland Fuel Terminal INC,IFT Inc,32,60
+2927,D-00-TN-2927,"Tri Star Energy, LLC",Tri Star,263,392
+2930,T-22-NJ-1507,Kinder Morgan Energy Partners,KMEP,189,260
+2931,T-76-TX-2788,Kinder Morgan Energy Partners,KMEP,282,917
+2934,D-00-CA-2934,Suma Energy,Suma,25,44
+2935,D-00-NJ-2935,Suma Energy,Suma,189,262
+2936,D-00-CA-2936,Orange Diesel,Orange,25,44
+2937,D-00-CA-2937,Orange Diesel,Orange,26,49
+2938,D-00-CA-2938,Golden Gate Petroleum,GoldenGate,25,918
+2939,D-00-CA-2939,Golden Gate Petroleum,GoldenGate,25,919
+2942,D-00-IL-2942,Superior Fuels Inc,SFI,77,920
+2944,D-00-IL-2944,Superior Fuels Inc,SFI,83,134
+2945,D-00-KS-2945,Superior Fuels Inc,SFI,104,921
+2946,D-00-MO-2946,Superior Fuels Inc,SFI,144,215
+2947,D-00-IN-2947,Superior Fuels Inc,SFI,91,922
+2950,D-00-TX-2950,Renewable Energy Group,REG,282,418
+2951,D-00-IA-2951,Renewable Energy Group,REG,482,570
+2952,D-00-IA-2952,Renewable Energy Group,REG,59,923
+2953,D-00-IL-2953,Renewable Energy Group,REG,74,924
+2954,D-00-WA-2954,Inland Empire Oilseeds LLC,I.E.O.,306,925
+2956,D-00-WA-2956,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,308,453
+2958,D-00-WA-2958,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,309,455
+2959,D-00-WA-2959,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,307,926
+2960,D-00-WA-2960,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,307,452
+2961,D-00-IA-2961,Iowa Renewable Energy,IRE,63,927
+2962,D-00-IA-2962,Western Iowa Energy,WIE,68,928
+2963,D-00-IA-2963,Western Dubuque BioDiesel,Wstrn Dub,60,929
+2966,D-00-MN-2966,Enterprise Terminals & Storage LLC,EPO,141,930
+2967,D-00-MN-2967,Enterprise Terminals & Storage LLC,EPO,494,931
+2968,T-76-AL-0001,Texas Eastern Petroleum Products Company,TEPPCO,569,932
+2969,T-61-KY-3273,Thornton Transportation Inc,Thornton,111,165
+2971,T-99-HI-4568,Tesoro,Tesoro,55,97
+2972,T-99-HI-4559,Tesoro,Tesoro,404,94
+2974,D-00-AL-2974,Signature Flight Airport,S F A,554,933
+2975,D-00-AL-2975,Mercury Air Center Airport,M A C A,3,5
+2976,D-00-GA-2976,Bio Trans Intermodal,BTI,251,379
+2977,T-74-TX-2717,Transmontaigne,TPSI,271,401
+2978,D-00-IL-2978,Renewable Energy Group,REG,372,934
+2980,T-06-CT-1281,George Taylor,G Taylor,33,935
+2981,D-00-WY-2981,Private Terminal,PVT TERM,324,936
+2982,D-00-UT-2982,Private Terminal,PVT TERM,297,937
+2983,D-00-LA-2983,Private Terminal,PVT TERM,120,181
+2984,T-CA-000014,ESSO - Canada,ESSO CA,429,938
+2985,T-88-NV-4358,Flyers Energy LLC North,Flyers N,197,272
+2986,D-00-CO-2986,Western Convenience,Wstrn Conv,559,939
+2987,D-00-CO-2987,Western Convenience,Wstrn Conv,559,940
+2988,D-00-ND-2988,Western Convenience,Wstrn Conv,178,941
+2990,D-00-WY-2990,Garco Energy,Garco,321,942
+2991,D-00-UT-2991,Western Convenience,Wstrn Conv,297,943
+2992,D-00-ND-2992,Western,Western,178,944
+2993,T-84-WY-4057,Equitable Oil Purchasing Co,Equitable,325,945
+2994,D-00-TX-2994,Enterprise Terminals & Storage LLC,EPO,293,946
+2996,D-00-TX-2996,Enterprise Terminals & Storage LLC South,EPO S,275,404
+2997,T-58-GA-2524,Omega Partners lll LLC South,Omega S,50,89
+2998,D-00-VA-2998,Enterprise Terminals & Storage LLC,EPO,300,441
+3000,D-00-KY-3000,Seay Oil Company,Seay Oil,112,168
+3001,D-00-MA-3001,L. E. Belcher,LEBelcher,122,187
+3002,D-00-IN-3002,Indiana Harbor,IN Harbor,86,140
+3003,D-00-MA-3003,Global Companies LLC,Global,121,806
+3004,D-00-MO-3004,Fuel Marketing Corporation,Fuel Mktng,144,216
+3005,D-00-AR-3005,Fuel Marketing Corporation,Fuel Mktng,7,13
+3006,D-00-NC-3006,Mountain Energy,MtnEnergy,252,947
+3007,D-00-CA-3007,Zone Pricing,Zone,15,948
+3008,D-00-CA-3008,Zone Pricing,Zone,18,949
+3010,D-00-CA-3010,Zone Pricing,Zone,18,950
+3011,D-00-CA-3011,Zone Pricing,Zone,18,951
+3012,D-00-CA-3012,Zone Pricing,Zone,18,952
+3013,D-00-CA-3013,Zone Pricing,Zone,22,953
+3014,D-00-CA-3014,Zone Pricing,Zone,22,954
+3015,D-00-CA-3015,Zone Pricing,Zone,22,955
+3017,D-00-CA-3017,Zone Pricing,Zone,22,956
+3018,D-00-CA-3018,Zone Pricing,Zone,22,957
+3019,D-00-CA-3019,Zone Pricing,Zone,22,958
+3020,D-00-CA-3020,Zone Pricing,Zone,22,959
+3021,D-00-CA-3021,Zone Pricing,Zone,22,960
+3022,D-00-CA-3022,Zone Pricing,Zone,22,961
+3023,D-00-CA-3023,Zone Pricing,Zone,22,962
+3025,D-00-CA-3025,Zone Pricing,Zone,22,963
+3026,D-00-CA-3026,Zone Pricing,Zone,22,964
+3027,D-00-CA-3027,Zone Pricing,Zone,22,965
+3028,D-00-CA-3028,Zone Pricing,Zone,22,966
+3029,D-00-CA-3029,Zone Pricing,Zone,22,967
+3030,D-00-CA-3030,Zone Pricing,Zone,22,968
+3031,T-06-CT-1269,Safety Kleen Systems,Safety Kln,33,62
+3033,D-00-MA-3033,Peterson Oil Service,Petrsn Oil,121,969
+3034,T-88-NV-4362,Pro Petroleum,Pro Petro,196,271
+3035,T-11-NY-1333,Skaggs Walsh,SkaggsWlsh,204,970
+3036,T-59-FL-2681,Apex Oil South,Apex Oil S,38,69
+3038,D-00-MO-3038,Oneok North Systems,Oneok,99,971
+3039,D-00-AZ-3039,NGL Energy Partners LP,NGL,474,564
+3040,D-00-WI-3040,Private Terminal,PVT TERM,313,460
+3041,T-88-NV-4359,Rebel Oil,Rebel Oil,196,271
+3042,D-00-MI-3042,Plains All American Pipeline LP,PAA,129,972
+3044,D-00-MT-3044,Best Oil,Best Oil,165,237
+3045,D-00-CA-3045,Zone Pricing,Zone,18,973
+3046,D-00-TX-3046,Atlas Oil,Atlas Oil,285,974
+3047,D-00-TX-3047,Atlas Oil,Atlas Oil,279,975
+3048,T-71-AR-2460,Cross Oil & Refining,Cross Oil,6,976
+3049,T-71-AR-2461,Transmontaigne,TPSI,158,977
+3050,T-01-ME-1015,Sprague,Sprague,125,978
+3052,T-94-CA-4701,Chevron,Chevron,25,919
+3053,T-65-FL-2166,Transmontaigne,TPSI,39,979
+3054,T-58-GA-2518,NuStar,NuStar,363,980
+3055,T-99-HI-4561,Tesoro East,Tesoro E,404,94
+3057,T-72-IL-0004,West Shore Pipeline Company,WestShore,84,135
+3058,T-52-MD-1560,NuStar,NuStar,123,188
+3059,T-39-NE-3612,Magellan Pipeline Company,Magellan,185,981
+3060,T-39-NE-3613,Truman Arnold,Truman,185,982
+3062,T-22-NJ-1517,Sunoco Logistics Partners LP,Sunoco,190,266
+3063,T-86-NM-4263,Holly Refining and Marketing,Holly,193,983
+3064,T-85-NM-4259,NuStar,NuStar,193,984
+3066,T-34-OH-3174,Transmontaigne,TPSI,409,985
+3067,T-25-PA-1762,Kinder Morgan Energy Partners,KMEP,243,986
+3069,T-25-PA-1789,Sunoco Logistics Partners LP,Sunoco,409,987
+3070,T-75-TX-2691,Chevron,Chevron,398,988
+3071,T-76-TX-2792,Magellan Pipeline Company,Magellan,282,917
+3074,T-54-VA-1676,BP Oil Products,BP Oil,299,989
+3075,T-54-VA-1658,NuStar,NuStar,299,990
+3076,T-54-VA-1693,NuStar,NuStar,300,991
+3078,T-33-WA-0001,Chevron,Chevron,305,450
+3080,T-72-WI-0002,West Shore Pipeline Company,WestShore,315,461
+3081,T-72-WI-0001,West Shore Pipeline Company,WestShore,316,463
+3083,T-76-TX-2796,NuStar East,NuStar E,287,992
+3084,T-76-TX-2814,NuStar West,NuStar W,287,992
+3085,T-62-TN-2222,American Airlines Inc,American,263,392
+3087,T-91-WA-4430,NuStar North,NuStar N,233,338
+3088,T-74-TX-2754,Transmontaigne North,TPSI N,271,401
+3090,T-74-TX-2756,Transmontaigne East,TPSI E,271,401
+3093,T-72-IL-0003,West Shore Pipeline Company North,WestShoreN,75,993
+3094,T-33-CA-4744,Rancho Terminal,Rancho,22,32
+3095,T-52-MD-1570,NuStar,NuStar,36,994
+3096,D-00-TX-3096,Atlas Oil,Atlas Oil,281,414
+3097,D-00-NY-3097,Northern Biodiesel,NrthrnBIO,206,995
+3098,D-00-NY-3098,Robinson Oil,Robinson,204,996
+3099,T-36-IL-3312,Apex Oil,Apex Oil,75,118
+3101,D-00-OH-3101,The Andersons Inc,Andersons,214,997
+3102,D-00-IN-3102,The Andersons Inc,Andersons,87,998
+3104,T-CA-000012,ESSO - Canada,ESSO CA,347,480
+3105,T-CA-000018,ESSO - Canada,ESSO CA,333,999
+3106,T-CA-000026,Shell - Canada,Shell CA,432,1000
+3107,T-CA-000006,ESSO - Canada,ESSO CA,351,481
+3109,T-CA-000047,Chevron - Canada,Chevron CA,335,1001
+3110,T-CA-000019,ESSO - Canada,ESSO CA,432,538
+3111,D-00-NJ-3111,SNS Rail Lines,SMS Rail,242,1002
+3112,D-00-NJ-3112,Ultra Green Energy Services,UGES,189,1003
+3113,D-00-MA-3113,Superior,Superior,122,1004
+3119,D-00-MN-3119,Private Terminal,PVT TERM,141,1005
+3121,D-00-IN-3121,The Andersons Inc,Andersons,87,1006
+3122,D-00-TN-3122,Benton Oil Service Inc North,Benton N,260,387
+3123,D-00-CA-3123,Zone Pricing,Zone,26,1007
+3124,D-00-MN-3124,Private Terminal,PVT TERM,141,212
+3125,D-00-MN-3125,Private Terminal,PVT TERM,142,1008
+3129,T-CA-000042,Valero Energy - Canada,Valero CA,353,482
+3130,T-CA-000066,Shell - Canada East,ShellCA E,353,482
+3131,D-00-CA-3131,Imperial Western Products,IWP,18,1009
+3132,D-00-CA-3132,DK Environmental,DK Envrnmt,22,1010
+3133,D-00-WA-3133,Plains All American Pipeline LP,PAA,233,1011
+3134,T-CA-000061,Irving - Canada,Irving CA,339,1012
+3136,T-CA-000007,ESSO - Canada,ESSO CA,433,1013
+3138,D-00-QC-3138,Valero Energy - Canada East,ValroCA E,353,482
+3139,D-00-QC-3139,CanTerm Canadian Terminals Inc,CanTermCA,355,1014
+3140,T-CA-00-0085,Shell - Canada,Shell CA,430,540
+3141,D-00-ON-3141,Suncor - Canada,Suncor CA,430,540
+3142,D-00-BC-3142,ESSO - Canada,ESSO CA,331,474
+3144,T-CA-000052,Shell - Canada,Shell CA,429,539
+3145,D-00-ON-3145,Suncor - Canada,Suncor CA,429,539
+3147,T-41-MN-3419,Servisair Fuel Services LLC,Servisair,141,1015
+3149,D-00-ME-3149,Private Terminal,PVT TERM,126,194
+3150,D-00-NH-3150,Private Terminal,PVT TERM,188,548
+3151,D-00-ME-3151,Private Terminal,PVT TERM,125,978
+3152,D-00-ME-3152,Private Terminal,PVT TERM,125,544
+3153,D-00-NH-3153,Sea-3 Inc,Sea-3,188,255
+3154,D-00-CA-3154,Mike Roche Inc,MikeRoche,22,1016
+3155,D-00-WA-3155,NGL Energy Partners LP,NGL,306,1017
+3156,D-00-KS-3156,Oneok North Systems,Oneok,376,1018
+3157,D-00-CA-3156,Crimson Renewable Energy LP,Crimson,14,19
+3158,D-00-NH-3158,Plains All American Pipeline LP,PAA,304,1019
+3159,D-00-PA-3159,Plains All American Pipeline LP,PAA,245,1020
+3160,D-00-NC-3160,Private Terminal,PVT TERM,170,789
+3161,T-87-UT-4207,UNEV Pipeline LLC,UNEV,594,590
+3163,D-00-CA-3163,Western Fuel Group,Wstrn Fuel,26,1021
+3164,D-00-NY-3164,Bio Siding,BioSiding,206,1022
+3165,D-00-NY-3165,Private Terminal,PVT TERM,199,1023
+3166,D-00-WV-3166,Private Terminal,PVT TERM,320,1024
+3167,T-86-NV-4355,Swissport Fueling of Nevada Inc,Swissport,196,271
+3169,D-00-IL-3169,Incobrasa Industries,Incobrasa,80,1025
+3170,D-00-CA-3170,Zone Pricing,Zone,25,1026
+3171,D-00-CA-3171,Western States Oil,Wstrn St,26,49
+3172,D-00-ON-3172,Plains All American Pipeline LP,PAA,347,1027
+3174,D-00-NY-3174,Brookhaven Rail Terminal,Brkhaven,202,1028
+3175,D-00-NJ-3175,Dutch Hill Terminals,Dutch Hill,189,1029
+3176,D-00-MA-3176,Cleghorn,Cleghorn,121,1030
+3177,D-00-MA-3177,SV Allen,SV Allen,121,1030
+3179,D-00-MA-3179,Interstate,Interstate,121,1031
+3180,D-00-LA-3180,Blendstar LLC,Blendstar,120,572
+3181,D-00-TX-3181,Valero Refining and Marketing,Valero,290,1032
+3182,D-00-NL-3182,Woodward's Oil Ltd,Woodwards,433,1033
+3183,D-00-NL-3183,Woodward's Oil Ltd,Woodwards,433,1034
+3184,D-00-NB-3184,Shell - Canada,Shell CA,453,1035
+3185,D-00-TX-3185,Sun Coast Resources,Sun Coast,282,418
+3187,D-00-CA-3187,Zone Pricing,Zone,25,1036
+3188,D-00-NY-3188,Ultramar Limited,Ultramar,303,1037
+3207,D-00-OH-3207,Duncan Oil,Duncan,215,320
+3208,D-00-NM-3208,Renewable Energy Group,REG,265,1038
+3212,D-00-TN-3212,Bioenergy Development Group,BDG Term,262,391
+3213,D-00-TX-3213,Intercontinental Terminals Co,ITC Term,282,1039
+3217,D-00-OH-3217,PBF Holding Company LLC,PBF,221,329
+3218,D-00-NY-3218,Private Terminal,PVT TERM,205,1040
+3219,D-00-PA-3219,Private Terminal,PVT TERM,238,349
+3220,D-00-PA-3220,Private Terminal,PVT TERM,242,354
+3221,D-00-PA-3221,Private Terminal,PVT TERM,235,676
+3222,D-00-DE-3222,Private Terminal,PVT TERM,37,68
+3245,D-00-WI-3245,Tower Propane,Tower,312,1041
+3246,D-00-CA-3246,Zone Pricing,Zone,22,1042
+3247,D-00-CA-3247,Zone Pricing,Zone,25,1043
+3248,D-00-CA-3248,Zone Pricing,Zone,25,1044
+3249,D-00-CA-3249,Zone Pricing,Zone,26,1045
+3250,D-00-CA-3250,Zone Pricing,Zone,26,1046
+3252,T-76-TX-2830,Kinder Morgan Energy Partners East,KMEP E,287,425
+3254,D-00-SC-3254,Carolina Petroleum Company,Carolina,252,380
+3255,D-00-IA-3255,The Andersons Inc,Andersons,58,1047
+3256,D-00-IA-3256,Absolute Energy,Absolute,57,1048
+3257,T-CA-000044,Valero Energy - Canada,Valero CA,355,1049
+3258,D-00-WI-3258,Tanco Milwaukee LLC,Tanco,316,463
+3259,D-00-NY-3259,Global Companies LLC North,Global N,198,273
+3260,D-00-MA-3260,Private Terminal,PVT TERM,122,187
+3261,D-00-TX-3261,IPC USA Fuel Distribution,IPC USA,284,1050
+3263,D-00-CA-3263,Zone Pricing,Zone,25,1051
+3264,T-91-HI-4572,Island Petroleum Inc,Island Pet,607,1052
+3265,T-06-CT-1280,B & B Petroleum Inc,B&B Petro,33,62
+3266,T-91-HI-4571,Kauai Petroleum Company LTD,Kauai Pet,406,892
+3267,D-00-CA-3267,United Pacific Energy,UnitedPac,25,1053
+3268,D-00-CA-3268,Golden Gate Petroleum,GoldenGate,25,44
+3269,D-00-LA-3269,Enterprise Terminals & Storage LLC,EPO,115,1054
+3270,D-00-MS-3270,Enterprise Terminals & Storage LLC,EPO,383,1055
+3271,D-00-MD-3271,Thompson Gas,Thompson,123,188
+3272,D-00-VA-3272,Woodgate Petroleum,Woodgate,299,1056
+3273,T-CA-000048,Husky - Canada,Husky CA,456,1057
+3274,D-00-IL-3274,Growmark,Growmark,84,135
+3275,T-CA-000057,Norcan Petroleum Group,Norcan,353,482
+3277,D-00-TX-3277,IPC USA Rail,IPC Rail,283,1058
+3278,D-00-CA-3278,Pacific Ethanol,PacificEth,27,51
+3279,D-00-OR-3279,Jerry Brown Company,J Brown Co,232,708
+3280,D-00-IA-3280,Renewable Energy Group,REG,57,1059
+3281,D-00-TX-3281,Renewable Energy Group,REG,276,1060
+3282,D-00-CA-3282,Zone Pricing,Zone,26,1061
+3283,D-00-CA-3283,Zone Pricing,Zone,26,1062
+3284,T-71-AR-2468,MidCon Fuel,MidCon,9,15
+3287,D-00-IA-3287,Manly Terminal LLC,Manly,57,1063
+3288,D-00-CA-3288,Tesoro East,Tesoro E,22,31
+3289,D-00-CA-3289,Zone Pricing,Zone,26,1064
+3301,T-43-MO-3729,OakMar Terminal LLC,OakMar,144,1065
+3351,D-00-NY-3351,Private Terminal,PVT TERM,207,301
+3379,D-00-IL-3379,Phillips 66 Company PSX,PSX,78,1066
+3380,D-00-MA-3380,Townsend Energy,Townsend,121,1067
+3385,D-00-TN-3385,The Andersons Inc,Andersons,260,387
+3386,D-00-SC-3386,Kinder Morgan Energy Partners,KMEP,249,375
+3427,T-74-TX-2760,Flint Hills Resources North,FHR N,289,427
+3428,D-00-PA-3428,Norfolk Southern Railway Co,Norfolk So,245,1068
+3429,D-00-IA-3429,Flint Hills Resources,FlintHills,59,103
+3431,T-CA-000055,Petroles Harnois - Canada,Harnois CA,433,1069
+3432,T-CA-000064,ESSO Terminal - Canada,ESSO TM CA,329,473
+3433,T-CA-000056,Husky - Canada,Husky CA,458,1070
+3435,T-CA-000060,Carroll Independent Fuel - Canada,Carroll CA,593,1071
+3436,T-CA-000022,Chevron - Canada,Chevron CA,333,999
+3437,T-CA-000005,Chevron - Canada,Chevron CA,432,1072
+3438,T-CA-000001,ESSO - Canada,ESSO CA,333,1073
+3439,T-CA-000020,Suncor - Canada,Suncor CA,333,1073
+3440,T-CA-000049,Valero Energy - Canada,Valero CA,453,554
+3443,T-CA-000063,ESSO - Canada,ESSO CA,454,555
+3444,T-CA-000011,ESSO - Canada,ESSO CA,345,1074
+3445,T-CA-000028,ESSO - Canada,ESSO CA,355,1075
+3446,T-CA-000059,Valero Energy - Canada,Valero CA,355,1076
+3447,T-CA-000021,Carroll Independent Fuel - Canada,Carroll CA,359,484
+3449,D-00-LA-3449,Magellan Pipeline Company,Magellan,119,180
+3450,D-00-TX-3450,Kinder Morgan Energy Partners,KMEP,276,409
+3452,D-00-MO-3452,Magellan Airport,Mag Air,99,1077
+3453,D-00-IA-3453,Little Sioux Corn Processors,LtlSioux,64,1078
+3454,D-00-CA-3454,NuStar,NuStar,25,1079
+3455,D-00-OK-3455,Phillips 66 Company PSX South,PSX S,229,334
+3457,D-00-UT-3457,Washakie Renewable Energy,WRE,298,1080
+3458,D-00-OH-3458,Valero Refining and Marketing,Valero,213,1081
+3460,D-00-NY-3460,General,General,202,1082
+3461,D-00-NY-3461,General,General,202,1083
+3462,D-00-MT-3462,ExxonMobil Asphalt,ExxonAsph,162,234
+3463,D-00-IL-3463,ExxonMobil,XOM,80,1084
+3465,D-00-MT-3465,Phillips 66 Company PSX,PSX,167,1085
+3467,T-63-AL-2339,"Center Point Terminal Company, LLC",Center Pt,4,8
+3473,D-00-WI-3473,Renewable Energy Group,REG,315,1086
+3474,D-00-CA-3474,Zone Pricing,Zone,25,1087
+3475,T-CA-00-0069,ESSO - Canada,ESSO CA,558,1088
+3476,T-CA-00-0071,ESSO - Canada,ESSO CA,359,1089
+3477,T-CA-00-0073,ESSO - Canada,ESSO CA,327,1090
+3478,D-00-CA-3478,Zone Pricing,Zone,18,1091
+3479,T-CA-00-0075,ESSO - Canada,ESSO CA,329,1092
+3482,T-CA-00-0078,ESSO - Canada,ESSO CA,329,1093
+3483,T-CA-000083,ESSO - Canada,ESSO CA,458,1094
+3484,T-CA-000074,ESSO - Canada,ESSO CA,458,1095
+3485,T-CA-000082,ESSO - Canada,ESSO CA,359,1096
+3486,T-CA-00-0079,ESSO - Canada,ESSO CA,558,1097
+3487,T-CA-00-0081,ESSO - Canada,ESSO CA,329,1098
+3490,T-CA-000072,ESSO - Canada,ESSO CA,359,1099
+3491,T-CA-000070,ESSO - Canada,ESSO CA,327,1100
+3492,T-CA-000080,ESSO - Canada,ESSO CA,337,1101
+3493,T-CA-000076,ESSO - Canada,ESSO CA,329,1102
+3494,D-00-NJ-3494,Norfolk Southern Railway Co,Norfolk So,189,262
+3495,D-00-NJ-3495,NuStar TIMS,NuStar TMS,189,261
+3497,D-00-IL-3497,Buckeye TIMS,Bckeye TMS,75,678
+3498,D-00-WI-3498,Valero Refining and Marketing,Valero,401,1103
+3509,D-00-AK-3509,ASIG TIMS,ASIG TMS,1,1
+3510,D-00-AZ-3510,ASIG TIMS,ASIG TMS,12,17
+3516,D-00-CA-3516,ASIG TIMS,ASIG TMS,22,1104
+3517,D-00-AZ-3517,Enterprise TIMS,Entrps TMS,474,1105
+3519,D-00-CA-3519,ASIG TIMS,ASIG TMS,22,38
+3520,D-00-CA-3520,ASIG TIMS,ASIG TMS,25,918
+3521,D-00-CA-3521,ASIG TIMS,ASIG TMS,18,1106
+3523,D-00-CA-3523,ASIG TIMS,ASIG TMS,25,919
+3524,D-00-CA-3524,ASIG TIMS,ASIG TMS,23,42
+3525,D-00-CA-3525,ASIG TIMS,ASIG TMS,22,1107
+3526,D-00-CA-3526,Plains Pipelines TIMS,Plains TMS,22,26
+3527,D-00-CA-3527,Plains Pipelines TIMS,Plains TMS,25,46
+3528,D-00-CA-3528,RIBOST Terminals TIMS,RIBOST TMS,22,26
+3529,D-00-ID-3529,Enterprise TIMS,Entrps TMS,72,1108
+3530,D-00-KS-3530,Enterprise TIMS,Entrps TMS,98,153
+3531,D-00-NV-3531,ASIG TIMS,ASIG TMS,196,271
+3532,D-00-NV-3532,ASIG TIMS,ASIG TMS,197,511
+3533,D-00-OR-3533,ASIG TIMS,ASIG TMS,233,337
+3534,D-00-UT-3534,ASIG TIMS,ASIG TMS,298,434
+3535,D-00-UT-3535,Enterprise TIMS,Entrps TMS,298,1109
+3536,D-00-UT-3536,Sawtooth NGL TIMS,SawTth TMS,298,1110
+3537,D-00-WA-3537,Paramount TIMS,Parmnt TMS,308,453
+3538,D-00-WA-3538,SwissPort TIMS,SwsPrt TMS,308,453
+3541,D-00-TX-3541,Calumet,Calumet,287,1111
+1320,T-36-IL-3311,ExxonMobil,XOM,75,117
+1324,T-36-IL-3310,NuStar,NuStar,75,120
+1329,T-37-IL-3351,Kinder Morgan Energy Partners,KMEP,78,1112
+1333,T-37-IL-3354,Hartford Wood River Terminal,HWRT,78,126
+1339,T-37-IL-3372,Growmark,Growmark,81,1113
+1346,T-36-IL-3303,Kinder Morgan Energy Partners,KMEP,84,1114
+1354,T-61-KY-3280,Southern States,So. States,85,1115
+1357,T-61-KY-3283,Transmontaigne,TPSI,85,1115
+1363,T-35-IN-3225,Buckeye,Buckeye,86,139
+1439,T-72-LA-2365,Motiva Enterprise,Motiva,119,1116
+1445,T-04-MA-1156,ExxonMobil,XOM,121,1117
+1448,T-04-MA-1153,Gulf Oil,Gulf Oil,121,906
+1453,T-04-MA-1166,Global Companies LLC,Global,122,187
+1465,T-52-MD-1556,Phillips 66 Company PSX,PSX,123,188
+1464,T-52-MD-1563,Apex Oil West,Apex Oil W,123,188
+1471,T-01-ME-1000,Buckeye,Buckeye,125,544
+1477,T-01-ME-1004,Buckeye,Buckeye,126,194
+1482,T-38-MI-3032,Marathon Petroleum Corporation,Marathon,128,196
+1485,T-38-MI-3006,Buckeye South,Buckeye S,130,198
+1493,T-38-MI-3024,Buckeye,Buckeye,130,1118
+1496,T-38-MI-3034,Marathon Petroleum Corporation,Marathon,130,199
+1503,T-38-MI-3017,Marathon Petroleum Corporation,Marathon,132,205
+1508,T-38-MI-3020,Marathon Petroleum Corporation,Marathon,134,1119
+1516,T-41-MN-3401,NuStar,NuStar,137,1120
+1519,T-41-MN-3410,Calumet,Calumet,138,1121
+1523,T-41-MN-3407,Flint Hills Resources,FlintHills,141,1122
+1527,T-41-MN-3402,Kinder Morgan Energy Partners,KMEP,142,1123
+1537,T-43-MO-3712,Sinclair,Sinclair,149,1124
+1541,T-43-MO-3720,Buckeye,Buckeye,99,1125
+1623,T-45-ND-3502,NuStar North,NuStar N,176,247
+1629,T-47-NE-3601,NuStar,NuStar,181,1126
+1634,T-47-NE-3608,Magellan Pipeline Company,Magellan,185,982
+1638,T-02-NH-1056,Irving Oil,Irving,188,548
+1643,T-22-NJ-1502,Buckeye,Buckeye,189,263
+1649,T-22-NJ-1501,ElPaso Merchant Petroleum Energy Company,ElPaso,189,256
+1657,T-22-NJ-1538,Motiva Enterprise,Motiva,189,1127
+1660,T-22-NJ-1514,Phillips 66 Company PSX,PSX,189,261
+1666,T-22-NJ-1526,NuStar,NuStar,190,266
+1671,T-85-NM-4252,Holly Refining and Marketing,Holly,192,269
+1675,T-85-NM-4256,Holly Refining and Marketing,Holly,193,1128
+1681,T-88-NV-4353,Kinder Morgan Energy Partners,KMEP,197,272
+1690,T-14-NY-1405,Apex Oil,Apex Oil,198,274
+1695,T-16-NY-1454,Citgo,Citgo,200,278
+1701,T-16-NY-1484,Sunoco Logistics Partners LP,Sunoco,201,281
+1705,T-11-NY-1336,Global Companies LLC,Global,202,1129
+1714,T-11-NY-1310,Phillips 66 Company PSX,PSX,202,1130
+1720,T-11-NY-1301,Kinder Morgan Energy Partners,KMEP,204,291
+1725,T-11-NY-1306,Lefferts Oil Terminal,Lefferts,204,1131
+1804,T-34-OH-3167,Buckeye,Buckeye,222,1132
+1808,T-73-OK-2606,Magellan Pipeline Company,Magellan,224,1133
+1814,T-73-OK-2617,Phillips 66 Company PSX,PSX,227,1134
+1821,T-73-OK-2624,Gary Williams Energy,Gary Wlms,231,1135
+1827,T-93-OR-4457,Kinder Morgan Energy Partners South,KMEP S,233,1136
+1831,T-93-OR-4461,Shell Oil Products US,SOPUS,233,337
+1836,T-23-PA-1702,Buckeye,Buckeye,235,676
+1843,T-25-PA-1765,Agway,Agway,236,1137
+1847,T-25-PA-1788,Sunoco Logistics Partners LP,Sunoco,236,345
+1851,T-23-PA-1725,ARC Terminals Holding LLC,ARC,238,351
+1858,T-23-PA-1721,Pittsburgh Terminal Company,PTC,239,1138
+1863,T-23-PA-1730,PBF Holding Company LLC East,PBF East,242,354
+1870,T-23-PA-1718,Buckeye,Buckeye,242,359
+1876,T-23-PA-1746,Sunoco Logistics Partners LP,Sunoco,242,1139
+1883,T-25-PA-1792,Buckeye East,Buckeye E,243,364
+1888,T-25-PA-1773,Marathon Petroleum Corporation,Marathon,409,1140
+1897,T-23-PA-1707,Pyramid LLC Petroleum Terminals,PPT,244,1141
+1904,T-23-PA-1764,Buckeye,Buckeye,246,1142
+1979,T-62-TN-2204,Lion Oil,Lion Oil,263,392
+1985,T-74-TX-2748,Holly Refining and Marketing,Holly,264,1143
+1989,T-74-TX-2706,Flint Hills Resources,FlintHills,266,1144
+1994,T-76-TX-2798,Sunoco Logistics Partners LP,Sunoco,268,398
+1998,T-75-TX-2657,Phillips 66 Company PSX,PSX,398,988
+2003,T-75-TX-2678,Sunoco Logistics Partners LP,Sunoco,274,403
+2012,T-75-TX-2667,U.S.Oil Company,U.S.Oil,276,405
+2016,T-75-TX-2664,Flint Hills Resources,FlintHills,276,409
+2023,T-75-TX-2669,Motiva Enterprise,Motiva,276,405
+2030,T-74-TX-2658,Sunoco Logistics Partners LP,Sunoco,280,413
+2034,T-76-TX-2789,Chevron,Chevron,282,917
+2040,T-74-TX-2715,NuStar,NuStar,283,1058
+2045,T-75-TX-2676,Delek Refining,Delek,286,1145
+2051,T-76-TX-2782,Motiva Enterprise,Motiva,287,425
+2056,T-74-TX-2742,Flint Hills Resources,FlintHills,289,427
+2060,T-74-TX-2747,Valero Refining and Marketing,Valero,291,1146
+2066,T-74-TX-2705,Motiva Enterprise,Motiva,294,431
+2071,T-87-UT-4201,Gary Williams Energy,Gary Wlms,297,937
+2077,T-87-UT-4206,Holly Refining and Marketing,Holly,298,436
+2081,T-54-VA-1671,Kinder Morgan Energy Partners,KMEP,299,438
+1350,T-61-KY-3265,Henderson Terminal,Hend Term,85,138
+2153,T-39-WI-3067,Citgo,Citgo,315,461
+2158,T-39-WI-3088,U.S.Oil Company South,U.S.Oil S,315,461
+2162,T-39-WI-3073,Flint Hills Resources,FlintHills,316,463
+2169,T-39-WI-3080,Calumet,Calumet,317,464
+2175,T-83-WY-4058,Sinclair,Sinclair,321,1147
+1446,T-04-MA-1152,Global Companies LLC,Global,121,906
+1451,T-04-MA-1180,Sprague,Sprague,121,1148
+1459,T-52-MD-1552,Sunoco Logistics Partners LP,Sunoco,123,188
+1470,T-01-ME-1006,Irving Oil,Irving,125,978
+1475,T-01-ME-1008,Gulf Oil,Gulf Oil,126,194
+1484,T-38-MI-3005,Buckeye,Buckeye,130,201
+1491,T-38-MI-3015,Marathon Petroleum Corporation,Marathon,130,202
+1497,T-38-MI-3016,Marathon Petroleum Corporation,Marathon,131,1149
+1505,T-38-MI-3033,Marathon Petroleum Corporation,Marathon,133,1150
+1512,T-38-MI-3023,Buckeye West,Buckeye W,135,208
+1521,T-41-MN-3414,Magellan Pipeline Company,Magellan,140,1151
+1528,T-41-MN-3416,Magellan Pipeline Company,Magellan,142,1008
+1533,T-43-MO-3728,Sinclair,Sinclair,145,1152
+1540,T-43-MO-3716,Magellan Pipeline Company,Magellan,151,1153
+1554,T-64-MS-2401,Chevron,Chevron,157,229
+1559,T-64-MS-2406,Transmontaigne South,TPSI S,158,230
+1567,T-64-MS-2416,Chevron,Chevron,160,1154
+1574,T-81-MT-4008,ExxonMobil,XOM,163,235
+1578,T-81-MT-4003,Phillips 66 Company PSX,PSX,166,238
+1585,T-56-NC-2008,Marathon Petroleum Corporation East,MarathonE,169,241
+1591,T-56-NC-2005,Motiva Enterprise South,Motiva S,169,241
+1596,T-56-NC-2009,Motiva Enterprise,Motiva,170,789
+1602,T-56-NC-2020,Magellan Pipeline Company East,MagellanE,171,242
+1609,T-56-NC-2025,ARC Terminals Holding LLC,ARC,172,243
+1613,T-56-NC-2018,Kinder Morgan Energy Partners West,KMEP W,172,243
+1621,T-45-ND-3500,Magellan Pipeline Company,Magellan,175,1155
+1628,T-47-NE-3602,Magellan Pipeline Company,Magellan,180,1156
+1635,T-47-NE-3610,NuStar,NuStar,186,1157
+1642,T-22-NJ-1508,Buckeye,Buckeye,189,1158
+1646,T-22-NJ-1536,Hess Corporation,Hess,189,907
+1652,T-22-NJ-1515,Gulf Oil,Gulf Oil,189,261
+1656,T-22-NJ-1534,Sunoco Logistics Partners LP,Sunoco,189,1159
+1663,T-22-NJ-1544,Sunoco Logistics Partners LP,Sunoco,190,1160
+1669,T-22-NJ-1547,Duck Island Terminal,Duck Isl,191,268
+1676,T-85-NM-4257,Western Refining Company,WRC,194,553
+1682,T-88-NV-4354,Omega Partners lll LLC,Omega,197,272
+1687,T-14-NY-1403,Global Companies LLC,Global,198,273
+1696,T-16-NY-1453,ElPaso Merchant Petroleum Energy Company,ElPaso,200,278
+1702,T-16-NY-1457,United Refining,United Ref,201,281
+1709,T-11-NY-1309,Global Companies LLC,Global,202,1161
+1717,T-13-NY-1356,Sprague,Sprague,204,996
+1723,T-13-NY-1352,Sprague,Sprague,204,294
+1734,T-14-NY-1413,Global Companies LLC,Global,205,1040
+1738,T-16-NY-1494,Apex Oil,Apex Oil,206,299
+1745,T-16-NY-1492,Alaskan,Alaskan,207,303
+1751,T-16-NY-1482,Sunoco Logistics Partners LP,Sunoco,207,301
+1758,T-34-OH-3164,Citgo,Citgo,210,1162
+1764,T-31-OH-3100,Marathon Petroleum Corporation,Marathon,211,311
+1771,T-34-OH-3160,Sunoco Logistics Partners LP,Sunoco,212,314
+1777,T-31-OH-3101,Marathon Petroleum Corp-old Ashland loc,MarathonA,213,316
+1783,T-31-OH-3106,Kinder Morgan Energy Partners,KMEP,214,319
+1788,T-31-OH-3118,Texas Eastern Petroleum Products Company,TEPPCO,215,320
+1798,T-34-OH-3148,Buckeye,Buckeye,221,329
+1803,T-34-OH-3161,Sunoco Logistics Partners LP,Sunoco,221,329
+1809,T-73-OK-2609,Phillips 66 Company PSX,PSX,225,1163
+1813,T-73-OK-2613,Magellan Pipeline Company,Magellan,226,332
+1822,T-93-OR-4454,Kinder Morgan Energy Partners,KMEP,232,708
+1828,T-93-OR-4458,McCall,McCall,233,337
+1835,T-23-PA-1700,Buckeye,Buckeye,235,1164
+1842,,Transmontaigne,TPSI,235,342
+1848,T-25-PA-1769,Buckeye,Buckeye,237,518
+1855,T-23-PA-1715,Pyramid LLC Petroleum Terminals,PPT,238,351
+1862,T-22-NJ-1528,Buckeye,Buckeye,242,355
+1869,T-23-PA-1753,Meenan,Meenan,242,1165
+1877,T-23-PA-1751,Sunoco Logistics Partners LP,Sunoco,242,1166
+1884,T-55-WV-3183,Ergon Inc.,Ergon,409,1167
+1889,T-34-OH-3154,Marathon Petroleum Corporation,Marathon,409,1168
+1896,T-23-PA-1703,ARC Terminals Holding LLC,ARC,244,1141
+1903,T-23-PA-1727,Sunoco Logistics Partners LP,Sunoco,245,1169
+1908,T-23-PA-1743,Buckeye,Buckeye,247,371
+1915,T-05-RI-1201,Sprague,Sprague,248,373
+1923,T-57-SC-2065,Flint Hills Resources,FlintHills,250,377
+1928,T-57-SC-2062,Kinder Morgan Energy Partners North,KMEP N,251,378
+1937,T-57-SC-2075,Motiva Enterprise old Shell terminal,Motiva Sh,252,380
+1947,T-46-SD-3556,NuStar,NuStar,258,1170
+1952,T-62-TN-2202,Citgo,Citgo,260,387
+1960,T-62-TN-2214,Cummins East,Cummins E,261,390
+1967,T-62-TN-2221,Transmontaigne,TPSI,261,390
+1975,T-62-TN-2237,Marathon Petroleum Corporation South,MarathonS,263,392
+1982,T-62-TN-2240,Magellan Pipeline Company West,MagellanW,263,392
+1988,T-75-TX-2653,NuStar,NuStar,265,395
+1997,T-75-TX-2656,Alon USA LP,Alon USA,270,1171
+2001,T-75-TX-2659,JP Energy Partners/ATT,JP Energy,273,1172
+2007,T-74-TX-2721,Flint Hills Resources,FlintHills,275,404
+2013,T-75-TX-2671,Magellan Pipeline Company,Magellan,276,1173
+2022,T-75-TX-2662,Motiva Enterprise,Motiva,276,408
+2026,T-74-TX-2750,NuStar,NuStar,277,411
+2031,T-74-TX-2702,Motiva Enterprise,Motiva,280,413
+2039,T-76-TX-2803,Motiva Enterprise,Motiva,282,416
+2044,T-75-TX-2685,Magellan Pipeline Company,Magellan,285,974
+2050,T-76-TX-2811,Phillips 66 Company PSX,PSX,287,425
+2057,T-74-TX-2739,NuStar South,NuStar S,289,427
+2063,T-74-TX-2731,NuStar,NuStar,293,1174
+2067,T-75-TX-2688,Sunoco Logistics Partners LP,Sunoco,295,432
+2074,T-87-UT-4204,Phillips 66 Company PSX,PSX,298,435
+2078,T-54-VA-1659,Buckeye,Buckeye,299,437
+2086,T-54-VA-1662,Motiva Enterprise,Motiva,299,437
+2088,T-54-VA-1651,Apex Oil,Apex Oil,300,1175
+2097,,Motiva Enterprise,Motiva,300,441
+2101,T-54-VA-1678,Transmontaigne East,TPSI E,301,444
+2107,T-54-VA-1684,Magellan Pipeline Company,Magellan,301,444
+1553,T-64-MS-2405,Transmontaigne,TPSI,157,229
+2179,T-83-WY-4051,Phillips 66 Company PSX,PSX,324,936
+2186,D-00-BC-2186,Canadian,CA,335,1176
+2193,T-CA-000031,Suncor - Canada,Suncor CA,349,1177
+2200,D-00-AL-2200,Dixie Pipeline Company,Dixie,362,1178
+2208,D-00-IA-2208,Kinder Morgan Energy Partners,KMEP,57,1179
+2216,D-00-IA-2216,Enterprise Terminals & Storage LLC,EPO,68,111
+2222,T-36-IL-3324,Kinder Morgan Energy Partners,KMEP,372,1180
+2230,D-00-KS-2230,Enterprise Terminals & Storage LLC,EPO,375,1181
+2239,D-00-MN-2239,Enterprise Terminals & Storage LLC,EPO,141,1122
+2247,D-00-NE-2247,Enterprise Terminals & Storage LLC,EPO,385,1182
+2256,D-00-PA-2256,Texas Eastern Petroleum Products Company,TEPPCO,393,1183
+2263,T-76-TX-2832,Texas Eastern Petroleum Products Company,TEPPCO,400,522
+2351,D-00-AB-2351,Suncor - Canada,Suncor CA,327,472
+2359,D-00-ON-2359,Nova Canada,Nova CA,347,480
+2367,T-CA-000041,Shell - Canada,Shell CA,333,999
+2375,D-00-NV-2375,Sinclair,Sinclair,475,1184
+2381,D-00-IA-2381,Ag Environmental Products,AEP,481,1185
+2389,D-00-KS-2389,Aventine Renewable Energy,Aventine,104,1186
+2395,D-00-NY-2395,General,General,202,1187
+2403,D-00-VT-2403,Irving Oil,Irving,304,1188
+1397,T-48-KS-3664,Magellan Pipeline Company,Magellan,104,921
+1432,T-72-LA-2363,Marathon Petroleum Corporation,Marathon,116,1189
+1466,T-52-MD-1567,Cato Oil,Cato Oil,124,190
+1498,T-38-MI-3022,Buckeye,Buckeye,131,1190
+1529,T-43-MO-3700,Phillips 66 Company PSX,PSX,143,1191
+1546,T-43-MO-3701,J.D. Streett Inc.,JD Streett,154,223
+1826,T-93-OR-4460,Kinder Morgan Energy Partners North,KMEP N,233,337
+1852,T-23-PA-1713,Pittsburgh Terminal Company,PTC,238,349
+1887,T-25-PA-1768,MAPLLC old Ashland terminal,MAPLLC A,243,1192
+1909,,United Refining,United Ref,247,372
+1944,T-46-SD-3553,NuStar,NuStar,256,384
+2301,T-43-MO-3714,Artco North,Artco,154,223
+2332,T-84-CO-4107,Colorado Fuel Manufactures Inc,CFMI,30,1193
+2383,D-00-MA-2383,Bigelow Oil,Bigelow,121,1194
+1039,T-71-AR-2459,Magellan Pipeline Company North,MagellanN,9,15
+1042,T-71-AR-2467,Transmontaigne,TPSI,10,1195
+1044,T-86-AZ-4313,Circle K Corporation,Circle K,12,17
+1047,T-86-AZ-4304,Kinder Morgan Energy Partners West,KMEP W,12,17
+1051,T-86-AZ-4308,Kinder Morgan Energy Partners East,KMEP E,13,18
+1053,T-86-AZ-4309,Holly Refining and Marketing,Holly,13,18
+1056,T-77-CA-4657,Alon USA LP,Alon USA,14,19
+1059,T-68-CA-4600,Kinder Morgan Energy Partners,KMEP,17,22
+1063,T-33-CA-4756,Chevron,Chevron,18,23
+1065,T-33-CA-4758,Shell Oil Products US,SOPUS,18,23
+1072,T-33-CA-4762,ST Service,ST Service,21,25
+1076,T-33-CA-4784,BP Oil Products,BP Oil,22,36
+1083,,Kinder Morgan Energy Partners,KMEP,22,39
+1087,T-95-CA-4805,ExxonMobil,XOM,22,1010
+1094,T-33-CA-4768,Tesoro,Tesoro,22,39
+1100,T-68-CA-4621,Chevron,Chevron,23,42
+1109,T-33-CA-4776,Kinder Morgan Energy Partners,KMEP,24,43
+1115,T-68-CA-4616,Chevron,Chevron,25,44
+1121,T-68-CA-4611,Tesoro,Tesoro,25,46
+1126,T-77-CA-4652,Kinder Morgan Energy Partners,KMEP,26,49
+1133,T-68-CA-4629,Tesoro,Tesoro,27,51
+1140,T-84-CO-4104,Phillips 66 Company PSX,PSX,28,54
+1144,T-84-CO-4108,NuStar,NuStar,29,1196
+1151,T-06-CT-1256,Sprague,Sprague,32,60
+1157,T-06-CT-1257,Hess Corporation,Hess,34,65
+1164,T-06-CT-1274,Magellan Pipeline Company West,MagellanW,34,65
+1173,T-59-FL-2102,Buckeye,Buckeye,38,69
+1181,T-65-FL-2156,Buckeye,Buckeye,39,71
+1185,T-65-FL-2150,Transmontaigne,TPSI,39,70
+1191,T-65-FL-2165,Transmontaigne,TPSI,39,71
+1196,T-59-FL-2116,Chevron,Chevron,42,75
+1204,T-59-FL-2107,Buckeye North,Buckeye N,45,78
+1211,T-59-FL-2136,Marathon Petroleum Corporation,Marathon,45,78
+1218,T-58-GA-2500,Kinder Morgan Energy Partners,KMEP,46,80
+1227,T-58-GA-2534,Kinder Morgan Energy Partners South,KMEP S,48,83
+1232,T-58-GA-2531,Motiva Enterprise old Shell terminal,Motiva Sh,48,83
+1238,T-58-GA-2510,Motiva Enterprise old Star Ent terminal,Motiva Tx,48,83
+1246,T-58-GA-2520,Kinder Morgan Energy Partners,KMEP,50,89
+1252,T-58-GA-2544,Transmontaigne,TPSI,52,91
+1260,T-58-GA-2503,Citgo,Citgo,54,93
+1265,T-99-HI-4555,Chevron,Chevron,406,1197
+1272,T-99-HI-4553,Chevron,Chevron,55,97
+1276,T-99-HI-4554,Chevron,Chevron,405,98
+1282,T-42-IA-3465,Magellan Pipeline Company,Magellan,57,1179
+1289,T-42-IA-3458,BP Oil Products,BP Oil,60,104
+1293,T-39-IA-3475,Sinclair,Sinclair,62,1198
+1299,T-42-IA-3469,Buckeye,Buckeye,66,1199
+1304,T-82-ID-4152,United Products Terminals,UnitedProd,70,113
+1310,T-37-IL-3358,Marathon Petroleum Corporation,Marathon,74,1200
+1314,T-36-IL-3317,Citgo,Citgo,75,494
+1321,T-36-IL-3375,ExxonMobil,XOM,75,1201
+1328,T-37-IL-3368,Buckeye,Buckeye,77,920
+1332,T-37-IL-3353,Phillips 66 Company PSX,PSX,78,1112
+1338,T-36-IL-3313,Buckeye,Buckeye,80,1202
+1347,T-36-IL-3306,Buckeye,Buckeye,84,135
+1351,T-37-IL-3361,Hartford Wood River Terminal,HWRT,85,1203
+1358,T-35-IN-3205,BP Oil Products,BP Oil,86,1204
+1364,T-35-IN-3228,Buckeye,Buckeye,86,140
+1368,T-35-IN-3231,Sunoco Logistics Partners LP,Sunoco,87,141
+1372,T-35-IN-3215,La Gloria Oil and Gas Company,La Gloria,88,143
+1377,T-35-IN-3227,U.S.Oil Company,U.S.Oil,88,143
+1383,T-35-IN-3246,Buckeye,Buckeye,92,1205
+1387,T-48-KS-3654,Holly Refining and Marketing,Holly,96,1206
+1398,T-48-KS-3665,Magellan Pipeline Company,Magellan,105,1207
+1402,T-48-KS-3670,Phillips 66 Company PSX South,PSX S,107,161
+1410,T-61-KY-3269,Buckeye,Buckeye,111,165
+1414,T-61-KY-3268,Marathon Petroleum Corp-old Ashland loc,MarathonA,111,165
+1424,T-72-LA-2353,Sunoco Logistics Partners LP,Sunoco,113,169
+1430,T-72-LA-2376,Placid,Placid,115,1208
+1438,T-72-LA-2371,Valero Refining and Marketing,Valero,119,1209
+1212,T-59-FL-2100,Murphy,Murphy,45,78
+1215,T-59-FL-2101,Transmontaigne,TPSI,45,78
+1223,T-58-GA-2506,Kinder Morgan Energy Partners,KMEP,47,82
+1230,T-58-GA-2529,Citgo,Citgo,48,83
+1235,T-58-GA-2545,Marathon Petroleum Corporation,Marathon,48,1210
+1240,T-58-GA-2511,Kinder Morgan Energy Partners,KMEP,48,85
+2690,D-00-CA-2690,Zone Pricing,Zone,22,1211
+2698,D-00-SC-2698,Lincoln Energy Solutions,LincolnOil,251,378
+2706,D-00-GA-2706,Lincoln Energy Solutions,LincolnOil,52,91
+2711,T-62-TN-2207,Lincoln Energy Solutions,LincolnOil,260,387
+2720,D-00-CA-2720,Zone Pricing,Zone,22,1212
+2726,D-00-CA-2726,Zone Pricing,Zone,22,1213
+2734,D-00-CO-2734,Encana Gather Services USA Inc,Encana,559,809
+2741,D-00-NM-2741,Musket Rail,MusketRail,265,1038
+2749,D-00-GA-2749,Walthall Oil Company,Walthall,52,91
+2754,D-00-KS-2754,Presta Oil,Presta,104,921
+2762,D-00-CA-2762,Zone Pricing,Zone,18,1214
+2771,D-00-SD-2771,POET Biorefining,POET,257,1215
+2778,D-00-CA-2778,Zone Pricing,Zone,18,1216
+2785,D-00-CA-2785,Zone Pricing,Zone,22,1217
+2793,D-00-CA-2793,Zone Pricing,Zone,22,1218
+2796,D-00-CA-2796,Zone Pricing,Zone,26,1219
+2805,T-76-TX-2833,Magellan Pipeline Company,Magellan,294,1220
+2813,D-00-CA-2813,Zone Pricing,Zone,24,1221
+2819,D-00-IA-2819,Plains All American Pipeline LP,PAA,62,1198
+2825,T-59-FL-2679,Valero Refining and Marketing,Valero,39,1222
+2832,T-71-AR-2465,Apex Oil,Apex Oil,9,15
+2839,D-00-NY-2839,Oswego Oil Service,Oswego,202,1223
+2847,D-00-NM-2847,Musket Rail,MusketRail,13,1224
+2853,D-00-MI-2853,Sunoco Logistics Partners LP,Sunoco,130,198
+2859,D-00-CA-2859,Zone Pricing,Zone,25,1225
+2865,D-00-NY-2865,Windsor Fuel,Winsdor,204,1226
+2870,D-00-TX-2870,Musket Rail,MusketRail,282,418
+2878,D-00-CA-2878,Zone Pricing,Zone,25,1227
+2885,D-00-MA-2885,Niccoli Brothers Oil,Niccoli,121,1228
+2891,D-00-NY-2891,Hub Truck,Hub Truck,202,1229
+2898,D-00-CA-2898,Zone Pricing,Zone,25,1230
+2906,D-00-VA-2906,Private Terminal,PVT TERM,301,444
+2914,D-00-NJ-2914,Food Haulers DLVD,FoodHauler,189,1231
+2923,T-CA-000046,Suncor - Canada,Suncor CA,343,478
+2929,D-00-CA-2929,Zone Pricing,Zone,26,1232
+2933,D-00-CA-2933,Suma Energy,Suma,22,27
+2940,D-00-CA-2940,Golden Gate Petroleum,GoldenGate,26,49
+2948,D-00-IL-2948,Meier Oil Terminal,Meier,74,1200
+2955,D-00-WA-2955,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,306,451
+2964,D-00-UT-2964,Kellerstrass,Kellrstrss,298,1109
+2970,T-99-HI-4563,Tesoro,Tesoro,405,98
+2973,D-00-NV-2973,Independent Terminal Services,ITS,475,1233
+2406,D-00-MN-2406,Chippewa Valley Ethanol Co,ChipValley,379,503
+2414,D-00-SD-2414,Dakota Ethanol LLC,Dakota Eth,256,1234
+2422,D-00-CA-2422,Zone Pricing,Zone,25,1235
+2429,D-00-CA-2429,Zone Pricing,Zone,23,1236
+2437,D-00-CA-2437,Zone Pricing,Zone,25,1237
+2443,D-00-CA-2443,Zone Pricing,Zone,18,1238
+2450,D-00-CA-2450,Zone Pricing,Zone,22,1239
+2458,D-00-CA-2458,Zone Pricing,Zone,22,1240
+2465,D-00-CA-2465,Zone Pricing,Zone,22,1241
+2473,D-00-CA-2473,Zone Pricing,Zone,22,1242
+2480,D-00-CA-2480,Zone Pricing,Zone,20,1243
+2488,D-00-CA-2488,Zone Pricing,Zone,22,1244
+2495,D-00-CA-2495,Zone Pricing,Zone,17,1245
+2503,D-00-CA-2503,Zone Pricing,Zone,23,1246
+2510,D-00-CA-2510,Zone Pricing,Zone,27,1247
+2518,D-00-CA-2518,Zone Pricing,Zone,27,1248
+2524,T-39-WI-3070,U.S.Oil Company East,U.S.Oil E,313,460
+2529,D-00-OH-2529,Southside River Rail Terminal,Southside,211,311
+2537,D-00-CA-2537,Zone Pricing,Zone,22,1249
+2545,D-00-WI-2545,Ace Ethanol,Ace Eth,312,1250
+2552,T-06-CT-1251,Sprague,Sprague,32,1251
+2558,D-00-MN-2558,Renewable Energy Group,REG,496,724
+2565,D-00-OH-2565,CSX Transportation,CSX,212,314
+2573,D-00-FL-2573,Purada Processing LLC,Purada,45,1252
+2580,D-00-MI-2580,Transflo Services,Transflo,130,1253
+2588,D-00-TX-2588,Kendrick Oil,Kendrick,265,395
+2594,D-00-CA-2594,Zone Pricing,Zone,22,1254
+2601,D-00-CA-2601,Zone Pricing,Zone,20,1255
+2607,D-00-CA-2607,Zone Pricing,Zone,23,1256
+2614,D-00-CA-2614,Zone Pricing,Zone,25,1257
+2622,T-06-CT-1265,Magellan Pipeline Company North,MagellanN,34,65
+2630,D-00-IL-2630,Aventine Renewable Energy,Aventine,82,131
+2636,D-00-NE-2636,E3 BioFuels,E3 Bio,185,1258
+2641,D-00-MN-2641,Agri-Energy LLC,Agri-Engy,256,1259
+2648,T-62-KY-2210,UPS Fuel Farm Terminal,UPS Farm,111,165
+2657,D-00-CA-2657,Zone Pricing,Zone,25,1260
+2665,D-00-CA-2665,Zone Pricing,Zone,27,1261
+2673,T-CA-000054,Irving - Canada,Irving CA,434,543
+2680,T-38-MI-3002,U.S.Oil Company,U.S.Oil,129,1262
+2688,D-00-CA-2688,Zone Pricing,Zone,22,1263
+2979,T-33-CA-4747,Wespac Pipelines,Wespac,24,43
+2989,D-00-WY-2989,Big Horn Divide,BigHorn Dv,321,1264
+2995,D-00-TX-2995,Enterprise Terminals & Storage LLC North,EPO N,275,404
+2999,T-04-MA-1164,Global Companies LLC,Global,121,1265
+3009,D-00-CA-3009,Zone Pricing,Zone,18,1266
+3016,D-00-CA-3016,Zone Pricing,Zone,22,1267
+3024,D-00-CA-3024,Zone Pricing,Zone,22,1268
+3032,T-74-TX-2758,Flint Hills Resources,FlintHills,266,1269
+3037,D-00-OK-3037,Oklahoma City Airport Authority,OKC Air,226,332
+3043,D-00-MT-3043,Farstad Oil,Farstad,162,234
+3051,D-00-TX-3051,Musket Oil,Musket,276,405
+3056,T-72-IL-0002,West Shore Pipeline Company,WestShore,75,118
+3061,T-22-NJ-1531,Buckeye North,Buckeye N,189,258
+3068,T-25-PA-1790,Guttman RealtyCompany,Guttman,243,1270
+3073,T-76-TX-2806,Valero Refining and Marketing,Valero,282,418
+3079,T-91-WA-4429,Exxon,Exxon,306,451
+3082,T-55-WV-3186,Guttman RealtyCompany,Guttman,320,1271
+3089,T-74-TX-2753,Transmontaigne West,TPSI W,271,401
+3092,T-72-IL-0001,West Shore Pipeline Company South,WestShoreS,75,993
+3100,D-00-MI-3100,The Andersons Inc,Andersons,132,1272
+3108,T-CA-000002,ESSO - Canada,ESSO CA,329,473
+3120,D-00-IN-3120,Central Indiana Ethanol,Central IN,87,1273
+3127,D-00-ON-3127,Shell - Canada,Shell CA,345,479
+3135,T-CA-000009,ESSO - Canada,ESSO CA,592,1274
+3143,T-CA-000040,Shell - Canada,Shell CA,337,562
+2114,T-54-VA-1688,Kinder Morgan Energy Partners North,KMEP N,302,446
+2122,T-91-WA-4400,Shell Oil Products US,SOPUS,305,527
+2126,T-91-WA-4420,Tidewater,Tidewater,307,452
+2133,T-91-WA-4411,ExxonMobil,XOM,309,455
+2139,T-91-WA-4421,US Oil & Refining,US Oil&Ref,310,457
+2143,T-39-WI-3061,U.S.Oil Company North,U.S.Oil N,313,460
+2150,T-39-WI-3071,Flint Hills Resources,FlintHills,314,1275
+2157,D-00-WI-2157,U.S.Oil Company North,U.S.Oil N,315,461
+2161,T-39-WI-3090,U.S.Oil Company Central,U.S.Oil C,316,463
+2167,T-39-WI-3084,U.S.Oil Company South,U.S.Oil S,316,463
+2174,T-55-WV-3182,Pennzoil,Pennzoil,320,467
+2178,T-83-WY-4056,Wyoming Refining,WY Ref,323,1276
+2187,D-00-MB-2187,Canadian,CA,337,562
+2196,D-00-QC-2196,Canadian,CA,355,1014
+2203,D-00-FL-2203,Targa Midstream,Targa,45,78
+2211,D-00-IA-2211,Kinder Morgan Energy Partners,KMEP,63,1277
+2217,,Magellan Pipeline Company,Magellan,68,1278
+2225,D-00-IN-2225,Dome Pipeline Company,Dome,374,1279
+2231,D-00-KS-2231,Enterprise Terminals & Storage LLC,EPO,376,1018
+2241,D-00-MO-2241,Enterprise Terminals & Storage LLC,EPO,381,1280
+2250,D-00-NY-2250,Texas Eastern Petroleum Products Company,TEPPCO,387,1281
+2262,D-00-TX-2262,Mitchell,Mitchell,399,1282
+2268,T-74-TX-2720,Koch East,Koch East,275,404
+2276,D-00-SC-2276,Plains All American Pipeline LP,PAA,413,1283
+2286,D-00-NM-2286,Texon,Texon,192,269
+2292,D-00-AR-2292,NGL Energy Partners LP,NGL,9,15
+2302,D-00-OK-2302,Central Oklahoma SPOT,SPOT,226,1284
+2311,T-04-MA-1151,L. E. Belcher East,LEBelcherE,122,187
+2321,D-00-NC-2321,Williams Retail Price,Wlms RTL,169,241
+2329,T-76-TX-2817,Texas Eastern Petroleum Products Company,TEPPCO,282,416
+2341,D-00-BC-2341,ESSO - Canada,ESSO CA,456,1057
+2353,T-CA-000039,Shell - Canada,Shell CA,329,473
+2364,D-00-MB-2364,Shell - Canada,Shell CA,337,483
+2371,T-35-IN-3239,Buckeye,Buckeye,85,136
+2385,D-00-SD-2385,Aventine Renewable Energy,Aventine,258,1285
+2392,D-00-NY-2392,Blue Flame,BlueFlame,202,1286
+2399,T-52-MD-1565,NuStar,NuStar,123,1287
+2405,D-00-MN-2405,Bushmills Ethanol Inc,Bushmills,137,1288
+2413,D-00-NE-2413,KAAPA Ethanol LLC,KAAPA,180,1289
+2419,D-00-CA-2419,Zone Pricing,Zone,25,1290
+2428,D-00-CA-2428,Zone Pricing,Zone,23,1291
+2436,D-00-CA-2436,Zone Pricing,Zone,25,1292
+2579,D-00-WA-2579,Truck Rail Handling,Truck Rail,310,457
+2587,D-00-FL-2587,Westway Terminal Company,Westway,38,69
+2595,D-00-CA-2595,Zone Pricing,Zone,25,1293
+2602,D-00-LA-2602,Allergo Biodiesel Inc Vanguard Synfuels,Allergo,114,1294
+2613,D-00-CA-2613,Zone Pricing,Zone,25,1295
+2735,D-00-CO-2735,DCP Midstream LP,DCP Mdstrm,559,1296
+2746,D-00-GA-2746,Boswell Oil,Boswell,47,82
+2753,D-00-OK-2753,Fuel Marketing Corporation,Fuel Mktng,229,335
+2766,D-00-MT-2766,Cenex Harvest States,Cenex,163,1297
+2776,D-00-MO-2776,POET Biorefining,POET,151,1298
+2786,D-00-CA-2786,Zone Pricing,Zone,22,1299
+2911,D-00-SC-2911,Private Terminal,PVT TERM,251,378
+2919,D-00-ON-2919,Shell - Canada,Shell CA,345,1300
+2928,D-00-TX-2928,Private Terminal,PVT TERM,285,974
+2932,T-59-FL-2680,Vitol Tank Terminals International,Vitol,41,74
+2941,D-00-ME-2941,Champagne Energy,Champagne,126,1301
+2949,D-00-IA-2949,Renewable Energy Group,REG,59,102
+2957,D-00-WA-2957,Inland Empire Oilseeds LLC Delivered,I.E.O.Dlvr,310,457
+2965,D-00-VA-2965,Holtzman Oil,Holtzman,299,1302
+3065,T-34-OH-3175,Air BP,Air BP,212,314
+3072,T-76-TX-2822,Transmontaigne,TPSI,287,423
+3077,T-50-VA-0001,PAPCO,PAPCO,300,443
+3086,T-72-LA-2390,NuStar,NuStar,119,1303
+3091,T-74-TX-2755,Transmontaigne South,TPSI S,271,401
+3103,T-59-MS-0001,Scott Petroleum Corporation,Scott Pet,158,230
+3118,D-00-MN-3118,Private Terminal,PVT TERM,141,1304
+3128,D-00-NS-3128,Valero Energy - Canada,Valero CA,341,771
+3137,T-CA-000058,Suncor - Canada,Suncor CA,593,1071
+3146,D-00-CT-3146,Depot Place Terminal INC,DepotPlce,33,1305
+3335,T-61-KY-3281,Continental Refining Company,Contnl Ref,261,1306
+3384,D-00-VA-3384,The Andersons Inc,Andersons,299,1307
+3425,T-45-ND-3509,Dakota Prairie Refining,Dakota Ref,177,1308
+3430,D-00-IL-3430,Growmark,Growmark,78,1066
+3434,T-CA-000004,Husky - Canada,Husky CA,329,1092
+3442,T-CA-000053,Valero Energy - Canada,Valero CA,433,1013
+3451,T-91-WA-4433,Renewable Energy Group,REG,310,1309
+3459,D-00-AL-3459,Blendstar LLC,Blendstar,3,5
+3471,D-00-CA-3471,Zone Pricing,Zone,22,1310
+3480,T-CA-00-0086,Shell - Canada,Shell CA,345,1074
+3489,T-CA-00-0089,Valero Energy - Canada,Valero CA,433,1311
+3499,D-00-FL-3499,Omega Partners lll LLC,Omega,38,69
+3522,D-00-CA-3522,ASIG TIMS,ASIG TMS,18,1312
+1069,T-68-CA-4606,Chevron,Chevron,19,1313
+1073,T-33-CA-4769,Tesoro,Tesoro,22,31
+1078,T-33-CA-4771,Chevron,Chevron,22,1314
+1084,T-33-CA-4772,Kinder Morgan Energy Partners,KMEP,22,1315
+1089,T-95-CA-4809,Equilon Shell,Equilon Sh,22,38
+1095,T-33-CA-4752,Phillips 66 Company PSX,PSX,22,39
+1099,T-68-CA-4612,Buckeye,Buckeye,23,41
+1105,T-68-CA-4624,Phillips 66 Company PSX,PSX,23,42
+1110,T-33-CA-4777,Equilon Shell,Equilon Sh,24,43
+1116,T-68-CA-4603,Valero Refining and Marketing,Valero,25,1316
+1122,T-68-CA-4617,Phillips 66 Company PSX,PSX,25,44
+1127,T-77-CA-4653,Shell Oil Products US,SOPUS,26,49
+1131,T-68-CA-4628,Shell Oil Products US,SOPUS,27,51
+1137,T-84-CO-4101,Suncor East,Suncor E,28,54
+1141,T-84-CO-4103,NuStar,NuStar,28,54
+1149,T-06-CT-1250,Champion,Champion,32,60
+1152,T-06-CT-1259,Buckeye,Buckeye,33,63
+1160,T-06-CT-1262,Gulf Oil,Gulf Oil,34,65
+1165,T-06-CT-1255,Buckeye,Buckeye,35,1317
+1170,T-51-DE-1600,PBF Holding Company LLC,PBF,37,1318
+1176,T-59-FL-2106,Marathon Petroleum Corporation,Marathon,38,69
+1186,T-65-FL-2154,Motiva Enterprise East,Motiva E,39,71
+1190,T-65-FL-2164,Motiva Enterprise South,Motiva S,39,70
+1195,T-59-FL-2129,Kinder Morgan Energy Partners,KMEP,41,1319
+1203,T-59-FL-2127,Stratus,Stratus,44,77
+1208,T-59-FL-2133,Citgo,Citgo,45,78
+1517,T-41-MN-3412,Magellan Pipeline Company,Magellan,137,1320
+1707,D-00-NY-1707,Mistic,Mistic,202,577
+2401,D-00-IA-2401,Golden Grain Energy LLC,GoldGrain,57,1059
+1028,T-63-AL-2323,Vecenergy,Vecenergy,5,10
+1187,T-65-FL-2160,Marathon Petroleum Corporation North,MarathonN,39,71
+2464,D-00-CA-2464,Zone Pricing,Zone,24,1321
+2943,D-00-IL-2943,Superior Fuels Inc,SFI,76,125
+3126,D-00-QC-3126,International Matex Tank Terminal Canada,IMTT CA,355,1014
+3300,T-71-AR-2469,OakMar Terminal LLC,OakMar,9,15
+3148,D-00-MA-3148,Private Terminal,PVT TERM,121,183
+3162,T-88-NV-4365,Holly Refining and Marketing,Holly,196,1322
+3168,D-00-CA-3168,Crimson Renewable Energy LP,Crimson,18,23
+3178,D-00-MA-3178,Leominster Ice,Lmnstr Ice,121,1323
+3186,D-00-CA-3186,Zone Pricing,Zone,25,1324
+3216,D-00-NJ-3216,PBF Holding Company LLC South,PBF South,190,266
+3243,D-00-ME-3243,Cenex Harvest States,Cenex,126,1325
+3251,T-76-TX-2820,Vopak Terminal,Volpak,287,879
+3262,D-00-GA-3262,Amerigas,Amerigas,48,83
+3441,D-00-NJ-3441,Kinder Morgan Energy Partners,KMEP,189,261
+3448,D-00-IN-3448,Buckeye,Buckeye,86,1326
+3456,D-00-UT-3456,Golden Eagle Refinery,GoldEglRef,298,436
+3464,D-00-WY-3464,Phillips 66 Company PSX,PSX,321,1147
+3472,T-75-TX-2673,Allied,Allied,276,408
+3481,T-CA-00-0087,Valero Energy - Canada,Valero CA,433,1327
+3488,T-CA-000077,ESSO - Canada,ESSO CA,337,1328
+3496,D-00-CA-3496,Zone Pricing,Zone,25,1329
+3518,D-00-AZ-3518,Plains Pipelines TIMS,Plains TMS,12,1330
