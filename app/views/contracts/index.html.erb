@@ -39,7 +39,7 @@
         <td><%= contract.end_date %></td>
         <td><%= contract.formula_type %></td>
         <td>Diesel & Gasoline</td>
-        <td>100,000</td>
+        <td><%= contract.lines.sum(:volume) if contract.lines %></</td>
         <td>
           <div class="dropdown pull-right">
             <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

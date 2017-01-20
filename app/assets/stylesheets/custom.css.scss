@@ -93,6 +93,16 @@ small {
     font-size: 12px;
 }
 
+a.link-white:hover {
+    color: white;
+    background: none;
+}
+
+a.link-white {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
 
 .home-button1 {
     border-radius: 10px;
@@ -228,4 +238,8 @@ h1.inline-block {
 
 .muted {
     color: #999999;
+}
+
+.min-height {
+    min-height: 300px;
 }

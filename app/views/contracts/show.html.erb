@@ -16,19 +16,19 @@
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label">Contract number</label>
+          <label class="col-2 col-form-label">Contract Number</label>
           <input type="number" class="form-control" readonly=true value=<%= @contract.contract_nbr%> >
         </div>
       </td>
 			<td>
           <div class="field">
-            <label class="col-2 col-form-label">Supplier</label>
+            <label class="col-2 col-form-label">Supplier (DTN)</label>
             <input type="text" class="form-control" readonly=true value=<%= @contract.supplier%> >
           </div>
       </td>
 			<td>
           <div class="field">
-            <label class="col-2 col-form-label">Supplier number</label>
+            <label class="col-2 col-form-label">Supplier Number (Oracle)</label>
             <input type="text" class="form-control" readonly=true value=<%= @contract.supplier_nbr %> >
           </div>
       </td>
@@ -42,32 +42,32 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Terminal city</label>
+          <label class="col-2 col-form-label">Terminal City (Oracle)</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.terminal_city%> >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Terminal state</label>
+          <label class="col-2 col-form-label">Terminal State</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.terminal_state%> >
         </div>
     </tr>
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Brand type</label>
+          <label class="col-2 col-form-label">Brand Type</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.brand_type%> >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Start date</label>
+          <label class="col-2 col-form-label">Start Date</label>
           <input type="date" class="form-control" readonly=true value=<%= @contract.start_date%> >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">End date</label>
+          <label class="col-2 col-form-label">End Date</label>
           <input type="date" class="form-control" readonly=true value=<%= @contract.end_date%> >
         </div>
       </td>
@@ -75,19 +75,19 @@
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Renew type</label>
+          <label class="col-2 col-form-label">Renew Type</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.renew_type%> >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Formula type</label>
+          <label class="col-2 col-form-label">Formula Type</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.formula_type%> >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Pricing cycle</label>
+          <label class="col-2 col-form-label">Pricing Cycle</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.pricing_cycle%> >
         </div>
       </td>
@@ -101,7 +101,7 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Sales rep</label>
+          <label class="col-2 col-form-label">Sales Rep</label>
           <input type="text" class="form-control" readonly=true value=<%= @contract.sales_rep%> >
         </div>
       </td>
@@ -124,6 +124,8 @@
 </div>
 
 <br>
+  <div class="min-height">
 	<%= render 'lines/line', obj: @contract.lines %>
+	</div>
 </div>
 
