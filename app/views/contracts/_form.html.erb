@@ -1,4 +1,5 @@
 <%= form_for(contract) do |f| %>
+
 <div class="container">
   <div class="row">
   <% if contract.errors.any? %>
@@ -13,50 +14,116 @@
   <% end %>
   </div>
 </div>
+
 <br>
 
-<div class="form-group row">
-  <div class="field">
-    <label for="inputContractId" class="col-2 col-form-label">Contract #</label>
-    <%= f.number_field :contract_id, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label for="inputSupplier" class="col-2 col-form-label"><%= f.label :supplier %></label>
-    <div class='input-group date' id='datetimepicker1'>
-    <%= f.text_field :supplier, class: "form-control" %>
-      <span class="input-group-addon">
-          <span class="glyphicon glyphicon-calendar"></span>
-      </span>
-    </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
-        </script>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label for="inputProduct" class="col-2 col-form-label"><%= f.label :product %></label>
-    <%= f.text_field :product, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label for="inputStatus" class="col-2 col-form-label"><%= f.label :status %></label>
-    <%= f.select(:status, ["A", "I"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
+	<table class="table borderless" style="width:100%">
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :contract_nbr, "Contract Number*" %></label>
+          <%= f.number_field :contract_nbr, class: "form-control" %>
+        </div>
+      </td>
+			<td>
+          <div class="field">
+            <label class="col-2 col-form-label"><%= f.label :supplier, "Supplier*" %></label>
+            <%= f.text_field :supplier, class: "form-control" %>
+          </div>
+      </td>
+			<td>
+          <div class="field">
+            <label class="col-2 col-form-label"><%= f.label :supplier_nbr, "Supplier Number" %></label>
+            <%= f.text_field :supplier_nbr, class: "form-control" %>
+          </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :company %></label>
+          <%= f.text_field :company, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :terminal_city, "Terminal City*" %></label>
+          <%= f.text_field :terminal_city, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :terminal_state, "Terminal State*" %></label>
+          <%= f.text_field :terminal_state, class: "form-control" %>
+        </div>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :brand_type, "Brand Type*"  %></label>
+          <%= f.select(:brand_type, ["", "U", "B"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :start_date, "Start Date*" %></label>
+          <%= f.date_field :start_date, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :end_date, "End Date*" %></label>
+          <%= f.date_field :end_date, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :renew_type, "Renew Type*" %></label>
+          <%= f.text_field :renew_type, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :formula_type, "Formula Type*" %></label>
+          <%= f.text_field :formula_type, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :pricing_cycle, "Pricing Cycle" %></label>
+          <%= f.text_field :pricing_cycle, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :notes %></label>
+          <%= f.text_area :notes, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :sales_rep,"Sales Rep*" %></label>
+          <%= f.text_field :sales_rep, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :status %></label>
+          <input type="text" class="form-control" id="inputStatus" value="A" readonly=true >
+          <%#= f.select(:status, ["A", "I"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+    </tr>
+  </table>
+  
 <div class="form-group row">
   <div class="actions">
-    <%= f.submit class:"btn btn-primary" %>
+    <%= f.submit class:"btn btn-primary pull-down" %>
   </div>
 </div>
-
+  
 <% end %>

@@ -15,109 +15,104 @@
 	<table class="table borderless" style="width:100%">
 		<tr>
 			<td>
-				<div>
-				  <label for="inputContractId" class="col-form-label">Contract #</label>
-					<div>
-				  	<input type="number" class="form-control" id="inputContractId" value=<%= @contract.contract_id %> readonly=true >
-					</div>
-				</div>
-			</td>
+        <div class="field">
+          <label class="col-2 col-form-label">Contract number</label>
+          <input type="number" class="form-control" readonly=true value=<%= @contract.contract_nbr%> >
+        </div>
+      </td>
 			<td>
-				<div>
-				  <label for="inputContractId" class="col-form-label">Contract #</label>
-					<div>
-				  	<input type="number" class="form-control" id="inputContractId" value=<%= @contract.contract_id %> readonly=true >
-					</div>
-				</div>
-			</td>
+          <div class="field">
+            <label class="col-2 col-form-label">Supplier</label>
+            <input type="text" class="form-control" readonly=true value=<%= @contract.supplier%> >
+          </div>
+      </td>
 			<td>
-				<div>
-				  <label for="inputContractId" class="col-form-label">Contract #</label>
-					<div>
-				  	<input type="number" class="form-control" id="inputContractId" value=<%= @contract.contract_id %> readonly=true >
-					</div>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div>
-				  <label for="inputSupplier" class="col-form-label">Supplier</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputSupplier" value=<%= @contract.supplier %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputSupplier" class="col-form-label">Supplier</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputSupplier" value=<%= @contract.supplier %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputSupplier" class="col-form-label">Supplier</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputSupplier" value=<%= @contract.supplier %> readonly=true >
-					</div>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div>
-				  <label for="inputProduct" class="col-form-label">Product</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputProduct" value=<%= @contract.product %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputProduct" class="col-form-label">Product</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputProduct" value=<%= @contract.product %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputProduct" class="col-form-label">Product</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputProduct" value=<%= @contract.product %> readonly=true >
-					</div>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div>
-				  <label for="inputStatus" class="col-form-label">Status</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputStatus" value=<%= @contract.status %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputStatus" class="col-form-label">Status</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputStatus" value=<%= @contract.status %> readonly=true >
-					</div>
-				</div>
-			</td>
-			<td>
-				<div>
-				  <label for="inputStatus" class="col-form-label">Status</label>
-					<div>
-				  	<input type="text" class="form-control" id="inputStatus" value=<%= @contract.status %> readonly=true >
-					</div>
-				</div>
-			</td>
-		</tr>
-	</table>
+          <div class="field">
+            <label class="col-2 col-form-label">Supplier number</label>
+            <input type="text" class="form-control" readonly=true value=<%= @contract.supplier_nbr %> >
+          </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Company</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.company%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Terminal city</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.terminal_city%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Terminal state</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.terminal_state%> >
+        </div>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Brand type</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.brand_type%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Start date</label>
+          <input type="date" class="form-control" readonly=true value=<%= @contract.start_date%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">End date</label>
+          <input type="date" class="form-control" readonly=true value=<%= @contract.end_date%> >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Renew type</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.renew_type%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Formula type</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.formula_type%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Pricing cycle</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.pricing_cycle%> >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Notes</label>
+          <textarea type="text" class="form-control" readonly=true ><%= @contract.notes%></textarea>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Sales rep</label>
+          <input type="text" class="form-control" readonly=true value=<%= @contract.sales_rep%> >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Status</label>
+         <input type="text" class="form-control" readonly=true value=<%= @contract.status%> >
+        </div>
+      </td>
+    </tr>
+  </table>
 
 <br>
 
