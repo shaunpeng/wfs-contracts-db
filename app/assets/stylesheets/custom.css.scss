@@ -74,13 +74,13 @@ ul li {
 
 .bottom-align-right {
     position: absolute;
-    bottom:12px;
+    bottom: 10px;
     right:0px;
 }
 
-.bottom-align {
+.bottom-align-right-h2 {
     position: absolute;
-    bottom:12px;
+    bottom: 0px;
     right:0px;
 }
 
@@ -241,5 +241,5 @@ h1.inline-block {
 }
 
 .min-height {
-    min-height: 300px;
+    margin-bottom: 120px;
 }
