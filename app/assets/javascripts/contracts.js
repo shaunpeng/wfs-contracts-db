@@ -1,4 +1,4 @@
-$(function() {
+$(document).on('turbolinks:load', function() {
   var terminal_city;
   terminal_city = $('#terminal-city').html();
   // console.log(terminal_city);
@@ -12,7 +12,7 @@ $(function() {
   
 });
 
-$("document").ready(function() {
+$(document).on('turbolinks:load', function() {
   var terminal_city;
   terminal_city = $('#terminal-city').html();
     var terminal_state, options, escaped_state;
