@@ -11,5 +11,6 @@ class Contract < ApplicationRecord
     validates :formula_type, presence: true
     validates :pricing_cycle, presence: true
     has_many :lines
+    has_one :cfile
     
 end

@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170120202135) do
+ActiveRecord::Schema.define(version: 20170121155035) do
+
+  create_table "cfiles", force: :cascade do |t|
+    t.string   "name"
+    t.string   "document"
+    t.integer  "contract_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["contract_id"], name: "index_cfiles_on_contract_id"
+  end
 
   create_table "cities", force: :cascade do |t|
     t.string   "abbr"
@@ -39,6 +48,7 @@ ActiveRecord::Schema.define(version: 20170120202135) do
     t.string   "pricing_cycle"
     t.string   "brand_type"
     t.string   "terminal_state"
+    t.integer  "cfile_id"
   end
 
   create_table "customers", force: :cascade do |t|

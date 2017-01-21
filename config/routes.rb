@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   
   resources :lines
   
+  resources :cfiles
+  
   resources :contracts do
     member do
       put :set_status_inactive

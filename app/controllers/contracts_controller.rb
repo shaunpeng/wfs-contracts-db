@@ -10,6 +10,11 @@ class ContractsController < ApplicationController
   # GET /contracts/1
   # GET /contracts/1.json
   def show
+    if @contract.cfile
+      @cfile = @contract.cfile
+    else
+      @cfile = Cfile.new
+    end
   end
 
   # GET /contracts/new

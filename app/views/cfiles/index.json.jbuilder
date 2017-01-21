@@ -1,0 +1,1 @@
+json.array! @cfiles, partial: 'cfiles/cfile', as: :cfile
