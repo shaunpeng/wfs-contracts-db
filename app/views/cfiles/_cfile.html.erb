@@ -12,18 +12,19 @@
   <td>
     <label class="col-2 col-form-label">&nbsp;</label>
     <div class="field inline-block">
-        <div class="field inline-block">
-          <%#= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png', :class => 'btn btn-xs btn-primary' %>
-          <%#= f.hidden_field :document_cache %>
-        </div>
-        <div class="inline-block">
-          <%= f.submit "Upload New", :class => 'btn btn-xs btn-primary' %>
-        </div>
         <div class="controls inline-block">
           <a class="btn btn-default btn-xs <%='disabled' if !cfile_obj.document.present? %>" href="<%=cfile_obj.document%>" target="_blank">
             <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
             <span>&nbsp;Download</span>
           </a>
+        </div>
+        <div class="field inline-block">
+          <div class="hide">
+          <%= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png', :id => 'real_file' %>
+          <%= f.hidden_field :document_cache %>
+          <%= f.submit "Upload New", :class => 'btn btn-xs btn-success', :id => 'upload_submit' %>
+          </div>
+            <a id="upload-btn" class="btn btn-success btn-xs">Upload New</a>
         </div>
         <%=f.error_span(:document) %>
     </div>
