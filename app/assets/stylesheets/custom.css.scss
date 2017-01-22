@@ -36,10 +36,10 @@ body {
 
 .borderless td { 
      border-top: none !important; 
-     width: 33%;
+     width: 33% !important;
  }
 
-a.btn:visited {
+a.btn-primary:visited {
     color: white;
 }
 
@@ -226,7 +226,7 @@ textarea {
     resize: vertical
 }
 
-h1.inline-block {
+.inline-block {
     display: inline-block;
 }
 
@@ -242,4 +242,8 @@ h1.inline-block {
 
 .min-height {
     margin-bottom: 120px;
+}
+
+.textarea-rowspan2 {
+    min-height: 121px !important;
 }

@@ -1,4 +1,42 @@
 <%= form_for cfile_obj, :html => { multipart: true, :class => "form-horizontal cfile" } do |f| %>
+  <td>
+    <div class="field">
+      <label class="col-2 col-form-label">
+      Attached Document
+      </label>
+        <input type="text" class="form-control" readonly=true value="<%=File.basename( (@cfile.document.presence || 'Please upload a file =>').to_s) %>">
+        <%= f.hidden_field :contract_id, :value => @contract.id %>
+        <%=f.error_span(:name) %>
+    </div>
+  </td>
+  <td>
+    <label class="col-2 col-form-label">&nbsp;</label>
+    <div class="field inline-block">
+        <div class="field inline-block">
+          <%#= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png', :class => 'btn btn-xs btn-primary' %>
+          <%#= f.hidden_field :document_cache %>
+        </div>
+        <div class="inline-block">
+          <%= f.submit "Upload New", :class => 'btn btn-xs btn-primary' %>
+        </div>
+        <div class="controls inline-block">
+          <a class="btn btn-default btn-xs <%='disabled' if !cfile_obj.document.present? %>" href="<%=cfile_obj.document%>" target="_blank">
+            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+            <span>&nbsp;Download</span>
+          </a>
+        </div>
+        <%=f.error_span(:document) %>
+    </div>
+  </td>
+    
+
+  <!--<div class="form-group">-->
+  <!--  <div class="col-lg-offset-2 col-lg-10">-->
+  <!--    <%#= f.submit nil, :class => 'btn btn-xs btn-primary' %>-->
+  <!--  </div>-->
+  <!--</div>-->
+
+<% end %>
 
   <% if cfile_obj.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
@@ -14,39 +52,3 @@
       </div>
     </div>
   <% end %>
-
-  <div class="form-group">
-    <%= f.label :name, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :name, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:name) %>
-  </div>
-  <div class="form-group">
-    <%= f.label :document, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <div class="controls">
-        <input type="text" class="form-control" readonly=true value="<%=cfile_obj.document %>" >
-        <%= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png' %>
-        <%= f.hidden_field :document_cache %>
-      </div>
-    </div>
-    <%=f.error_span(:document) %>
-  </div>
-  <div class="form-group">
-    <%= f.label :contract_id, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.hidden_field :contract_id, :value => @contract.id %>
-    </div>
-    <%=f.error_span(:contract_id) %>
-  </div>
-
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-      <%= f.submit nil, :class => 'btn btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                cfiles_path, :class => 'btn btn-default' %>
-    </div>
-  </div>
-
-<% end %>
