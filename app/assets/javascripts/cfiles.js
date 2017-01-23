@@ -18,13 +18,13 @@ $(document).on('turbolinks:load', function() {
         $.ajax({
               url: action,  //Server script to process data
               type: method,
-              xhr: function() {  // Custom XMLHttpRequest
-                  var myXhr = $.ajaxSettings.xhr();
-                  if(myXhr.upload){ // Check if upload property exists
-                      myXhr.upload.addEventListener('progress',{}, false); // For handling the progress of the upload
-                  }
-                  return myXhr;
-              },
+              // xhr: function() {  // Custom XMLHttpRequest
+              //     var myXhr = $.ajaxSettings.xhr();
+              //     if(myXhr.upload){ // Check if upload property exists
+              //         myXhr.upload.addEventListener('progress',{}, false); // For handling the progress of the upload
+              //     }
+              //     return myXhr;
+              // },
               //Ajax events
               beforeSend: function() {
                 show_spinner();
@@ -49,9 +49,8 @@ $(document).on('turbolinks:load', function() {
                 $('#file-upload-error').show();
               },
               data: formData,
-              //Options to tell jQuery not to process data or worry about content-type.
               cache: false,
-              contentType: false,
+              contentType: false, //Options to tell jQuery not to process data or worry about content-type.
               processData: false
           });
   
