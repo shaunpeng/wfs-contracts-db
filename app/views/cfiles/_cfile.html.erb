@@ -2,7 +2,7 @@
   <td>
     <div class="field">
       <label class="col-2 col-form-label">
-      Attached Document
+      Attached Document (.jpg/.png/.pdf)
       </label>
         <input type="text" class="form-control" id="document-name" readonly=true value="<%=File.basename( (@cfile.document.presence || 'Please upload a file =>').to_s) %>">
         <%= f.hidden_field :contract_id, :value => @contract.id %>
