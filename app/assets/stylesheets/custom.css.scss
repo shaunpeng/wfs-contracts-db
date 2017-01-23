@@ -198,7 +198,7 @@ div.field_with_errors > input {
 }
 
 #error_explanation {
-    width: 340px;
+    width: 500px;
     padding: 10px;
     margin: 0px;
 }
@@ -246,4 +246,27 @@ textarea {
 
 .textarea-rowspan2 {
     min-height: 121px !important;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+#file-upload-result, #file-upload-error {
+    margin-left: 5px;
+}
+
+#spinner {
+    margin-left: 5px;
 }

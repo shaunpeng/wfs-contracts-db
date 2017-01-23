@@ -1,5 +1,6 @@
 class CfilesController < ApplicationController
   before_action :set_cfile, only: [:show, :edit, :update, :destroy]
+  protect_from_forgery except: :update
 
   # GET /cfiles
   # GET /cfiles.json
@@ -27,15 +28,16 @@ class CfilesController < ApplicationController
     @cfile = Cfile.new(cfile_params)
     @contract = Contract.find(cfile_params[:contract_id])
 
-    respond_to do |format|
-      if @cfile.save
-        format.html { render "contracts/show", notice: 'Cfile was successfully created.' }
-        format.json { render :show, status: :created, location: @cfile }
-      else
-        format.html { render "contracts/show" }
-        format.json { render json: @cfile.errors, status: :unprocessable_entity }
-      end
-    end
+    # respond_to do |format|
+      # if 
+        @cfile.save
+        # format.html { render "contracts/show", notice: 'Cfile was successfully created.' }
+        # format.json { render :show, status: :created, location: @cfile }
+      # else
+        # format.html { render "contracts/show" }
+        # format.json { render json: @cfile.errors, status: :unprocessable_entity }
+      # end
+    # end
   end
 
   # PATCH/PUT /cfiles/1
@@ -43,15 +45,16 @@ class CfilesController < ApplicationController
   def update
     @contract = Contract.find(cfile_params[:contract_id])
     
-    respond_to do |format|
-      if @cfile.update(cfile_params)
-        format.html { render "contracts/show", notice: 'Cfile was successfully updated.' }
-        format.json { render :show, status: :ok, location: @cfile }
-      else
-        format.html { render "contracts/show" }
-        format.json { render json: @cfile.errors, status: :unprocessable_entity }
-      end
-    end
+    # respond_to do |format|
+      # if 
+        @cfile.update(cfile_params)
+        # format.html { render "contracts/show", notice: 'Cfile was successfully updated.' }
+        # format.json { render :show, status: :ok, location: @cfile }
+      # else
+        # format.html { render "contracts/show" }
+        # format.json { render json: @cfile.errors, status: :unprocessable_entity }
+      # end
+    # end
   end
 
   # DELETE /cfiles/1

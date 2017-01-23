@@ -4,10 +4,10 @@
   <div class="row">
   <% if contract.errors.any? %>
     <div id="error_explanation" class="alert alert-danger fade in">
-      <h2>Please correct the following <%= pluralize(contract.errors.count, "error") %>:</h2>
+      <h2>Oh snap! Change a few things up and try submitting again.</h2>
       <ul>
       <% contract.errors.full_messages.each do |message| %>
-        <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <%= message %></li>
+        <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;&nbsp;<%= message %></li>
       <% end %>
       </ul>
     </div>
