@@ -118,7 +118,7 @@
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :status %></label>
           <input type="text" class="form-control" id="inputStatus" value="A" readonly=true >
-          <%#= f.select(:status, ["A", "I"], {}, { :class => "form-control" }) %>
+          <%= f.hidden_field :status, :value => 'A' %>
         </div>
       </td>
     </tr>

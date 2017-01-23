@@ -21,7 +21,7 @@
         <div class="field inline-block">
           <div class="hide">
           <%= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png', :id => 'real_file' %>
-          <%= f.hidden_field :document_cache, :value => @cfile.document_cache%>
+          <%#= f.hidden_field :document_cache, :value => @cfile.document_cache%>
           <%= f.submit nil, :class => 'btn btn-xs btn-default', :id => 'upload_submit', :remote => true %>
           </div>
             <a id="upload-btn" class="btn btn-primary btn-xs">Upload New</a>
