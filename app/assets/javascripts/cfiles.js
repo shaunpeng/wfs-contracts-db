@@ -13,7 +13,7 @@ $(document).on('turbolinks:load', function() {
     var action = $('#file-upload-form').attr("action"), //Getting Form Action URL
     method = $('#file-upload-form').attr("method"), //Getting Form Submit Method (Post/Get)
     formData = new FormData($('#file-upload-form')[0]);
-    confirm(action);
+    //confirm(action);
 
         $.ajax({
               url: action,  //Server script to process data
