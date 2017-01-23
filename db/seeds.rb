@@ -12,22 +12,29 @@ require 'csv'
 #   end
 # end
 
-# puts "Importing cities..."
-# CSV.foreach(Rails.root.join("cities.csv"), headers: true) do |row|
-#   City.create! do |city|
-#     city.id = row[0]
-#     city.abbr = row[1]
-#     city.name = row[2]
-#     city.state_id = row[3]
-#   end
-# end
+puts "Importing cities..."
+CSV.foreach(Rails.root.join("cities.csv"), headers: true) do |row|
+  City.create! do |city|
+    city.id = row[0]
+    city.abbr = row[1]
+    city.name = row[2]
+    city.state_id = row[3]
+  end
+end
 
-# puts "Importing states..."
-# CSV.foreach(Rails.root.join("states.csv"), headers: true) do |row|
-#   State.create! do |state|
-#     state.id = row[0]
-#     state.name = row[1]
-#     state.abbr = row[2]
-#     state.country = row[3]
-#   end
-# end
+puts "Importing states..."
+CSV.foreach(Rails.root.join("states.csv"), headers: true) do |row|
+  State.create! do |state|
+    state.id = row[0]
+    state.name = row[1]
+    state.abbr = row[2]
+    state.country = row[3]
+  end
+end
+
+puts "Importing suppliers..."
+CSV.foreach(Rails.root.join("suppliers.csv"), headers: true) do |row|
+  Supplier.create! do |supplier|
+    supplier.name = row[0]
+  end
+end
