@@ -1,6 +1,6 @@
 class CfilesController < ApplicationController
   before_action :set_cfile, only: [:show, :edit, :update, :destroy]
-  protect_from_forgery except: :update
+  # protect_from_forgery except: :update
 
   # GET /cfiles
   # GET /cfiles.json
@@ -25,12 +25,16 @@ class CfilesController < ApplicationController
   # POST /cfiles
   # POST /cfiles.json
   def create
+    # @contract = Contract.find(cfile_params[:contract_id])
     @cfile = Cfile.new(cfile_params)
-    @contract = Contract.find(cfile_params[:contract_id])
+    
+    puts cfile_params.inspect
 
     # respond_to do |format|
       # if 
         @cfile.save
+        puts @cfile.errors.full_messages
+        
         # format.html { render "contracts/show", notice: 'Cfile was successfully created.' }
         # format.json { render :show, status: :created, location: @cfile }
       # else
@@ -42,12 +46,17 @@ class CfilesController < ApplicationController
 
   # PATCH/PUT /cfiles/1
   # PATCH/PUT /cfiles/1.json
+  
   def update
-    @contract = Contract.find(cfile_params[:contract_id])
+    # @contract = Contract.find(cfile_params[:contract_id])
+
+    puts cfile_params.inspect
     
     # respond_to do |format|
       # if 
         @cfile.update(cfile_params)
+        puts @cfile.errors.full_messages
+        
         # format.html { render "contracts/show", notice: 'Cfile was successfully updated.' }
         # format.json { render :show, status: :ok, location: @cfile }
       # else
@@ -75,6 +84,7 @@ class CfilesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def cfile_params
+      #params.fetch(:cfile, {}).permit(:name, :document, :contract_id)
       params.require(:cfile).permit(:name, :document, :contract_id)
     end
 end

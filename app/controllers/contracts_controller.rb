@@ -86,4 +86,5 @@ class ContractsController < ApplicationController
                     :status, :company, :terminal_city, :terminal_state, :start_date,
                     :end_date, :renew_type, :formula_type, :pricing_cycle, :brand_type, :notes)
     end
+    
 end

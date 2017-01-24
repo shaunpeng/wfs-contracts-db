@@ -2,19 +2,19 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails' #, '~> 5.0.0'
 
 # Use oracle as the database for Active Record
 #gem 'ruby-oci8'
 #gem 'activerecord-oracle_enhanced-adapter', '~> 1.7.0'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma' #, '~> 3.0'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
-gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-bootstrap-rails.git'
-gem 'bootstrap-datepicker-rails'
+# gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-bootstrap-rails.git'
+# gem 'bootstrap-datepicker-rails'
 gem 'momentjs-rails', '>= 2.9.0'
 gem 'carrierwave'
 

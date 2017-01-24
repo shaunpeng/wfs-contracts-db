@@ -1,64 +1,38 @@
-<%= form_for cfile_obj, :html => { multipart: true, :class => "form-horizontal cfile", remote: true, id: 'file-upload-form' } do |f| %>
-  <td>
-    <div class="field">
-      <label class="col-2 col-form-label">
-      Attached Document (.jpg/.png/.pdf)
-      </label>
-        <input type="text" class="form-control" id="document-name" readonly=true value="<%=File.basename( (@cfile.document.presence || 'Please upload a file =>').to_s) %>">
+<!--<%- model_class = Cfile -%>-->
+<%= form_for cfile_obj, :html => { multipart: true, :class => "form-horizontal", remote:true , id: 'file-upload-form' } do |f| %>
+      <div class="half-width field inline-block">
+        <label class="col-2 col-form-label">
+          Attached Document (.jpg/.png/.pdf)
+        </label>
+        <input type="text" class="form-control" id="document-name" readonly=true value="<%=File.basename( (cfile_obj.document.presence || 'Please upload a file =>').to_s) %>">
         <%= f.hidden_field :contract_id, :value => @contract.id %>
-        <%=f.error_span(:name) %>
-    </div>
-  </td>
-  <td>
-    <label class="col-2 col-form-label">&nbsp;</label>
-    <div class="field inline-block">
-        <div class="controls inline-block">
-          <a class="btn btn-default btn-xs" id="download-btn" <%='disabled' if !cfile_obj.document.present? %> href="<%=cfile_obj.document%>" target="_blank">
-            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-            <span>&nbsp;Download</span>
-          </a>
+        <%#=f.error_span(:name) %>
+      </div>
+      <div class="half-width field inline-block">
+        <label class="col-2 col-form-label">&nbsp;</label>
+        <div class="inline-block">
+            <div class="controls inline-block">
+              <a class="btn btn-default btn-xs" id="download-btn" <%='disabled' if !cfile_obj.document.present? %> <%= "href=" + cfile_obj.document.to_s if cfile_obj.document.present? %> target="_blank">
+                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                <span>&nbsp;Download</span>
+              </a>
+            </div>
+            <div class="inline-block">
+              <span class="btn btn-primary btn-xs btn-file" id="upload-btn-span">Upload New
+                <%= f.file_field :document, accept:'image/jpeg,image/png,application/pdf', :id => 'upload-btn' %>
+              </span>
+              <%#= f.hidden_:document_cache, :value => cfile_obj.document_cache%>
+              <%#= f.submit class:'btn btn-xs btn-default'%>
+            </div>
+            <div id="spinner" class="text-center spinner inline-block" style="display: none;" >
+              <span class="glyphicon glyphicon-refresh spinning"></span>
+            </div>
+            <div class="inline-block text-success" id="file-upload-result" style="display: none;">
+              Success!
+            </div>
+            <div class="inline-block text-danger" id="file-upload-error" style="display: none;">
+              Error!
+            </div>
         </div>
-        <div class="field inline-block">
-          <div class="hide">
-          <%= f.file_field :document, accept: 'image/jpeg,application/pdf,image/png', :id => 'real_file' %>
-          <%#= f.hidden_field :document_cache, :value => @cfile.document_cache%>
-          <%= f.submit nil, :class => 'btn btn-xs btn-default', :id => 'upload_submit', :remote => true %>
-          </div>
-            <a id="upload-btn" class="btn btn-primary btn-xs">Upload New</a>
-        </div>
-        <div id="spinner" class="text-center spinner inline-block" style="display: none;" >
-          <span class="glyphicon glyphicon-refresh spinning"></span>
-        </div>
-        <div class="field inline-block text-success" id="file-upload-result" style="display: none;">
-          Success!
-        </div>
-        <div class="field inline-block text-danger" id="file-upload-error" style="display: none;">
-          Error!
-        </div>
-        <%=f.error_span(:document) %>
-    </div>
-  </td>
-    
-
-  <!--<div class="form-group">-->
-  <!--  <div class="col-lg-offset-2 col-lg-10">-->
-  <!--    <%#= f.submit nil, :class => 'btn btn-xs btn-primary' %>-->
-  <!--  </div>-->
-  <!--</div>-->
-
+      </div>
 <% end %>
-
-  <!--<%# if cfile_obj.errors.any? %>-->
-  <!--  <div id="error_expl" class="panel panel-danger">-->
-  <!--    <div class="panel-heading">-->
-  <!--      <h3 class="panel-title"><%= pluralize(cfile_obj.errors.count, "error") %> prohibited this cfile from being saved:</h3>-->
-  <!--    </div>-->
-  <!--    <div class="panel-body">-->
-  <!--      <ul>-->
-  <!--      <%# cfile_obj.errors.full_messages.each do |msg| %>-->
-  <!--        <li><%#= msg %></li>-->
-  <!--      <%# end %>-->
-  <!--      </ul>-->
-  <!--    </div>-->
-  <!--  </div>-->
-  <!--<%# end %>-->
