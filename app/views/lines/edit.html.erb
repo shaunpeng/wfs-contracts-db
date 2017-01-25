@@ -1,8 +1,15 @@
-<h1>Editing Line</h1>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-8">
+    <h1 class="inline-block"><img class="document-icon" src="/document.png" />
+    Editing Line</h1>
+    <div class="mandatory-text">Fields with * are mandatory.</div>
+  </div>
+  <div class="bottom-align-right col-xs-6 col-md-4">
+    <ul class="nav nav-pills pull-right">
+    	<li><%= button_to 'Details', line_path(@line), method: :get, class:"btn btn-default" %></li>
+			<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
+		</ul>
+  </div>
+</div>
 
 <%= render 'lineform', line: @line %>
-
-<ul class="nav nav-pills">
-	<li><%= button_to 'Details', line_path(@line), method: :get, class:"btn btn-default" %></li>
-	<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
-</ul>

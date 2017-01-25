@@ -3,7 +3,11 @@ Rails.application.routes.draw do
   root 'contracts#home'
   get 'contracts/index', to: 'contracts#index'
   
-  resources :lines
+  resources :lines do
+    member do
+      put :set_status_inactive
+    end
+  end
   
   resources :cfiles
   

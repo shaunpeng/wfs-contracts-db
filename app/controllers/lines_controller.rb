@@ -3,9 +3,9 @@ class LinesController < ApplicationController
 
   # GET /lines
   # GET /lines.json
-  def index
-    @lines = Line.all
-  end
+  # def index
+  #   @lines = Line.where("status <> 'I'").order(updated_at: :desc)
+  # end
 
   # GET /lines/1
   # GET /lines/1.json
@@ -57,6 +57,14 @@ class LinesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def set_status_inactive
+      @line = Line.find params[:id]
+      @contract = Contract.find(@line.contract_id)
+      @line.update(:status => "I")
+      redirect_to @contract, danger: 'Contract line was successfully deleted.'
+  end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.
@@ -67,7 +75,13 @@ class LinesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def line_params
       params.require(:line).permit(:formula, :volume, :contract_id, :product_id, :prod_category_id,
-                                    :city_id, :terminal_id)
+                                    :city_id, :terminal_id, :cancel_date, :status, :payment_terms,
+                                    :volume_variance, :volume_grossnet, :formula_description, 
+                                    :formula_samepriorday, :pct_ethanol, :index_1, :adder_1, :pct_index_1,
+                                    :index_2, :adder_2, :pct_index_2, :index_3, :adder_3, :pct_index_3,
+                                    :adder_inout, :adder_schedule, :pct_rins_discount, :index_rins,
+                                    :summer_rvp, :rack_discount, :rack_discount_policy, :rebate_policy,
+                                    :penalty_policy)
     end
     
 end

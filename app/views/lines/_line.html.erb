@@ -2,14 +2,15 @@
   <thead>
     <tr>
       <th class="muted">Line ID</th>
-      <th>Product Category</th>
+      <th>Product Group</th>
       <th>Product</th>
-      <th>Terminal City</th>
-      <th>Operator/Ownerer</th>
-      <th>TCN</th>
+      <th>City</th>
+      <th>Terminal</th>
       <th>Formula</th>
-      <th>Volume</th>
-      <th colspan="8"></th>
+      <th style="text-align:right">Canceled?</th>
+      <th style="text-align:right">Volume</th>
+      <th style="text-align:right">Last Updated</th>      
+      <th colspan="10"></th>
     </tr>
   </thead>
   <tbody>
@@ -20,9 +21,14 @@
         <td><%= Product.searchfield(line.product_id,'abbr') %></td>
         <td><%= City.find(line.city_id).name %></td>
         <td><%= Terminal.searchfield(line.terminal_id,'abbr') %></td>
-        <td><%= Terminal.searchfield(line.terminal_id,'tcn') %></td>
         <td><%= line.formula %></td>
+        <td align="right"><% if line.cancel_date.present? %>
+                        <%= yesno(line.cancel_date < Date.today) %>
+                        <% end %>
+        </td>
         <td align="right"><%= number_with_delimiter(line.volume, delimiter: ",")  %></td>
+        <td align="right"><%= line.updated_at.strftime("%m/%d/%Y") %></td>
+        <td align="right"><%#= line.status %></td>
         <td>
           <div class="dropdown pull-right">
             <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -32,9 +38,9 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
               <li><%= link_to 'Details', line %></li>
               <li><%= link_to 'Edit', edit_line_path(line) %></li>
-              <!--<li>
-                <%#= link_to 'Delete', set_status_inactive_line_path(line), method: :put, data: { confirm: 'Are you sure?' } %>
-              </li>-->
+              <li>
+                <%= link_to 'Delete', set_status_inactive_line_path(line), method: :put, data: { confirm: 'Are you sure?' } %>
+              </li>
             </ul>
           </div>
         </td>

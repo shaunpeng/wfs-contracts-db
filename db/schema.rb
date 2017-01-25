@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170125192901) do
+ActiveRecord::Schema.define(version: 20170125204445) do
 
   create_table "cfiles", force: :cascade do |t|
     t.string   "name"
@@ -69,8 +69,8 @@ ActiveRecord::Schema.define(version: 20170125192901) do
     t.date     "cancel_date"
     t.string   "status"
     t.string   "payment_terms"
-    t.string   "volumn_variance"
-    t.string   "volumn_grossnet"
+    t.string   "volume_variance"
+    t.string   "volume_grossnet"
     t.string   "formula_description"
     t.string   "formula_samepriorday"
     t.integer  "pct_ethanol"
@@ -91,7 +91,7 @@ ActiveRecord::Schema.define(version: 20170125192901) do
     t.decimal  "rack_discount"
     t.string   "rack_discount_policy"
     t.string   "rebate_policy"
-    t.string   "penaly_policy"
+    t.string   "penalty_policy"
   end
 
   create_table "markets", force: :cascade do |t|

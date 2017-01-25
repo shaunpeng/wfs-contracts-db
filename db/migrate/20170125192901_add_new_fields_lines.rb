@@ -3,8 +3,8 @@ class AddNewFieldsLines < ActiveRecord::Migration[5.0]
     add_column :lines, :cancel_date, :date
     add_column :lines, :status, :string
     add_column :lines, :payment_terms, :string
-    add_column :lines, :volumn_variance, :string
-    add_column :lines, :volumn_grossnet, :string
+    add_column :lines, :volume_variance, :string
+    add_column :lines, :volume_grossnet, :string
     add_column :lines, :formula_description, :string
     add_column :lines, :formula_samepriorday, :string
     add_column :lines, :pct_ethanol, :integer
@@ -25,6 +25,6 @@ class AddNewFieldsLines < ActiveRecord::Migration[5.0]
     add_column :lines, :rack_discount, :decimal
     add_column :lines, :rack_discount_policy, :string
     add_column :lines, :rebate_policy, :string
-    add_column :lines, :penaly_policy, :string    
+    add_column :lines, :penalty_policy, :string    
   end
 end

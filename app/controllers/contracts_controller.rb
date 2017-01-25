@@ -15,6 +15,7 @@ class ContractsController < ApplicationController
     else
       @cfile = Cfile.new
     end
+    # @lines = Line.where("status <> 'I'").order(updated_at: :desc)
   end
 
   # GET /contracts/new
