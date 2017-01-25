@@ -12,7 +12,20 @@ $(document).on('turbolinks:load', function() {
             $('#prod-name-shortlist').html(options_short);
             $('#prod-name-longlist').html(options_long);
         } else {
-            confirm("Please select a product category!");
+            confirm("Please select a Product Category!");
+        }
+    });
+    
+    var terminal_html = $('#terminal-operator').html();
+    $('#terminal-city').change(function() { // trigger
+        var terminal_city, escaped_city, options_terminal;
+        terminal_city = $('#terminal-city :selected').text();
+        if (terminal_city !='') {
+            escaped_city  = terminal_city.replace(/([ #;&,.+*~\':"!^$[\]()=>|\/@])/g, '\\$1');
+            options_terminal = $(terminal_html).filter("optgroup[label=" + escaped_city + "]").prepend("<option selected></option>").html();
+            $('#terminal-operator').html(options_terminal);
+        } else {
+            confirm("Please select a Terminal City!");
         }
     });
     
@@ -26,19 +39,20 @@ $(document).on('turbolinks:load', function() {
         $('#prod-name-longlist').html(options_long);
     }
     
-    // if (document.getElementById('shortlist-checkbox').checked) {
-        document.getElementById('prod-name-longlist').setAttribute("disabled", "disabled");
-        document.getElementById('prod-name-shortlist').removeAttribute("disabled");
-        $('#prod-name-shortlist').show();
-        $('#prod-name-longlist').hide();
-    // } else {
-    //   //confirm("unchecked");
-    //     document.getElementById('prod-name-shortlist').setAttribute("disabled", "disabled");
-    //     document.getElementById('prod-name-longlist').removeAttribute("disabled");
-    //     $('#prod-name-longlist').show();
-    //     $('#prod-name-shortlist').hide();
-    // }
+    var terminal_city, escaped_city, options_terminal;
+    terminal_city = $('#terminal-city :selected').text();
+    if (terminal_city !='') {
+        escaped_city  = terminal_city.replace(/([ #;&,.+*~\':"!^$[\]()=>|\/@])/g, '\\$1');
+        options_terminal = $(terminal_html).filter("optgroup[label=" + escaped_city + "]").prepend("<option selected></option>").html();
+        $('#terminal-operator').html(options_terminal);
+    }
     
+    document.getElementById('prod-name-longlist').setAttribute("disabled", "disabled");
+    document.getElementById('prod-name-shortlist').removeAttribute("disabled");
+    $('#prod-name-shortlist').show();
+    $('#prod-name-longlist').hide();
+    
+
 });
 
 function handleClick(cb) {

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170124232015) do
+ActiveRecord::Schema.define(version: 20170125192901) do
 
   create_table "cfiles", force: :cascade do |t|
     t.string   "name"
@@ -57,13 +57,41 @@ ActiveRecord::Schema.define(version: 20170124232015) do
   end
 
   create_table "lines", force: :cascade do |t|
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
     t.integer  "contract_id"
     t.integer  "volume"
     t.string   "formula"
     t.integer  "prod_category_id"
     t.integer  "product_id"
+    t.integer  "terminal_id"
+    t.integer  "city_id"
+    t.date     "cancel_date"
+    t.string   "status"
+    t.string   "payment_terms"
+    t.string   "volumn_variance"
+    t.string   "volumn_grossnet"
+    t.string   "formula_description"
+    t.string   "formula_samepriorday"
+    t.integer  "pct_ethanol"
+    t.string   "index_1"
+    t.decimal  "adder_1"
+    t.integer  "pct_index_1"
+    t.string   "index_2"
+    t.decimal  "adder_2"
+    t.integer  "pct_index_2"
+    t.string   "index_3"
+    t.decimal  "adder_3"
+    t.integer  "pct_index_3"
+    t.string   "adder_inout"
+    t.string   "adder_schedule"
+    t.integer  "pct_rins_discount"
+    t.string   "index_rins"
+    t.string   "summer_rvp"
+    t.decimal  "rack_discount"
+    t.string   "rack_discount_policy"
+    t.string   "rebate_policy"
+    t.string   "penaly_policy"
   end
 
   create_table "markets", force: :cascade do |t|

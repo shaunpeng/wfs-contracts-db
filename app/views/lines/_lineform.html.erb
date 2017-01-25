@@ -33,7 +33,7 @@
 
 <div class="form-group row">
     <div class="field">
-      <input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List
+      <div><input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List</div>
       <label class="col-2 col-form-label"><%= f.label :product_id, "Product (DTN)" %></label>
       <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :name,  f.object.product_id ) %>
       <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist" } ) %>
@@ -42,18 +42,48 @@
     </div>
 </div>
 
+
+
+<div class="form-group row">
+    <div class="field">
+      <div id="market-id" style="display:none"><%= @contract.market_id %></div>
+      <label class="col-2 col-form-label"><%= f.label :city_id, "Terminal City (DTN)" %></label>
+      <% options = options_from_collection_for_select(City.search(@contract.market_id).order(:name), 'id', 'name', f.object.city_id ) %>
+      <%= f.select(:city_id, options, {include_blank: !line.city_id.present? }, { :class => "form-control", :id =>"terminal-city" }) %>
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="field">
+      <label class="col-2 col-form-label"><%= f.label :terminal_id, "Terminal Operator* (DTN)" %></label>
+      <% options = option_groups_from_collection_for_select(City.search(@contract.market_id).order(:name), :terminals, :name, :id, :abbr,  f.object.terminal_id ) %>
+      <%= f.select(:terminal_id, options, {include_blank: !line.terminal_id.present? }, { :class => "form-control", :id =>"terminal-operator" }) %>
+    </div>
+</div>
+
+
 <div class="form-group row">
   <div class="field">
-    <label for="inputFormula" class="col-2 col-form-label"><%= f.label :formula %></label>
+    <label class="col-2 col-form-label"><%= f.label :formula %></label>
     <%= f.text_field :formula, class: "form-control" %>
   </div>
 </div>
 
 <div class="form-group row">
   <div class="field">
-    <label for="inputVolume" class="col-2 col-form-label"><%= f.label :volume %></label>
+    <label class="col-2 col-form-label"><%= f.label :volume %></label>
     <%= f.number_field :volume, class: "form-control" %>
   </div>
+</div>
+
+<div class="form-group row">
+        <label class="col-2 col-form-label"><%= f.label :cancel_date %></label>
+          <%= f.date_field :cancel_date, class: "form-control" %>
+</div>
+
+<div class="form-group row">
+        <label class="col-2 col-form-label"><%= f.label :status %></label>
+          <%= f.text_field :status, class: "form-control", :value => 'A', :readonly => true %>
 </div>
 
 <div class="form-group row">
@@ -61,6 +91,8 @@
     <%= f.submit class:"btn btn-primary" %>
   </div>
 </div>
+
+
 
 <% end %>
 

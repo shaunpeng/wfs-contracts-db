@@ -20,6 +20,7 @@ class LinesController < ApplicationController
 
   # GET /lines/1/edit
   def edit
+    @contract = Contract.find(@line.contract_id)
   end
 
   # POST /lines
@@ -65,7 +66,8 @@ class LinesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def line_params
-      params.require(:line).permit(:formula, :volume, :contract_id, :product_id, :prod_category_id)
+      params.require(:line).permit(:formula, :volume, :contract_id, :product_id, :prod_category_id,
+                                    :city_id, :terminal_id)
     end
     
 end

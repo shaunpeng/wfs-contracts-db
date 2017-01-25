@@ -88,13 +88,13 @@
       <td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :renew_type, "Renew Type*" %></label>
-          <%= f.text_field :renew_type, class: "form-control" %>
+          <%= f.select(:renew_type, ["","Yearly","Monthly", "Evergreen","Other"], {}, { :class => "form-control" }) %>
         </div>
       </td>
       <td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :formula_type, "Formula Type*" %></label>
-          <%= f.text_field :formula_type, class: "form-control" %>
+          <%= f.select(:formula_type, ["","Index","Rack Posted", "Either/Or","Monthly Average","Other"], {}, { :class => "form-control" }) %>
         </div>
       </td>
       <td>
