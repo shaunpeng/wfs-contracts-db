@@ -15,7 +15,10 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require moment
-//= require_tree .
+//= require_tree ./sitewide
+//= require ./contract/contracts
+//= require ./cfile/cfiles
+//= require ./line/lines
 
 var hide_spinner = function(){
   $('#spinner').hide();

@@ -42,15 +42,16 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Market (DTN)</label>
-          <input type="text" class="form-control" readonly=true value="<%= @contract.terminal_city%>" >
+          <label class="col-2 col-form-label">Market State</label>
+          <input type="text" class="form-control" readonly=true value="<%= Market.find(@contract.market_id).state.name %>" >
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Market State</label>
-          <input type="text" class="form-control" readonly=true value="<%= @contract.terminal_state%>" >
+          <label class="col-2 col-form-label">Market (DTN)</label>
+          <input type="text" class="form-control" readonly=true value="<%= Market.find(@contract.market_id).name %>" >
         </div>
+      </td>
     </tr>
     <tr>
       <td>

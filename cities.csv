@@ -1,1331 +1,1040 @@
-id,ABBR,name,state_id
-1,Anch,Anchorage,2
-2,Knai,Kenai,2
-3,NPol,North Pole,2
-4,Anns,Anniston,1
-5,Brmg,Birmingham,1
-6,Tscl,Tuscaloosa,1
-7,Mdvl,Moundville,1
-8,Mble,Mobile,1
-9,Slnd,Saraland,1
-10,Mntg,Montgomery,1
-11,Shff,Sheffield,1
-12,ElAR,El Dorado,4
-13,FtSm,Fort Smith,4
-14,HeAR,Helena,4
-15,NLtl,North Little Rock,4
-16,WtMm,West Memphis,4
-17,Phnx,Phoenix,3
-18,Tcsn,Tucson,3
-19,Bkrf,Bakersfield,5
-20,Dggt,Daggett,5
-21,Brsb,Brisbane,5
-22,Chco,Chico,5
-23,Cltn,Colton,5
-24,Frsn,Fresno,5
-25,Impr,Imperial,5
-26,LngB,Long Beach,5
-27,SoGt,South Gate,5
-28,ElSg,El Segundo,5
-29,Mtbl,Montebello,5
-30,VnNy,Van Nuys,5
-31,Crsn,Carson,5
-32,SnPd,San Pedro,5
-33,Atwd,Atwood,5
-34,Trrn,Torrance,5
-35,SnFe,Santa Fe Springs,5
-36,SgHl,Signal Hill,5
-37,Vntr,Ventura,5
-38,LAng,Los Angeles,5
-39,Wlmt,Wilmington,5
-40,Rnch,Rancho Cordova,5
-41,WtSc,West Sacramento,5
-42,Scrm,Sacramento,5
-43,SnDg,San Diego,5
-44,Rchm,Richmond,5
-45,Avon,Avon,5
-46,Mrtz,Martinez,5
-47,SoSn,South San Francisco,5
-48,Slby,Selby,5
-49,SnJs,San Jose,5
-50,Rdwd,Redwood City,5
-51,Stck,Stockton,5
-52,Bnta,Banta,5
-53,Aura,Aurora,6
-54,CmmC,Commerce City,6
-55,Dpnt,Dupont,6
-56,Hndr,Henderson,6
-57,Fntn,Fountain,6
-58,GJct,Grand Junction,6
-59,LJta,La Junta,6
-60,Brgp,Bridgeport,7
-61,RkHl,Rocky Hill,7
-62,Ptln,Portland,7
-63,Wthr,Wethersfield,7
-64,EHrt,East Hartford,7
-65,NwHv,New Haven,7
-66,Nrwh,Norwich,7
-67,Wshg,Washington,51
-68,Wlmg,Wilmington,8
-69,Jcvl,Jacksonville,9
-70,PtEv,Port Everglades,9
-71,FtLd,Fort Lauderdale,9
-72,Ncvl,Niceville,9
-73,Frpt,Freeport,9
-74,CpCn,Cape Canaveral,9
-75,PnCy,Panama City,9
-76,Pnsc,Pensacola,9
-77,StMr,Saint Marks,9
-78,Tmpa,Tampa,9
-79,Mnte,Manatee,9
-80,Alby,Albany,10
-81,Amer,Americus,10
-82,Athn,Athens,10
-83,Drvl,Doraville,10
-84,Atln,Atlanta,10
-85,Chth,Chattahoochee,10
-86,Brmn,Bremen,10
-87,Bnbr,Bainbridge,10
-88,Blkl,Blakely,10
-89,CoGA,Columbus,10
-90,Grff,Griffin,10
-91,Macn,Macon,10
-92,Rome,Rome,10
-93,Svnh,Savannah,10
-94,Hilo,Hilo,11
-95,Kmla,Kamuela,11
-96,Kple,Kapolei,11
-97,Hnlu,Honolulu,11
-98,Khul,Kahului,11
-99,Bttd,Bettendorf,15
-100,CBlf,Council Bluffs,15
-101,CtLk,Carter Lake,15
-102,DMns,Des Moines,15
-103,Plst,Pleasant Hill,15
-104,Dbuq,Dubuque,15
-105,FtDd,Fort Dodge,15
-106,NLbr,North Liberty,15
-107,IACy,Iowa City,15
-108,LMrs,Le Mars,15
-109,Mlfd,Milford,15
-110,RkRp,Rock Rapids,15
-111,SxCy,Sioux City,15
-112,Wtrl,Waterloo,15
-113,Bose,Boise,12
-114,Brly,Burley,12
-115,Pctl,Pocatello,12
-116,Ambo,Amboy,13
-117,DPln,Des Plaines,13
-118,FrVw,Forest View,13
-119,MtPr,Mount Prospect,13
-120,BlIs,Blue Island,13
-121,Argo,Argo,13
-122,WlSp,Willow Springs,13
-123,FrPk,Franklin Park,13
-124,Frsy,Forsyth,13
-125,Hrst,Harristown,13
-126,Hrtf,Hartford,13
-127,Grnt,Granite City,13
-128,EStL,East Saint Louis,13
-129,Hywt,Heyworth,13
-130,Ashk,Ashkum,13
-131,Pekn,Pekin,13
-132,Peor,Peoria,13
-133,Chil,Chillicothe,13
-134,Rbns,Robinson,13
-135,Rkfr,Rockford,13
-136,MtVe,Mount Vernon,14
-137,Evnv,Evansville,14
-138,Hnds,Henderson,17
-139,EChg,East Chicago,14
-140,Hmmd,Hammond,14
-141,Hntg,Huntington,14
-142,Indy,Indianapolis,14
-143,Clrm,Clermont,14
-144,Spdw,Speedway,14
-145,Znvl,Zionsville,14
-146,Mnce,Muncie,14
-147,Prnc,Princeton,14
-148,Grgr,Granger,14
-149,SzCy,Switz City,14
-150,Cffy,Coffeyville,16
-151,Cncd,Concordia,16
-152,GtBn,Great Bend,16
-153,Htch,Hutchinson,16
-154,KSCy,Kansas City,16
-155,McPh,McPherson,16
-156,Olth,Olathe,16
-157,Phlp,Phillipsburg,16
-158,Slna,Salina,16
-159,Wthn,Wathena,16
-160,VlCr,Valley Center,16
-161,Wcht,Wichita,16
-162,Ctlb,Catlettsburg,17
-163,Cvgt,Covington,17
-164,Lxng,Lexington,17
-165,Lsvl,Louisville,17
-166,Symr,Seymour,14
-167,NwAl,New Albany,14
-168,Pdch,Paducah,17
-169,Arcd,Arcadia,18
-170,Arch,Archie,18
-171,Chrc,Church Point,18
-172,BtnR,Baton Rouge,18
-173,Opls,Opelousas,18
-174,Krtz,Krotz Springs,18
-175,Cnvt,Convent,18
-176,LkCh,Lake Charles,18
-177,WtLk,Westlake,18
-178,Mnro,Monroe,18
-179,Chlm,Chalmette,18
-180,Mrrr,Marrero,18
-181,Shrv,Shreveport,18
-182,Brtr,Braintree,21
-183,Rver,Revere,21
-184,SoBs,South Boston,21
-185,EBst,East Boston,21
-186,Salm,Salem,21
-187,Sprn,Springfield,21
-188,Bltm,Baltimore,20
-189,Cbay,Curtis Bay,20
-190,Slsb,Salisbury,20
-191,Hmpd,Hampden,19
-192,Brwr,Brewer,19
-193,Bckp,Bucksport,19
-194,SoPt,South Portland,19
-195,AlMI,Alma,22
-196,ByCt,Bay City,22
-197,Chby,Cheboygan,22
-198,Tayl,Taylor,22
-199,Rmls,Romulus,22
-200,Novi,Novi,22
-201,RvRg,River Rouge,22
-202,Dtrt,Detroit,22
-203,Owss,Owosso,22
-204,Npln,Napoleon,22
-205,Jcks,Jackson,22
-206,Mshl,Marshall,22
-207,Frrb,Ferrysburg,22
-208,Nils,Niles,22
-209,TvCy,Traverse City,22
-210,Wrns,Wrenshall,23
-211,Mnkt,Mankato,23
-212,Rosv,Roseville,23
-213,StPl,Saint Paul Park,23
-214,NwMd,New Madrid,25
-215,ScCt,Scott City,25
-216,CpGr,Cape Girardeau,25
-217,Crth,Carthage,25
-218,CoMO,Columbia,25
-219,Jffr,Jefferson City,25
-220,MtVr,Mount Vernon,25
-221,Rvsd,Riverside,25
-222,Spgf,Springfield,25
-223,StLs,Saint Louis,25
-224,StCh,Saint Charles,25
-225,Abdn,Aberdeen,24
-226,Blox,Biloxi,24
-227,Glfp,Gulfport,24
-228,Prvs,Purvis,24
-229,Clln,Collins,24
-230,Grvl,Greenville,24
-231,Mrdn,Meridian,24
-232,Vckb,Vicksburg,24
-233,Larl,Laurel,26
-234,Blln,Billings,26
-235,Bzmn,Bozeman,26
-236,Glnd,Glendive,26
-237,GtFl,Great Falls,26
-238,HeMT,Helena,26
-239,Mssl,Missoula,26
-240,Apex,Apex,33
-241,Chrl,Charlotte,33
-242,Grns,Greensboro,33
-243,Slma,Selma,33
-244,Wlmn,Wilmington,33
-245,Mrhd,Moorhead,23
-246,Frgo,Fargo,34
-247,Jmst,Jamestown,34
-248,Mndn,Mandan,34
-249,Mnot,Minot,34
-250,CoNE,Columbus,27
-251,Lncl,Lincoln,27
-252,Nrfk,Norfolk,27
-253,NPlt,North Platte,27
-254,Sdny,Sidney,27
-255,Nwgn,Newington,29
-256,Byne,Bayonne,30
-257,Bgta,Bogota,30
-258,PrhA,Perth Amboy,30
-259,PtRd,Port Reading,30
-260,Crtr,Carteret,30
-261,Lndn,Linden,30
-262,Elzb,Elizabeth,30
-263,Nwrk,Newark,30
-264,Glst,Gloucester City,30
-265,TrPt,Tremley Point,30
-266,Plsb,Paulsboro,30
-267,Thrf,Thorofare,30
-268,Trnt,Trenton,30
-269,Albq,Albuquerque,31
-270,Cnza,Ciniza,31
-271,LVgs,Las Vegas,28
-272,Sprk,Sparks,28
-273,Albn,Albany,32
-274,Glmt,Glenmont,32
-275,Rnsl,Rensselaer,32
-276,GrIs,Green Island,32
-277,BgFl,Big Flats,32
-278,Vstl,Vestal,32
-279,Bngh,Binghamton,32
-280,Bffl,Buffalo,32
-281,Tnwn,Tonawanda,32
-282,Lwrc,Lawrence,32
-283,GrNk,Great Neck,32
-284,LngI,Long Island City,32
-285,CldS,Cold Spring Harbor,32
-286,Inwd,Inwood,32
-287,Ocns,Oceanside,32
-288,Plnv,Plainview,32
-289,Rvhd,Riverhead,32
-290,WtVr,West Mount Vernon,32
-291,Bkln,Brooklyn,32
-292,Astr,Astoria,32
-293,Trrc,Tarrytown,32
-294,Brnx,Bronx,32
-295,Mltn,Milton,32
-296,Rstn,Roseton,32
-297,NwWn,New Windsor,32
-298,Kgst,Kingston,32
-299,Rchs,Rochester,32
-300,Brwt,Brewerton,32
-301,Syrc,Syracuse,32
-302,Wrnr,Warners,32
-303,Bldw,Baldwinsville,32
-304,Mrcy,Marcy,32
-305,Utca,Utica,32
-306,Bryn,Bryan,35
-307,Cntn,Canton,35
-308,Akrn,Akron,35
-309,Mgdr,Mogadore,35
-310,Brml,Bromley,17
-311,Ccnn,Cincinnati,35
-312,Auro,Aurora,35
-313,Cyhg,Cuyahoga Heights,35
-314,Clvl,Cleveland,35
-315,Brcv,Brecksville,35
-316,CoOH,Columbus,35
-317,Amli,Amlin,35
-318,Heth,Heath,35
-319,Dytn,Dayton,35
-320,Lebn,Lebanon,35
-321,Lima,Lima,35
-322,Fdly,Findlay,35
-323,Lorn,Lorain,35
-324,Prkb,Parkersburg,48
-325,Mrta,Marietta,35
-326,Scvl,Sciotoville,35
-327,Tffn,Tiffin,35
-328,Orgn,Oregon,35
-329,Tldo,Toledo,35
-330,Yngs,Youngstown,35
-331,Ardm,Ardmore,36
-332,OKCy,Oklahoma City,36
-333,Shwn,Shawnee,36
-334,Jnks,Jenks,36
-335,Tlsa,Tulsa,36
-336,Trpn,Turpin,36
-337,Ptld,Portland,37
-338,Vncr,Vancouver,47
-339,Umtl,Umatilla,37
-340,Whll,Whitehall,38
-341,Tlfd,Telford,38
-342,Allt,Allentown,38
-343,Fllr,Fullerton,38
-344,Tmqa,Tamaqua,38
-345,Altn,Altoona,38
-346,Dncv,Duncansville,38
-347,Eldr,ElDorado,38
-348,Dlmt,Delmont,38
-349,Hrsb,Harrisburg,38
-350,Hspr,Highspire,38
-351,Mchb,Mechanicsburg,38
-352,Nrmb,Northumberland,38
-353,Rsvl,Rouseville,38
-354,Phld,Philadelphia,38
-355,Pnsk,Pennsauken,30
-356,Chst,Chester,38
-357,Blmt,Belmont,38
-358,Extn,Exton,38
-359,Mlvn,Malvern,38
-360,Indl,Indianola,38
-361,Pttb,Pittsburgh,38
-362,NvIs,Neville Island,38
-363,Blwn,Blawnox,38
-364,Crps,Coraopolis,38
-365,DuPn,Dupont,38
-366,Kngs,Kingston,38
-367,NwKg,New Kingstown,38
-368,SnkS,Sinking Spring,38
-369,Tckr,Tuckerton,38
-370,Wrrn,Warren,38
-371,SoWl,South Williamsport,38
-372,Wlpt,Williamsport,38
-373,Prvd,Providence,39
-374,EPrv,East Providence,39
-375,Bltn,Belton,40
-376,Chln,Charleston,40
-377,NChl,North Charleston,40
-378,NAgt,North Augusta,40
-379,Agst,Augusta,10
-380,Sprt,Spartanburg,40
-381,Abrd,Aberdeen,41
-382,Mtch,Mitchell,41
-383,RpCy,Rapid City,41
-384,SxFl,Sioux Falls,41
-385,Wtrt,Watertown,41
-386,Ynkt,Yankton,41
-387,Chtg,Chattanooga,42
-388,LkMt,Lookout Mountain,10
-389,Tynr,Tyner,42
-390,Knxv,Knoxville,42
-391,Mmph,Memphis,42
-392,Nshv,Nashville,42
-393,Hwly,Hawley,43
-394,Abln,Abilene,43
-395,Amrl,Amarillo,43
-396,Swny,Sweeny,43
-397,BCty,Bay City,43
-398,Bmnt,Beaumont,43
-399,PtAt,Port Arthur,43
-400,BSnd,Big Sandy,43
-401,Brnv,Brownsville,43
-402,Brya,Bryan,43
-403,Cntr,Center,43
-404,CChr,Corpus Christi,43
-405,FtWr,Fort Worth,43
-406,Irvg,Irving,43
-407,Solk,Southlake,43
-408,Dlls,Dallas,43
-409,Elss,Euless,43
-410,Aldo,Aledo,43
-411,ElPs,El Paso,43
-412,Hrln,Harlingen,43
-413,Hrne,Hearne,43
-414,Ednb,Edinburg,43
-415,Hdlg,Hidalgo,43
-416,NHst,North Houston,43
-417,Hbby,Hobby Airport,43
-418,Hstn,Houston,43
-419,Lbbk,Lubbock,43
-420,Abrn,Abernathy,43
-421,Mdld,Midland,43
-422,Bypt,Bayport,43
-423,Bytn,Baytown,43
-424,SoHs,South Houston,43
-425,Psdn,Pasadena,43
-426,SnAg,San Angelo,43
-427,SnAn,San Antonio,43
-428,Shrn,Sheerin,43
-429,Tylr,Tyler,43
-430,Vctr,Victoria,43
-431,Waco,Waco,43
-432,Wskm,Waskom,43
-433,WcFl,Wichita Falls,43
-434,SlLk,Salt Lake City,44
-435,NSlt,North Salt Lake,44
-436,WdCr,Woods Cross,44
-437,Frfx,Fairfax,46
-438,Nwgt,Newington,46
-439,Mnss,Manassas,46
-440,Sprg,Springfield,46
-441,Chsp,Chesapeake,46
-442,Yrkt,Yorktown,46
-443,NwNw,Newport News,46
-444,Rcmd,Richmond,46
-445,Mtvl,Montvale,46
-446,Rnke,Roanoke,46
-447,Brlg,Burlington,45
-448,Rtln,Rutland,45
-449,ChPt,Cherry Point,47
-450,Frnd,Ferndale,47
-451,MsLk,Moses Lake,47
-452,Psco,Pasco,47
-453,Sttl,Seattle,47
-454,Rntn,Renton,47
-455,Spkn,Spokane,47
-456,Tmwt,Tumwater,47
-457,Tcma,Tacoma,47
-458,Clks,Clarkston,47
-459,Chip,Chippewa Falls,49
-460,GrnB,Green Bay,49
-461,McFr,McFarland,49
-462,Mdsn,Madison,49
-463,Mlwk,Milwaukee,49
-464,Supr,Superior,49
-465,Wpun,Waupun,49
-466,Wsau,Wausau,49
-467,Chlt,Charleston,48
-468,Hghs,Hugheston,48
-469,Chyn,Cheyenne,50
-470,Shrd,Sheridan,50
-471,Sncl,Sinclair,50
-472,Clgr,Calgary,60
-473,Edmt,Edmonton,60
-474,Kmlp,Kamloops,61
-475,Vncv,Vancouver,61
-476,StJh,Saint John,63
-477,Hlfx,Halifax,65
-478,Lond,London,66
-479,Ottw,Ottawa,66
-480,Srna,Sarnia,66
-481,Tnto,Toronto,66
-482,Mtrl,Montreal,68
-483,StBn,Saint Boniface,62
-484,Rgna,Regina,69
-485,Dmpl,Demopolis,1
-486,AlGA,Alma,10
-487,Mlnr,Milner,10
-488,Cntl,Cantril,15
-489,NwHp,New Hampton,15
-490,Ogdn,Ogden,15
-491,Snbr,Sanborn,15
-492,Whtg,Whiting,15
-493,Tcla,Tuscola,13
-494,Lmnt,Lemont,13
-495,Frmg,Farmington,13
-496,Tmpc,Tampico,13
-497,Lbnn,Lebanon,14
-498,Mlfr,Milford,14
-499,Bsht,Bushton,16
-500,Lcmp,Lecompton,16
-501,Pola,Paola,16
-502,RpRv,Rapid River,22
-503,Bnsn,Benson,23
-504,EgLk,Eagle Lake,23
-505,VrCr,Vernon Center,23
-506,Dxtr,Dexter,25
-507,Mbly,Moberly,25
-508,Htbg,Hattiesburg,24
-509,Crrg,Carrington,34
-510,Plts,Plattsmouth,27
-511,Reno,Reno,28
-512,Slkr,Selkirk,32
-513,WkGl,Watkins Glen,32
-514,Csht,Coshocton,35
-515,Mddl,Middletown,35
-516,Clmt,Calumet,36
-517,Egle,Eagle,38
-518,Grbg,Greensburg,38
-519,Chrw,Cheraw,40
-520,Lxgt,Lexington,40
-521,Cant,Canton,41
-522,MtBv,Mont Belvieu,43
-523,Jnsv,Janesville,49
-524,Clrk,Clarksville,14
-525,Tcum,Tucumcari,31
-526,Hlln,Holland,22
-527,Anac,Anacortes,47
-528,Clvt,Calvert City,17
-529,Mntv,Montoursville,38
-530,Flgs,Flagstaff,3
-531,Qncy,Quincy,21
-532,Kgld,Kingsland,4
-533,Lght,Light,4
-534,Brks,Brookston,14
-535,Peru,Peru,14
-536,Gnva,Geneva,32
-537,Jltv,Jolietville,14
-538,Nana,Nanaimo,61
-539,SStM,Sault Sainte Marie,66
-540,Hmlt,Hamilton,66
-541,Nntc,Nanticoke,66
-542,SJhn,Saint John's,64
-543,Chtw,Charlottetown,67
-544,Bngr,Bangor,19
-545,Mryv,Marysville,22
-546,StCl,Saint Clair,22
-547,ElMr,El Mirage,3
-548,Ptsm,Portsmouth,29
-549,Mrgn,Morgan City,18
-550,Mori,Moriarty,31
-551,Mnee,Monee,13
-552,Bllv,Bellevue,35
-553,Blmf,Bloomfield,31
-554,Chtm,Chatham,63
-555,HyRv,Hay River,70
-556,Mtld,Maitland,66
-557,Nwcl,Newcastle,63
-558,Sskt,Saskatoon,69
-559,Trac,Terrace Bay,66
-560,Hobb,Hobbs,31
-561,GrSp,Green Springs,35
-562,Wnpg,Winnipeg,62
-563,Kgmn,Kingman,3
-564,Wslw,Winslow,3
-565,Gret,Gretna,62
-566,Blvl,Belleville,66
-567,King,Kingston,66
-568,Lmay,Lemay,25
-569,Sept,Sept-Iles,68
-570,Rlst,Ralston,15
-571,Aora,Aurora,41
-572,Bssr,Bossier City,18
-573,Lmbr,Lumberton,24
-574,Sndr,Sandersville,24
-575,WRJn,White River Junction,45
-576,Elsw,Ellsworth,19
-577,NwHd,New Hyde Park,32
-578,Lhst,Lindenhurst,32
-579,Fred,Fredericksburg,46
-580,Essx,Essex Junction,45
-581,LFll,Little Falls,23
-582,Frld,Friesland,49
-583,Pltn,Palestine,13
-584,BfLk,Buffalo Lake,23
-585,Clrt,Claremont,23
-586,Mris,Morris,23
-587,Wnnb,Winnebago,23
-588,Wnth,Winthrop,23
-589,Mltb,Malta Bend,25
-590,CdrC,Cedar City,44
-591,071Q,San Francisco Zone 2,5
-592,072W,San Francisco Zone 8,5
-593,091G,Stockton Zone 2,5
-594,091K,Stockton Zone 1,5
-595,091O,Stockton Zone 3,5
-596,091S,Stockton Zone 4,5
-597,101B,Sacramento Zone 4,5
-598,101K,Sacramento Zone 1,5
-599,101L,Sacramento Zone 6,5
-600,101M,Sacramento Zone 7,5
-601,102D,Sacramento Zone 8,5
-602,10B2,Sacramento Zone 9,5
-603,111M,Chico Zone 2,5
-604,041F,Colton Zone 1,5
-605,041J,Colton Zone 2,5
-606,042K,Colton Zone 3,5
-607,042N,Los Angeles Zone 3,5
-608,042R,Colton Zone 4,5
-609,043A,Los Angeles Zone 4,5
-610,04A9,Colton Zone 7,5
-611,04B9,Colton Zone 8,5
-612,04C2,Colton Zone 9,5
-613,054D,Whittier Zone 2,5
-614,051Q,Los Angeles Zone 7,5
-615,052L,Colton Zone 11,5
-616,052W,Los Angeles Zone 1,5
-617,052Z,Los Angeles Zone 12,5
-618,053E,Los Angeles Zone 13,5
-619,053H,Los Angeles Zone 14,5
-620,053T,Los Angeles Zone 16,5
-621,053U,Los Angeles Zone 17,5
-622,05D1,Los Angeles Zone 20,5
-623,05D2,Los Angeles Zone 21,5
-624,05D3,Los Angeles Zone 22,5
-625,5.00E,Colton Zone 12,5
-626,281N,San Diego Zone 1,5
-627,051G,Los Angeles Zone 5,5
-628,5.00E,Los Angeles Zone 23,5
-629,072L,San Francisco Zone 5,5
-630,092M,Stockton Zone 5,5
-631,Dnvr,Denver,6
-632,Pwst,Pan Western,28
-633,Bstp,Bastrop,43
-634,022A,Fresno Zone 4,5
-635,Nvda,Nevada,15
-636,072U,San Francisco Zone 7,5
-637,021Z,Fresno Zone 3,5
-638,111B,Chico Zone 1,5
-639,101Q,Sacramento Zone 2,5
-640,021E,Fresno Zone 1,5
-641,461M,Los Angeles Zone 25,5
-642,461B,Los Angeles Zone 24,5
-643,052G,Los Angeles Zone 8,5
-644,052U,Los Angeles Zone 11,5
-645,461S,Los Angeles Zone 27,5
-646,053R,Los Angeles Zone 15,5
-647,081R,San Jose Zone 2,5
-648,082I,San Jose Zone 3,5
-649,04C5,Colton Zone 10,5
-650,042T,Colton Zone 6,5
-651,281P,San Diego Zone 2,5
-652,28B4,San Diego Zone 4,5
-653,111S,Chico Zone 4,5
-654,112Q,Chico Zone 5,5
-655,082R,San Jose Zone 4,5
-656,072F,San Francisco Zone 3,5
-657,072K,San Francisco Zone 4,5
-658,191H,San Francisco Zone 11,5
-659,101X,Sacramento Zone 10,5
-660,09AO,Stockton Zone 6,5
-661,101D,Sacramento Zone 12,5
-662,083L,San Jose Zone 5,5
-663,101Z,Sacramento Zone 13,5
-664,072S,San Francisco Zone 6,5
-665,081G,San Jose Zone 1,5
-666,092B,Stockton Zone 8,5
-667,092H,Stockton Zone 9,5
-668,091Z,Stockton Zone 10,5
-669,091A,Stockton Zone 11,5
-670,092A,Stockton Zone 12,5
-671,091Y,Stockton Zone 13,5
-672,091W,Stockton Zone 14,5
-673,091P,Stockton Zone 16,5
-674,051N,Los Angeles Zone 28,5
-675,053B,Los Angeles Zone 29,5
-676,Mcng,Macungie,38
-677,Rsmt,Rosemount,23
-678,Chgo,Chicago,13
-679,Chpl,Champlain,32
-680,Drby,Derby Line,45
-681,051F,Los Angeles Zone 30,5
-682,461K,Los Angeles Zone 31,5
-683,05C6,Los Angeles Zone 32,5
-684,052E,Los Angeles Zone 33,5
-685,052S,Los Angeles Zone 35,5
-686,054H,Los Angeles Zone 36,5
-687,042Q,Los Angeles Zone 37,5
-688,053P,Los Angeles Zone 38,5
-689,041P,Los Angeles Zone 39,5
-690,101Y,Sacramento Zone 14,5
-691,10A4,Sacramento Zone 15,5
-692,102J,San Francisco Zone 13,5
-693,201G,San Jose Zone 6,5
-694,191S,San Francisco Zone 14,5
-695,081Q,San Jose Zone 7,5
-696,083A,San Jose Zone 8,5
-697,043B,Los Angeles Zone 40,5
-698,FNLY,Fernley,28
-699,Brws,Brewster,23
-700,RdwF,Redwood Falls,23
-701,Hlsy,Halsey,27
-702,201H,San Francisco Zone 15,5
-703,PrhB,Prudhoe Bay,2
-704,Alst,Allston,21
-705,NoHv,North Haven,7
-706,Tyls,Taylors,40
-707,Arvd,Arvada,6
-708,Eugn,Eugene,37
-709,Cmtn,Compton,5
-710,StPa,Saint Paul,23
-711,083Q,San Jose Zone 9,5
-712,083F,San Jose Zone 10,5
-713,053Q,Los Angeles Zone 41,5
-714,072G,San Jose Zone 11,5
-715,081Z,San Jose Zone 12,5
-716,054N,Los Angeles Zone 42,5
-717,Ignc,Ignacio,6
-718,Opal,Opal,50
-719,Lybr,Lybrook,31
-720,Wlpl,North Walpole,29
-721,McCr,McCarren,28
-722,Prct,Princeton,18
-723,IAFl,Iowa Falls,15
-724,Albt,Albert Lea,23
-725,Wlnt,Walnut Ridge,4
-726,Cool,Coolidge,3
-727,Actn,Acton,21
-728,101J,Sacramento Zone 16,5
-729,052X,Los Angeles Zone 44,5
-730,054E,Los Angeles Zone 45,5
-731,102P,Sacramento Zone 18,5
-732,102Q,Sacramento Zone 19,5
-733,092P,Stockton Zone 17,5
-734,073A,San Francisco Zone 19,5
-735,04B5,Daggett Zone 1,5
-736,Mdfd,Medford,21
-737,EHst,East Houston,43
-738,Jmbg,Jamesburg,30
-739,022C,Los Angeles Zone 46,5
-740,055J,Los Angeles Zone 47,5
-741,055D,Los Angeles Zone 48,5
-742,072X,San Francisco Zone 20,5
-743,055H,Los Angeles Zone 49,5
-744,073D,San Francisco Zone 21,5
-745,281X,San Diego Zone 5,5
-746,5.00E,Los Angeles Zone 50,5
-747,Arra,Aurora,27
-748,Blrs,Blairstown,15
-749,Glva,Galva,15
-750,Lena,Lena,13
-751,Mdby,Middlebury,45
-752,Rdng,Reading,38
-753,RvBc,Riviera Beach,9
-754,MrHk,Marcus Hook,38
-755,092R,Stockton Zone 18,5
-756,11C2,Chico Zone 6,5
-757,092T,Stockton Zone 19,5
-758,112P,Chico Zone 7,5
-759,Snfd,Sanford,9
-760,073C,San Francisco Zone 22,5
-761,191A,San Francisco Zone 24,5
-762,072P,San Francisco Zone 25,5
-763,102C,Sacramento Zone 20,5
-764,191O,San Francisco Zone 26,5
-765,102L,Sacramento Zone 21,5
-766,092S,Stockton Zone 20,5
-767,201K,San Francisco Zone 27,5
-768,05D7,Los Angeles Zone 51,5
-769,055N,Los Angeles Zone 52,5
-770,083U,San Jose Zone 13,5
-771,Dmth,Dartmouth,65
-772,Mrmc,Miramichi,63
-773,StRm,Saint Romuald,68
-774,041X,Colton Zone 13,5
-775,281M,San Diego Zone 6,5
-776,28A9,San Diego Zone 7,5
-777,042Y,Los Angeles Zone 53,5
-778,051M,Los Angeles Zone 54,5
-779,053W,Los Angeles Zone 55,5
-780,054B,Los Angeles Zone 56,5
-781,054M,Los Angeles Zone 58,5
-782,055M,Los Angeles Zone 60,5
-783,081A,Los Angeles Zone 61,5
-784,461D,Los Angeles Zone 62,5
-785,461P,Los Angeles Zone 63,5
-786,461Q,Los Angeles Zone 64,5
-787,46A6,Los Angeles Zone 65,5
-788,46A8,Los Angeles Zone 66,5
-789,Fytv,Fayetteville,33
-790,Stdm,Stedman,33
-791,Wlsn,Wilson,33
-792,Stan,Stanley,33
-793,Wlst,Williamston,40
-794,281Z,San Diego Zone 8,5
-795,28A5,San Diego Zone 9,5
-796,083V,San Jose Zone 14,5
-797,282A,San Diego Zone 10,5
-798,461W,Los Angeles Zone 67,5
-799,282B,San Diego Zone 11,5
-800,055T,Los Angeles Zone 68,5
-801,431B,Barstow Zone 1,5
-802,RpdC,Rapid City,62
-803,Cair,Cairo,10
-804,461F,Los Angeles Zone 70,5
-805,056A,Los Angeles Zone 72,5
-806,NMed,New Bedford,21
-807,Alms,Alamosa,6
-808,Orln,Orleans,45
-809,FtLp,Fort Lupton,6
-810,Mdfr,Medford,36
-811,Wngt,Wingate,31
-812,Lngh,Langhorne,38
-813,Gllp,Gallup,31
-814,Rwln,Rawlins,50
-815,Sndv,Sandersville,10
-816,PkCy,Park City,16
-817,MsPt,Moss Point,24
-818,04D9,Colton Zone 14,5
-819,04C4,Colton Zone 15,5
-820,043Q,Colton Zone 16,5
-821,04C9,Colton Zone 17,5
-822,04B4,Barstow Zone 2,5
-823,Sylv,Sylvester,10
-824,Crne,Crane,43
-825,Hugo,Hugoton,16
-826,Alxd,Alexandria,14
-827,Chnc,Chancellor,41
-828,Glnv,Glenville,23
-829,Hdsn,Hudson,41
-830,Lpsc,Leipsic,35
-831,042M,Colton Zone 19,5
-832,042V,Colton Zone 21,5
-833,042X,Colton Zone 22,5
-834,052V,Los Angeles Zone 73,5
-835,053D,Los Angeles Zone 74,5
-836,053G,Los Angeles Zone 75,5
-837,053K,Los Angeles Zone 76,5
-838,054U,Los Angeles Zone 79,5
-839,054W,Los Angeles Zone 80,5
-840,055B,Los Angeles Zone 81,5
-841,055G,Los Angeles Zone 82,5
-842,055K,Los Angeles Zone 83,5
-843,055U,Los Angeles Zone 84,5
-844,072B,San Francisco Zone 28,5
-845,073F,San Francisco Zone 29,5
-846,083G,San Jose Zone 16,5
-847,083W,San Jose Zone 17,5
-848,08D5,San Jose Zone 18,5
-849,461U,Los Angeles Zone 86,5
-850,461T,Los Angeles Zone 88,5
-851,081Y,San Jose Zone 19,5
-852,Plvl,Plainville,7
-853,053Z,Los Angeles Zone 89,5
-854,043E,Imperial Zone 1,5
-855,042c,Colton Zone 23,5
-856,281R,San Diego Zone 12,5
-857,04D4,Colton Zone 24,5
-858,04D3,Colton Zone 25,5
-859,28A6,San Diego Zone 13,5
-860,042L,Colton Zone 26,5
-861,041B,San Diego Zone 15,5
-862,BkIs,Blakley Island,1
-863,SteC,Ste-Catherine,68
-864,Mntt,Monetta,40
-865,Prmt,Paramount,5
-866,Hckv,Hicksville,32
-867,Mnhm,Manheim,38
-868,Sbrg,Strasburg,38
-869,Ontr,Ontario,37
-870,Bshr,Bayshore,32
-871,Ptcg,Patchogue,32
-872,CMor,Center Moriches,32
-873,ENpt,East Northport,32
-874,HgMN,Hugo,23
-875,081F,San Jose Zone 20,5
-876,081D,San Jose Zone 21,5
-877,RdFk,Road Forks,31
-878,281V,San Diego Zone 16,5
-879,DrPk,Deer Park,43
-880,Erie,Erie,38
-881,072V,San Francisco Zone 30,5
-882,071C,San Francisco Zone 31,5
-883,Oswg,Oswego,32
-884,08A4,San Jose Zone 22,5
-885,191D,Stockton Zone 22,5
-886,HntS,Huntington Station,32
-887,Mrrm,Merrimac,21
-888,Bldn,Baldwin,18
-889,Mnre,Monroe,33
-890,Atkn,Atkinson,29
-891,Rymd,Raymond,29
-892,Lhue,Lihue,11
-893,8.00E,San Francisco Zone 33,5
-894,201L,San Francisco Zone 34,5
-895,071R,San Francisco Zone 36,5
-896,082V,San Francisco Zone 37,5
-897,Hnks,Hankinson,34
-898,Arlt,Arlington,21
-899,Asld,Ashland,21
-900,Wthm,Waltham,21
-901,Glcs,Gloucester,21
-902,Frmd,Farmingdale,32
-903,Hlbk,Holbrook,32
-904,Msph,Maspeth,32
-905,Wtfd,Waterford,7
-906,Chls,Chelsea,21
-907,Scus,Secaucus,30
-908,NwRc,New Rochelle,32
-909,PtCh,Port Chester,32
-910,Sthd,Southhold,32
-911,Sthg,Southington,7
-912,Ksby,Keasbey,30
-913,Brgv,Breingsville,38
-914,Okvl,Oakville,66
-915,Rmsk,Rimouski,68
-916,Tvrt,Tiverton,39
-917,GlPk,Galena Park,43
-918,Okld,Oakland,5
-919,SnFr,San Francisco,5
-920,Efgh,Effingham,13
-921,ScCy,Scott City,16
-922,OakC,Oakland City,14
-923,Nwtn,Newton,15
-924,Dnvl,Danville,13
-925,Odsa,Odessa,47
-926,Brbk,Burbank,47
-927,Wsht,Washington,15
-928,WlLk,Wall Lake,15
-929,Frly,Farley,15
-930,IGHs,Inver Grove Heights,23
-931,Jksn,Jackson,23
-932,Blge,Boligee,1
-933,Hntv,Huntsville,1
-934,Snca,Seneca,13
-935,BdBk,Broad Brook,7
-936,RkSp,Rock Springs,50
-937,Rsvt,Roosevelt,44
-938,Sdby,Sudbury,66
-939,Crag,Craig,6
-940,StSp,Steamboat Springs,6
-941,Toga,Tioga,34
-942,Dgls,Douglas,50
-943,Npls,Naples,44
-944,NTwn,New Town,34
-945,Gllt,Gillette,50
-946,Yokm,Yoakum,43
-947,Ashv,Asheville,33
-948,041M,Barstow Zone 3,5
-949,041G,Colton Zone 27,5
-950,043N,Colton Zone 29,5
-951,052M,Colton Zone 30,5
-952,052N,Colton Zone 31,5
-953,041H,Los Angeles Zone 90,5
-954,042U,Los Angeles Zone 91,5
-955,043C,Los Angeles Zone 92,5
-956,053A,Los Angeles Zone 94,5
-957,053J,Los Angeles Zone 95,5
-958,053Y,Los Angeles Zone 96,5
-959,054A,Los Angeles Zone 97,5
-960,054G,Los Angeles Zone 98,5
-961,054L,Los Angeles Zone 99,5
-962,055A,Los Angeles Zone 100,5
-963,055E,Los Angeles Zone 102,5
-964,055P,Los Angeles Zone 103,5
-965,055X,Los Angeles Zone 104,5
-966,05B2,Los Angeles Zone 105,5
-967,461J,Los Angeles Zone 106,5
-968,461V,Los Angeles Zone 107,5
-969,Wctr,Worcester,21
-970,CoPt,College Point,32
-971,Pltb,Plattsburg,25
-972,Knrs,Kinross,22
-973,043m,Colton Zone 32,5
-974,Odss,Odessa,43
-975,LFer,La Feria,43
-976,Smko,Smackover,4
-977,ArkC,Arkansas City,4
-978,Srsp,Searsport,19
-979,MiaB,Miami Beach,9
-980,Brwk,Brunswick,10
-981,Blvu,Bellevue,27
-982,Omah,Omaha,27
-983,Rswl,Roswell,31
-984,Almg,Alamogordo,31
-985,ELvp,East Liverpool,35
-986,Drvb,Dravosburg,38
-987,Vnpt,Vanport,38
-988,Brgr,Borger,43
-989,Strl,Sterling,46
-990,Dmfr,Dumfries,46
-991,VBch,Virginia Beach,46
-992,TxCt,Texas City,43
-993,ArHg,Arlington Heights,13
-994,CmpS,Camp Springs,20
-995,Onto,Ontario,32
-996,MtVn,Mount Vernon,32
-997,Gvll,Greenville,35
-998,Clym,Clymers,14
-999,Brnb,Burnaby,61
-1000,Chmn,Chemainus,61
-1001,CbHl,Cobble Hill,61
-1002,Brdp,Bridgeport,30
-1003,Whpy,Whippany,30
-1004,Hlyk,Holyoke,21
-1005,Okdl,Oakdale,23
-1006,Lgnp,Logansport,14
-1007,082J,San Jose Zone 24,5
-1008,Eyta,Eyota,23
-1009,Cchl,Coachella,5
-1010,Vrnn,Vernon,5
-1011,Whgl,Washougal,47
-1012,Mnct,Moncton,63
-1013,CnBk,Corner Brook,64
-1014,Qbec,Quebec,68
-1015,Mpls,Minneapolis,23
-1016,Cdhy,Cudahy,5
-1017,Rtzv,Ritzville,47
-1018,Cnwy,Conway,16
-1019,Cmnt,Claremont,29
-1020,Scht,Schaefferstown,38
-1021,Frmt,Fremont,5
-1022,Sdus,Sodus,32
-1023,HsHd,Horseheads,32
-1024,Wstn,Weston,48
-1025,Glmn,Gilman,13
-1026,071V,San Francisco Zone 39,5
-1027,Wnds,Windsor,66
-1028,Yphk,Yaphank,32
-1029,Clft,Clifton,30
-1030,Ftbg,Fitchburg,21
-1031,Sbry,Sudbury,21
-1032,Snry,Sunray,43
-1033,Lwpt,Lewisporte,64
-1034,GsBy,Goose Bay,64
-1035,Blld,Belledune,63
-1036,191K,San Francisco Zone 41,5
-1037,Ptdm,Potsdam,32
-1038,Clvs,Clovis,31
-1039,LaPt,La Porte,43
-1040,Nwbr,Newburgh,32
-1041,Owen,Owen,49
-1042,056C,Los Angeles Zone 108,5
-1043,083K,San Francisco Zone 42,5
-1044,082S,San Francisco Zone 43,5
-1045,082B,San Jose Zone 25,5
-1046,081X,San Jose Zone 26,5
-1047,Dnsn,Denison,15
-1048,StAg,Saint Ansgar,15
-1049,Chct,Chicoutimi,68
-1050,Sltn,Slaton,43
-1051,191C,Richmond Zone 1,5
-1052,Knkk,Kaunakakai,11
-1053,Frfd,Fairfield,5
-1054,Gsmr,Geismar,18
-1055,Petl,Petal,24
-1056,StvC,Stevens City,46
-1057,PrnG,Prince George,61
-1058,Lrdo,Laredo,43
-1059,MCty,Mason City,15
-1060,NBst,New Boston,43
-1061,082X,San Jose Zone 27,5
-1062,083J,San Jose Zone 28,5
-1063,Mnly,Manly,15
-1064,081W,San Jose Zone 29,5
-1065,Hyti,Hayti,25
-1066,Rxna,Roxana,13
-1067,Dnvs,Danvers,21
-1068,Pttn,Pottstown,38
-1069,LbdC,Labrador City,64
-1070,Llyd,Lloydminster,69
-1071,FtMM,Fort McMurray,60
-1072,PtHy,Port Hardy,61
-1073,PtMy,Port Moody,61
-1074,Nepn,Nepean,66
-1075,CapM,Cap-Aux-Meules,68
-1076,Gasp,Gaspe,68
-1077,KCMO,Kansas City,25
-1078,Mrcs,Marcus,15
-1079,Ptsb,Pittsburg,5
-1080,Plyh,Plymouth,44
-1081,Blmb,Bloomingburg,35
-1082,StJm,Saint James,32
-1083,HmpB,Hampton Bays,32
-1084,Chan,Channahon,13
-1085,TpFl,Thompson Falls,26
-1086,DFst,DeForest,49
-1087,071B,San Francisco Zone 44,5
-1088,Brnd,Brandon,62
-1089,PrnA,Prince Albert,69
-1090,RdDr,Reed Deer,60
-1091,041I,Colton Zone 33,5
-1092,Lydm,Lloydminster,60
-1093,Vkng,Viking,60
-1094,MdLk,Meadow Lake,69
-1095,NBfd,North Battleford,69
-1096,Rmor,Raymore,69
-1097,Vrdn,Virden,62
-1098,Mnng,Manning,60
-1099,Sttn,Stoughton,69
-1100,BoIl,Bow Island,60
-1101,Arbg,Arborg,62
-1102,GrPr,Grande Prairie,60
-1103,JnsC,Johnson Creek,49
-1104,Brbn,Burbank,5
-1105,Hbrk,Holbrook,3
-1106,Onta,Ontario,5
-1107,SntA,Santa Ana,5
-1108,IdFl,Idaho Falls,12
-1109,Ogde,Ogden,44
-1110,Dlta,Delta,44
-1111,Dikn,Dickinson,43
-1112,WdRv,Wood River,13
-1113,Mnad,Menard,13
-1114,Rchl,Rochelle,13
-1115,Ownb,Owensboro,17
-1116,Knnr,Kenner,18
-1117,Evrt,Everett,21
-1118,Wdhv,Woodhaven,22
-1119,NMsk,North Muskegon,22
-1120,SkCn,Sauk Centre,23
-1121,Esko,Esko,23
-1122,PnBd,Pine Bend,23
-1123,SpVl,Spring Valley,23
-1124,Mxco,Mexico,25
-1125,SgCr,Sugar Creek,25
-1126,Genv,Geneva,27
-1127,Swrn,Sewaren,30
-1128,Arts,Artesia,31
-1129,OysB,Oyster Bay,32
-1130,Hltv,Holtsville,32
-1131,Flsh,Flushing,32
-1132,Nile,Niles,35
-1133,Enid,Enid,36
-1134,PcCy,Ponca City,36
-1135,Wynn,Wynnewood,36
-1136,Wlbr,Willbridge,37
-1137,EFrd,East Freedom,38
-1138,Lncs,Lancaster,38
-1139,TwnO,Twin Oaks,38
-1140,Mdln,Midland,38
-1141,Scrn,Scranton,38
-1142,Bdfd,Bradford,38
-1143,TyTX,Tye,43
-1144,Astn,Austin,43
-1145,MtPl,Mount Pleasant,43
-1146,ThRv,Three Rivers,43
-1147,Cspr,Casper,50
-1148,Wymt,Weymouth,21
-1149,MtMr,Mount Morris,22
-1150,Lnsg,Lansing,22
-1151,Mrsh,Marshall,23
-1152,Crrl,Carrollton,25
-1153,Plmy,Palmyra,25
-1154,Psgl,Pascagoula,24
-1155,GFks,Grand Forks,34
-1156,Dphn,Doniphan,27
-1157,Oscl,Osceola,27
-1158,Edgw,Edgewater,30
-1159,Psct,Piscataway,30
-1160,Wtvl,Westville,30
-1161,Glnw,Glenwood Landing,32
-1162,Tllm,Tallmadge,35
-1163,Lvrn,Laverne,36
-1164,Emms,Emmaus,38
-1165,Tlly,Tullytown,38
-1166,WlGr,Willow Grove,38
-1167,Nwll,Newell,48
-1168,Stbv,Steubenville,35
-1169,Mntl,Montello,38
-1170,Wlsy,Wolsey,41
-1171,BSpr,Big Spring,43
-1172,CdMl,Caddo Mills,43
-1173,Grpv,Grapevine,43
-1174,Plcd,Placedo,43
-1175,Nrlk,Norfolk,46
-1176,Vcto,Victoria,61
-1177,ThdB,Thunder Bay,66
-1178,Oplk,Opelika,1
-1179,ClLk,Clear Lake,15
-1180,Mrrs,Morris,13
-1181,CCtr,Clay Center,16
-1182,Grwd,Greenwood,27
-1183,Dbos,Dubois,38
-1184,Crln,Carlin,28
-1185,SgtB,Sergeant Bluff,15
-1186,Grdn,Garden City,16
-1187,Mssq,Massapequa,32
-1188,Htfd,Hartford,45
-1189,Gryv,Garyville,18
-1190,Flnt,Flint,22
-1191,Bell,Belle,25
-1192,Flrf,Floreffe,38
-1193,Frta,Fruita,6
-1194,NUFl,Newton Upper Falls,21
-1195,Rgrs,Rogers,4
-1196,CoSp,Colorado Springs,6
-1197,Elel,Eleele,11
-1198,FtMd,Fort Madison,15
-1199,Ottm,Ottumwa,15
-1200,Chmp,Champaign,13
-1201,Lkpt,Lockport,13
-1202,Knke,Kankakee,13
-1203,Nrrs,Norris City,13
-1204,Wtng,Whiting,14
-1205,SoBn,South Bend,14
-1206,ElKS,El Dorado,16
-1207,Tpka,Topeka,16
-1208,PtAl,Port Allen,18
-1209,Mrux,Meraux,18
-1210,Pwdr,Powder Springs,10
-1211,054P,Los Angeles Zone 59,5
-1212,055Y,Los Angeles Zone 69,5
-1213,055F,Los Angeles Zone 71,5
-1214,043P,Colton Zone 18,5
-1215,BStn,Big Stone,41
-1216,042P,Colton Zone 20,5
-1217,053S,Los Angeles Zone 77,5
-1218,056B,Los Angeles Zone 85,5
-1219,081V,San Jose Zone 15,5
-1220,Mrtn,Mertens,43
-1221,28A2,San Diego Zone 14,5
-1222,Dnia,Dania,9
-1223,Hmps,Hempstead,32
-1224,Ldbg,Lordsburg,31
-1225,071Z,San Francisco Zone 32,5
-1226,Mnla,Mineola,32
-1227,071W,San Francisco Zone 35,5
-1228,Brkt,Brockton,21
-1229,GrCt,Garden City,32
-1230,191W,San Francisco Zone 38,5
-1231,SoBw,South Brunswick,30
-1232,083S,San Jose Zone 23,5
-1233,BtMt,Battle Mountain,28
-1234,Wntw,Wentworth,41
-1235,07F2,San Francisco Zone 9,5
-1236,101H,Sacramento Zone 3,5
-1237,191P,San Francisco Zone 12,5
-1238,042S,Colton Zone 5,5
-1239,052I,Los Angeles Zone 9,5
-1240,05C4,Los Angeles Zone 19,5
-1241,461N,Los Angeles Zone 26,5
-1242,461E,Los Angeles Zone 2,5
-1243,021G,Fresno Zone 2,5
-1244,052R,Los Angeles Zone 10,5
-1245,111O,Chico Zone 3,5
-1246,101E,Sacramento Zone 11,5
-1247,091N,Stockton Zone 7,5
-1248,091T,Stockton Zone 15,5
-1249,05B5,Los Angeles Zone 34,5
-1250,Stnl,Stanley,49
-1251,Smfd,Stamford,7
-1252,Lkld,Lakeland,9
-1253,Wixm,Wixom,22
-1254,041D,Los Angeles Zone 43,5
-1255,021J,Fresno Zone 5,5
-1256,102N,Sacramento Zone 17,5
-1257,192B,San Francisco Zone 18,5
-1258,Mead,Mead,27
-1259,Luvr,Luverne,23
-1260,071N,San Francisco Zone 23,5
-1261,092N,Stockton Zone 21,5
-1262,RgrC,Rogers City,22
-1263,054F,Los Angeles Zone 57,5
-1264,Bnvl,Bonneville,50
-1265,Sndw,Sandwich,21
-1266,042Z,Colton Zone 28,5
-1267,043F,Los Angeles Zone 93,5
-1268,055C,Los Angeles Zone 101,5
-1269,Buda,Buda,43
-1270,BVrn,Belle Vernon,38
-1271,StrC,Star City,48
-1272,Albi,Albion,22
-1273,Mron,Marion,14
-1274,Sydn,Sydney,65
-1275,JctC,Junction City,49
-1276,Nwcs,Newcastle,50
-1277,Crvl,Coralville,15
-1278,SoSx,South Sioux City,27
-1279,Grfn,Griffith,14
-1280,Krny,Kearney,25
-1281,Onnt,Oneonta,32
-1282,Brdg,Bridgeport,43
-1283,Trzh,Tirzah,40
-1284,CNOK,Central Oklahoma,36
-1285,Hron,Huron,41
-1286,WIsp,West Islip,32
-1287,PnyP,Piney Point,20
-1288,Atwt,Atwater,23
-1289,Midn,Minden,27
-1290,071P,San Francisco Zone 1,5
-1291,101C,Sacramento Zone 5,5
-1292,191F,San Francisco Zone 10,5
-1293,101A,San Francisco Zone 16,5
-1294,Pllk,Pollock,18
-1295,192A,San Francisco Zone 17,5
-1296,Grly,Greeley,6
-1297,Thfk,Three Forks,26
-1298,Mcon,Macon,25
-1299,054Q,Los Angeles Zone 78,5
-1300,Crnw,Cornwall,66
-1301,Arnd,Arundel,19
-1302,MtJk,Mount Jackson,46
-1303,Wtwg,Westwego,18
-1304,Lrto,Loretto,23
-1305,Unvl,Unionville,7
-1306,Smrt,Somerset,17
-1307,Alex,Alexandria,46
-1308,Dksn,Dickinson,34
-1309,Hoqm,Hoquiam,47
-1310,05C8,Los Angeles Zone 109,5
-1311,SpDl,Springdale,64
-1312,PmSp,Palm Springs,5
-1313,Eurk,Eureka,5
-1314,HntB,Huntington Beach,5
-1315,Orng,Orange,5
-1316,Bnca,Benicia,5
-1317,Grtn,Groton,7
-1318,DCty,Delaware City,8
-1319,Orld,Orlando,9
-1320,Alxn,Alexandria,23
-1321,281S,San Diego Zone 3,5
-1322,NLVg,North Las Vegas,28
-1323,Lmtr,Leominster,21
-1324,1910,San Francisco Zone 40,5
-1325,Bddf,Biddeford,19
-1326,Schv,Schererville,14
-1327,Hlyr,Holyrood,64
-1328,PrLp,Portage La Prairie,62
-1329,072Z,San Francisco Zone 45,5
-1330,Wdel,Waddell,3
+id,ABBR,name,state_id,market_id
+1,Anch,Anchorage,2,1
+2,Knai,Kenai,2,1
+3,NPol,North Pole,2,408
+4,Anns,Anniston,1,2
+5,Brmg,Birmingham,1,3
+6,Tscl,Tuscaloosa,1,3
+7,Mdvl,Moundville,1,3
+8,Mble,Mobile,1,4
+9,Slnd,Saraland,1,4
+10,Mntg,Montgomery,1,5
+11,Shff,Sheffield,1,554
+12,ElAR,El Dorado,4,6
+13,FtSm,Fort Smith,4,7
+14,HeAR,Helena,4,8
+15,NLtl,North Little Rock,4,9
+16,WtMm,West Memphis,4,11
+17,Phnx,Phoenix,3,12
+18,Tcsn,Tucson,3,13
+19,Bkrf,Bakersfield,5,14
+20,Dggt,Daggett,5,15
+21,Brsb,Brisbane,5,16
+22,Chco,Chico,5,17
+23,Cltn,Colton,5,18
+24,Frsn,Fresno,5,20
+25,Impr,Imperial,5,21
+26,LngB,Long Beach,5,22
+27,SoGt,South Gate,5,22
+28,ElSg,El Segundo,5,22
+29,Mtbl,Montebello,5,22
+30,VnNy,Van Nuys,5,22
+31,Crsn,Carson,5,22
+32,SnPd,San Pedro,5,22
+33,Atwd,Atwood,5,22
+34,Trrn,Torrance,5,22
+35,SnFe,Santa Fe Springs,5,22
+36,SgHl,Signal Hill,5,22
+37,Vntr,Ventura,5,22
+38,LAng,Los Angeles,5,22
+39,Wlmt,Wilmington,5,22
+40,Rnch,Rancho Cordova,5,23
+41,WtSc,West Sacramento,5,23
+42,Scrm,Sacramento,5,23
+43,SnDg,San Diego,5,24
+44,Rchm,Richmond,5,25
+45,Avon,Avon,5,25
+46,Mrtz,Martinez,5,25
+47,SoSn,South San Francisco,5,25
+48,Slby,Selby,5,25
+49,SnJs,San Jose,5,26
+50,Rdwd,Redwood City,5,26
+51,Stck,Stockton,5,27
+52,Bnta,Banta,5,27
+53,Aura,Aurora,6,28
+54,CmmC,Commerce City,6,28
+55,Dpnt,Dupont,6,28
+56,Hndr,Henderson,6,28
+57,Fntn,Fountain,6,29
+58,GJct,Grand Junction,6,30
+59,LJta,La Junta,6,31
+60,Brgp,Bridgeport,7,32
+61,RkHl,Rocky Hill,7,33
+62,Ptln,Portland,7,33
+63,Wthr,Wethersfield,7,33
+64,EHrt,East Hartford,7,33
+65,NwHv,New Haven,7,34
+66,Nrwh,Norwich,7,35
+67,Wshg,Washington,51,36
+68,Wlmg,Wilmington,8,37
+69,Jcvl,Jacksonville,9,38
+70,PtEv,Port Everglades,9,39
+71,FtLd,Fort Lauderdale,9,39
+72,Ncvl,Niceville,9,40
+73,Frpt,Freeport,9,40
+74,CpCn,Cape Canaveral,9,41
+75,PnCy,Panama City,9,42
+76,Pnsc,Pensacola,9,43
+77,StMr,Saint Marks,9,44
+78,Tmpa,Tampa,9,45
+79,Mnte,Manatee,9,45
+80,Alby,Albany,10,46
+81,Amer,Americus,10,46
+82,Athn,Athens,10,47
+83,Drvl,Doraville,10,48
+84,Atln,Atlanta,10,48
+85,Chth,Chattahoochee,10,48
+86,Brmn,Bremen,10,48
+87,Bnbr,Bainbridge,10,49
+88,Blkl,Blakely,10,49
+89,CoGA,Columbus,10,50
+90,Grff,Griffin,10,51
+91,Macn,Macon,10,52
+92,Rome,Rome,10,53
+93,Svnh,Savannah,10,54
+94,Hilo,Hilo,11,404
+95,Kmla,Kamuela,11,404
+96,Kple,Kapolei,11,55
+97,Hnlu,Honolulu,11,55
+98,Khul,Kahului,11,405
+99,Bttd,Bettendorf,15,56
+100,CBlf,Council Bluffs,15,58
+101,CtLk,Carter Lake,15,58
+102,DMns,Des Moines,15,59
+103,Plst,Pleasant Hill,15,59
+104,Dbuq,Dubuque,15,60
+105,FtDd,Fort Dodge,15,61
+106,NLbr,North Liberty,15,63
+107,IACy,Iowa City,15,63
+108,LMrs,Le Mars,15,64
+109,Mlfd,Milford,15,65
+110,RkRp,Rock Rapids,15,67
+111,SxCy,Sioux City,15,68
+112,Wtrl,Waterloo,15,69
+113,Bose,Boise,12,70
+114,Brly,Burley,12,71
+115,Pctl,Pocatello,12,72
+116,Ambo,Amboy,13,73
+117,DPln,Des Plaines,13,75
+118,FrVw,Forest View,13,75
+119,MtPr,Mount Prospect,13,75
+120,BlIs,Blue Island,13,75
+121,Argo,Argo,13,75
+122,WlSp,Willow Springs,13,75
+123,FrPk,Franklin Park,13,75
+124,Frsy,Forsyth,13,76
+125,Hrst,Harristown,13,76
+126,Hrtf,Hartford,13,78
+127,Grnt,Granite City,13,78
+128,EStL,East Saint Louis,13,78
+129,Hywt,Heyworth,13,79
+130,Ashk,Ashkum,13,80
+131,Pekn,Pekin,13,82
+132,Peor,Peoria,13,82
+133,Chil,Chillicothe,13,82
+134,Rbns,Robinson,13,83
+135,Rkfr,Rockford,13,84
+136,MtVe,Mount Vernon,14,85
+137,Evnv,Evansville,14,85
+138,Hnds,Henderson,17,85
+139,EChg,East Chicago,14,86
+140,Hmmd,Hammond,14,86
+141,Hntg,Huntington,14,87
+142,Indy,Indianapolis,14,88
+143,Clrm,Clermont,14,88
+144,Spdw,Speedway,14,88
+145,Znvl,Zionsville,14,88
+146,Mnce,Muncie,14,90
+147,Prnc,Princeton,14,91
+148,Grgr,Granger,14,92
+149,SzCy,Switz City,14,93
+150,Cffy,Coffeyville,16,94
+151,Cncd,Concordia,16,95
+152,GtBn,Great Bend,16,97
+153,Htch,Hutchinson,16,98
+154,KSCy,Kansas City,16,99
+155,McPh,McPherson,16,100
+156,Olth,Olathe,16,101
+157,Phlp,Phillipsburg,16,102
+158,Slna,Salina,16,103
+159,Wthn,Wathena,16,106
+160,VlCr,Valley Center,16,107
+161,Wcht,Wichita,16,107
+162,Ctlb,Catlettsburg,17,108
+163,Cvgt,Covington,17,109
+164,Lxng,Lexington,17,110
+165,Lsvl,Louisville,17,111
+166,Symr,Seymour,14,412
+167,NwAl,New Albany,14,111
+168,Pdch,Paducah,17,112
+169,Arcd,Arcadia,18,113
+170,Arch,Archie,18,114
+171,Chrc,Church Point,18,115
+172,BtnR,Baton Rouge,18,115
+173,Opls,Opelousas,18,115
+174,Krtz,Krotz Springs,18,115
+175,Cnvt,Convent,18,116
+176,LkCh,Lake Charles,18,117
+177,WtLk,Westlake,18,117
+178,Mnro,Monroe,18,118
+179,Chlm,Chalmette,18,119
+180,Mrrr,Marrero,18,119
+181,Shrv,Shreveport,18,120
+182,Brtr,Braintree,21,121
+183,Rver,Revere,21,121
+184,SoBs,South Boston,21,121
+185,EBst,East Boston,21,121
+186,Salm,Salem,21,121
+187,Sprn,Springfield,21,122
+188,Bltm,Baltimore,20,123
+189,Cbay,Curtis Bay,20,123
+190,Slsb,Salisbury,20,124
+191,Hmpd,Hampden,19,125
+192,Brwr,Brewer,19,125
+193,Bckp,Bucksport,19,125
+194,SoPt,South Portland,19,126
+195,AlMI,Alma,22,127
+196,ByCt,Bay City,22,128
+197,Chby,Cheboygan,22,129
+198,Tayl,Taylor,22,130
+199,Rmls,Romulus,22,130
+200,Novi,Novi,22,130
+201,RvRg,River Rouge,22,130
+202,Dtrt,Detroit,22,130
+203,Owss,Owosso,22,131
+204,Npln,Napoleon,22,132
+205,Jcks,Jackson,22,132
+206,Mshl,Marshall,22,132
+207,Frrb,Ferrysburg,22,134
+208,Nils,Niles,22,135
+209,TvCy,Traverse City,22,136
+210,Wrns,Wrenshall,23,138
+211,Mnkt,Mankato,23,139
+212,Rosv,Roseville,23,141
+213,StPl,Saint Paul Park,23,141
+214,NwMd,New Madrid,25,144
+215,ScCt,Scott City,25,144
+216,CpGr,Cape Girardeau,25,144
+217,Crth,Carthage,25,146
+218,CoMO,Columbia,25,147
+219,Jffr,Jefferson City,25,148
+220,MtVr,Mount Vernon,25,150
+221,Rvsd,Riverside,25,152
+222,Spgf,Springfield,25,153
+223,StLs,Saint Louis,25,154
+224,StCh,Saint Charles,25,154
+225,Abdn,Aberdeen,24,155
+226,Blox,Biloxi,24,156
+227,Glfp,Gulfport,24,156
+228,Prvs,Purvis,24,157
+229,Clln,Collins,24,157
+230,Grvl,Greenville,24,158
+231,Mrdn,Meridian,24,159
+232,Vckb,Vicksburg,24,161
+233,Larl,Laurel,26,162
+234,Blln,Billings,26,162
+235,Bzmn,Bozeman,26,163
+236,Glnd,Glendive,26,164
+237,GtFl,Great Falls,26,165
+238,HeMT,Helena,26,166
+239,Mssl,Missoula,26,167
+240,Apex,Apex,33,168
+241,Chrl,Charlotte,33,169
+242,Grns,Greensboro,33,171
+243,Slma,Selma,33,172
+244,Wlmn,Wilmington,33,173
+245,Mrhd,Moorhead,23,174
+246,Frgo,Fargo,34,174
+247,Jmst,Jamestown,34,176
+248,Mndn,Mandan,34,177
+249,Mnot,Minot,34,178
+250,CoNE,Columbus,27,179
+251,Lncl,Lincoln,27,182
+252,Nrfk,Norfolk,27,183
+253,NPlt,North Platte,27,184
+254,Sdny,Sidney,27,187
+255,Nwgn,Newington,29,188
+256,Byne,Bayonne,30,189
+257,Bgta,Bogota,30,189
+258,PrhA,Perth Amboy,30,189
+259,PtRd,Port Reading,30,189
+260,Crtr,Carteret,30,189
+261,Lndn,Linden,30,189
+262,Elzb,Elizabeth,30,189
+263,Nwrk,Newark,30,189
+264,Glst,Gloucester City,30,242
+265,TrPt,Tremley Point,30,189
+266,Plsb,Paulsboro,30,190
+267,Thrf,Thorofare,30,190
+268,Trnt,Trenton,30,191
+269,Albq,Albuquerque,31,192
+270,Cnza,Ciniza,31,195
+271,LVgs,Las Vegas,28,196
+272,Sprk,Sparks,28,197
+273,Albn,Albany,32,198
+274,Glmt,Glenmont,32,198
+275,Rnsl,Rensselaer,32,198
+276,GrIs,Green Island,32,198
+277,BgFl,Big Flats,32,199
+278,Vstl,Vestal,32,200
+279,Bngh,Binghamton,32,200
+280,Bffl,Buffalo,32,201
+281,Tnwn,Tonawanda,32,201
+282,Lwrc,Lawrence,32,202
+283,GrNk,Great Neck,32,202
+284,LngI,Long Island City,32,202
+285,CldS,Cold Spring Harbor,32,202
+286,Inwd,Inwood,32,202
+287,Ocns,Oceanside,32,202
+288,Plnv,Plainview,32,202
+289,Rvhd,Riverhead,32,202
+290,WtVr,West Mount Vernon,32,204
+291,Bkln,Brooklyn,32,204
+292,Astr,Astoria,32,204
+293,Trrc,Tarrytown,32,204
+294,Brnx,Bronx,32,204
+295,Mltn,Milton,32,205
+296,Rstn,Roseton,32,205
+297,NwWn,New Windsor,32,205
+298,Kgst,Kingston,32,205
+299,Rchs,Rochester,32,206
+300,Brwt,Brewerton,32,207
+301,Syrc,Syracuse,32,207
+302,Wrnr,Warners,32,207
+303,Bldw,Baldwinsville,32,207
+304,Mrcy,Marcy,32,208
+305,Utca,Utica,32,208
+306,Bryn,Bryan,35,209
+307,Cntn,Canton,35,210
+308,Akrn,Akron,35,210
+309,Mgdr,Mogadore,35,210
+310,Brml,Bromley,17,211
+311,Ccnn,Cincinnati,35,211
+312,Auro,Aurora,35,212
+313,Cyhg,Cuyahoga Heights,35,212
+314,Clvl,Cleveland,35,212
+315,Brcv,Brecksville,35,212
+316,CoOH,Columbus,35,213
+317,Amli,Amlin,35,213
+318,Heth,Heath,35,213
+319,Dytn,Dayton,35,214
+320,Lebn,Lebanon,35,215
+321,Lima,Lima,35,216
+322,Fdly,Findlay,35,216
+323,Lorn,Lorain,35,217
+324,Prkb,Parkersburg,48,218
+325,Mrta,Marietta,35,218
+326,Scvl,Sciotoville,35,219
+327,Tffn,Tiffin,35,220
+328,Orgn,Oregon,35,221
+329,Tldo,Toledo,35,221
+330,Yngs,Youngstown,35,222
+331,Ardm,Ardmore,36,223
+332,OKCy,Oklahoma City,36,226
+333,Shwn,Shawnee,36,228
+334,Jnks,Jenks,36,229
+335,Tlsa,Tulsa,36,229
+336,Trpn,Turpin,36,230
+337,Ptld,Portland,37,233
+338,Vncr,Vancouver,47,233
+339,Umtl,Umatilla,37,234
+340,Whll,Whitehall,38,235
+341,Tlfd,Telford,38,242
+342,Allt,Allentown,38,235
+343,Fllr,Fullerton,38,235
+344,Tmqa,Tamaqua,38,235
+345,Altn,Altoona,38,236
+346,Dncv,Duncansville,38,236
+347,Eldr,ElDorado,38,236
+348,Dlmt,Delmont,38,237
+349,Hrsb,Harrisburg,38,238
+350,Hspr,Highspire,38,238
+351,Mchb,Mechanicsburg,38,238
+352,Nrmb,Northumberland,38,240
+353,Rsvl,Rouseville,38,241
+354,Phld,Philadelphia,38,242
+355,Pnsk,Pennsauken,30,242
+356,Chst,Chester,38,242
+357,Blmt,Belmont,38,242
+358,Extn,Exton,38,242
+359,Mlvn,Malvern,38,242
+360,Indl,Indianola,38,243
+361,Pttb,Pittsburgh,38,243
+362,NvIs,Neville Island,38,243
+363,Blwn,Blawnox,38,243
+364,Crps,Coraopolis,38,243
+365,DuPn,Dupont,38,244
+366,Kngs,Kingston,38,244
+367,NwKg,New Kingstown,38,247
+368,SnkS,Sinking Spring,38,245
+369,Tckr,Tuckerton,38,245
+370,Wrrn,Warren,38,246
+371,SoWl,South Williamsport,38,247
+372,Wlpt,Williamsport,38,247
+373,Prvd,Providence,39,248
+374,EPrv,East Providence,39,248
+375,Bltn,Belton,40,249
+376,Chln,Charleston,40,250
+377,NChl,North Charleston,40,250
+378,NAgt,North Augusta,40,251
+379,Agst,Augusta,10,251
+380,Sprt,Spartanburg,40,252
+381,Abrd,Aberdeen,41,253
+382,Mtch,Mitchell,41,254
+383,RpCy,Rapid City,41,255
+384,SxFl,Sioux Falls,41,256
+385,Wtrt,Watertown,41,257
+386,Ynkt,Yankton,41,259
+387,Chtg,Chattanooga,42,260
+388,LkMt,Lookout Mountain,10,260
+389,Tynr,Tyner,42,260
+390,Knxv,Knoxville,42,261
+391,Mmph,Memphis,42,262
+392,Nshv,Nashville,42,263
+393,Hwly,Hawley,43,264
+394,Abln,Abilene,43,264
+395,Amrl,Amarillo,43,265
+396,Swny,Sweeny,43,267
+397,BCty,Bay City,43,267
+398,Bmnt,Beaumont,43,268
+399,PtAt,Port Arthur,43,268
+400,BSnd,Big Sandy,43,292
+401,Brnv,Brownsville,43,271
+402,Brya,Bryan,43,272
+403,Cntr,Center,43,274
+404,CChr,Corpus Christi,43,275
+405,FtWr,Fort Worth,43,276
+406,Irvg,Irving,43,276
+407,Solk,Southlake,43,276
+408,Dlls,Dallas,43,276
+409,Elss,Euless,43,276
+410,Aldo,Aledo,43,276
+411,ElPs,El Paso,43,277
+412,Hrln,Harlingen,43,279
+413,Hrne,Hearne,43,280
+414,Ednb,Edinburg,43,281
+415,Hdlg,Hidalgo,43,281
+416,NHst,North Houston,43,282
+417,Hbby,Hobby Airport,43,282
+418,Hstn,Houston,43,282
+419,Lbbk,Lubbock,43,284
+420,Abrn,Abernathy,43,284
+421,Mdld,Midland,43,285
+422,Bypt,Bayport,43,287
+423,Bytn,Baytown,43,287
+424,SoHs,South Houston,43,287
+425,Psdn,Pasadena,43,287
+426,SnAg,San Angelo,43,288
+427,SnAn,San Antonio,43,289
+428,Shrn,Sheerin,43,290
+429,Tylr,Tyler,43,292
+430,Vctr,Victoria,43,293
+431,Waco,Waco,43,294
+432,Wskm,Waskom,43,295
+433,WcFl,Wichita Falls,43,296
+434,SlLk,Salt Lake City,44,298
+435,NSlt,North Salt Lake,44,298
+436,WdCr,Woods Cross,44,298
+437,Frfx,Fairfax,46,299
+438,Nwgt,Newington,46,299
+439,Mnss,Manassas,46,299
+440,Sprg,Springfield,46,299
+441,Chsp,Chesapeake,46,300
+442,Yrkt,Yorktown,46,300
+443,NwNw,Newport News,46,300
+444,Rcmd,Richmond,46,301
+445,Mtvl,Montvale,46,302
+446,Rnke,Roanoke,46,302
+447,Brlg,Burlington,45,303
+448,Rtln,Rutland,45,304
+449,ChPt,Cherry Point,47,305
+450,Frnd,Ferndale,47,305
+451,MsLk,Moses Lake,47,306
+452,Psco,Pasco,47,307
+453,Sttl,Seattle,47,308
+454,Rntn,Renton,47,308
+455,Spkn,Spokane,47,309
+456,Tmwt,Tumwater,47,310
+457,Tcma,Tacoma,47,310
+458,Clks,Clarkston,47,311
+459,Chip,Chippewa Falls,49,312
+460,GrnB,Green Bay,49,313
+461,McFr,McFarland,49,315
+462,Mdsn,Madison,49,315
+463,Mlwk,Milwaukee,49,316
+464,Supr,Superior,49,317
+465,Wpun,Waupun,49,318
+466,Wsau,Wausau,49,319
+467,Chlt,Charleston,48,320
+468,Hghs,Hugheston,48,320
+469,Chyn,Cheyenne,50,322
+470,Shrd,Sheridan,50,325
+471,Sncl,Sinclair,50,326
+472,Clgr,Calgary,60,327
+473,Edmt,Edmonton,60,329
+474,Kmlp,Kamloops,61,331
+475,Vncv,Vancouver,61,333
+476,StJh,Saint John,63,339
+477,Hlfx,Halifax,65,341
+478,Lond,London,66,343
+479,Ottw,Ottawa,66,345
+480,Srna,Sarnia,66,347
+481,Tnto,Toronto,66,351
+482,Mtrl,Montreal,68,353
+483,StBn,Saint Boniface,62,337
+484,Rgna,Regina,69,359
+485,Dmpl,Demopolis,1,361
+486,AlGA,Alma,10,363
+487,Mlnr,Milner,10,364
+488,Cntl,Cantril,15,365
+489,NwHp,New Hampton,15,367
+490,Ogdn,Ogden,15,368
+491,Snbr,Sanborn,15,369
+492,Whtg,Whiting,15,370
+493,Tcla,Tuscola,13,74
+494,Lmnt,Lemont,13,75
+495,Frmg,Farmington,13,371
+496,Tmpc,Tampico,13,373
+497,Lbnn,Lebanon,14,88
+498,Mlfr,Milford,14,89
+499,Bsht,Bushton,16,402
+500,Lcmp,Lecompton,16,377
+501,Pola,Paola,16,378
+502,RpRv,Rapid River,22,407
+503,Bnsn,Benson,23,379
+504,EgLk,Eagle Lake,23,403
+505,VrCr,Vernon Center,23,139
+506,Dxtr,Dexter,25,380
+507,Mbly,Moberly,25,382
+508,Htbg,Hattiesburg,24,383
+509,Crrg,Carrington,34,384
+510,Plts,Plattsmouth,27,386
+511,Reno,Reno,28,197
+512,Slkr,Selkirk,32,388
+513,WkGl,Watkins Glen,32,389
+514,Csht,Coshocton,35,390
+515,Mddl,Middletown,35,391
+516,Clmt,Calumet,36,392
+517,Egle,Eagle,38,394
+518,Grbg,Greensburg,38,237
+519,Chrw,Cheraw,40,395
+520,Lxgt,Lexington,40,396
+521,Cant,Canton,41,256
+522,MtBv,Mont Belvieu,43,400
+523,Jnsv,Janesville,49,401
+524,Clrk,Clarksville,14,111
+525,Tcum,Tucumcari,31,410
+526,Hlln,Holland,22,411
+527,Anac,Anacortes,47,305
+528,Clvt,Calvert City,17,112
+529,Mntv,Montoursville,38,247
+530,Flgs,Flagstaff,3,423
+531,Qncy,Quincy,21,121
+532,Kgld,Kingsland,4,424
+533,Lght,Light,4,425
+534,Brks,Brookston,14,439
+535,Peru,Peru,14,87
+536,Gnva,Geneva,32,206
+537,Jltv,Jolietville,14,88
+538,Nana,Nanaimo,61,432
+539,SStM,Sault Sainte Marie,66,429
+540,Hmlt,Hamilton,66,430
+541,Nntc,Nanticoke,66,431
+542,SJhn,Saint John's,64,433
+543,Chtw,Charlottetown,67,434
+544,Bngr,Bangor,19,125
+545,Mryv,Marysville,22,435
+546,StCl,Saint Clair,22,435
+547,ElMr,El Mirage,3,12
+548,Ptsm,Portsmouth,29,188
+549,Mrgn,Morgan City,18,438
+550,Mori,Moriarty,31,192
+551,Mnee,Monee,13,75
+552,Bllv,Bellevue,35,220
+553,Blmf,Bloomfield,31,194
+554,Chtm,Chatham,63,453
+555,HyRv,Hay River,70,454
+556,Mtld,Maitland,66,455
+557,Nwcl,Newcastle,63,453
+558,Sskt,Saskatoon,69,458
+559,Trac,Terrace Bay,66,459
+560,Hobb,Hobbs,31,460
+561,GrSp,Green Springs,35,462
+562,Wnpg,Winnipeg,62,337
+563,Kgmn,Kingman,3,473
+564,Wslw,Winslow,3,474
+565,Gret,Gretna,62,476
+566,Blvl,Belleville,66,477
+567,King,Kingston,66,478
+568,Lmay,Lemay,25,154
+569,Sept,Sept-Iles,68,480
+570,Rlst,Ralston,15,482
+571,Aora,Aurora,41,256
+572,Bssr,Bossier City,18,120
+573,Lmbr,Lumberton,24,157
+574,Sndr,Sandersville,24,157
+575,WRJn,White River Junction,45,304
+576,Elsw,Ellsworth,19,125
+577,NwHd,New Hyde Park,32,202
+578,Lhst,Lindenhurst,32,202
+579,Fred,Fredericksburg,46,299
+580,Essx,Essex Junction,45,303
+581,LFll,Little Falls,23,137
+582,Frld,Friesland,49,318
+583,Pltn,Palestine,13,83
+584,BfLk,Buffalo Lake,23,139
+585,Clrt,Claremont,23,142
+586,Mris,Morris,23,137
+587,Wnnb,Winnebago,23,139
+588,Wnth,Winthrop,23,139
+589,Mltb,Malta Bend,25,145
+590,CdrC,Cedar City,44,594
+631,Dnvr,Denver,6,28
+632,Pwst,Pan Western,28,196
+633,Bstp,Bastrop,43,266
+635,Nvda,Nevada,15,59
+676,Mcng,Macungie,38,235
+677,Rsmt,Rosemount,23,141
+678,Chgo,Chicago,13,75
+679,Chpl,Champlain,32,303
+680,Drby,Derby Line,45,303
+698,FNLY,Fernley,28,197
+699,Brws,Brewster,23,494
+700,RdwF,Redwood Falls,23,495
+701,Hlsy,Halsey,27,497
+703,PrhB,Prudhoe Bay,2,499
+704,Alst,Allston,21,121
+705,NoHv,North Haven,7,34
+706,Tyls,Taylors,40,252
+707,Arvd,Arvada,6,28
+708,Eugn,Eugene,37,232
+709,Cmtn,Compton,5,22
+710,StPa,Saint Paul,23,141
+717,Ignc,Ignacio,6,194
+718,Opal,Opal,50,324
+719,Lybr,Lybrook,31,194
+720,Wlpl,North Walpole,29,304
+721,McCr,McCarren,28,197
+722,Prct,Princeton,18,120
+723,IAFl,Iowa Falls,15,500
+724,Albt,Albert Lea,23,496
+725,Wlnt,Walnut Ridge,4,555
+726,Cool,Coolidge,3,12
+727,Actn,Acton,21,121
+736,Mdfd,Medford,21,121
+737,EHst,East Houston,43,282
+738,Jmbg,Jamesburg,30,189
+747,Arra,Aurora,27,180
+748,Blrs,Blairstown,15,63
+749,Glva,Galva,15,68
+750,Lena,Lena,13,84
+751,Mdby,Middlebury,45,304
+752,Rdng,Reading,38,245
+753,RvBc,Riviera Beach,9,551
+754,MrHk,Marcus Hook,38,242
+759,Snfd,Sanford,9,41
+771,Dmth,Dartmouth,65,341
+772,Mrmc,Miramichi,63,453
+773,StRm,Saint Romuald,68,355
+789,Fytv,Fayetteville,33,170
+790,Stdm,Stedman,33,170
+791,Wlsn,Wilson,33,172
+792,Stan,Stanley,33,169
+793,Wlst,Williamston,40,249
+802,RpdC,Rapid City,62,558
+803,Cair,Cairo,10,49
+806,NMed,New Bedford,21,121
+807,Alms,Alamosa,6,31
+808,Orln,Orleans,45,303
+809,FtLp,Fort Lupton,6,559
+810,Mdfr,Medford,36,560
+811,Wngt,Wingate,31,195
+812,Lngh,Langhorne,38,242
+813,Gllp,Gallup,31,195
+814,Rwln,Rawlins,50,326
+815,Sndv,Sandersville,10,52
+816,PkCy,Park City,16,107
+817,MsPt,Moss Point,24,160
+823,Sylv,Sylvester,10,46
+824,Crne,Crane,43,285
+825,Hugo,Hugoton,16,571
+826,Alxd,Alexandria,14,90
+827,Chnc,Chancellor,41,256
+828,Glnv,Glenville,23,496
+829,Hdsn,Hudson,41,256
+830,Lpsc,Leipsic,35,216
+852,Plvl,Plainville,7,33
+862,BkIs,Blakley Island,1,4
+863,SteC,Ste-Catherine,68,353
+864,Mntt,Monetta,40,251
+865,Prmt,Paramount,5,22
+866,Hckv,Hicksville,32,202
+867,Mnhm,Manheim,38,239
+868,Sbrg,Strasburg,38,239
+869,Ontr,Ontario,37,70
+870,Bshr,Bayshore,32,202
+871,Ptcg,Patchogue,32,202
+872,CMor,Center Moriches,32,202
+873,ENpt,East Northport,32,202
+874,HgMN,Hugo,23,141
+877,RdFk,Road Forks,31,277
+879,DrPk,Deer Park,43,287
+880,Erie,Erie,38,561
+883,Oswg,Oswego,32,207
+886,HntS,Huntington Station,32,204
+887,Mrrm,Merrimac,21,188
+888,Bldn,Baldwin,18,115
+889,Mnre,Monroe,33,169
+890,Atkn,Atkinson,29,188
+891,Rymd,Raymond,29,188
+892,Lhue,Lihue,11,406
+897,Hnks,Hankinson,34,174
+898,Arlt,Arlington,21,121
+899,Asld,Ashland,21,121
+900,Wthm,Waltham,21,121
+901,Glcs,Gloucester,21,121
+902,Frmd,Farmingdale,32,202
+903,Hlbk,Holbrook,32,202
+904,Msph,Maspeth,32,204
+905,Wtfd,Waterford,7,198
+906,Chls,Chelsea,21,121
+907,Scus,Secaucus,30,189
+908,NwRc,New Rochelle,32,204
+909,PtCh,Port Chester,32,204
+910,Sthd,Southhold,32,202
+911,Sthg,Southington,7,33
+912,Ksby,Keasbey,30,189
+913,Brgv,Breingsville,38,235
+914,Okvl,Oakville,66,351
+915,Rmsk,Rimouski,68,480
+916,Tvrt,Tiverton,39,248
+917,GlPk,Galena Park,43,282
+918,Okld,Oakland,5,25
+919,SnFr,San Francisco,5,25
+920,Efgh,Effingham,13,77
+921,ScCy,Scott City,16,104
+922,OakC,Oakland City,14,91
+923,Nwtn,Newton,15,59
+924,Dnvl,Danville,13,74
+925,Odsa,Odessa,47,306
+926,Brbk,Burbank,47,307
+927,Wsht,Washington,15,63
+928,WlLk,Wall Lake,15,68
+929,Frly,Farley,15,60
+930,IGHs,Inver Grove Heights,23,141
+931,Jksn,Jackson,23,494
+932,Blge,Boligee,1,569
+933,Hntv,Huntsville,1,554
+934,Snca,Seneca,13,372
+935,BdBk,Broad Brook,7,33
+936,RkSp,Rock Springs,50,324
+937,Rsvt,Roosevelt,44,297
+938,Sdby,Sudbury,66,429
+939,Crag,Craig,6,559
+940,StSp,Steamboat Springs,6,559
+941,Toga,Tioga,34,178
+942,Dgls,Douglas,50,321
+943,Npls,Naples,44,297
+944,NTwn,New Town,34,178
+945,Gllt,Gillette,50,325
+946,Yokm,Yoakum,43,293
+947,Ashv,Asheville,33,252
+969,Wctr,Worcester,21,121
+970,CoPt,College Point,32,204
+971,Pltb,Plattsburg,25,99
+972,Knrs,Kinross,22,129
+974,Odss,Odessa,43,285
+975,LFer,La Feria,43,279
+976,Smko,Smackover,4,6
+977,ArkC,Arkansas City,4,158
+978,Srsp,Searsport,19,125
+979,MiaB,Miami Beach,9,39
+980,Brwk,Brunswick,10,363
+981,Blvu,Bellevue,27,185
+982,Omah,Omaha,27,185
+983,Rswl,Roswell,31,193
+984,Almg,Alamogordo,31,193
+985,ELvp,East Liverpool,35,409
+986,Drvb,Dravosburg,38,243
+987,Vnpt,Vanport,38,409
+988,Brgr,Borger,43,398
+989,Strl,Sterling,46,299
+990,Dmfr,Dumfries,46,299
+991,VBch,Virginia Beach,46,300
+992,TxCt,Texas City,43,287
+993,ArHg,Arlington Heights,13,75
+994,CmpS,Camp Springs,20,36
+995,Onto,Ontario,32,206
+996,MtVn,Mount Vernon,32,204
+997,Gvll,Greenville,35,214
+998,Clym,Clymers,14,87
+999,Brnb,Burnaby,61,333
+1000,Chmn,Chemainus,61,432
+1001,CbHl,Cobble Hill,61,335
+1002,Brdp,Bridgeport,30,242
+1003,Whpy,Whippany,30,189
+1004,Hlyk,Holyoke,21,122
+1005,Okdl,Oakdale,23,141
+1006,Lgnp,Logansport,14,87
+1008,Eyta,Eyota,23,142
+1009,Cchl,Coachella,5,18
+1010,Vrnn,Vernon,5,22
+1011,Whgl,Washougal,47,233
+1012,Mnct,Moncton,63,339
+1013,CnBk,Corner Brook,64,433
+1014,Qbec,Quebec,68,355
+1015,Mpls,Minneapolis,23,141
+1016,Cdhy,Cudahy,5,22
+1017,Rtzv,Ritzville,47,306
+1018,Cnwy,Conway,16,376
+1019,Cmnt,Claremont,29,304
+1020,Scht,Schaefferstown,38,245
+1021,Frmt,Fremont,5,26
+1022,Sdus,Sodus,32,206
+1023,HsHd,Horseheads,32,199
+1024,Wstn,Weston,48,320
+1025,Glmn,Gilman,13,80
+1027,Wnds,Windsor,66,347
+1028,Yphk,Yaphank,32,202
+1029,Clft,Clifton,30,189
+1030,Ftbg,Fitchburg,21,121
+1031,Sbry,Sudbury,21,121
+1032,Snry,Sunray,43,290
+1033,Lwpt,Lewisporte,64,433
+1034,GsBy,Goose Bay,64,433
+1035,Blld,Belledune,63,453
+1037,Ptdm,Potsdam,32,303
+1038,Clvs,Clovis,31,265
+1039,LaPt,La Porte,43,282
+1040,Nwbr,Newburgh,32,205
+1041,Owen,Owen,49,312
+1047,Dnsn,Denison,15,58
+1048,StAg,Saint Ansgar,15,57
+1049,Chct,Chicoutimi,68,355
+1050,Sltn,Slaton,43,284
+1052,Knkk,Kaunakakai,11,607
+1053,Frfd,Fairfield,5,25
+1054,Gsmr,Geismar,18,115
+1055,Petl,Petal,24,383
+1056,StvC,Stevens City,46,299
+1057,PrnG,Prince George,61,456
+1058,Lrdo,Laredo,43,283
+1059,MCty,Mason City,15,57
+1060,NBst,New Boston,43,276
+1063,Mnly,Manly,15,57
+1065,Hyti,Hayti,25,144
+1066,Rxna,Roxana,13,78
+1067,Dnvs,Danvers,21,121
+1068,Pttn,Pottstown,38,245
+1069,LbdC,Labrador City,64,433
+1070,Llyd,Lloydminster,69,458
+1071,FtMM,Fort McMurray,60,593
+1072,PtHy,Port Hardy,61,432
+1073,PtMy,Port Moody,61,333
+1074,Nepn,Nepean,66,345
+1075,CapM,Cap-Aux-Meules,68,355
+1076,Gasp,Gaspe,68,355
+1077,KCMO,Kansas City,25,99
+1078,Mrcs,Marcus,15,64
+1079,Ptsb,Pittsburg,5,25
+1080,Plyh,Plymouth,44,298
+1081,Blmb,Bloomingburg,35,213
+1082,StJm,Saint James,32,202
+1083,HmpB,Hampton Bays,32,202
+1084,Chan,Channahon,13,80
+1085,TpFl,Thompson Falls,26,167
+1086,DFst,DeForest,49,315
+1088,Brnd,Brandon,62,558
+1089,PrnA,Prince Albert,69,359
+1090,RdDr,Reed Deer,60,327
+1092,Lydm,Lloydminster,60,329
+1093,Vkng,Viking,60,329
+1094,MdLk,Meadow Lake,69,458
+1095,NBfd,North Battleford,69,458
+1096,Rmor,Raymore,69,359
+1097,Vrdn,Virden,62,558
+1098,Mnng,Manning,60,329
+1099,Sttn,Stoughton,69,359
+1100,BoIl,Bow Island,60,327
+1101,Arbg,Arborg,62,337
+1102,GrPr,Grande Prairie,60,329
+1103,JnsC,Johnson Creek,49,401
+1104,Brbn,Burbank,5,22
+1105,Hbrk,Holbrook,3,474
+1106,Onta,Ontario,5,18
+1107,SntA,Santa Ana,5,22
+1108,IdFl,Idaho Falls,12,72
+1109,Ogde,Ogden,44,298
+1110,Dlta,Delta,44,298
+1111,Dikn,Dickinson,43,287
+1112,WdRv,Wood River,13,78
+1113,Mnad,Menard,13,81
+1114,Rchl,Rochelle,13,84
+1115,Ownb,Owensboro,17,85
+1116,Knnr,Kenner,18,119
+1117,Evrt,Everett,21,121
+1118,Wdhv,Woodhaven,22,130
+1119,NMsk,North Muskegon,22,134
+1120,SkCn,Sauk Centre,23,137
+1121,Esko,Esko,23,138
+1122,PnBd,Pine Bend,23,141
+1123,SpVl,Spring Valley,23,142
+1124,Mxco,Mexico,25,149
+1125,SgCr,Sugar Creek,25,99
+1126,Genv,Geneva,27,181
+1127,Swrn,Sewaren,30,189
+1128,Arts,Artesia,31,193
+1129,OysB,Oyster Bay,32,202
+1130,Hltv,Holtsville,32,202
+1131,Flsh,Flushing,32,204
+1132,Nile,Niles,35,222
+1133,Enid,Enid,36,224
+1134,PcCy,Ponca City,36,227
+1135,Wynn,Wynnewood,36,231
+1136,Wlbr,Willbridge,37,233
+1137,EFrd,East Freedom,38,236
+1138,Lncs,Lancaster,38,239
+1139,TwnO,Twin Oaks,38,242
+1140,Mdln,Midland,38,409
+1141,Scrn,Scranton,38,244
+1142,Bdfd,Bradford,38,246
+1143,TyTX,Tye,43,264
+1144,Astn,Austin,43,266
+1145,MtPl,Mount Pleasant,43,286
+1146,ThRv,Three Rivers,43,291
+1147,Cspr,Casper,50,321
+1148,Wymt,Weymouth,21,121
+1149,MtMr,Mount Morris,22,131
+1150,Lnsg,Lansing,22,133
+1151,Mrsh,Marshall,23,140
+1152,Crrl,Carrollton,25,145
+1153,Plmy,Palmyra,25,151
+1154,Psgl,Pascagoula,24,160
+1155,GFks,Grand Forks,34,175
+1156,Dphn,Doniphan,27,180
+1157,Oscl,Osceola,27,186
+1158,Edgw,Edgewater,30,189
+1159,Psct,Piscataway,30,189
+1160,Wtvl,Westville,30,190
+1161,Glnw,Glenwood Landing,32,202
+1162,Tllm,Tallmadge,35,210
+1163,Lvrn,Laverne,36,225
+1164,Emms,Emmaus,38,235
+1165,Tlly,Tullytown,38,242
+1166,WlGr,Willow Grove,38,242
+1167,Nwll,Newell,48,409
+1168,Stbv,Steubenville,35,409
+1169,Mntl,Montello,38,245
+1170,Wlsy,Wolsey,41,258
+1171,BSpr,Big Spring,43,270
+1172,CdMl,Caddo Mills,43,273
+1173,Grpv,Grapevine,43,276
+1174,Plcd,Placedo,43,293
+1175,Nrlk,Norfolk,46,300
+1176,Vcto,Victoria,61,335
+1177,ThdB,Thunder Bay,66,349
+1178,Oplk,Opelika,1,362
+1179,ClLk,Clear Lake,15,57
+1180,Mrrs,Morris,13,372
+1181,CCtr,Clay Center,16,375
+1182,Grwd,Greenwood,27,385
+1183,Dbos,Dubois,38,393
+1184,Crln,Carlin,28,475
+1185,SgtB,Sergeant Bluff,15,481
+1186,Grdn,Garden City,16,104
+1187,Mssq,Massapequa,32,202
+1188,Htfd,Hartford,45,304
+1189,Gryv,Garyville,18,116
+1190,Flnt,Flint,22,131
+1191,Bell,Belle,25,143
+1192,Flrf,Floreffe,38,243
+1193,Frta,Fruita,6,30
+1194,NUFl,Newton Upper Falls,21,121
+1195,Rgrs,Rogers,4,10
+1196,CoSp,Colorado Springs,6,29
+1197,Elel,Eleele,11,406
+1198,FtMd,Fort Madison,15,62
+1199,Ottm,Ottumwa,15,66
+1200,Chmp,Champaign,13,74
+1201,Lkpt,Lockport,13,75
+1202,Knke,Kankakee,13,80
+1203,Nrrs,Norris City,13,85
+1204,Wtng,Whiting,14,86
+1205,SoBn,South Bend,14,92
+1206,ElKS,El Dorado,16,96
+1207,Tpka,Topeka,16,105
+1208,PtAl,Port Allen,18,115
+1209,Mrux,Meraux,18,119
+1210,Pwdr,Powder Springs,10,48
+1215,BStn,Big Stone,41,257
+1220,Mrtn,Mertens,43,294
+1222,Dnia,Dania,9,39
+1223,Hmps,Hempstead,32,202
+1224,Ldbg,Lordsburg,31,13
+1226,Mnla,Mineola,32,204
+1228,Brkt,Brockton,21,121
+1229,GrCt,Garden City,32,202
+1231,SoBw,South Brunswick,30,189
+1233,BtMt,Battle Mountain,28,475
+1234,Wntw,Wentworth,41,256
+1250,Stnl,Stanley,49,312
+1251,Smfd,Stamford,7,32
+1252,Lkld,Lakeland,9,45
+1253,Wixm,Wixom,22,130
+1258,Mead,Mead,27,185
+1259,Luvr,Luverne,23,256
+1262,RgrC,Rogers City,22,129
+1264,Bnvl,Bonneville,50,321
+1265,Sndw,Sandwich,21,121
+1269,Buda,Buda,43,266
+1270,BVrn,Belle Vernon,38,243
+1271,StrC,Star City,48,320
+1272,Albi,Albion,22,132
+1273,Mron,Marion,14,87
+1274,Sydn,Sydney,65,592
+1275,JctC,Junction City,49,314
+1276,Nwcs,Newcastle,50,323
+1277,Crvl,Coralville,15,63
+1278,SoSx,South Sioux City,27,68
+1279,Grfn,Griffith,14,374
+1280,Krny,Kearney,25,381
+1281,Onnt,Oneonta,32,387
+1282,Brdg,Bridgeport,43,399
+1283,Trzh,Tirzah,40,413
+1284,CNOK,Central Oklahoma,36,226
+1285,Hron,Huron,41,258
+1286,WIsp,West Islip,32,202
+1287,PnyP,Piney Point,20,123
+1288,Atwt,Atwater,23,137
+1289,Midn,Minden,27,180
+1294,Pllk,Pollock,18,114
+1296,Grly,Greeley,6,559
+1297,Thfk,Three Forks,26,163
+1298,Mcon,Macon,25,151
+1300,Crnw,Cornwall,66,345
+1301,Arnd,Arundel,19,126
+1302,MtJk,Mount Jackson,46,299
+1303,Wtwg,Westwego,18,119
+1304,Lrto,Loretto,23,141
+1305,Unvl,Unionville,7,33
+1306,Smrt,Somerset,17,261
+1307,Alex,Alexandria,46,299
+1308,Dksn,Dickinson,34,177
+1309,Hoqm,Hoquiam,47,310
+1311,SpDl,Springdale,64,433
+1312,PmSp,Palm Springs,5,18
+1313,Eurk,Eureka,5,19
+1314,HntB,Huntington Beach,5,22
+1315,Orng,Orange,5,22
+1316,Bnca,Benicia,5,25
+1317,Grtn,Groton,7,35
+1318,DCty,Delaware City,8,37
+1319,Orld,Orlando,9,41
+1320,Alxn,Alexandria,23,137
+1322,NLVg,North Las Vegas,28,196
+1323,Lmtr,Leominster,21,121
+1325,Bddf,Biddeford,19,126
+1326,Schv,Schererville,14,86
+1327,Hlyr,Holyrood,64,433
+1328,PrLp,Portage La Prairie,62,337
+1330,Wdel,Waddell,3,12

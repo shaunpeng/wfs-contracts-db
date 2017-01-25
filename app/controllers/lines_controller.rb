@@ -65,7 +65,7 @@ class LinesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def line_params
-      params.require(:line).permit(:formula, :volume, :contract_id)
+      params.require(:line).permit(:formula, :volume, :contract_id, :product_id, :prod_category_id)
     end
     
 end

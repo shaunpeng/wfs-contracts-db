@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170124012540) do
+ActiveRecord::Schema.define(version: 20170124232015) do
 
   create_table "cfiles", force: :cascade do |t|
     t.string   "name"
@@ -26,19 +26,19 @@ ActiveRecord::Schema.define(version: 20170124012540) do
     t.integer  "state_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "market_id"
   end
 
   create_table "contracts", force: :cascade do |t|
     t.integer  "contract_nbr"
     t.string   "supplier"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.string   "status"
     t.string   "sales_rep"
     t.string   "supplier_nbr"
     t.string   "company"
     t.string   "company_nbr"
-    t.string   "terminal_city"
     t.date     "start_date"
     t.date     "end_date"
     t.string   "renew_type"
@@ -46,8 +46,8 @@ ActiveRecord::Schema.define(version: 20170124012540) do
     t.string   "formula_type"
     t.string   "pricing_cycle"
     t.string   "brand_type"
-    t.string   "terminal_state"
     t.integer  "cfile_id"
+    t.integer  "market_id"
   end
 
   create_table "customers", force: :cascade do |t|
@@ -57,11 +57,37 @@ ActiveRecord::Schema.define(version: 20170124012540) do
   end
 
   create_table "lines", force: :cascade do |t|
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.integer  "contract_id"
     t.integer  "volume"
     t.string   "formula"
+    t.integer  "prod_category_id"
+    t.integer  "product_id"
+  end
+
+  create_table "markets", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "padd"
+    t.string   "market"
+    t.integer  "state_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "prod_categories", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string   "name"
+    t.string   "abbr"
+    t.integer  "prod_category_id"
+    t.string   "short_list"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "states", force: :cascade do |t|
@@ -81,7 +107,6 @@ ActiveRecord::Schema.define(version: 20170124012540) do
   create_table "terminals", force: :cascade do |t|
     t.string   "name"
     t.string   "abbr"
-    t.integer  "rack_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "city_id"

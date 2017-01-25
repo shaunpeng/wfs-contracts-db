@@ -1,0 +1,440 @@
+MARKET_ID,NAME,PADD,MARKET,STATE_ID
+1,Anchorage,5,"Anchorage, AK",2
+2,Anniston,3,"Anniston, AL",1
+3,Birmingham,3,"Birmingham, AL",1
+4,Mobile,3,"Mobile, AL",1
+5,Montgomery,3,"Montgomery, AL",1
+6,El Dorado,3,"El Dorado, AR",4
+7,Fort Smith,3,"Fort Smith, AR",4
+8,Helena,3,"Helena, AR",4
+9,Little Rock,3,"Little Rock, AR",4
+10,Rogers,3,"Rogers, AR",4
+11,West Memphis,3,"West Memphis, AR",4
+12,Phoenix,5,"Phoenix, AZ",3
+13,Tucson,5,"Tucson, AZ",3
+14,Bakersfield,5,"Bakersfield, CA",5
+15,Barstow,5,"Barstow, CA",5
+16,Brisbane,5,"Brisbane, CA",5
+17,Chico,5,"Chico, CA",5
+18,Colton,5,"Colton, CA",5
+19,Eureka,5,"Eureka, CA",5
+20,Fresno,5,"Fresno, CA",5
+21,Imperial,5,"Imperial, CA",5
+22,Los Angeles,5,"Los Angeles, CA",5
+23,Sacramento,5,"Sacramento, CA",5
+24,San Diego,5,"San Diego, CA",5
+25,San Francisco,5,"San Francisco, CA",5
+26,San Jose,5,"San Jose, CA",5
+27,Stockton,5,"Stockton, CA",5
+28,Denver,4,"Denver, CO",6
+29,Fountain,4,"Fountain, CO",6
+30,Grand Junction,4,"Grand Junction, CO",6
+31,La Junta,4,"La Junta, CO",6
+32,Bridgeport,1,"Bridgeport, CT",7
+33,Hartford,1,"Hartford, CT",7
+34,New Haven,1,"New Haven, CT",7
+35,Norwich,1,"Norwich, CT",7
+36,Washington,1,"Washington, DC",51
+37,Wilmington,1,"Wilmington, DE",8
+38,Jacksonville,1,"Jacksonville, FL",9
+39,Miami,1,"Miami, FL",9
+40,Niceville,1,"Niceville, FL",9
+41,Orlando,1,"Orlando, FL",9
+42,Panama City,1,"Panama City, FL",9
+43,Pensacola,1,"Pensacola, FL",9
+45,Tampa,1,"Tampa, FL",9
+46,Albany,1,"Albany, GA",10
+47,Athens,1,"Athens, GA",10
+48,Atlanta,1,"Atlanta, GA",10
+49,Bainbridge,1,"Bainbridge, GA",10
+50,Columbus,1,"Columbus, GA",10
+51,Griffin,1,"Griffin, GA",10
+52,Macon,1,"Macon, GA",10
+53,Rome,1,"Rome, GA",10
+54,Savannah,1,"Savannah, GA",10
+55,Honolulu,5,"Honolulu, HI",11
+56,Bettendorf,2,"Bettendorf, IA",15
+57,Clear Lake,2,"Clear Lake, IA",15
+58,Council Bluffs,2,"Council Bluffs, IA",15
+59,Des Moines,2,"Des Moines, IA",15
+60,Dubuque,2,"Dubuque, IA",15
+61,Fort Dodge,2,"Fort Dodge, IA",15
+62,Fort Madison,2,"Fort Madison, IA",15
+63,Iowa City,2,"Iowa City, IA",15
+64,Le Mars,2,"Le Mars, IA",15
+65,Milford,2,"Milford, IA",15
+66,Ottumwa,2,"Ottumwa, IA",15
+67,Rock Rapids,2,"Rock Rapids, IA",15
+68,Sioux City,2,"Sioux City, IA",15
+69,Waterloo,2,"Waterloo, IA",15
+70,Boise,4,"Boise, ID",12
+71,Burley,4,"Burley, ID",12
+72,Pocatello,4,"Pocatello, ID",12
+73,Amboy,2,"Amboy, IL",13
+74,Champaign,2,"Champaign, IL",13
+75,Chicago,2,"Chicago, IL",13
+76,Decatur/Forsyth,2,"Decatur/Forsyth, IL",13
+77,Effingham,2,"Effingham, IL",13
+78,Hartford/Woodriver,2,"Hartford/Woodriver, IL",13
+79,Heyworth,2,"Heyworth, IL",13
+80,Kankakee,2,"Kankakee, IL",13
+81,Menard,2,"Menard, IL",13
+82,Peoria,2,"Peoria, IL",13
+83,Robinson,2,"Robinson, IL",13
+84,Rockford,2,"Rockford, IL",13
+85,Evansville,2,"Evansville, IN",14
+86,Hammond,2,"Hammond, IN",14
+87,Huntington,2,"Huntington, IN",14
+88,Indianapolis,2,"Indianapolis, IN",14
+89,Milford,2,"Milford, IN",14
+90,Muncie,2,"Muncie, IN",14
+91,Princeton,2,"Princeton, IN",14
+92,South Bend,2,"South Bend, IN",14
+93,Switz City,2,"Switz City, IN",14
+94,Coffeyville,2,"Coffeyville, KS",16
+95,Concordia,2,"Concordia, KS",16
+96,El Dorado,2,"El Dorado, KS",16
+97,Great Bend,2,"Great Bend, KS",16
+98,Hutchinson,2,"Hutchinson, KS",16
+99,Kansas City,2,"Kansas City, KS",16
+100,McPherson,2,"McPherson, KS",16
+101,Olathe,2,"Olathe, KS",16
+102,Phillipsburg,2,"Phillipsburg, KS",16
+103,Salina,2,"Salina, KS",16
+104,Scott City,2,"Scott City, KS",16
+105,Topeka,2,"Topeka, KS",16
+106,Wathena,2,"Wathena, KS",16
+107,Wichita,2,"Wichita, KS",16
+108,Ashland,2,"Ashland, KY",17
+109,Covington,2,"Covington, KY",17
+110,Lexington,2,"Lexington, KY",17
+111,Louisville,2,"Louisville, KY",17
+112,Paducah,2,"Paducah, KY",17
+113,Arcadia,3,"Arcadia, LA",18
+114,Archie,3,"Archie, LA",18
+115,Baton Rouge,3,"Baton Rouge, LA",18
+116,Convent/Garyville,3,"Convent/Garyville, LA",18
+117,Lake Charles,3,"Lake Charles, LA",18
+118,Monroe,3,"Monroe, LA",18
+119,New Orleans,3,"New Orleans, LA",18
+120,Shreveport,3,"Shreveport, LA",18
+121,Boston,1,"Boston, MA",21
+122,Springfield,1,"Springfield, MA",21
+123,Baltimore,1,"Baltimore, MD",20
+124,Salisbury,1,"Salisbury, MD",20
+125,Bangor,1,"Bangor, ME",19
+126,Portland,1,"Portland, ME",19
+128,Bay City,2,"Bay City, MI",22
+129,Cheboygan,2,"Cheboygan, MI",22
+130,Detroit,2,"Detroit, MI",22
+131,Flint/Owosso,2,"Flint/Owosso, MI",22
+132,Jackson,2,"Jackson, MI",22
+133,Lansing,2,"Lansing, MI",22
+134,Muskegon,2,"Muskegon, MI",22
+135,Niles,2,"Niles, MI",22
+136,Traverse City,2,"Traverse City, MI",22
+137,Alexandria,2,"Alexandria, MN",23
+138,Duluth,2,"Duluth, MN",23
+139,Mankato,2,"Mankato, MN",23
+140,Marshall,2,"Marshall, MN",23
+141,Minneapolis/Saint Paul,2,"Minneapolis/Saint Paul, MN",23
+142,Rochester,2,"Rochester, MN",23
+143,Belle,2,"Belle, MO",25
+144,Cape Girardeau,2,"Cape Girardeau, MO",25
+145,Carrollton,2,"Carrollton, MO",25
+146,Carthage,2,"Carthage, MO",25
+147,Columbia,2,"Columbia, MO",25
+148,Jefferson City,2,"Jefferson City, MO",25
+150,Mount Vernon,2,"Mount Vernon, MO",25
+151,Palmyra,2,"Palmyra, MO",25
+153,Springfield,2,"Springfield, MO",25
+154,Saint Louis,2,"Saint Louis, MO",25
+155,Aberdeen,3,"Aberdeen, MS",24
+156,Biloxi,3,"Biloxi, MS",24
+157,Collins,3,"Collins, MS",24
+158,Greenville,3,"Greenville, MS",24
+159,Meridian,3,"Meridian, MS",24
+160,Pascagoula,3,"Pascagoula, MS",24
+161,Vicksburg,3,"Vicksburg, MS",24
+162,Billings,4,"Billings, MT",26
+163,Bozeman,4,"Bozeman, MT",26
+164,Glendive,4,"Glendive, MT",26
+165,Great Falls,4,"Great Falls, MT",26
+166,Helena,4,"Helena, MT",26
+167,Missoula,4,"Missoula, MT",26
+168,Raleigh/Apex,1,"Raleigh/Apex, NC",33
+169,Charlotte,1,"Charlotte, NC",33
+170,Fayetteville,1,"Fayetteville, NC",33
+171,Greensboro,1,"Greensboro, NC",33
+172,Selma,1,"Selma, NC",33
+173,Wilmington,1,"Wilmington, NC",33
+174,Fargo,2,"Fargo, ND",34
+175,Grand Forks,2,"Grand Forks, ND",34
+176,Jamestown,2,"Jamestown, ND",34
+177,Mandan,2,"Mandan, ND",34
+178,Minot,2,"Minot, ND",34
+179,Columbus,2,"Columbus, NE",27
+180,Doniphan,2,"Doniphan, NE",27
+181,Geneva,2,"Geneva, NE",27
+182,Lincoln,2,"Lincoln, NE",27
+183,Norfolk,2,"Norfolk, NE",27
+184,North Platte,2,"North Platte, NE",27
+185,Omaha,2,"Omaha, NE",27
+186,Osceola,2,"Osceola, NE",27
+187,Sidney,2,"Sidney, NE",27
+188,Newington,1,"Newington, NH",29
+189,Newark,1,"Newark, NJ",30
+190,Paulsboro,1,"Paulsboro, NJ",30
+191,Trenton,1,"Trenton, NJ",30
+192,Albuquerque,3,"Albuquerque, NM",31
+193,Artesia,3,"Artesia, NM",31
+194,Bloomfield,3,"Bloomfield, NM",31
+195,Ciniza,3,"Ciniza, NM",31
+196,Las Vegas,5,"Las Vegas, NV",28
+197,Sparks,5,"Sparks, NV",28
+198,Albany,1,"Albany, NY",32
+199,Big Flats,1,"Big Flats, NY",32
+200,Binghamton,1,"Binghamton, NY",32
+201,Buffalo,1,"Buffalo, NY",32
+202,Long Island,1,"Long Island, NY",32
+204,New York City,1,"New York City, NY",32
+205,Newburgh,1,"Newburgh, NY",32
+206,Rochester,1,"Rochester, NY",32
+207,Syracuse,1,"Syracuse, NY",32
+208,Utica,1,"Utica, NY",32
+209,Bryan,2,"Bryan, OH",35
+210,Canton/Akron,2,"Canton/Akron, OH",35
+211,Cincinnati,2,"Cincinnati, OH",35
+212,Cleveland,2,"Cleveland, OH",35
+213,Columbus,2,"Columbus, OH",35
+214,Dayton,2,"Dayton, OH",35
+215,Lebanon,2,"Lebanon, OH",35
+216,Lima,2,"Lima, OH",35
+217,Lorain,2,"Lorain, OH",35
+218,Marietta,2,"Marietta, OH",35
+219,Sciotoville,2,"Sciotoville, OH",35
+220,Tiffin,2,"Tiffin, OH",35
+221,Toledo,2,"Toledo, OH",35
+222,Youngstown,2,"Youngstown, OH",35
+223,Ardmore,2,"Ardmore, OK",36
+224,Enid,2,"Enid, OK",36
+225,Laverne,2,"Laverne, OK",36
+226,Oklahoma City,2,"Oklahoma City, OK",36
+227,Ponca City,2,"Ponca City, OK",36
+228,Shawnee,2,"Shawnee, OK",36
+229,Tulsa,2,"Tulsa, OK",36
+230,Turpin,2,"Turpin, OK",36
+231,Wynnewood,2,"Wynnewood, OK",36
+232,Eugene,5,"Eugene, OR",37
+233,Portland,5,"Portland, OR",37
+234,Umatilla,5,"Umatilla, OR",37
+235,Allentown,1,"Allentown, PA",38
+236,Altoona,1,"Altoona, PA",38
+237,Greensburg,1,"Greensburg, PA",38
+238,Harrisburg,1,"Harrisburg, PA",38
+239,Lancaster,1,"Lancaster, PA",38
+240,Northumberland,1,"Northumberland, PA",38
+242,Philadelphia,1,"Philadelphia, PA",38
+243,Pittsburgh,1,"Pittsburgh, PA",38
+244,Scranton,1,"Scranton, PA",38
+245,Sinking Spring,1,"Sinking Spring, PA",38
+246,Warren,1,"Warren, PA",38
+247,Williamsport,1,"Williamsport, PA",38
+248,Providence,1,"Providence, RI",39
+249,Belton,1,"Belton, SC",40
+250,Charleston,1,"Charleston, SC",40
+251,North Augusta,1,"North Augusta, SC",40
+252,Spartanburg,1,"Spartanburg, SC",40
+253,Aberdeen,2,"Aberdeen, SD",41
+254,Mitchell,2,"Mitchell, SD",41
+255,Rapid City,2,"Rapid City, SD",41
+256,Sioux Falls,2,"Sioux Falls, SD",41
+257,Watertown,2,"Watertown, SD",41
+258,Wolsey,2,"Wolsey, SD",41
+259,Yankton,2,"Yankton, SD",41
+260,Chattanooga,2,"Chattanooga, TN",42
+261,Knoxville,2,"Knoxville, TN",42
+262,Memphis,2,"Memphis, TN",42
+263,Nashville,2,"Nashville, TN",42
+264,Abilene,3,"Abilene, TX",43
+265,Amarillo,3,"Amarillo, TX",43
+266,Austin,3,"Austin, TX",43
+267,Bay City,3,"Bay City, TX",43
+268,Beaumont,3,"Beaumont, TX",43
+270,Big Spring,3,"Big Spring, TX",43
+271,Brownsville,3,"Brownsville, TX",43
+272,Bryan,3,"Bryan, TX",43
+273,Caddo Mills,3,"Caddo Mills, TX",43
+274,Center,3,"Center, TX",43
+275,Corpus Christi,3,"Corpus Christi, TX",43
+276,Dallas/Fort Worth,3,"Dallas/Fort Worth, TX",43
+277,El Paso,3,"El Paso, TX",43
+279,Harlingen,3,"Harlingen, TX",43
+280,Hearne,3,"Hearne, TX",43
+281,Edinburg,3,"Edinburg, TX",43
+282,Houston,3,"Houston, TX",43
+283,Laredo,3,"Laredo, TX",43
+284,Lubbock,3,"Lubbock, TX",43
+285,Midland/Odessa,3,"Midland/Odessa, TX",43
+286,Mount Pleasant,3,"Mount Pleasant, TX",43
+287,Pasadena,3,"Pasadena, TX",43
+288,San Angelo,3,"San Angelo, TX",43
+289,San Antonio,3,"San Antonio, TX",43
+290,Sheerin,3,"Sheerin, TX",43
+291,Three Rivers,3,"Three Rivers, TX",43
+292,Tyler,3,"Tyler, TX",43
+293,Victoria/Placedo,3,"Victoria/Placedo, TX",43
+294,Waco,3,"Waco, TX",43
+295,Waskom,3,"Waskom, TX",43
+296,Wichita Falls,3,"Wichita Falls, TX",43
+297,Roosevelt,4,"Roosevelt, UT",44
+298,Salt Lake City,4,"Salt Lake City, UT",44
+299,Fairfax,1,"Fairfax, VA",46
+300,Norfolk,1,"Norfolk, VA",46
+301,Richmond,1,"Richmond, VA",46
+302,Roanoke,1,"Roanoke, VA",46
+303,Burlington,1,"Burlington, VT",45
+304,Rutland,1,"Rutland, VT",45
+305,Anacortes,5,"Anacortes, WA",47
+306,Moses Lake,5,"Moses Lake, WA",47
+307,Pasco,5,"Pasco, WA",47
+308,Seattle,5,"Seattle, WA",47
+309,Spokane,5,"Spokane, WA",47
+310,Tacoma,5,"Tacoma, WA",47
+311,Wilma,5,"Wilma, WA",47
+312,Chippewa Falls,2,"Chippewa Falls, WI",49
+313,Green Bay,2,"Green Bay, WI",49
+314,Junction City,2,"Junction City, WI",49
+315,Madison,2,"Madison, WI",49
+316,Milwaukee,2,"Milwaukee, WI",49
+317,Superior,2,"Superior, WI",49
+318,Waupun,2,"Waupun, WI",49
+319,Wausau,2,"Wausau, WI",49
+320,Charleston,1,"Charleston, WV",48
+321,Casper,4,"Casper, WY",50
+322,Cheyenne,4,"Cheyenne, WY",50
+323,Newcastle,4,"Newcastle, WY",50
+324,Rock Springs,4,"Rock Springs, WY",50
+325,Sheridan,4,"Sheridan, WY",50
+326,Sinclair,4,"Sinclair, WY",50
+327,Calgary,4,"Calgary, AB",60
+329,Edmonton,4,"Edmonton, AB",60
+331,Kamloops,5,"Kamloops, BC",61
+333,Vancouver,5,"Vancouver, BC",61
+335,Victoria,5,"Victoria, BC",61
+337,Winnipeg,2,"Winnipeg, MB",62
+339,Saint John,1,"Saint John, NB",63
+341,Halifax,1,"Halifax, NS",65
+343,London,1,"London, ON",66
+345,Ottawa,1,"Ottawa, ON",66
+347,Sarnia,1,"Sarnia, ON",66
+349,Thunder Bay,1,"Thunder Bay, ON",66
+351,Toronto,1,"Toronto, ON",66
+353,Montreal,1,"Montreal, QC",68
+355,Quebec,1,"Quebec, QC",68
+359,Regina,4,"Regina, SK",69
+361,Demopolis,3,"Demopolis, AL",1
+362,Opelika,3,"Opelika, AL",1
+363,Alma,1,"Alma, GA",10
+364,Milner,1,"Milner, GA",10
+365,Cantril,2,"Cantril, IA",15
+367,New Hampton,2,"New Hampton, IA",15
+368,Ogden,2,"Ogden, IA",15
+369,Sanborn,2,"Sanborn, IA",15
+370,Whiting,2,"Whiting, IA",15
+371,Farmington,2,"Farmington, IL",13
+372,Morris,2,"Morris, IL",13
+373,Tampico,2,"Tampico, IL",13
+374,Griffith,2,"Griffith, IN",14
+375,Clay Center,2,"Clay Center, KS",16
+376,Conway,2,"Conway, KS",16
+377,LeCompton,2,"LeCompton, KS",16
+378,Paola,2,"Paola, KS",16
+379,Benson,2,"Benson, MN",23
+380,Dexter,2,"Dexter, MO",25
+381,Kearney,2,"Kearney, MO",25
+382,Moberly,2,"Moberly, MO",25
+383,Hattiesburg,3,"Hattiesburg, MS",24
+384,Carrington,2,"Carrington, ND",34
+385,Greenwood,2,"Greenwood, NE",27
+386,Plattsmouth,2,"Plattsmouth, NE",27
+387,Oneonta,1,"Oneonta, NY",32
+388,Selkirk,1,"Selkirk, NY",32
+389,Watkins Glen,1,"Watkins Glen, NY",32
+390,Coshocton,2,"Coshocton, OH",35
+391,Todhunter,2,"Todhunter, OH",35
+392,Calumet,2,"Calumet, OK",36
+393,DuBois,1,"DuBois, PA",38
+394,Eagle,1,"Eagle, PA",38
+395,Cheraw,1,"Cheraw, SC",40
+396,Lexington,1,"Lexington, SC",40
+398,Borger,3,"Borger, TX",43
+399,Bridgeport,3,"Bridgeport, TX",43
+400,Mont Belvieu,3,"Mont Belvieu, TX",43
+401,Janesville,2,"Janesville, WI",49
+402,Bushton,2,"Bushton, KS",16
+403,Eagle Lake,2,"Eagle Lake, MN",23
+404,Hilo,5,"Hilo, HI",11
+405,Kahului,5,"Kahului, HI",11
+406,Eleele,5,"Eleele, HI",11
+407,Rapid River,2,"Rapid River, MI",22
+408,Fairbanks,5,"Fairbanks, AK",2
+409,Midland,1,"Midland, PA",38
+411,Holland,2,"Holland, MI",22
+412,Seymour,2,"Seymour, IN",14
+413,Tirzah,1,"Tirzah, SC",40
+415,Council Bluffs/Omaha,2,"Council Bluffs, IA",15
+416,Houston/Pasadena,3,"Houston/Pasadena, TX",43
+418,Hartford Woodriver/St.Louis,2,"Hartford Woodriver, IL",13
+423,Flagstaff,5,"Flagstaff, AZ",3
+424,Kingsland,3,"Kingsland, AR",4
+425,Light,3,"Light, AR",4
+429,Sault Ste. Marie,2,"Sault Ste. Marie, ON",66
+430,Hamilton,2,"Hamilton, ON",66
+431,Nanticoke,2,"Nanticoke, ON",66
+432,Nanaimo,5,"Nanaimo, BC",61
+433,St. John's,1,"St. John's, NL",64
+434,Charlottetown,1,"Charlottetown, PE",67
+435,Marysville,2,"Marysville, MI",22
+438,Morgan City,3,"Morgan City, LA",18
+439,Layfayette,2,"Layfayette, IN",14
+444,Bellevue,2,"Bellevue, OH",35
+453,Chatham,1,"Chatham, NB",63
+454,Hay River,4,"Hay River, NT",70
+455,Maitland,1,"Maitland, ON",66
+456,Prince George,5,"Prince George, BC",61
+458,Saskatoon,4,"Saskatoon, SK",69
+459,Terrace Bay,2,"Terrace Bay, ON",66
+460,Hobbs,3,"Hobbs, NM",31
+462,Green Springs,2,"Green Springs, OH",35
+464,Americus,1,"Americus, GA",10
+473,Kingman,5,"Kingman, AZ",3
+474,Winslow,5,"Winslow, AZ",3
+475,Carlin,5,"Carlin, NV",28
+476,Gretna,2,"Gretna, MB",62
+477,Belleville,1,"Belleville, ON",66
+478,Kingston,1,"Kingston, ON",66
+480,Sept-Iles,1,"Sept-Iles, QC",68
+481,Sergeant Bluff,2,"Sergeant Bluff, IA",15
+482,Ralston,2,"Ralston, IA",15
+492,Duluth MN/Superior,2,"Duluth MN/Superior, WI",49
+494,Brewster,2,"Brewster, MN",23
+495,Redwood Falls,2,"Redwood Falls, MN",23
+496,Albert Lea,2,"Albert Lea, MN",23
+497,Halsey,2,"Halsey, NE",27
+498,Gulf Coast Dallas,3,"Gulf Coast Dallas, TX",43
+499,Prudhoe Bay,5,"Prudhoe Bay, AK",2
+500,Iowa Falls,2,"Iowa Falls, IA",15
+554,Sheffield,3,"Sheffield, AL",1
+555,Jonesboro,3,"Jonesboro, AR",4
+558,Rapid City,3,"Rapid City, MB",62
+559,Fort Lupton,4,"Fort Lupton, CO",6
+560,Medford,2,"Medford, OK",36
+561,Erie,1,"Erie, PA",38
+569,Boligee,3,"Boligee, AL",1
+571,Hugoton,2,"Hugoton, KS",16
+592,Sydney,1,"Sydney, NS",65
+593,Fort McMurray,4,"Fort McMurray, AB",60
+594,Cedar City,4,"Cedar City, UT",44
+605,Puerto Rico,1,"Puerto Rico, PR",71
+607,Kaunakakai,5,"Kaunakakai, HI",11

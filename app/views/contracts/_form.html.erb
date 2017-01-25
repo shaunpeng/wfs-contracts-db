@@ -49,16 +49,19 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :terminal_state, "Terminal State*" %></label>
-            <% options = options_from_collection_for_select(State.order(:name), 'abbr', 'name', f.object.terminal_state ) %>
-            <%= f.select(:terminal_state, options, {include_blank: @contract.terminal_state.blank? }, { :class => "form-control", :id =>"terminal-state"}) %>
+          <label class="col-2 col-form-label">Market State</label>
+              <% if f.object.market_id.present? %>
+              <%   selected = Market.find(f.object.market_id).state.name %>
+              <% end %>
+            <% options = options_from_collection_for_select(State.where("country = 'USA'").order(:name), 'name', 'name', selected ) %>
+            <%= select_tag('', options, include_blank: @contract.market_id.blank? , class:"form-control", id:"market-state") %>
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :terminal_city, "Terminal City* (DTN)" %></label>
-            <% options = option_groups_from_collection_for_select(State.order(:name), :cities, :name, :name, :name,  f.object.terminal_city ) %>
-            <%= f.select(:terminal_city, options, {include_blank: @contract.terminal_city.blank? }, { :class => "form-control", :id =>"terminal-city" }) %>
+          <label class="col-2 col-form-label"><%= f.label :market_id, "Market* (DTN)" %></label>
+            <% options = option_groups_from_collection_for_select(State.where("country = 'USA'").order(:name), :markets, :name, :id, :name,  f.object.market_id ) %>
+            <%= f.select(:market_id, options, {include_blank: @contract.market_id.blank? }, { :class => "form-control", :id =>"market-name" }) %>
         </div>
     </tr>
     <tr>

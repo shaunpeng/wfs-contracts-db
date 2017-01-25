@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  padd: 1
+  market: MyString
+  state_id: 1
+
+two:
+  name: MyString
+  padd: 1
+  market: MyString
+  state_id: 1

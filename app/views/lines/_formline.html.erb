@@ -1,0 +1,59 @@
+<%= form_for(line) do |f| %>
+  <% if line.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(line.errors.count, "error") %> prohibited this line from being saved:</h2>
+
+      <ul>
+      <% line.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	</p>
+
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputContractId" class="col-2 col-form-label"><%= f.label :contract_id, "Contract ID" %></label>
+    <%= f.number_field :contract_id, class: "form-control", :value => line.contract_id, :readonly => true %>
+  </div>
+</div>
+
+<div class="form-group row">
+    <div class="field">
+      <label class="col-2 col-form-label"><%= f.label :prod_category_id, "Product Category* (DTN)" %></label>
+      <% options = options_from_collection_for_select(ProdCategory.order(:name), 'id', 'name', f.object.prod_category_id ) %>
+      <%= f.select(:prod_category_id, options, {include_blank: !line.prod_category_id.present? }, { :class => "form-control", :id =>"prod-category" }) %>
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="field">
+      <label class="col-2 col-form-label"><%= f.label :product_id, "Product (DTN)" %></label>
+      <% options = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :name,  f.object.product_id ) %>
+      <%= f.select(:product_id, options, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name" } ) %>
+    </div>
+</div>
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputFormula" class="col-2 col-form-label"><%= f.label :formula %></label>
+    <%= f.text_field :formula, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="field">
+    <label for="inputVolume" class="col-2 col-form-label"><%= f.label :volume %></label>
+    <%= f.number_field :volume, class: "form-control" %>
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="actions">
+    <%= f.submit class:"btn btn-primary" %>
+  </div>
+</div>
+
+<% end %>

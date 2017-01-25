@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-8">
     <h1><img class="document-icon" src="/document.png" />
-    Supply Contracts</h1>
+    Supply Contracts (Rack)</h1>
   </div>
   <div class="bottom-align-right col-xs-6 col-md-4">
     <%= button_to 'Create New', new_contract_path, method: :get, class:"btn btn-primary pull-right" %>
@@ -16,7 +16,7 @@
       <th class="muted">ID</th>
       <th>Contract #</th>
       <th>Supplier</th>
-      <th>City</th>
+      <th>Market</th>
       <th>Brand</th>
       <th>Start Date</th>
       <th>End Date</th>
@@ -33,7 +33,7 @@
         <td class="muted"><%= contract.id %></td>
         <td><%= contract.contract_nbr %></td>
         <td><%= contract.supplier %></td>
-        <td><%= contract.terminal_city %></td>
+        <td><%= Market.find(contract.market_id).market %></td>
         <td><%= contract.brand_type %></td>
         <td><%= contract.start_date.strftime("%m/%d/%Y") %></td>
         <td><%= contract.end_date.strftime("%m/%d/%Y") %></td>

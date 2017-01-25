@@ -1,0 +1,980 @@
+ID,NAME,ABBR,PROD_CATEGORY_ID,Short_list
+0,None/Unknown,------,9,N
+1,High Sulfur #2 Diesel,HS #2,3,N
+2,High Sulfur #1 Diesel,HS #1,3,N
+3,High Sulfur #2 Premium Diesel,HS PD,3,N
+4,High Sulfur #2 PremWinter Diesel,HSPDWB,3,N
+5,High Sulfur Kerosene,HSKERO,8,N
+6,High Sulfur #2 Winter Diesel,HS#2WB,3,N
+7,Low Sulfur #2 Clear Diesel,LS #2,3,N
+8,Low Sulfur #1 Clear Diesel,LS #1,3,N
+9,Low Sulfur #2 Clear Prem Diesel,LS PD,3,N
+10,Low Sulfur #2 Clear PremWinter Diesel,LSPDWB,3,N
+11,Low Sulfur Certified Kerosene .04 Sulfur,CertK1,8,N
+12,Low Sulfur #2 Clear Winter Diesel,LS#2WB,3,N
+13,CARB #2,CARB#2,3,N
+14,CARB #1,CARB#1,3,N
+15,CARB #2 Dyed,CA#2DY,3,N
+16,CARB #1 Dyed,CA#1DY,3,N
+17,Low Sulfur #2 Diesel Dyed,LS#2DY,3,N
+18,Low Sulfur #1 Diesel Dyed,LS#1DY,3,N
+19,Low Sulfur #2 Prem Diesel Dyed,LSPDDY,3,N
+20,Low Sulfur #2 PremWinter Diesel Dyed,LPWBDY,3,N
+21,Low Sulfur Kerosene Dyed,LSKEDY,8,N
+22,Low Sulfur #2 Winter Diesel Dyed,LWBDY,3,N
+23,Conv 84 Unleaded CBOB for Blending,84CBOB,6,Y
+24,Conv 87 Unleaded Octane,Unl 87,6,Y
+25,Conv 89 Midgrade Octane,Mid 89,6,Y
+26,Conv 90 Midgrade Octane,Mid 90,6,N
+27,Conv 90 Premium Octane,Pre 90,6,Y
+28,Conv 91 Premium Octane,Pre 91,6,Y
+29,Conv 92 Premium Octane,Pre 92,6,N
+30,Conv 93 Premium Octane,Pre 93,6,N
+31,Conv 94 Premium Octane,Pre 94,6,N
+32,Ultra Low Sulfur #2 Clear Diesel,ULS #2,3,Y
+33,Ultra Low Sulfur #1 Clear Diesel,ULS #1,3,Y
+34,Ultra Low Sulfur #2 Diesel Dyed,ULS2DY,3,Y
+35,Ultra Low Sulfur #1 Diesel Dyed,ULS1DY,3,Y
+36,Ultra Low Sulfur Kerosene,ULS K1,8,Y
+37,Conv 87 Unleaded with 10% Ethanol,U87E10,6,Y
+38,Conv 89 Midgrade with 10% Ethanol,M89E10,6,Y
+39,Conv 90 Midgrade with 10% Ethanol,M90E10,6,N
+40,Conv 90 Premium with 10% Ethanol,P90E10,6,N
+41,Conv 91 Premium with 10% Ethanol,P91E10,6,Y
+42,Conv 92 Premium with 10% Ethanol,P92E10,6,Y
+43,Conv 93 Premium with 10% Ethanol,P93E10,6,Y
+44,Conv 94 Premium with 10% Ethanol,P94E10,6,N
+45,Conv 87 Unleaded with 8% Ethanol,U87E8%,6,N
+46,Conv 89 Midgrade with 8% Ethanol,M89E8%,6,N
+47,Conv 92 Premium with 8% Ethanol,P92E8%,6,N
+48,Conv 93 Premium with 8% Ethanol,P93E8%,6,N
+49,Conv 87 Unleaded with 7.8% Ethanol,U87E78,6,N
+50,Conv 89 Midgrade with 7.8% Ethanol,M89E78,6,N
+51,Conv 90 Midgrade with 7.8% Ethanol,M90E78,6,N
+52,Conv 90 Premium with 7.8% Ethanol,P90E78,6,N
+53,Conv 91 Premium with 7.8% Ethanol,P91E78,6,N
+54,Conv 92 Premium with 7.8% Ethanol,P92E78,6,N
+55,Conv 93 Premium with 7.8% Ethanol,P93E78,6,N
+56,Conv 94 Premium with 7.8% Ethanol,P94E78,6,N
+57,Conv 87 Unleaded with MTBE,U87MTB,6,N
+58,Conv 89 Midgrade with MTBE,M89MTB,6,N
+59,Conv 91 Premium with MTBE,P91MTB,6,N
+60,Conv 92 Premium with MTBE,P92MTB,6,N
+61,Conv 93 Premium with MTBE,P93MTB,6,N
+62,Conv 87 Unleaded Low RVP 7.0,U87L70,6,N
+63,Conv 89 Midgrade Low RVP 7.0,M89L70,6,N
+64,Conv 91 Premium Low RVP 7.0,P91L70,6,N
+65,Conv 92 Premium Low RVP 7.0,P92L70,6,N
+66,Conv 93 Premium Low RVP 7.0,P93L70,6,N
+67,Conv 87 Unleaded Low RVP 7.2,U87L72,6,N
+68,Conv 89 Midgrade Low RVP 7.2,M89L72,6,N
+69,Conv 91 Premium Low RVP 7.2,P91L72,6,N
+70,Conv 92 Premium Low RVP 7.2,P92L72,6,N
+71,Conv 93 Premium Low RVP 7.2,P93L72,6,N
+72,Conv 87 Unleaded Low RVP 8.5,U87L85,6,N
+73,Conv 89 Midgrade Low RVP 8.5,M89L85,6,N
+74,Conv 91 Premium Low RVP 8.5,P91L85,6,N
+75,Conv 92 Premium Low RVP 8.5,P92L85,6,N
+76,Conv 93 Premium Low RVP 8.5,P93L85,6,N
+77,Conv 87 Unleaded Low RVP 7.8,U87L78,6,Y
+78,Conv 89 Midgrade Low RVP 7.8,M89L78,6,N
+79,Conv 91 Premium Low RVP 7.8,P91L78,6,Y
+80,Conv 92 Premium Low RVP 7.8,P92L78,6,N
+81,Conv 93 Premium Low RVP 7.8,P93L78,6,N
+82,RFG 87 Unleaded with 10% Ethanol,87RE10,6,Y
+83,RFG 89 Midgrade with 10% Ethanol,89RE10,6,Y
+84,RFG 90 Midgrade with 10% Ethanol,M90R10,6,N
+85,RFG 91 Premium with 10% Ethanol,91RE10,6,N
+86,RFG 92 Premium with 10% Ethanol,92RE10,6,N
+87,RFG 93 Premium with 10% Ethanol,93RE10,6,Y
+88,RFG 94 Premium with 10% Ethanol,94RE10,6,N
+89,RFG 87 Unleaded with 7.8% Ethanol,87RE78,6,N
+90,RFG 89 Midgrade with 7.8% Ethanol,89RE78,6,N
+91,RFG 90 Midgrade with 7.8% Ethanol,M90R78,6,N
+92,RFG 91 Premium with 7.8% Ethanol,91RE78,6,N
+93,RFG 92 Premium with 7.8% Ethanol,92RE78,6,N
+94,RFG 93 Premium with 7.8% Ethanol,93RE78,6,N
+95,RFG 94 Premium with 7.8% Ethanol,94RE78,6,N
+96,RFG 87 Unleaded with 5.7% Ethanol,87RE57,6,N
+97,RFG 89 Midgrade with 5.7% Ethanol,89RE57,6,N
+98,RFG 92 Premium with 5.7% Ethanol,92RE57,6,N
+99,RFG 93 Premium with 5.7% Ethanol,93RE57,6,N
+100,RFG 94 Premium with 5.7% Ethanol,94RE57,6,N
+101,RFG 87 Unleaded with MTBE,U87 RM,6,N
+102,RFG 89 Midgrade with MTBE,M89 RM,6,N
+103,RFG 90 Midgrade with MTBE,M90 RM,6,N
+104,RFG 91 Premium with MTBE,P91 RM,6,N
+105,RFG 92 Premium with MTBE,P92 RM,6,N
+106,RFG 93 Premium with MTBE,P93 RM,6,N
+107,RFG 94 Premium with MTBE,P94 RM,6,N
+108,High Sulfur #2 Fuel Oil w/o Lubricity,HO#2FO,3,N
+109,High Sulfur #1 Fuel Oil w/o Lubricity,HO#1FO,3,N
+110,High Sulfur #2 Premium Fuel Oil w/o Lubr,HS2PFO,3,N
+111,High Sulfur #2 Premium Winter FO w/o Lub,HO2PWF,3,N
+112,High Sulfur #2 Winter Fuel Oil w/o Lubri,HO#2WF,3,N
+113,Low Sulfur #2 Clear Fuel Oil w/o Lubrici,LS#2FO,3,N
+114,Low Sulfur #1 Clear Fuel Oil w/o Lubrici,LS#1FO,3,N
+115,Low Sulfur #2 Clear Premium Fuel Oil w/o,LSPDFO,3,N
+116,Low Sulfur #2 Clear PremWinter FO w/o L,LSPWFO,3,N
+117,Low Sulfur #2 Clear Winter FO w/o Lubric,LS#2WF,3,N
+118,RFG 87 Unleaded with MTBE 7.4 RVP,URML74,6,N
+119,RFG 89 Midgrade with MTBE 7.4 RVP,MRML74,6,N
+120,RFG 90 Midgrade with MTBE 7.4 RVP,M9RM74,6,N
+121,RFG 91 Premium with MTBE 7.4 RVP,91RM74,6,N
+122,RFG 92 Premium with MTBE 7.4 RVP,92RM74,6,N
+123,RFG 93 Premium with MTBE 7.4 RVP,93RM74,6,N
+124,RFG 94 Premium with MTBE 7.4 RVP,94RM74,6,N
+125,RFG 87 Unleaded with MTBE 8.3 RVP,URML83,6,N
+126,RFG 89 Midgrade with MTBE 8.3 RVP,MRML83,6,N
+127,RFG 90 Midgrade with MTBE 8.3 RVP,M9RM83,6,N
+128,RFG 91 Premium with MTBE 8.3 RVP,91RM83,6,N
+129,RFG 92 Premium with MTBE 8.3 RVP,92RM83,6,N
+130,RFG 93 Premium with MTBE 8.3 RVP,93RM83,6,N
+131,RFG 94 Premium with MTBE 8.3 RVP,94RM83,6,N
+132,RFG 87 Unleaded with 10% Ethanol VOC2,UR10V2,6,Y
+133,RFG 89 Midgrade with 10% Ethanol VOC2,MR10V2,6,Y
+134,RFG 90 Midgrade with 10% Ethanol VOC2,M9R1V2,6,N
+135,RFG 91 Premium with 10% Ethanol VOC2,91R1V2,6,N
+136,RFG 92 Premium with 10% Ethanol VOC2,92R1V2,6,N
+137,RFG 93 Premium with 10% Ethanol VOC2,93R1V2,6,Y
+138,RFG 94 Premium with 10% Ethanol VOC2,94R1V2,6,N
+139,Low Sulfur #2 Fuel Oil Dyed w/o Lubricit,LS2FOD,3,N
+140,Low Sulfur #1 Fuel Oil Dyed w/o Lubricit,LS1FOD,3,N
+141,Low Sulfur #2 Premium Diesel FO Dy w/o L,L2PFOD,3,N
+142,Low Sulfur #2 PremWinter FO Dyed w/o Lu,L2PWFD,3,N
+143,Low Sulfur #2 Winter Fuel Oil Dyed w/o L,L2WFOD,3,N
+144,Conv 82 Unleaded CBOB for Blending,82CBOB,6,N
+145,Conv 85 Unleaded CBOB  for Blending,85CBOB,6,N
+146,Conv 87 Unleaded CBOB for Blending,87CBOB,6,N
+147,Conv 89 Midgrade CBOB for Blending,89CBOB,6,N
+148,Conv 91 Premium CBOB for Blending,91CBOB,6,N
+149,Conv 92 Premium CBOB for Blending,92CBOB,6,N
+150,Conv 93 Premium CBOB  for Blending,93CBOB,6,N
+151,OPRG 87 Unleaded with 5.7% Ethanol,87OR57,6,N
+152,OPRG 89 Midgrade with 5.7% Ethanol,89OR57,6,N
+153,OPRG 92 Premium with 5.7% Ethanol,92OR57,6,N
+154,OPRG 93 Premium with 5.7% Ethanol,93OR57,6,N
+155,OPRG 94 Premium with 5.7% Ethanol,94OR57,6,N
+156,OPRG 87 Unleaded with MTBE,U87ORM,6,N
+157,OPRG 89 Midgrade with MTBE,M89ORM,6,N
+158,OPRG 90 Midgrade with MTBE,M90ORM,6,N
+159,OPRG 91 Premium with MTBE,P91ORM,6,N
+160,OPRG 92 Premium with MTBE,P92ORM,6,N
+161,OPRG 93 Premium with MTBE,P93ORM,6,N
+162,OPRG 94 Premium with MTBE,P94ORM,6,N
+163,CBG 87 RFG with 0% Oxy,U87CB0,6,N
+164,CBG 89 RFG with 0% Oxy,M89CB0,6,N
+165,CBG 92 RFG with 0% Oxy,P92CB0,6,N
+166,CBG 93 RFG with 0% Oxy,P93CB0,6,N
+167,"CARB or CBG 87 RFG with MTBE, 2%",U87CB2,6,N
+168,"CARB or CBG 89 RFG with MTBE, 2%",M89CB2,6,N
+169,"CARB or CBG 92 RFG with MTBE, 2%",P92CB2,6,N
+170,"CARB or CBG 93 RFG with MTBE, 2%",P93CB2,6,N
+171,Jet Fuel with Additive,JetADD,7,N
+172,Jet Fuel,Jet,7,N
+173,Aviation Gas,Avgas,1,N
+174,Propane,Propne,10,N
+175,Ethanol,Ethanl,4,Y
+176,Ethanol Minnesota Destination,Eth MN,4,N
+177,Ethanol Illinois Destination,Eth IL,4,N
+178,MTBE for Blending,MTBE,9,N
+179,RBOB,RBOB,4,N
+180,Conv 87 Unleaded with 5.7% Ethanol,U87E57,6,N
+181,Conv 89 Midgrade with 5.7% Ethanol,M89E57,6,N
+182,Conv 92 Premium with 5.7% Ethanol,P92E57,6,N
+183,OPRG 87 Unleaded with 10% Ethanol,87OR10,6,N
+184,OPRG 89 Midgrade with 10% Ethanol,89OR10,6,N
+185,OPRG 90 Midgrade with 10% Ethanol,M90OR1,6,N
+186,OPRG 91 Premium with 10% Ethanol,91OR10,6,N
+187,OPRG 92 Premium with 10% Ethanol,92OR10,6,N
+188,OPRG 93 Premium with 10% Ethanol,93OR10,6,N
+189,OPRG 94 Premium with 10% Ethanol,94OR10,6,N
+190,Ultra Low Sulfur #2 Prem Diesel,ULS PR,3,Y
+191,Ultra Low Sulfur #2 Prem Diesel Dyed,ULS PD,3,Y
+192,Ultra Low Sulfur Kerosene Dyed,ULS KD,8,Y
+200,Conv 85 Unleaded Octane,Unl 85,6,N
+201,Conv 87 Midgrade Octane,Mid 87,6,N
+202,Conv 86 Unleaded Octane,Unl 86,6,N
+203,Conv 88 Midgrade Octane,Mid 88,6,N
+204,Conv 85 Unleaded with MTBE,U85MTB,6,N
+205,Conv 87 Midgrade with MTBE,M87MTB,6,N
+206,Conv 86 Unleaded with MTBE,U86MTB,6,N
+207,Conv 88 Midgrade with MTBE,M88MTB,6,N
+208,Conv 85 Unleaded with 10% Ethanol,U85E10,6,N
+209,Conv 87 Midgrade with 10% Ethanol,M87E10,6,N
+210,Conv 86 Unleaded with 10% Ethanol,U86E10,6,N
+211,Conv 88 Midgrade with 10% Ethanol,M88E10,6,N
+212,Conv 85 Unleaded with 8% Ethanol,U85E8%,6,N
+213,Conv 87 Midgrade with 8% Ethanol,M87E8%,6,N
+214,Conv 86 Unleaded with 8% Ethanol,U86E8%,6,N
+215,Conv 88 Midgrade with 8% Ethanol,M88E8%,6,N
+216,Conv 85 Unleaded with 7.8% Ethanol,U85E78,6,N
+217,Conv 87 Midgrade with 7.8% Ethanol,M87E78,6,N
+218,Conv 86 Unleaded with 7.8% Ethanol,U86E78,6,N
+219,Conv 88 Midgrade with 7.8% Ethanol,M88E78,6,N
+220,Conv 85 Unleaded with 5.7% Ethanol,U85E57,6,N
+221,Conv 87 Midgrade with 5.7% Ethanol,M87E57,6,N
+222,Conv 86 Unleaded with 5.7% Ethanol,U86E57,6,N
+223,Conv 88 Midgrade with 5.7% Ethanol,M88E57,6,N
+224,Conv 85 Unleaded Low RVP 7.0,U85L70,6,N
+225,Conv 87 Midgrade Low RVP 7.0,M87L70,6,N
+226,Conv 86 Unleaded Low RVP 7.0,U86L70,6,N
+227,Conv 88 Midgrade Low RVP 7.0,M88L70,6,N
+228,Conv 85 Unleaded Low RVP 7.2,U85L72,6,N
+229,Conv 87 Midgrade Low RVP 7.2,M87L72,6,N
+230,Conv 86 Unleaded Low RVP 7.2,U86L72,6,N
+231,Conv 88 Midgrade Low RVP 7.2,M88L72,6,N
+232,Conv 85 Unleaded Low RVP 7.8,U85L78,6,N
+233,Conv 87 Midgrade Low RVP 7.8,M87L78,6,N
+234,Conv 86 Unleaded Low RVP 7.8,U86L78,6,N
+235,Conv 88 Midgrade Low RVP 7.8,M88L78,6,N
+236,Conv 85 Unleaded Low RVP 8.5,U85L85,6,N
+237,Conv 87 Midgrade Low RVP 8.5,M87L85,6,N
+238,Conv 86 Unleaded Low RVP 8.5,U86L85,6,N
+239,Conv 88 Midgrade Low RVP 8.5,M88L85,6,N
+240,CARB or CBG 87 RFG with 10% Ethanol,U87C10,6,Y
+241,CARB or CBG 89 RFG with 10% Ethanol,M89C10,6,Y
+242,CARB or CBG 92 RFG with 10% Ethanol,P92C10,6,N
+243,CARB or CBG 93 RFG with 10% Ethanol,P93C10,6,N
+244,CARB or CBG 87 RFG with 5.7% Ethanol,U87C57,6,N
+245,CARB or CBG 89 RFG with 5.7% Ethanol,U89C57,6,N
+246,CARB or CBG 92 RFG with 5.7% Ethanol,U92C57,6,N
+247,CARB or CBG 93 RFG with 5.7% Ethanol,U93C57,6,N
+248,CARB or CBG 87 RFG with 7.7% Ethanol,U87C77,6,N
+249,CARB or CBG 89 RFG with 7.7% Ethanol,U89C77,6,N
+250,CARB or CBG 92 RFG with 7.7% Ethanol,U92C77,6,N
+251,CARB or CBG 93 RFG with 7.7% Ethanol,U93C77,6,N
+252,RFG 87 Unleaded with 10% Ethanol VOC1,UR10V1,6,N
+253,RFG 89 Midgrade with 10% Ethanol VOC1,MR10V1,6,N
+254,RFG 93 Premium with 10% Ethanol VOC1,93R1V1,6,N
+255,Conv 90 Premium Low RVP 7.8,P90L78,6,N
+256,Conv 87 Unleaded LS Clean Fuel,U87 LS,6,N
+257,Conv 89 Midgrade LS Clean Fuel,M89 LS,6,N
+258,Conv 92 Premium LS Clean Fuel,P92 LS,6,N
+259,Conv 93 Premium LS Clean Fuel,P93 LS,6,N
+260,Conv 87 Unl LS Low RVP 7.0 Clean Fuel,U87LS7,6,N
+261,Conv 89 Mid LS Low RVP 7.0 Clean Fuel,M89LS7,6,N
+262,Conv 92 Pre LS Low RVP 7.0 Clean Fuel,P92LS7,6,N
+263,Conv 93 Pre LS Low RVP 7.0 Clean Fuel,P93LS7,6,N
+264,Conv 87 Unl LS Low RVP 7.8 Clean Fuel,87LS78,6,N
+265,Conv 89 Mid LS Low RVP 7.8 Clean Fuel,89LS78,6,N
+266,Conv 92 Pre LS Low RVP 7.8 Clean Fuel,92LS78,6,N
+267,Conv 93 Pre LS Low RVP 7.8 Clean Fuel,93LS78,6,N
+268,RFG 87 Unl with 10% Eth LS Clean Fuel,RU10LS,6,N
+269,RFG 89 Mid with 10% Eth LS Clean Fuel,MR10LS,6,N
+270,RFG 92 Pre with 10% Eth LS Clean Fuel,2R10LS,6,N
+271,RFG 93 Pre with 10% Eth LS Clean Fuel,3R10LS,6,N
+272,RFG 87 Unl with 10% Eth 8.3lb LRVP LS,RUEL83,6,N
+273,RFG 89 Mid with 10% Eth 8.3lb LRVP LS,MREL83,6,N
+274,RFG 92 Pre with 10% Eth 8.3lb LRVP LS,2REL83,6,N
+275,RFG 93 Pre with 10% Eth 8.3lb LRVP LS,3REL83,6,N
+276,CBG 91 RFG with 0% Oxy,P91CB0,6,N
+277,"CARB or CBG 91 RFG with MTBE, 2%",P91CB2,6,N
+278,CARB or CBG 91 RFG with 5.7% Ethanol,U91C57,6,N
+279,Conv 87 Unlead with 10% Eth Low RVP 7.2,U10L72,6,N
+280,Conv 89 Mid with 10% Eth Low RVP 7.2,M10L72,6,N
+281,Conv 92 Premium with 10% Eth Low RVP 7.2,210L72,6,N
+282,Conv 93 Premium with 10% Eth Low RVP 7.2,310L72,6,N
+283,CARB or CBG 91 RFG with 10% Ethanol,U91C10,6,Y
+284,Conv 91 Premium with 5.7% Ethanol,P91E57,6,N
+285,Conv 91 Premium with 8% Ethanol,P91E8%,6,N
+286,Flexible Fuel Ethanol 85%,Flx85%,5,Y
+287,Flexible Fuel Ethanol 75%,Flx75%,5,N
+288,CARB or CBG 91 RFG with 7.7% Ethanol,U91C77,6,N
+289,RFG 90 Midgrade with 5.7% Ethanol,90RE57,6,N
+290,Flexible Fuel Ethanol 70%,Flx70%,5,N
+291,Crude,Crude,9,N
+292,RFG 87 Unleaded with 5.7%Ethanol 7.4 RVP,UR5774,6,N
+293,RFG 89 Midgrade with 5.7%Ethanol 7.4 RVP,MR5774,6,N
+294,RFG 93 Premium with 5.7%Ethanol 7.4 RVP,93R577,6,N
+295,RFG 87 Unleaded with 5.7%Ethanol 8.3 RVP,UR5783,6,N
+296,RFG 89 Midgrade with 5.7%Ethanol 8.3 RVP,MR5783,6,N
+297,RFG 92 Premium with 5.7%Ethanol 8.3 RVP,92R578,6,N
+298,RFG 93 Premium with 5.7%Ethanol 8.3 RVP,93R578,6,N
+299,Stove Oil - Canadian,Stove,3,N
+300,Furnace Oil - Canadian,Frnace,3,N
+301,High Sulfur #2 BIO Heating Oil 2%,HO2 B2,2,N
+302,Low Sulfur #2 BIO Clear Diesel 2%,LS2 B2,2,N
+303,Low Sulfur #2 BIO Diesel Dyed 2%,LS2DB2,2,N
+304,Low Sulfur #2 BIO Prem Diesel Clear 2%,LS2PB2,2,N
+305,Flexible Fuel Ethanol 80%,Flx80%,5,N
+306,Conv 87 Unlead with 10% Eth Low RVP 7.8,U10L78,6,N
+307,Conv 89 Mid with 10% Eth Low RVP 7.8,M10L78,6,N
+308,Conv 91 Premium with 10% Eth Low RVP 7.8,P10L78,6,N
+309,Conv 92 Premium with 10% Eth Low RVP 7.8,210L78,6,N
+310,Conv 93 Premium with 10% Eth Low RVP 7.8,310L78,6,N
+311,Low Sulfur Clear Kerosene .05 Sulfur,LSKERO,8,N
+312,# 6 Oil .3% Sulfur,.3% #6,11,N
+313,# 6 Oil .5% Sulfur,.5% #6,11,N
+314,# 6 Oil 1% Sulfur,1%  #6,11,N
+315,# 6 Oil 1.5% Sulfur,1.5%#6,11,N
+316,# 6 Oil 2% Sulfur,2%  #6,11,N
+317,# 6 Oil 2.1% Sulfur,2.1%#6,11,N
+318,# 4 Oil .3% Sulfur,.3% #4,11,N
+319,# 4 Oil .5% Sulfur,.5% #4,11,N
+320,# 4 Oil 1% Sulfur,1%  #4,11,N
+321,# 4 Oil 1.5% Sulfur,1.5%#4,11,N
+322,# 5 Oil Regular,#5 Oil,11,N
+323,Normal Butane,NButan,9,N
+324,Iso-Butane,IButan,9,N
+325,Natural Gasoline,NatGas,9,N
+326,Ethane,Ethane,9,N
+327,Ethane/Propane Mix,E/PMix,9,N
+328,PBOB,PBOB,9,N
+329,RFG 92 Premium with 10% Ethanol VOC1,92R1V1,6,N
+330,Conv 85 Unlead with 10% Eth Low RVP 7.8,851078,6,N
+331,Conv 87 Mid with 10% Eth Low RVP 7.8,871078,6,N
+332,Conv 85 Unlead with 10% Eth Low RVP 8.8,8510L8,6,N
+333,Conv 87 Mid with 10% Eth Low RVP 8.8,8710L8,6,N
+334,Conv 91 Premium with 10% Eth Low RVP 8.8,9110L8,6,N
+335,Low Sulfur #2 BIO Diesel Clear 5%,LS2 B5,2,N
+336,Low Sulfur #2 BIO Diesel Dyed 5%,LS2DB5,2,N
+337,Low Sulfur #2 BIO Prem Diesel Clear 5%,LS2PB5,2,N
+338,SOY BioDiesel 100,SOY100,2,N
+339,Low Sulfur #2 BIO Prem Diesel Dyed 2%,L2PDB2,2,N
+340,Low Sulfur #2 BIO Prem Diesel Dyed 5%,L2PDB5,2,N
+341,High Sulfur #2 BIO Heating Oil 5%,HO2 B5,2,N
+342,High Sulfur #2 BIO Heating Oil 11%,HO2B11,2,N
+343,Low Sulfur #2 BIO Diesel Clear 11%,LS2B11,2,N
+344,Low Sulfur #2 BIO Diesel Clear 20%,LS2B20,2,N
+345,CARB or CBG 89 with 6.7% Ethanol,M89C67,6,N
+346,Low Sulfur #2 BIO Diesel Dyed 11%,L2DB11,2,N
+347,Low Sulfur #2 BIO Diesel Clear 10%,LS2B10,2,N
+348,Low Sulfur #2 BIO Diesel Dyed 10%,L2DB10,2,N
+349,Low Sulfur #2 BIO Diesel Dyed 20%,L2DB20,2,N
+350,High Sulfur #2 BIO Heating Oil 20%,HO2B20,2,N
+351,Low Sulfur #1 BIO Diesel Clear 2%,LS1 B2,2,N
+352,Low Sulfur #1 BIO Diesel Dyed 2%,LS1DB2,2,N
+353,Low Sulfur #1 BIO Diesel Clear 5%,LS1 B5,2,N
+354,Low Sulfur #1 BIO Diesel Dyed 5%,LS1DB5,2,N
+355,Low Sulfur #1 BIO Diesel Clear 20%,LS1B20,2,N
+356,Low Sulfur #1 BIO Diesel Dyed 20%,L1DB20,2,N
+357,Low Sulfur #2 Clear LED Diesel,LS2LED,3,N
+358,Low Sulfur #2 Clear LED Prem Diesel,LSPLED,3,N
+359,Low Sulfur #2 LED Diesel Dyed,L2LEDY,3,N
+360,Low Sulfur #2 LED Prem Diesel Dyed,LPLEDY,3,N
+361,Low Sulfur #1 BIO Diesel Clear 10%,LS1B10,2,N
+362,Low Sulfur #1 BIO Diesel Dyed 10%,L1DB10,2,N
+363,High Sulfur #2 BIO Heating Oil 10%,HO2B10,2,N
+364,Low Sulfur #2 BIO Winter Diesel Clear 2%,LS2WB2,2,N
+365,Low Sulfur #2 BIO Winter Diesel Dyed 2%,L2WDB2,2,N
+366,Low Sulfur #2 BIO PremWinter Dsl Clear2%,L2PWB2,2,N
+367,Low Sulfur #2 BIO PremWinter Dsl Dyed 2%,2PWDB2,2,N
+368,High Sulfur #2 BIO Prem Heating Oil 2%,HO2PB2,2,N
+369,High Sulfur #2 BIO Winter Heating Oil 2%,H2W B2,2,N
+370,High Sulfur #2 BIO PremWinter Heating 2%,H2PWB2,2,N
+371,High Sulfur #2 BIO Prem Heating Oil 5%,HO2PB5,2,N
+372,High Sulfur #2 BIO Winter Heating Oil 5%,H2W B5,2,N
+373,High Sulfur #2 BIO PremWinter Heating 5%,H2PWB5,2,N
+374,Low Sulfur #2 BIO Winter Diesel Clear 5%,LS2WB5,2,N
+375,Low Sulfur #2 BIO Winter Diesel Dyed 5%,L2WDB5,2,N
+376,Low Sulfur #2 BIO PremWinter Diesel 5%,L2PWB5,2,N
+377,Low Sulfur #2 BIO PremWinter Dsl Dyed 5%,2PWDB5,2,N
+378,High Sulfur #2 BIO Winter Heating 10%,H2WB10,2,N
+379,Low Sulfur #2 BIO Winter Diesel Clear10%,LW B10,2,N
+380,Low Sulfur #2 BIO Winter Diesel Dyed 10%,LWDB10,2,N
+381,Low Sulfur #2 BIO Winter Diesel Clear20%,LW B20,2,N
+382,Low Sulfur #2 BIO Winter Diesel Dyed 20%,LWDB20,2,N
+383,Low Sulfur #2 BIO Prem Diesel Clear 20%,L2PB20,2,N
+384,Low Sulfur #2 BIO Prem Diesel Dyed 20%,LPDB20,2,N
+385,High Sulfur #2 LED Diesel,HS2LED,3,N
+386,Ethanol for E85,EthE85,5,N
+387,Low Sulfur #2 BIO Prem Diesel Clear 10%,L2PB10,2,N
+388,Low Sulfur #2 BIO Prem Diesel Dyed 10%,LPDB10,2,N
+389,Conv 91 Premium LS Clean Fuel,P91 LS,6,N
+390,Conv 87 Unl with 10% Eth LS Clean Fuel,8710LS,6,N
+391,Conv 89 Mid with 10% Eth LS Clean Fuel,8910LS,6,N
+392,Conv 90 Pre with 10% Eth LS Clean Fuel,90LS10,6,N
+393,Conv 91 Pre with 10% Eth LS Clean Fuel,91LS10,6,N
+394,Conv 92 Pre with 10% Eth LS Clean Fuel,92LS10,6,N
+395,Conv 93 Pre with 10% Eth LS Clean Fuel,93LS10,6,N
+396,Butane,Butane,9,N
+397,RFG 84 Unleaded with 10% Ethanol VOC1,84REV1,6,N
+398,RFG 86 Midgrade with 10% Ethanol VOC1,86REV1,6,N
+399,RFG 91 Premium with 10% Ethanol VOC1,91R1V1,6,N
+400,Low Sulfur #1 Prem Diesel Clear,LS1Pre,3,N
+401,Low Sulfur #1 Prem Diesel Dyed,LS1PDY,3,N
+402,Ultra Low Sulfur CARB #2,CA2ULS,3,Y
+403,Ultra Low Sulfur CARB #2 Dyed,CA2ULD,3,Y
+404,Ultra Low Sulfur #2 Winter Diesel Clear,ULS2W,3,Y
+405,Ultra Low Sulfur #2 Winter Diesel Dyed,ULSWD,3,Y
+406,Ultra Low Sulfur #2 PremWinter Clear,ULSPW,3,Y
+407,Ultra Low Sulfur #2 PremWinter Dyed,ULPWD,3,N
+408,Ultra Low Sulfur #1 Prem Diesel Clear,ULS1 P,3,N
+409,Ultra Low Sulfur #1 Prem Diesel Dyed,ULS1PD,3,N
+410,Ultra Low Sulfur #1 Winter Diesel Clear,ULS1W,3,N
+411,Ultra Low Sulfur #1 Winter Diesel Dyed,UL1WD,3,N
+412,Ultra Low Sulfur #1 PremWinter Clear,UL1PW,3,N
+413,Ultra Low Sulfur #1 PremWinter Dyed,U1PWD,3,N
+414,Ultra Low Sulfur #2 BIO 2% Clear,ULS2B2,2,N
+415,Ultra Low Sulfur #2 BIO 2% Dyed,UL2DB2,2,N
+416,Ultra Low Sulfur #2 BIO 2% Prem Clear,UL2PB2,2,N
+417,Ultra Low Sulfur #2 BIO 2% Prem Dyed,ULPDB2,2,N
+418,Ultra Low Sulfur #2 BIO 2% Winter Clear,UL2WB2,2,N
+419,Ultra Low Sulfur #2 BIO 2% Winter Dyed,ULWDB2,2,N
+420,Ultra Low Sulfur #2 BIO 2% PreWntr Clear,ULPWB2,2,N
+421,Ultra Low Sulfur #2 BIO 2% PreWntr Dyed,UPWDB2,2,N
+422,Ultra Low Sulfur #1 BIO 2% Clear,ULS1B2,2,N
+423,Ultra Low Sulfur #1 BIO 2% Dyed,UL1DB2,2,N
+424,Ultra Low Sulfur #1 BIO 2% Prem Clear,UL1PB2,2,N
+425,Ultra Low Sulfur #1 BIO 2% Prem Dyed,U1PDB2,2,N
+426,Ultra Low Sulfur #1 BIO 2% Winter Clear,UL1WB2,2,N
+427,Ultra Low Sulfur #1 BIO 2% Winter Dyed,U1WDB2,2,N
+428,Ultra Low Sulfur #1 BIO 2% PreWntr Clear,U1PWB2,2,N
+429,Ultra Low Sulfur #2 BIO 5% Clear,ULS2B5,2,Y
+430,Ultra Low Sulfur #2 BIO 5% Dyed,UL2DB5,2,Y
+431,Ultra Low Sulfur #2 BIO 5% Prem Clear,UL2PB5,2,N
+432,Ultra Low Sulfur #2 BIO 5% Prem Dyed,ULPDB5,2,N
+433,Ultra Low Sulfur #2 BIO 5% Winter Clear,UL2WB5,2,Y
+434,Ultra Low Sulfur #2 BIO 5% Winter Dyed,ULWDB5,2,Y
+435,Ultra Low Sulfur #2 BIO 5% PreWntr Clear,ULPWB5,2,N
+436,Ultra Low Sulfur #2 BIO 5% PreWntr Dyed,UPWDB5,2,N
+437,Ultra Low Sulfur #1 BIO 5% Clear,ULS1B5,2,N
+438,Ultra Low Sulfur #1 BIO 5% Dyed,UL1DB5,2,N
+439,Ultra Low Sulfur #1 BIO 5% Prem Clear,UL1PB5,2,N
+440,Ultra Low Sulfur #1 BIO 5% Prem Dyed,U1PDB5,2,N
+441,Ultra Low Sulfur #1 BIO 5% Winter Clear,UL1WB5,2,N
+442,Ultra Low Sulfur #1 BIO 5% Winter Dyed,U1WDB5,2,N
+443,Ultra Low Sulfur #1 BIO 5% PreWntr Clear,U1PWB5,2,N
+444,Ultra Low Sulfur #1 BIO 5% PreWntr Dyed,U1PWD5,2,N
+445,Ultra Low Sulfur #2 BIO 10% Clear,UL2B10,2,Y
+446,Ultra Low Sulfur #2 BIO 10% Dyed,U2DB10,2,Y
+447,Ultra Low Sulfur #2 BIO 10% Prem Clear,U2PB10,2,N
+448,Ultra Low Sulfur #2 BIO 10% Prem Dyed,UPDB10,2,N
+449,Ultra Low Sulfur #2 BIO 10% Winter Clear,ULWB10,2,Y
+450,Ultra Low Sulfur #2 BIO 10% Winter Dyed,UWDB10,2,Y
+451,Ultra Low Sulfur #1 BIO 10% Clear,UL1B10,2,N
+452,Ultra Low Sulfur #1 BIO 10% Dyed,U1DB10,2,N
+453,Ultra Low Sulfur #2 BIO 11% Clear,UL2B11,2,Y
+454,Ultra Low Sulfur #2 BIO 11% Dyed,U2DB11,2,Y
+455,Ultra Low Sulfur #2 BIO 20% Clear,UL2B20,2,Y
+456,Ultra Low Sulfur #2 BIO 20% Dyed,U2DB20,2,Y
+457,Ultra Low Sulfur #2 BIO 20% Prem Clear,U2PB20,2,N
+458,Ultra Low Sulfur #2 BIO 20% Prem Dyed,UPDB20,2,N
+459,Ultra Low Sulfur #2 BIO 20% Winter Clear,ULWB20,2,N
+460,Ultra Low Sulfur #2 BIO 20% Winter Dyed,UWDB20,2,N
+461,Ultra Low Sulfur #1 BIO 20% Clear,UL1B20,2,N
+462,Ultra Low Sulfur #1 BIO 20% Dyed,U1DB20,2,N
+463,Ultra Low Sulfur #1 BIO 2% PreWntr Dyed,U1PWD2,2,N
+464,Ultra Low Sulfur #2 LED Diesel Clear,UL2LED,3,Y
+465,Ultra Low Sulfur #2 LED Diesel Dyed,U2LEDY,3,Y
+466,Ultra Low Sulfur #2 LED Prem Clear,ULPLED,3,N
+467,Ultra Low Sulfur #2 LED Prem Dyed,UPLEDY,3,N
+468,Ultra Low Sulfur CARB #1,CA1ULS,3,N
+469,Ultra Low Sulfur CARB #1 Dyed,CA1ULD,3,N
+470,SOY BioDiesel 99.9,SB99.9,2,Y
+471,Ultra Low Sulfur #2 LED BIO 5% Clear,ULE B5,2,Y
+472,Ultra Low Sulfur #2 LED BIO 5% Dyed,ULEYB5,2,Y
+473,Ultra Low Sulfur #2 LED BIO 10% Clear,ULEB10,2,N
+474,Ultra Low Sulfur #2 LED BIO 10% Dyed,ULEY10,2,N
+475,Ultra Low Sulfur #2 LED BIO 20% Clear,ULEB20,2,Y
+476,Ultra Low Sulfur #2 LED BIO 20% Dyed,ULEY20,2,N
+477,Ultra Low Sulfur #2 BIO 11% Winter Clear,ULWB11,2,Y
+478,Ultra Low Sulfur #2 BIO 11% Winter Dyed,UWDB11,2,Y
+479,Conv 87 Unl 10% Eth LS CF LRVP 7.0lb,UCS107,6,N
+480,Conv 89 Mid 10% Eth LS CF LRVP 7.0lb,MCS107,6,N
+481,Conv 91 Pre 10% Eth LS CF LRVP 7.0lb,1CS107,6,N
+482,Conv 92 Pre 10% Eth LS CF LRVP 7.0lb,2CS107,6,N
+483,Conv 93 Pre 10% Eth LS CF LRVP 7.0lb,3CS107,6,N
+484,Conv 94 Premium with 10% Eth Low RVP 7.8,410L78,6,N
+485,Conv 87 Unlead with 10% Eth Low RVP 7.0,U10L70,6,N
+486,Conv 89 Mid with 10% Eth Low RVP 7.0,M10L70,6,N
+487,Conv 91 Premium with 10% Eth Low RVP 7.0,1P10L7,6,N
+488,Conv 92 Premium with 10% Eth Low RVP 7.0,2P10L7,6,N
+489,Conv 93 Premium with 10% Eth Low RVP 7.0,3P10L7,6,N
+490,Conv 94 Premium with 10% Eth Low RVP 7.0,4P10L7,6,N
+491,High Sulfur #2 BIO 15% Heating Oil,HO2B15,2,N
+492,Ultra Low Sulfur #2 BIO 15% Clear,UL2B15,2,N
+493,Ultra Low Sulfur #2 BIO 15% Prem Clear,U2PB15,2,N
+494,Ultra Low Sulfur #2 BIO 15% Dyed,U2DB15,2,N
+495,Ultra Low Sulfur #2 BIO 15% Prem Dyed,UPDB15,2,N
+496,Low Sulfur #2 Diesel NRLM Dyed,L2NRLM,3,N
+497,Ultra Low Sulfur #2 Diesel NRLM Dyed,U2NRLM,3,N
+498,High Sulfur #2 NRLM Dyed,H2NRLM,3,N
+499,High Sulfur #2 LED NRLM Dyed,H2LENR,3,N
+500,Low Sulfur #2 Prem Diesel NRLM Dyed,LS2PNR,3,N
+501,Low Sulfur #2 Winter Diesel NRLM Dyed,LS2WNR,3,N
+502,Low Sulfur #2 PremWinter Dsl NRLM Dyed,L2PWNR,3,N
+503,Low Sulfur #2 LED Diesel NRLM Dyed,L2LENR,3,N
+504,Low Sulfur Kerosene NRLM Dyed,LKNRLM,8,N
+505,Low Sulfur #2 LED BIO 5% Clear,LED B5,2,N
+506,Low Sulfur #2 LED BIO 5% Dyed,LEDYB5,2,N
+507,Ultra Low Sulfur CARB #2 Prem Clear,CA2ULP,3,N
+508,Ultra Low Sulfur #2 Prem Diesel Plus,ULSPR+,3,N
+509,Ultra Low Sulfur #2 Prem Diesel PlusDyed,ULSPD+,3,N
+510,Ultra Low Sulfur #2 PremWinter Plus,UL2PW+,3,N
+511,Ultra Low Sulfur #2 PremWinter Plus Dye,U2PWD+,3,N
+512,Ultra Low Sulfur #2 BIO 2% Prem+ Clear,U2PB2+,3,N
+513,Ultra Low Sulfur #2 BIO 2% Prem+ Dyed,UPDB2+,3,N
+514,Ultra Low Sulfur #2 BIO 2% PreWnt+ Clear,UPWB2+,3,N
+515,Ultra Low Sulfur #2 BIO 2% PreWnt+ Dyed,UPWD2+,3,N
+516,Conv 86 Unlead with 10% Eth Low RVP 7.8,861078,6,N
+517,Conv 88 Mid with 10% Eth Low RVP 7.8,881078,6,N
+518,Conv 86 Unlead with 10% Eth Low RVP 7.0,8610L7,6,N
+519,Conv 88 Mid with 10% Eth Low RVP 7.0,8810L7,6,N
+520,Super Dieselex 4 ULS,ULSDX4,9,N
+521,Ultra Low Sulfur #2 ProprietaryPrem,UL2 PP,3,Y
+522,Ultra Low Sulfur #2 ProprietaryPrem Dy,UL2PPD,3,Y
+523,Ultra Low Sulfur #2 ProprietaryPreWin,U2PPW,3,Y
+524,Ultra Low Sulfur #2 ProprietaryPreWin Dy,2PPWD,3,N
+525,Ultra Low Sulfur #1 ProprietaryPrem,UL1 PP,3,N
+526,Ultra Low Sulfur #1 ProprietaryPrem Dy,UL1PPD,3,N
+527,Ultra Low Sulfur #2 BIO 2% ProprietaPre,U2PPB2,3,N
+528,Ultra Low Sulfur #2 BIO 2% PropriePremDy,UPPDB2,3,N
+529,SOY BioDiesel 99.9 Dyed,B99.9D,2,N
+530,SOY BioDiesel 100 Dyed,SB100D,2,N
+531,CountryMark 91 Plus,CM 91+,9,N
+532,Conv 91 Pre LS Low RVP 7.0 Clean Fuel,P91LS7,6,N
+533,CARB or CBG 87 RFG with 8% Ethanol,U87CE8,6,N
+534,CARB or CBG 89 RFG with 8% Ethanol,U89CE8,6,N
+535,CARB or CBG 91 RFG with 8% Ethanol,U91CE8,6,N
+536,Conv 85 Unleaded with 5% Ethanol,U85E5,6,N
+537,Conv 87 Midgrade with 5% Ethanol,M87E5,6,N
+538,Conv 91 Premium with 5% Ethanol,P91E5,6,N
+539,Ultra Low Sulfur #2 BIO 5% Prem+ Clear,U2PB5+,3,N
+540,Ultra Low Sulfur #2 BIO 5% Prem+ Dyed,UPDB5+,3,N
+541,Ultra Low Sulfur #2 BIO 5% PreWnt+ Clear,UPWB5+,3,N
+542,Ultra Low Sulfur #2 BIO 5% PreWnt+ Dyed,UPWD5+,3,N
+543,Ultra Low Sulfur #2 BIO 5% ProprietaPre,U2PPB5,3,N
+544,Ultra Low Sulfur #2 BIO 5% PropriePremDy,UPPDB5,3,N
+545,Ethanol without RINS,E100NR,4,N
+546,RINS 2008,08RINS,9,N
+547,RINS 2009,09RINS,9,N
+548,RINS 2010,10RINS,9,N
+549,Heating Oil #2,HO #2,9,N
+550,HeatForce #2,HF #2,9,N
+551,Ultra Low Sulfur RoadForce,RF ULS,9,N
+552,HeatForce #2 BIO 2%,HF B2,9,N
+553,HeatForce #2 BIO 5%,HF B5,9,N
+554,HeatForce #2 BIO 20%,HFB20,9,N
+555,RoadForce #2 BIO 2%,RF B2,9,N
+556,RoadForce #2 BIO 5%,RF B5,9,N
+557,RoadForce #2 BIO 20%,RFB20,9,N
+558,Ultra Low Sulfur RoadForce Dyed,RFULSD,9,N
+559,Flexible Fuel Ethanol 85% RBOB,E85RB,5,N
+560,CBOB 87 Unleaded with 10% Ethanol,87CBEt,6,N
+561,CBOB 89 Midgrade with 10% Ethanol,89CBEt,6,N
+562,CBOB 92 Premium with 10% Ethanol,92CBEt,6,N
+563,CBOB 93 Premium with 10% Ethanol,93CBEt,6,N
+564,CBOB 87 Unlead with 10% Eth Low RVP 7.8,UCB78E,6,N
+565,CBOB 89 Mid with 10% Eth Low RVP 7.8lb,MCB78E,6,N
+566,CBOB 92 Premium with 10% Eth Low RVP 7.8,2CB78E,6,N
+567,CBOB 93 Premium with 10% Eth Low RVP 7.8,3CB78E,6,N
+568,CBOB 87 Unlead with 10% Eth Low RVP 7.0,UCBL7E,6,N
+569,CBOB 89 Mid with 10% Eth Low RVP 7.0lb,MCBL7E,6,N
+570,CBOB 92 Premium with 10% Eth Low RVP 7.0,2CBL7E,6,N
+571,CBOB 93 Premium with 10% Eth Low RVP 7.0,3CBL7E,6,N
+572,CountryMark 87 E 10 Plus,CM87E+,9,N
+573,CountryMark 89 E 10 Plus,CM89E+,9,N
+574,CountryMark 93 E 10 Plus,CM93E+,9,N
+575,ULSD Cloud Point Canadian Zone 1,ULCP1,9,N
+576,ULSD Cloud Point Canadian Zone 2,ULCP2,9,N
+577,ULSD Cloud Point Canadian Zone 3,ULCP3,9,N
+578,ULSD Cloud Point Canadian Zone 4,ULCP4,9,N
+579,ULSD Cloud Point Canadian Zone 5,ULCP5,9,N
+580,ULSD Cloud Point Canadian Zone 6,ULCP6,9,N
+581,ULSD Cloud Point Canadian Zone 7,ULCP7,9,N
+582,ULSD Cloud Point Canadian Zone 8,ULCP8,9,N
+583,ULSD Cloud Point Canadian Zone 9,ULCP9,9,N
+584,ULSD Cloud Point Canadian Zone 10,ULCP10,9,N
+585,ULS Furnace Cloud Point Canadian Zone 1,UFCP1,9,N
+586,ULS Furnace Cloud Point Canadian Zone 2,UFCP2,9,N
+587,ULS Furnace Cloud Point Canadian Zone 3,UFCP3,9,N
+588,ULS Furnace Cloud Point Canadian Zone 4,UFCP4,9,N
+589,ULS Furnace Cloud Point Canadian Zone 5,UFCP5,9,N
+590,ULS Furnace Cloud Point Canadian Zone 6,UFCP6,9,N
+591,ULS Furnace Cloud Point Canadian Zone 7,UFCP7,9,N
+592,ULS Furnace Cloud Point Canadian Zone 8,UFCP8,9,N
+593,ULS Furnace Cloud Point Canadian Zone 9,UFCP9,9,N
+594,ULS Furnace Cloud Point Canadian Zone 10,UFCP10,9,N
+595,Ultra Low Sulfur #2 BIO 1% Clear,ULS2B1,2,N
+596,Ultra Low Sulfur #2 BIO 3% Clear,ULS2B3,2,N
+597,High Sulfur #2 BIO 3% Heating Oil,HO2 B3,3,N
+598,Low Sulfur #2 BIO 30% Diesel Clear,LS2B30,2,N
+599,Low Sulfur #2 BIO 30% Prem Diesel Dyed,LPDB30,2,N
+600,Low Sulfur #2 BIO 40% Diesel Clear,LS2B40,2,N
+601,Low Sulfur #2 BIO 40% Prem Diesel Dyed,LPDB40,2,N
+602,Low Sulfur #2 BIO 50% Diesel Clear,LS2B50,2,N
+603,Low Sulfur #2 BIO 50% Diesel Dyed,L2DB50,2,N
+604,Ultra Low Sulfur #2 BIO 30% Clear,UL2B30,2,N
+605,Ultra Low Sulfur #2 BIO 30% Dyed,U2DB30,2,N
+606,Ultra Low Sulfur #2 BIO 35% Clear,UL2B35,2,N
+607,Ultra Low Sulfur #2 BIO 35% Dyed,U2DB35,2,N
+608,Ultra Low Sulfur #2 BIO 50% Clear,UL2B50,2,N
+609,Ultra Low Sulfur #2 BIO 50% Dyed,U2DB50,2,N
+610,Ultra Low Sulfur #2 BIO 80% Clear,UL2B80,2,N
+611,Ultra Low Sulfur #2 BIO 80% Dyed,U2DB80,2,N
+612,Ultra Low Sulfur #2 BIO 90% Clear,UL2B90,2,N
+613,Ultra Low Sulfur #2 BIO 90% Dyed,U2DB90,2,N
+614,Ultra Low Sulfur #2 BIO 40% Clear,UL2B40,2,N
+615,Ultra Low Sulfur #2 BIO 40% Dyed,U2DB40,2,N
+616,Ultra Low Sulfur #2 BIO 3% Dyed,UL2DB3,2,N
+617,Ultra Low Sulfur #2 BIO 3% Prem Clear,UL2PB3,2,N
+618,Ultra Low Sulfur #1 BIO 50% Clear,UL1B50,2,N
+619,Ultra Low Sulfur #1 BIO 50% Dyed,U1DB50,2,N
+620,Conv 89 Midgrade with 5% Ethanol,M89E5,6,N
+621,Conv 87 Midgrade CBOB for Blending,87MCBO,6,N
+622,Conv 88 Midgrade CBOB for Blending,88MCBO,6,N
+623,Conv 87 Unl CBOB for Blending LRVP 7.8lb,87BL78,6,N
+624,Conv 89 Mid CBOB for Blending LRVP 7.8lb,M9BL78,6,N
+625,Conv 93 Pre CBOB for Blending LRVP 7.8lb,P3BL78,6,N
+626,Conv 87 Unl CBOB for Blending LRVP 7.0lb,87BL70,6,N
+627,Conv 89 Mid CBOB for Blending LRVP 7.0lb,M9BL70,6,N
+628,Conv 93 Pre CBOB for Blending LRVP 7.0lb,P3BL70,6,N
+629,Ultra Low Sulfur Kerosene BIO 2% Clear,ULSKB2,8,N
+630,Ultra Low Sulfur Kerosene BIO 2% Dyed,ULKDB2,8,N
+631,Ultra Low Sulfur Kerosene BIO 5% Clear,ULSKB5,8,N
+632,Ultra Low Sulfur Kerosene BIO 5% Dyed,ULKDB5,8,N
+633,Ultra Low Sulfur Kerosene BIO 10% Clear,ULKB10,8,N
+634,Ultra Low Sulfur Kerosene BIO 10% Dyed,UKDB10,8,N
+635,Ultra Low Sulfur Kerosene BIO 20% Clear,ULKB20,8,N
+636,Ultra Low Sulfur Kerosene BIO 20% Dyed,UKDB20,8,N
+637,Ultra Low Sulfur CARB Soy BIO 1% Clear,CULB1S,2,N
+638,Ultra Low Sulfur CARB Soy BIO 5% Clear,CULB5S,2,N
+639,Ultra Low Sulfur CARB Soy BIO 5% Dyed,CUDB5S,2,N
+640,Ultra Low Sulfur CARB Soy BIO 10% Clear,CUB10S,2,N
+641,Ultra Low Sulfur CARB Soy BIO 10% Dyed,CDB10S,2,N
+642,Ultra Low Sulfur CARB Soy BIO 15% Clear,CUB15S,2,N
+643,Ultra Low Sulfur CARB Soy BIO 15% Dyed,CDB15S,2,N
+644,Ultra Low Sulfur CARB Soy BIO 20% Clear,CUB20S,2,N
+645,Ultra Low Sulfur CARB Soy BIO 20% Dyed,CDB20S,2,N
+646,FAME BioDiesel 99.9,FB99.9,2,N
+647,FAME BioDiesel 99.9 Dyed,FB99D,2,N
+648,FAME BioDiesel 100,FME100,2,N
+649,FAME BioDiesel 100 Dyed,FB100D,2,N
+650,Multi BioDiesel 99.9,MB99.9,2,N
+651,Multi BioDiesel 99.9 Dyed,MB99D,2,N
+652,Multi BioDiesel 100,MB100,2,N
+653,Multi BioDiesel 100 Dyed,MB100D,2,N
+654,Ultra Low Sulfur CARB Soy BIO 50% Clear,CUB50S,2,N
+655,Ultra Low Sulfur CARB Soy BIO 50% Dyed,CDB50S,2,N
+656,Ultra Low Sulfur CARB Multi BIO 1% Clear,CULB1M,2,N
+657,Ultra Low Sulfur CARB Multi BIO 5% Clear,CULB5M,2,N
+658,Ultra Low Sulfur CARB Mult BIO 10% Clear,CUB10M,2,N
+659,Ultra Low Sulfur CARB Mult BIO 20% Clear,CUB20M,2,N
+660,Ultra Low Sulfur CARB Mult BIO 50% Clear,CUB50M,2,N
+661,Ultra Low Sulfur CARB YGME BIO 1% Clear,CULB1Y,2,N
+662,Ultra Low Sulfur CARB YGME BIO 5% Clear,CULB5Y,2,N
+663,Ultra Low Sulfur CARB YGME BIO 10% Clear,CUB10Y,2,N
+664,Ultra Low Sulfur CARB YGME BIO 20% Clear,CUB20Y,2,N
+665,Ultra Low Sulfur CARB YGME BIO 50% Clear,CUB50Y,2,N
+666,YGME BioDiesel 99.9,YB99.9,2,N
+667,YGME BioDiesel 100,YB100,2,N
+668,Ultra Low Sulfur #2 BIO 4% Clear,ULS2B4,2,N
+669,Ultra Low Sulfur #2 BIO 4% Dyed,UL2DB4,2,N
+670,Ultra Low Sulfur #2 BIO 3% Winter Clear,UL2WB3,2,N
+671,Ultra Low Sulfur #2 BIO 3% Winter Dyed,ULWDB3,2,N
+672,Ultra Low Sulfur #2 BIO 3% Prem Dyed,ULPDB3,2,N
+673,RME BioDiesel 99.9,RM99.9,2,N
+674,RME BioDiesel 99.9 Dyed,RME99D,2,N
+675,RME BioDiesel 100,RME100,2,N
+676,RME BioDiesel 100 Dyed,RM100D,2,N
+677,Conv 84 Unl CBOB for Blending LRVP 7.0lb,84CBL7,6,N
+678,CBOB 90 Mid with 10% Eth Low RVP 7.0lb,90BL7E,6,N
+679,Ultra Low Sulfur #2 Multi BIO 5% Clear,UL2B5M,2,N
+680,Ultra Low Sulfur #2 Multi BIO 5% Dyed,U2DB5M,2,N
+681,Ultra Low Sulfur #2 Multi BIO 10% Clear,U2B10M,2,N
+682,Ultra Low Sulfur #2 Multi BIO 10% Dyed,UDB10M,2,N
+683,Conv 85 Unl CBOB for Blending LRVP 7.8lb,85BL78,6,N
+684,Conv 87 Mid CBOB for Blending LRVP 7.8lb,M7BL78,6,N
+685,Conv 91 Pre CBOB for Blending LRVP 7.8lb,P1BL78,6,N
+686,Ultra Low Sulfur #2 BIO 6% Clear,ULS2B6,2,N
+687,Conv 87 Unleaded Proprietary Blend,U87 PB,6,N
+688,Conv 89 Midgrade Proprietary Blend,M89 PB,6,N
+689,Conv 89 Mid w/10% Eth Proprietary Blend,89EtPB,6,N
+690,Conv 91 Pre w/10% Eth Proprietary Blend,91EtPB,6,N
+691,Conv 92 Pre w/10% Eth Proprietary Blend,92EtPB,6,N
+692,CBOB 87 Unleaded Proprietary Blend,87CBPB,6,N
+693,CBOB 89 Midgrade Proprietary Blend,89CBPB,6,N
+694,CBOB 92 Premium Proprietary Blend,92CBPB,6,N
+695,CBOB 89 Mid w/10% Eth Proprietary Blend,89CEPB,6,N
+696,CBOB 92 Pre w/10% Eth Proprietary Blend,92CEPB,6,N
+697,CBOB 93 Pre w/10% Eth Proprietary Blend,93CEPB,6,N
+698,CBOB 87 Unl 7.8lb LRVP Proprietary Blend,UCL78P,6,N
+699,CBOB 89 Mid 7.8lb LRVP Proprietary Blend,MCL78P,6,N
+700,CBOB 92 Pre 7.8lb LRVP Proprietary Blend,2CL78P,6,N
+701,CBOB 87 Unl w/10% Eth 7.8lb Proprietary,UC78EP,6,N
+702,CBOB 89 Mid w/10% Eth 7.8lb Proprietary,MC78EP,6,N
+703,CBOB 92 Pre w/10% Eth 7.8lb Proprietary,2C78EP,6,N
+704,CBOB 93 Pre w/10% Eth 7.8lb Proprietary,3C78EP,6,N
+705,Conv 84 Unl CBOB for Blending LRVP 7.8lb,84CL78,6,N
+706,# 6 Oil 3% Sulfur,3%  #6,11,N
+707,CBOB 87 Unl w/10% Eth Proprietary Blend,87CEPB,6,N
+708,Transmix,TRNMIX,9,N
+709,Diesel One ULS,DSLOne,9,N
+710,Heating Oil Plus,HOPlus,9,N
+711,Conv 87 Unleaded with 5% Ethanol,U87E5,6,N
+712,Conv 92 Premium with 5% Ethanol,P92E5,6,N
+713,Conv 90 Pre 10% Eth LS CF LRVP 7.0lb,0CS107,6,N
+714,Conv 93 Premium with 5% Ethanol,P93E5,6,N
+715,Ultra Low Sulfur #2 BIO 2% Heating Oil,ULHOB2,2,N
+716,Ultra Low Sulfur #2 BIO 5% Heating Oil,ULHOB5,2,N
+717,Ultra Low Sulfur #2 Heating Oil,ULS2HO,3,N
+718,HS#2 Heating Oil Net Gallon Billing,HO2 NG,3,N
+719,HS#2 Prem Heat Oil Net Gallon Billing,HOP NG,3,N
+720,LS Kerosene Dyed Net Gallon Billing,LSKDNG,8,N
+721,ULS Kerosene Dyed Net Gallon Billing,ULKDNG,8,N
+722,HS#2 BIO HeatOil 2% Net Gallon Billing,HOB2NG,2,N
+723,HS#2 BIO HeatOil 5% Net Gallon Billing,HOB5NG,2,N
+724,HS#2 BIO HeatOil 20% Net Gallon Billing,HB20NG,2,N
+725,ULS#2 Diesel Dyed Net Gallon Billing,UL2DNG,3,N
+726,ULS#2 Prem Dsl Dyed Net Gallon Billing,ULPDNG,3,N
+727,ULS#2 PreWinter Dyed Net Gallon Billing,UPWDNG,3,N
+728,ULS#2 Winter Dsl Dyed Net Gallon Billing,ULWDNG,3,N
+729,Ultra Low Sulfur #2 BIO 4% Heating Oil,ULHOB4,2,N
+730,Flexible Fuel Ethanol 80% RBOB,E80RB,5,N
+731,Ultra Low Sulfur #2 Winter Diesel LM Dye,U2LMWD,3,N
+732,Ultra Low Sulfur #2 BIO 2% LM Dyed,U2LMB2,2,N
+733,Conv 83 Unleaded CBOB for Blending,83CBOB,6,N
+734,Conv 84 Unleaded Top Tier,U84 TT,6,N
+735,Conv 87 Unleaded Top Tier,U87 TT,6,N
+736,Conv 89 Midgrade Top Tier,M89 TT,6,N
+737,Conv 91 Premium Top Tier,P91 TT,6,N
+738,Conv 92 Premium Top Tier,P92 TT,6,N
+739,Conv 93 Premium Top Tier,P93 TT,6,N
+740,Conv 87 Unl Top Tier with 10% Ethanol,87TT10,6,N
+741,Conv 89 Mid Top Tier with 10% Ethanol,89TT10,6,N
+742,Conv 90 Pre Top Tier with 10% Ethanol,90TT10,6,N
+743,Conv 91 Pre Top Tier with 10% Ethanol,91TT10,6,N
+744,Conv 92 Pre Top Tier with 10% Ethanol,92TT10,6,N
+745,Conv 93 Pre Top Tier with 10% Ethanol,93TT10,6,N
+746,Conv 87 Unleaded Top Tier Proprietary,U87PTT,6,N
+747,Conv 89 Midgrade Top Tier Proprietary,M89PTT,6,N
+748,Conv 89 Mid Top Tier 10% Eth Proprietary,89PT10,6,N
+749,Conv 91 Pre Top Tier 10% Eth Proprietary,91PT10,6,N
+750,Conv 92 Pre Top Tier 10% Eth Proprietary,92PT10,6,N
+751,RFG 87 Unl Top Tier with 10% Ethanol,87R10T,6,N
+752,RFG 89 Mid Top Tier with 10% Ethanol,89R10T,6,N
+753,RFG 93 Pre Top Tier with 10% Ethanol,93R10T,6,N
+754,Conv 88 Midgrade LS Clean Fuel,M88 LS,6,N
+755,Conv 90 Premium LS Clean Fuel,P90 LS,6,N
+756,RINS 2011,11RINS,9,N
+757,Ultra Low Sulfur #2 Proprietary Clear,U2PC,3,N
+758,Ultra Low Sulfur #2 Proprietary Dyed,U2PCD,3,N
+759,Ultra Low Sulfur #2 ProprietaryWintClear,U2PWC,3,N
+760,Ultra Low Sulfur #2 ProprietaryWintDyed,U2PWD,3,Y
+761,Ultra Low Sulfur #2 Diesel Dyed +5,+5DYED,9,N
+762,Ultra Low Sulfur #2 Prem Diesel Dyed +5,+5DYE+,9,N
+763,Ultra Low Sulfur #2 Diesel +5,+5ULSD,9,N
+764,Ultra Low Sulfur #2 Premium Diesel +5,+5ULS+,9,N
+765,Ultra Low Sulfur #2 Diesel Dyed -10,-10DYE,9,N
+766,Ultra Low Sulfur #2 Prem Diesel Dyed -10,-10DY+,9,N
+767,Ultra Low Sulfur #2 Diesel -10,-10ULS,9,N
+768,Ultra Low Sulfur #2 Premium Diesel -10,-10UL+,9,N
+769,Ultra Low Sulfur #2 Diesel Dyed -16,-16DYE,9,N
+770,Ultra Low Sulfur #2 Prem Diesel Dyed -16,-16DY+,9,N
+771,Ultra Low Sulfur #2 Diesel -16,-16ULS,9,N
+772,Ultra Low Sulfur #2 Premium Diesel -16,-16UL+,9,N
+773,Ultra Low Sulfur #2 Diesel Dyed -5,-5DYED,9,N
+774,Ultra Low Sulfur #2 Prem Diesel Dyed -5,-5DYE+,9,N
+775,Ultra Low Sulfur #2 Diesel -5,-5ULSD,9,N
+776,Ultra Low Sulfur #2 Premium Diesel -5,-5ULS+,9,N
+777,Ultra Low Sulfur #2 BIO 5% ProprietClear,U2PB5,3,N
+778,Ultra Low Sulfur #2 BIO 5% ProprietaryDy,UPDB5,3,N
+779,Conv Unleaded Composite,UnlClr,9,N
+780,RFG Unleaded Composite,UnlRFG,9,N
+781,RFG 87 Unl Top Tier VOC2 w/10% Ethanol,UR10TV,6,N
+782,RFG 89 Mid Top Tier VOC2 W/10% Ethanol,MR10TV,6,N
+783,RFG 93 Pre Top Tier VOC2 w/10% Ethanol,PR10TV,6,N
+784,CBOB 91 Premium with 10% Ethanol,91CBEt,6,N
+785,CBOB 90 Mid with 10% Eth Low RVP 7.8lb,90BE78,6,N
+786,Conv 90 Premium CBOB for Blending,90CBOB,6,N
+787,Conv 90 Pre CBOB for Blending LRVP 7.8lb,P0BL78,6,N
+789,Ultra Low Sulfur #2 BIO 5% LM Dyed,U2LMB5,2,N
+790,Conv 90 Premium with 10% Eth Low RVP 7.8,90E10L,6,N
+791,Ultra Low Sulfur #2 LED BIO 2% Clear,ULE B2,2,N
+792,Ultra Low Sulfur #2 LED BIO 2% Dyed,ULEYB2,2,N
+793,Conv 90 Premium Low RVP 7.0,P90L70,6,N
+794,CBOB PBOB 87 Unleaded Proprietary Blend,87CPPB,6,N
+795,CBOB PBOB 89 Midgrade Proprietary Blend,89CPPB,6,N
+796,CBOB PBOB 87 Unl 7.8lb LRVP Prop Blend,UCPLPB,6,N
+797,CBOB PBOB 89 Mid 7.8lb LRVP Prop Blend,MCPLPB,6,N
+798,Ultra Low Sulfur #2 BIO 11% Prem Clear,U2PB11,2,Y
+799,Ultra Low Sulfur #2 BIO 11% Prem Dyed,UPDB11,2,Y
+800,B2 Dieselex 4 ULS,B2ULX4,9,N
+801,B5 Dieselex 4 ULS,B5ULX4,9,N
+802,B10 Dieselex 4 ULS,B10UX4,9,N
+803,B11 Dieselex 4 ULS,B11UX4,9,N
+804,B20 Dieselex 4 ULS,B20UX4,9,N
+805,SOY BioDiesel 99.9 with RINS,SB99WR,2,N
+806,SOY BioDiesel 99.9 with RINS Dyed,S99DWR,2,N
+807,SOY BioDiesel 100 with RINS,S100WR,2,N
+808,SOY BioDiesel 100 with RINS Dyed,S100DW,2,N
+809,FAME BioDiesel 99.9 with RINS,FB99WR,2,N
+810,FAME BioDiesel 99.9 with RINS Dyed,F99DWR,2,N
+811,FAME BioDiesel 100 with RINS,F100WR,2,N
+812,FAME BioDiesel 100 with RINS Dyed,F100DW,2,N
+813,Ultra Low Sulfur #2 BIO 75% Clear,UL2B75,2,N
+814,Ultra Low Sulfur #2 BIO 75% Dyed,U2DB75,2,N
+815,CBOB 90 Premium Proprietary Blend,90CBPB,6,N
+816,Conv 91 Pre CBOB for Blending LRVP 7.0lb,P1BL70,6,N
+817,Ultra Low Sulfur #2 BIO 8% Clear,UL2B8,2,N
+818,Ultra Low Sulfur #2 BIO 8% Dyed,UL2DB8,2,N
+819,YGME BioDiesel 99.9 with RINS,YB99WR,2,N
+820,YGME BioDiesel 100 with RINS,Y100WR,2,N
+821,# 4 Oil Regular,#4 Oil,11,N
+822,Asphalt,Asphlt,11,N
+823,Ultra Low Sulfur #2 BIO 5% PropPreWin,U2PPW5,3,N
+824,Ultra Low Sulfur #2 BIO 5% PropPreWinDy,UPPWD5,3,N
+825,RINS 2012 Ethanol,12RINE,9,N
+826,Flexible Fuel Ethanol 75% RBOB,E75RB,5,N
+827,RINS 2011 BioDiesel,11RINB,9,N
+828,RINS 2012 BioDiesel,12RINB,9,N
+829,BioDiesel,BioDsl,9,N
+830,Ultra Low Sulfur #2 BIO 3% PremWin Clear,U2PWB3,2,N
+831,Ultra Low Sulfur #2 BIO 3% PremWin Dyed,UPWDB3,2,N
+832,Ultra Low Sulfur #2 BIO10% PreWntr Clear,UPWB10,2,N
+833,Ultra Low Sulfur #2 BIO 10% PreWntr Dyed,UPWD10,2,N
+834,Ultra Low Sulfur CARB #2 Winter Clear,CA2ULW,3,N
+835,Ultra Low Sulfur CARB #2 Winter Dyed,CA2UWD,3,N
+836,ULS Furnace Oil Marked - Canadian,ULFFOM,3,N
+837,Ultra Low Sulfur #2 BIO 4% Winter Clear,UL2WB4,2,N
+838,Ultra Low Sulfur #2 BIO 4% Winter Dyed,ULWDB4,2,N
+839,Ultra Low Sulfur #2 BIO 9% Clear,UL2B9,2,N
+840,Ultra Low Sulfur #2 BIO 9% Dyed,UL2DB9,2,N
+841,Ultra Low Sulfur #2 BIO 15% Winter Clear,ULWB15,2,N
+842,Ultra Low Sulfur #2 BIO 15% Winter Dyed,UWDB15,2,N
+843,Flexible Fuel Ethanol 85% Top Tier,Flx85T,5,N
+844,Ultra Low Sulfur #2 BIO 0-5% Clear,U2B0-5,2,N
+845,Ultra Low Sulfur #2 BIO 0-5% Dyed,U2DB05,2,N
+846,Ultra Low Sulfur #2 BIO 0-5% WinterClear,U2WB05,2,N
+847,Ultra Low Sulfur #2 BIO 0-5% Winter Dyed,UWDB05,2,N
+848,Ultra Low Sulfur CARB BIO 0-5% Clear,CUB0-5,2,N
+849,Ultra Low Sulfur CARB BIO 0-5% Dyed,CUDB05,2,N
+850,Multi BioDiesel 99.9 with RINS,MB99WR,2,N
+851,Multi BioDiesel 99.9 with RINS Dyed,M99DWR,2,N
+852,Flexible Fuel Ethanol 60%,Flx60%,5,N
+853,Flexible Fuel Ethanol 65%,Flx65%,5,N
+854,Ultra Low Sulfur #2 Heating Oil Dyed,UL2HOD,3,N
+855,CBOB regular 9.0RVP,CBOBA2,9,N
+856,CBOB premium 9.0RVP,CBOBD2,9,N
+857,Ultra Low Sulfur #2 LED BIO 3% Clear,ULE B3,2,N
+858,Ultra Low Sulfur #2 LED BIO 3% Dyed,ULEYB3,2,N
+859,Conv 90 Premium with 10% Eth Low RVP 7.0,1P0EL7,6,N
+860,High Sulfur #2 BIO 0-5 % Heating Oil,HO2B05,2,N
+861,Ultra Low Sulfur #2 LED BIO 15% Clear,ULEB15,2,N
+862,Ultra Low Sulfur #2 LED BIO 15% Dyed,ULEY15,2,N
+863,Undyed Heating Oil,Ht Oil,9,N
+864,ULSD,ULSD,9,N
+865,Conventional Regular,ConReg,9,N
+866,Conventional Premium,ConPre,9,N
+867,Conventional Regular M1,ConRM1,9,N
+868,Conventional Premium V1,ConPV1,9,N
+869,CARBOB Regular,CBOB R,9,N
+870,CARBOB Premium,CBOB P,9,N
+871,CBOB Regular,RGCBOB,9,N
+872,CBOB Premium,PRCBOB,9,N
+873,CARB ULSD,CBULSD,9,N
+874,Ultra Low Sulfur #2 BIO 1% Dyed,U2DB1,2,N
+875,Ultra Low Sulfur #2 LED BIO 1% Clear,ULE B1,2,N
+876,Ultra Low Sulfur #2 LED BIO 1% Dyed,ULEYB1,2,N
+877,Flexible Fuel Ethanol 80% Low RVP,Flx80L,5,N
+878,Flexible Fuel Ethanol 85% Low RVP,Flx85L,5,Y
+879,Ultra Low Sulfur #2 BIO 14% Clear,UL2B14,2,N
+880,Conv 90 Pre LS Low RVP 7.0 Clean Fuel,P90LS7,6,N
+881,Conv Midgrade Composite,MidClr,9,N
+882,Conv Premium Composite,PreClr,9,N
+883,RFG Midgrade Composite,MidRFG,9,N
+884,RFG Premium Composite,PreRFG,9,N
+885,Conv Unleaded w/Ethanol Composite,UnlEth,9,N
+886,Conv Midgrade w/Ethanol Composite,MidEth,9,N
+887,Conv Premium w/Ethanol Composite,PreEth,9,N
+888,Ultra Low Sulfur #1 Diesel NRLM Dyed,U1NRLM,3,N
+889,Ultra Low Sulfur #2 HO BIO 5% Prem Dye,U2H5PD,2,N
+890,Ultra Low Sulfur #2 Heating Oil Win Dyed,U2HOWD,3,N
+891,Ultra Low Sulfur #2 BIO20% PreWntr Clear,UPWB20,2,N
+892,Ultra Low Sulfur #2 BIO 20% PreWntr Dyed,UPWD20,2,N
+893,Ultra Low Sulfur #2 Prem Heating Oil Dye,U2HOPD,3,N
+894,Multi BioDiesel 100 with RINS,M100WR,2,N
+895,Multi BioDiesel 100 with RINS Dyed,M100DW,2,N
+896,RINS 2013 Ethanol,13RINE,9,N
+897,RINS 2013 BioDiesel,13RINB,4,N
+898,Ultra Low Sulfur #2 BIO 7% Clear,ULS2B7,2,N
+899,Ultra Low Sulfur #2 BIO 7% Dyed,UL2DB7,2,N
+900,ULSD Grade 62,ULSD62,9,N
+901,Diesel Exhaust Fluid,DEF,12,N
+902,Ultra Low Sulfur #2 LED BIO 4% Clear,ULE B4,2,N
+903,Ultra Low Sulfur #2 LED BIO 4% Dyed,ULEYB4,2,N
+904,Flexible Fuel Ethanol 74%,Flx74%,5,N
+905,Flexible Fuel Ethanol 78%,Flx78%,5,N
+906,Ultra Low Sulfur #2 BIO 0-5% Heating Oil,UHOB05,2,N
+907,Ultra Low Sulfur #2 BIO 10% Heating Oil,UHOB10,2,N
+908,Ultra Low Sulfur #2 BIO 20% Heating Oil,UHOB20,2,N
+909,Ultra Low Sulfur #2 BIO 1% ProprietaPre,U2PPB1,3,N
+910,Flexible Fuel Ethanol 50%,Flx50%,5,N
+911,Flexible Fuel Ethanol 55%,Flx55%,5,N
+912,Ultra Low Sulfur #2 Renewable R5 Clear,ULS2R5,2,N
+913,Ultra Low Sulfur #2 Renewable R5 Dyed,UL2DR5,2,N
+914,Ultra Low Sulfur #2 Renewable R5 Bio 5% Clear,U2R5B5,2,N
+915,Ultra Low Sulfur #2 Renewable R5 Bio 5% Dyed,2R5B5D,2,N
+916,Ultra Low Sulfur #2 Renewable R5 Bio 2% Clear,U2R5B2,2,N
+917,Ultra Low Sulfur #2 Renewable R5 Bio 2% Dyed,2R5B2D,2,N
+918,Ultra Low Sulfur #2 Renewable R5 Premium Clear,UL2PR5,2,N
+919,Ultra Low Sulfur #2 Renewable R5 Premium Dyed,U2PDR5,2,N
+920,Ultra Low Sulfur #2 Renewable R5 Winter Clear,UL2WR5,2,N
+921,Ultra Low Sulfur #2 Renewable R5 Winter Dyed,U2WDR5,2,N
+922,Ultra Low Sulfur #2 Renewable R5 PreWinter Clear,U2PWR5,2,N
+923,Ultra Low Sulfur #2 Renewable R5 PreWinter Dyed,2PWDR5,2,N
+924,Ultra Low Sulfur #2 BIO 1% Prem Clear,UL2PB1,2,N
+925,Ultra Low Sulfur #2 BIO 1% Prem Dyed,ULPDB1,2,N
+926,Ultra Low Sulfur #2 BIO 1% PremWin Clear,U2PWB1,2,N
+927,Ultra Low Sulfur #2 BIO 1% PremWin Dyed,UPWDB1,2,N
+928,Flexible Fuel Ethanol 83%,Flx83%,5,N
+929,Conv 84 Unleaded LS Clean Fuel,U84 LS,6,N
+930,ULS#2 Diesel Clear Net Gallon Billing,UL2 NG,3,N
+931,Conv 87 Unleaded with 10% Eth Net Gallon Billing,87EtNG,6,N
+932,Conv 91 Premium with 10% Eth Net Gallon Billing,91EtNG,6,N
+933,ULS#2 Diesel Clear -30 Net Gallon Billing,-30U2N,3,N
+934,ULS#2 Diesel Clear -40 Net Gallon Billing,-40U2N,3,N
+935,Ultra Low Sulfur #2 BIO 4% Prem Clear,UL2PB4,2,N
+936,Ultra Low Sulfur #2 BIO 4% Prem Dyed,ULPDB4,2,N
+937,Ultra Low Sulfur #2 LED BIO 0-5% Clear,ULEB05,2,N
+938,Ultra Low Sulfur #2 LED BIO 0-5% Dyed,ULYB05,2,N
+939,RINS 2014 BioDiesel,14RINB,9,N
+940,RINS 2014 Ethanol,14RINE,4,N
+941,Multi BioDiesel 99.9 with RINS Winter,MW99WR,2,N
+942,Multi BioDiesel 99.9 with RINS Winter Dyed,MW99DR,2,N
+943,Multi BioDiesel 100 with RINS Winter,MW100R,2,N
+944,Multi BioDiesel 100 with RINS Winter Dyed,MW1HDR,2,N
+945,Multi BioDiesel 99.9 Winter,MB99 W,2,N
+946,ULS Heating Oil,ULS HO,2,N
+947,Low Sulfur #2 Heating Oil Dyed,LS2HOD,3,Y
+948,Low Sulfur #2 Prem Heating Oil Dye,L2HOPD,3,N
+949,Jet Fuel JP8,JetJP8,7,N
+950,Ultra Low Sulfur #2 BIO 15% PreWntr Clear,UPWB15,2,N
+951,Ultra Low Sulfur #2 BIO 15% PreWntr Dyed,UPWD15,2,N
+952,Low Sulfur #2 BIO Heating Oil Dyed 2%,LSHOB2,3,N
+953,Low Sulfur#2  BIO Prem Heating Oil Dyed 2%,LSHPB2,3,N
+954,Low Sulfur #2 BIO Heating Oil Dyed 5%,LSHOB5,3,N
+955,Low Sulfur BIO #2 Prem Heating Oil Dyed 5%,LSHPB5,3,N
+956,HS#2 BIO 0-5 % Heating Oil Net Gallon Billing,H2B05N,2,N
+957,Renewable Diesel,Rnwbl,2,N
+958,Renewable Diesel Dyed,RnwblD,2,N
+959,Ultra Low Sulfur #2 BIO 1% Winter Clear,UL2WB1,2,N
+960,Ultra Low Sulfur #2 BIO 1% Winter Dyed,ULWDB1,2,N
+961,Conv 85 Unl Top Tier with 10% Ethanol,85TT10,6,N
+962,Conv 86 Unl Top Tier with 10% Ethanol,86TT10,6,N
+963,RINS 2015 BioDiesel,15RINB,9,N
+964,RINS 2015 Ethanol,15RINE,9,N
+965,Ultra Low Sulfur #2 BIO 15% Heating Oil,UHOB15,2,N
+966,Conv 88 Mid Top Tier with 10% Ethanol,88TT10,6,N
+967,RBOB Region One,RBOBR1,9,N
+968,PBOB Region One,PBOBR1,9,N
+969,CBOB Regular 7.8 RVP,CB R78,9,N
+970,CBOB Premium 7.8 RVP,CB P78,9,N
+971,RFG 91 Pre Top Tier with 10% Ethanol,91R10T,6,N
+972,RFG 91 Pre Top Tier VOC2 w/10% Ethanol,9110TV,6,N
+973,Conv Unleaded w/Ethanol Low Sulfur Composite,UEthLS,9,N
+974,Conv Midgrade w/Ethanol Low Sulfur Composite,MEthLS,9,N
+975,Conv Premium w/Ethanol Low Sulfur Composite,PEthLS,9,N
+976,RINS 2016 BioDiesel,16RINB,9,N
+977,RINS 2016 Ethanol,16RINE,9,N
+978,Suboctane Gasoline,Suboct,9,N
+979,70% 30% ULS#2 ULS#1 Clear,7030 C,3,Y
+980,70% 30% ULS#2 ULS#1 Dyed,7030 D,3,N
+981,80% 20% ULS#2 ULS#1 Clear,8020 C,3,Y
+982,80% 20% ULS#2 ULS#1 Dyed,8020 D,3,N
+983,70% 30% ULS#2 ULS#1 Proprietary Clear,7030PC,3,N
+984,70% 30% ULS#2 ULS#1 Proprietary Dyed,7030PD,3,N
+985,80% 20% ULS#2 ULS#1 Proprietary Clear,8020PC,3,N
+986,80% 20% ULS#2 ULS#1 Proprietary Dyed,8020PD,3,N
