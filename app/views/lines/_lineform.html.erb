@@ -33,9 +33,12 @@
 
 <div class="form-group row">
     <div class="field">
+      <input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List
       <label class="col-2 col-form-label"><%= f.label :product_id, "Product (DTN)" %></label>
-      <% options = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :name,  f.object.product_id ) %>
-      <%= f.select(:product_id, options, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name" } ) %>
+      <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :name,  f.object.product_id ) %>
+      <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist" } ) %>
+      <% options_long = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :name,  f.object.product_id ) %>
+      <%= f.select(:product_id, options_long, {include_blank: !line.product_id.present? }, { :class =>"form-control", :id =>"prod-name-longlist" } ) %>
     </div>
 </div>
 
