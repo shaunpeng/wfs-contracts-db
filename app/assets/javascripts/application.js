@@ -3,6 +3,7 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require moment
+//= require paloma
 //= require_tree .
 
 var hide_spinner = function(){

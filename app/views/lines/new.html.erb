@@ -2,4 +2,4 @@
 
 <%= render 'lineform', line: @line %>
 
-<%= button_to 'Back', contract_path(@contract.id), method: :get, class:"btn btn-default" %>
+<%= button_to 'Back', contract_path(@line.contract_id.presence || @contract.id), method: :get, class:"btn btn-default" %>
