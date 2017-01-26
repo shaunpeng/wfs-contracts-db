@@ -1,27 +1,234 @@
-<h1>Line Details</h1></br>
 <div class="row">
-	<div class="form-group row">
-	  <label for="inputContrdctId" class="col-2 col-form-label">Contract ID</label>
-		<div class="col-10">
-	  	<input type="number" class="form-control" id="inputContrdctId" value=<%= @line.contract_id %> readonly=true >
-		</div>
-	</div>
-	
-	<div class="form-group row">
-	  <label for="inputFormula" class="col-2 col-form-label">Formula</label>
-		<div class="col-10">
-	  	<input type="text" class="form-control" id="inputFormula" value=<%= @line.formula %> readonly=true >
-		</div>
-	</div>
-	
-	<div class="form-group row">
-	  <label for="inputVolume" class="col-2 col-form-label">Volume</label>
-		<div class="col-10">
-	  	<input type="text" class="form-control" id="inputVolume" value=<%= @line.volume %> readonly=true >
-		</div>
-	</div>
-	
-<ul class="nav nav-pills">
-	<li><%= button_to 'Edit', edit_line_path(@line), method: :get, class:"btn btn-default" %></li>
-	<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
-</ul>
+  <div class="col-xs-12 col-sm-6 col-md-8">
+  	<h1><img class="document-icon" src="/document.png" />
+  	Contract Line Details</h1>
+  </div>
+  <div class="bottom-align-right col-xs-6 col-md-4">
+    <ul class="nav nav-pills pull-right">
+    	<li><%= button_to 'Edit', edit_line_path(@line), method: :get, class:"btn btn-default" %></li>
+    	<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
+		</ul>
+  </div>
+</div>
+</br>
+
+	<table class="table borderless">
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Product Category</label>
+					<input type="text" value="<%= ProdCategory.find(@line.prod_category_id).name %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Terminal City (DTN)</label>
+					<input type="text" value="<%= City.find(@line.city_id).name  %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Volume Gross/Net</label>
+					<input type="text" value="<%= @line.volume_grossnet  %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label ">Product (DTN) </label>
+					<input type="text" value="<%= Product.searchfield(@line.product_id,'name') + "  (" + Product.searchfield(@line.product_id,'abbr') + ")" if Product.find_by_id(@line.product_id).present? %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Terminal Operator (DTN)</label>
+					<input type="text" value="<%= Terminal.searchfield(@line.terminal_id,'abbr') + "  (" + Terminal.searchfield(@line.terminal_id,'tcn') + ")" if Terminal.find_by_id(@line.terminal_id).present? %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Volume (Gallons)</label>
+          <input type="text" value="<%= number_with_delimiter(@line.volume,delimiter: ",") %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Cancel Date (if canceled)</label>
+           <input type="date" value="<%= @line.cancel_date %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Payment Terms</label>
+          <input type="text" value="<%= @line.payment_terms %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Volume Variance (e.g. +/-15%)</label>
+          <input type="text" value="<%= @line.volume_variance %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Formula</label>
+					<input type="text" value="<%= @line.formula  %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Formula Same/Prior Day</label>
+					<input type="text" value="<%= @line.formula_samepriorday  %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Formula Description</label>
+          <input type="text" value="<%= @line.formula_description %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+        <label class="col-2 col-form-label">Index 1</label>
+        <input type="text" value="<%= @line.index_1 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Index 2</label>
+          <input type="text" value="<%= @line.index_2 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"> Index 3</label>
+          <input type="text" value="<%= @line.index_3 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Index 1 %</label>
+          <input type="number" value="<%= @line.pct_index_1 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Index 2 %</label>
+          <input type="number" value="<%= @line.pct_index_2 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Index 3 %</label>
+          <input type="number" value="<%= @line.pct_index_3 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder 1</label>
+          <input type="number" value="<%= @line.adder_1 %>" class="form-control" readonly=true, step:"any" >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder 2</label>
+          <input type="number" value="<%= @line.adder_2 %>" class="form-control" readonly=true, step:"any" >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder 3</label>
+          <input type="number" value="<%= @line.adder_3 %>" class="form-control" readonly=true, step:"any" >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder In/Out</label>
+          <input type="text" value="<%= @line.adder_inout %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder/TVA Schedule</label>
+          <input type="text" value="<%= @line.adder_schedule %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Summer RVP</label>
+          <input type="text" value="<%= @line.summer_rvp %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">RINS Index</label>
+          <input type="text" value="<%= @line.index_rins %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">RINS Discount %</label>
+          <input type="number" value="<%= @line.pct_rins_discount %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Ethanol %</label>
+          <input type="number" value="<%= @line.pct_ethanol %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rack Posted Price Discount</label>
+          <input type="number" value="<%= @line.rack_discount %>" class="form-control" readonly=true, step:"any" >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rack Discount Policy</label>
+          <input type="text" value="<%= @line.rack_discount_policy %>" class="form-control" readonly=true >
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Line Status</label>
+          <input type="text" value="<%= @line.status %>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rebate Policy</label>
+          <textarea type="text" class="form-control" readonly=true ><%= @line.rebate_policy %></textarea>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Penalty Policy</label>
+          <textarea type="text" class="form-control" readonly=true ><%= @line.penalty_policy %></textarea>
+        </div>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+  
+  <div class="min-height"></div>

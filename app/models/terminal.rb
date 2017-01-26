@@ -7,4 +7,9 @@ class Terminal < ApplicationRecord
         ""
       end
     end
+    
+    def abbrtcn
+        "#{abbr} --< #{tcn} >"
+    end
+    
 end

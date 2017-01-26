@@ -23,8 +23,8 @@ class AddNewFieldsLines < ActiveRecord::Migration[5.0]
     add_column :lines, :index_rins, :string
     add_column :lines, :summer_rvp, :string
     add_column :lines, :rack_discount, :decimal
-    add_column :lines, :rack_discount_policy, :string
-    add_column :lines, :rebate_policy, :string
-    add_column :lines, :penalty_policy, :string    
+    add_column :lines, :rack_discount_policy, :text
+    add_column :lines, :rebate_policy, :text
+    add_column :lines, :penalty_policy, :text    
   end
 end

@@ -27,6 +27,7 @@ class LinesController < ApplicationController
   # POST /lines.json
   def create
     @line = Line.new(line_params)
+    @contract = Contract.find(@line.contract_id)
       if @line.save
         redirect_to @line, success: 'Line was successfully created.'
       else
@@ -37,6 +38,7 @@ class LinesController < ApplicationController
   # PATCH/PUT /lines/1
   # PATCH/PUT /lines/1.json
   def update
+  @contract = Contract.find(@line.contract_id)
     respond_to do |format|
       if @line.update(line_params)
         format.html { redirect_to @line, warning: 'Line was successfully updated.' }

@@ -28,7 +28,6 @@
 			<td>
           <div class="field">
             <label class="col-2 col-form-label"><%= f.label :supplier, "Supplier* (DTN)" %></label>
-            <%#= f.text_field :supplier, class: "form-control" %>
             <% options = options_from_collection_for_select(Supplier.order(:name), 'name', 'name', f.object.supplier ) %>
             <%= f.select(:supplier, options, {include_blank: !@contract.supplier.present? }, { :class => "form-control" }) %>
           </div>

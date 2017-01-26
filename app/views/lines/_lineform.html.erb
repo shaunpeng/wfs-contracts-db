@@ -1,238 +1,256 @@
-<div class="lines">
-
 <%= form_for(line) do |f| %>
 
+<div class="container">
+  <div class="row">
   <% if line.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(line.errors.count, "error") %> prohibited this line from being saved:</h2>
-
+    <div id="error_explanation" class="alert alert-danger fade in">
+      <h2>Oh oh! Change a few things up and try submitting again.</h2>
       <ul>
       <% line.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
+        <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;&nbsp;<%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
-	</p>
+  </div>
+</div>
 
+<br>
 
-<div class="form-group row">
   <div class="field hide">
     <%= f.number_field :contract_id, class: "form-control", :value => line.contract_id.presence || @contract.id, :readonly => true %>
   </div>
-</div>
 
-<div class="form-group row">
-    <div class="field">
-      <label class="col-2 col-form-label"><%= f.label :prod_category_id, "Product Category* (DTN)" %></label>
-      <% options = options_from_collection_for_select(ProdCategory.order(:name), 'id', 'name', f.object.prod_category_id ) %>
-      <%= f.select(:prod_category_id, options, {include_blank: !line.prod_category_id.present? }, { :class => "form-control", :id =>"prod-category" }) %>
-    </div>
-</div>
-
-<div class="form-group row">
-    <div class="field">
-      <div><input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List</div>
-      <label class="col-2 col-form-label"><%= f.label :product_id, "Product (DTN)" %></label>
-      <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :name,  f.object.product_id ) %>
-      <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist" } ) %>
-      <% options_long = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :name,  f.object.product_id ) %>
-      <%= f.select(:product_id, options_long, {include_blank: !line.product_id.present? }, { :class =>"form-control", :id =>"prod-name-longlist" } ) %>
-    </div>
-</div>
-
-
-
-<div class="form-group row">
-    <div class="field">
-      <div id="market-id" style="display:none"><%= @contract.market_id %></div>
-      <label class="col-2 col-form-label"><%= f.label :city_id, "Terminal City (DTN)" %></label>
-      <% options = options_from_collection_for_select(City.search(@contract.market_id).order(:name), 'id', 'name', f.object.city_id ) %>
-      <%= f.select(:city_id, options, {include_blank: !line.city_id.present? }, { :class => "form-control", :id =>"terminal-city" }) %>
-    </div>
-</div>
-
-<div class="form-group row">
-    <div class="field">
-      <label class="col-2 col-form-label"><%= f.label :terminal_id, "Terminal Operator* (DTN)" %></label>
-      <% options = option_groups_from_collection_for_select(City.search(@contract.market_id).order(:name), :terminals, :name, :id, :abbr,  f.object.terminal_id ) %>
-      <%= f.select(:terminal_id, options, {include_blank: !line.terminal_id.present? }, { :class => "form-control", :id =>"terminal-operator" }) %>
-    </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :payment_terms %></label>
-    <%= f.text_field :payment_terms, class: "form-control" %>
-  </div>
-</div>
-
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :formula %></label>
-    <%= f.select(:formula, ["", "Platts","NYMEX","OPIS","ARGUS","Rack Posted","Other"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Formula Description</label>
-    <%= f.text_field :formula_description, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Formula Same/Prior Day</label>
-    <%= f.select(:formula_samepriorday, ["", "Same day", "Prior day"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :volume %></label>
-    <%= f.number_field :volume, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Volume Variance</label>
-    <%= f.text_field :volume_variance, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Gross/Net Gallons</label>
- <%= f.select(:volume_grossnet, ["", "Gross", "Net"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Ethanol %</label>
-    <%= f.number_field :pct_ethanol, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">RINS Discount %</label>
-    <%= f.number_field :pct_rins_discount, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Index RINS</label>
-    <%= f.text_field :index_rins, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
-    <%= f.text_field :index_1, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :index_2 %></label>
-    <%= f.text_field :index_2, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :index_2 %></label>
-    <%= f.text_field :index_2, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :adder_1 %></label>
-    <%= f.number_field :adder_1, class: "form-control", step:"any" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :adder_2 %></label>
-    <%= f.number_field :adder_2, class: "form-control", step:"any" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label"><%= f.label :adder_3 %></label>
-    <%= f.number_field :adder_3, class: "form-control", step:"any" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Adder In/Out (explanation)</label>
- <%= f.select(:adder_inout, ["", "In", "Out"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Adder/TVA Schedule</label>
- <%= f.select(:adder_schedule, ["", "Yearly", "Monthly"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Summer RVP</label>
- <%= f.select(:summer_rvp, ["", "Y", "N"], {}, { :class => "form-control" }) %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Rack Discount</label>
-    <%= f.number_field :rack_discount, class: "form-control", step:"any" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Rack Discount Policy</label>
-    <%= f.text_area :rack_discount_policy, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Rebate Policy</label>
-    <%= f.text_area :rebate_policy, class: "form-control" %>
-  </div>
-</div>
-
-<div class="form-group row">
-  <div class="field">
-    <label class="col-2 col-form-label">Penalty Policy</label>
-    <%= f.text_area :penalty_policy, class: "form-control" %>
-  </div>
-</div>
-
-
-<div class="form-group row">
-    <label class="col-2 col-form-label"><%= f.label :cancel_date %></label>
-    <%= f.date_field :cancel_date, class: "form-control" %>
-</div>
-
-<div class="form-group row">
-    <label class="col-2 col-form-label"><%= f.label :status %></label>
-      <%= f.text_field :status, class: "form-control", :value => 'A', :readonly => true %>
-</div>
+	<table class="table borderless">
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :prod_category_id, "Product Category*" %></label>
+          <% options = options_from_collection_for_select(ProdCategory.order(:name), 'id', 'name', f.object.prod_category_id ) %>
+          <%= f.select(:prod_category_id, options, {include_blank: !line.prod_category_id.present? }, { :class => "form-control", :id =>"prod-category" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <!--<div id="market-id" style="display:none"><%#= @contract.market_id %></div>-->
+          <label class="col-2 col-form-label"><%= f.label :city_id, "Terminal City* (DTN)" %></label>
+          <% options = options_from_collection_for_select(City.search(@contract.market_id).order(:name), 'id', 'name', f.object.city_id ) %>
+          <%= f.select(:city_id, options, {include_blank: !line.city_id.present? }, { :class => "form-control", :id =>"terminal-city" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :volume_grossnet, "Volume Gross/Net*"%></label>
+          <%= f.select(:volume_grossnet, ["", "Gross", "Net"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label inline-block">
+            Product (DTN)
+            <div class="inline-block">
+              <input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List
+            </div>
+          </label>
+          <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :nameabbr,  f.object.product_id ) %>
+          <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist" } ) %>
+          <% options_long = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :nameabbr,  f.object.product_id ) %>
+          <%= f.select(:product_id, options_long, {include_blank: !line.product_id.present? }, { :class =>"form-control", :id =>"prod-name-longlist" } ) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :terminal_id, "Terminal Operator (DTN)" %></label>
+          <% options = option_groups_from_collection_for_select(City.search(@contract.market_id).order(:name), :terminals, :name, :id, :abbrtcn,  f.object.terminal_id ) %>
+          <%= f.select(:terminal_id, options, {include_blank: !line.terminal_id.present? }, { :class => "form-control", :id =>"terminal-operator" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :volume, "Volume* (Gallons)"%></label>
+          <%= f.number_field :volume, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :cancel_date, "Cancel Date (if canceled)"%></label>
+          <%= f.date_field :cancel_date, class: "form-control" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :payment_terms, "Payment Terms" %></label>
+          <%= f.text_field :payment_terms, class: "form-control" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :volume_variance, "Volume Variance (e.g. +/-15%)"%></label>
+          <%= f.text_field :volume_variance, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :formula, "Formula*" %></label>
+          <%= f.select(:formula, ["", "Platts","NYMEX","OPIS","ARGUS","Rack Posted","Other"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Formula Same/Prior Day</label>
+          <%= f.select(:formula_samepriorday, ["", "Same day", "Prior day"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Formula Description</label>
+          <%= f.text_field :formula_description, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+        <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
+        <%= f.text_field :index_1, class: "form-control" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :index_2 %></label>
+          <%= f.text_field :index_2, class: "form-control" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :index_3 %></label>
+          <%= f.text_field :index_3, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :pct_index_1, "Index 1 %" %></label>
+          <%= f.number_field :pct_index_1, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :pct_index_2, "Index 2 %"  %></label>
+          <%= f.number_field :pct_index_2, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :pct_index_3, "Index 3 %"  %></label>
+          <%= f.number_field :pct_index_3, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+		<tr>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :adder_1 %></label>
+          <%= f.number_field :adder_1, class: "form-control", step:"any" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :adder_2 %></label>
+          <%= f.number_field :adder_2, class: "form-control", step:"any" %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :adder_3 %></label>
+          <%= f.number_field :adder_3, class: "form-control", step:"any" %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder In/Out (explanation)</label>
+          <%= f.select(:adder_inout, ["", "In", "Out"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Adder/TVA Schedule</label>
+          <%= f.select(:adder_schedule, ["", "Yearly", "Monthly"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Summer RVP</label>
+          <%= f.select(:summer_rvp, ["", "Y", "N"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">RINS Index</label>
+          <%= f.text_field :index_rins, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">RINS Discount %</label>
+          <%= f.number_field :pct_rins_discount, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Ethanol %</label>
+          <%= f.number_field :pct_ethanol, class: "form-control" %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rack Posted Price Discount</label>
+          <%= f.number_field :rack_discount, class: "form-control", step:"any" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rack Discount Policy</label>
+          <%= f.text_field :rack_discount_policy, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :status, "Line Status" %></label>
+          <%= f.text_field :status, class: "form-control", :value => 'A', :readonly => true %>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Rebate Policy</label>
+          <%= f.text_area :rebate_policy, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Penalty Policy</label>
+          <%= f.text_area :penalty_policy, class: "form-control" %>
+        </div>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
 
 <div class="form-group row">
   <div class="actions">
@@ -240,8 +258,4 @@
   </div>
 </div>
 
-
-
 <% end %>
-
-</div>

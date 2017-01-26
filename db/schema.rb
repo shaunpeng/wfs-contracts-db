@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170125204445) do
+ActiveRecord::Schema.define(version: 20170126003105) do
 
   create_table "cfiles", force: :cascade do |t|
     t.string   "name"
@@ -89,9 +89,9 @@ ActiveRecord::Schema.define(version: 20170125204445) do
     t.string   "index_rins"
     t.string   "summer_rvp"
     t.decimal  "rack_discount"
-    t.string   "rack_discount_policy"
-    t.string   "rebate_policy"
-    t.string   "penalty_policy"
+    t.text     "rack_discount_policy"
+    t.text     "rebate_policy"
+    t.text     "penalty_policy"
   end
 
   create_table "markets", force: :cascade do |t|

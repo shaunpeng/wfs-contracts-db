@@ -10,4 +10,8 @@ class Product < ApplicationRecord
         end
     end
     
+    def nameabbr
+        "#{name} --< #{abbr} >"
+    end
+    
 end

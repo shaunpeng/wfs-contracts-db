@@ -131,7 +131,7 @@
 
 <br>
   <div class="min-height">
-	<%= render 'lines/line', obj: @contract.lines.where("status <> 'I'").order(updated_at: :desc) %>
+	<%= render 'lines/line', obj: @contract.lines.where("status='A'").order(updated_at: :desc) %>
 	</div>
 </div>
 
