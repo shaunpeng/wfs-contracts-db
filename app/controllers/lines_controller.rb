@@ -27,7 +27,7 @@ class LinesController < ApplicationController
   # POST /lines.json
   def create
     @line = Line.new(line_params)
-    @contract = Contract.find(@line.contract_id)
+    # @contract = Contract.find(@line.contract_id)
       if @line.save
         redirect_to @line, success: 'Line was successfully created.'
       else
