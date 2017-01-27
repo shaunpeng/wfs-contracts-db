@@ -5,7 +5,7 @@ class Contract < ApplicationRecord
     validates :market_id, presence: true
     validates :brand_type, presence: true, allow_blank: false
     validates :start_date, presence: true
-    validates :end_date, presence: true
+    # validates :end_date, presence: true
     validates :renew_type, presence: true
     validates :formula_type, presence: true
     validates :pricing_cycle, presence: true
@@ -15,8 +15,10 @@ class Contract < ApplicationRecord
     has_one :market
     
     def end_after_start
-        if end_date <= start_date
-           errors.add(:base, 'End date must be after State date')
+        if !end_date.nil?
+            if end_date <= start_date
+               errors.add(:base, 'End date must be after Start date')
+            end
         end
     end
     
