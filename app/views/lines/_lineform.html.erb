@@ -19,6 +19,9 @@
 
   <div class="field hide">
     <%= f.number_field :contract_id, class: "form-control", :value => line.contract_id.presence || @contract.id, :readonly => true %>
+    <select class="form-control" id="index-option">
+          <%= LinesHelper::IndexOption %>
+    </select>
   </div>
 
 	<table class="table borderless">
@@ -48,16 +51,17 @@
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label inline-block">
+          <label class="col-2 col-form-label inline-block" title="Blank means multiple unspecified products under the specified category.">
             Product (DTN)
             <div class="inline-block">
               <input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List
             </div>
           </label>
           <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :nameabbr,  f.object.product_id ) %>
-          <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist" } ) %>
+          <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist", :title => "Blank means multiple unspecified  products under the specified category." } ) %>
+          <%# puts options_short %>
           <% options_long = option_groups_from_collection_for_select(ProdCategory.order(:name), :products, :name, :id, :nameabbr,  f.object.product_id ) %>
-          <%= f.select(:product_id, options_long, {include_blank: !line.product_id.present? }, { :class =>"form-control", :id =>"prod-name-longlist" } ) %>
+          <%= f.select(:product_id, options_long, {include_blank: !line.product_id.present? }, { :class =>"form-control", :id =>"prod-name-longlist", :title => "Blank means multiple unspecified products under the specified category." } ) %>
         </div>
       </td>
 			<td>
@@ -89,16 +93,16 @@
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :volume_variance, "Volume Variance (e.g. +/-15%)"%></label>
-          <%= f.text_field :volume_variance, class: "form-control" %>
+          <label class="col-2 col-form-label"><%= f.label :volume_variance, "Volume Variance", title: "e.g. +/-15%" %></label>
+          <%= f.text_field :volume_variance, class: "form-control", title: "e.g. +/-15%" %>
         </div>
       </td>
     </tr>
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :formula, "Formula*" %></label>
-          <%= f.select(:formula, ["", "Platts","NYMEX","OPIS","ARGUS","Rack Posted","Other"], {}, { :class => "form-control" }) %>
+          <label class="col-2 col-form-label"><%= f.label :formula, "Formula Type/Source*" %></label>
+          <%= f.select(:formula, ["", "Platts","NYMEX","OPIS","Argus","Rack Posted","Other"], {}, { :class => "form-control", :id => "formula-source" }) %>
         </div>
       </td>
 			<td>
@@ -117,20 +121,21 @@
 		<tr>
 			<td>
         <div class="field">
-        <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
-        <%= f.text_field :index_1, class: "form-control" %>
+          <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
+          <% puts f.object.index_1 %>
+          <%= f.select :index_1, grouped_options_for_select(LinesHelper::IndexOption,f.object.index_1), {include_blank: !line.index_1.present?}, { :class => "form-control"}  %>
         </div>
       </td>
 			<td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :index_2 %></label>
-          <%= f.text_field :index_2, class: "form-control" %>
+           <%= f.select :index_2, grouped_options_for_select(LinesHelper::IndexOption,f.object.index_2), {include_blank: !line.index_2.present?}, { :class => "form-control"}  %>
         </div>
       </td>
 			<td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :index_3 %></label>
-          <%= f.text_field :index_3, class: "form-control" %>
+          <%= f.select :index_3, grouped_options_for_select(LinesHelper::IndexOption,f.object.index_3), {include_blank: !line.index_3.present?}, { :class => "form-control"}  %>
         </div>
       </td>
     </tr>
@@ -198,7 +203,7 @@
       <td>
         <div class="field">
           <label class="col-2 col-form-label">RINS Index</label>
-          <%= f.text_field :index_rins, class: "form-control" %>
+          <%= f.select(:index_rins, ["","OPIS US Ethanol RIN Current","OPIS US Bio Rin Current","Platts Ethanol RIN Cal Yr02","Other"], {}, { :class => "form-control" }) %>
         </div>
       </td>
       <td>

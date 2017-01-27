@@ -2,11 +2,11 @@
   <div class="col-xs-12 col-sm-6 col-md-8">
   	<h1><img class="document-icon" src="/document.png" />
   	Contract Header Details</h1>
-  	</div>
+  </div>
   <div class="bottom-align-right col-xs-6 col-md-4">
     <ul class="nav nav-pills pull-right">
     	<li><%= button_to 'Edit', edit_contract_path(@contract), method: :get, class:"btn btn-default" %></li>
-    	<li><%= button_to 'Back', contracts_path, method: :get, class:"btn btn-default" %></li>
+    	<li><%= button_to 'Done', contracts_path, method: :get, class:"btn btn-default" %></li>
 		</ul>
   </div>
 </div>
@@ -76,7 +76,7 @@
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Renew Type</label>
+          <label class="col-2 col-form-label">Renewal Cycle</label>
           <input type="text" class="form-control" readonly=true value="<%= @contract.renew_type%>" >
         </div>
       </td>
@@ -130,8 +130,8 @@
 </div>
 
 <br>
+
   <div class="min-height">
 	<%= render 'lines/line', obj: @contract.lines.where("status='A'").order(updated_at: :desc) %>
 	</div>
-</div>
 

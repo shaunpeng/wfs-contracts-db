@@ -11,7 +11,7 @@ class Product < ApplicationRecord
     end
     
     def nameabbr
-        "#{name} --< #{abbr} >"
+        "#{name}&nbsp;&nbsp;&nbsp;(#{abbr})".html_safe
     end
     
 end

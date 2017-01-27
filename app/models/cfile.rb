@@ -3,4 +3,5 @@ class Cfile < ApplicationRecord
   validates :document, presence: true
   validates :contract_id, presence: true
   mount_uploader :document, DocumentUploader
+  
 end

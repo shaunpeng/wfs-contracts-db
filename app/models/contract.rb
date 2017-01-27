@@ -9,7 +9,15 @@ class Contract < ApplicationRecord
     validates :renew_type, presence: true
     validates :formula_type, presence: true
     validates :pricing_cycle, presence: true
+    validate :end_after_start
     has_many :lines
     has_one :cfile
     has_one :market
+    
+    def end_after_start
+        if end_date <= start_date
+           errors.add(:base, 'End date must be after State date')
+        end
+    end
+    
 end

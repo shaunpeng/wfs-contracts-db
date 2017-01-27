@@ -6,7 +6,7 @@
   <div class="bottom-align-right col-xs-6 col-md-4">
     <ul class="nav nav-pills pull-right">
     	<li><%= button_to 'Edit', edit_line_path(@line), method: :get, class:"btn btn-default" %></li>
-    	<li><%= button_to 'Back', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
+    	<li><%= button_to 'Done', contract_path(@line.contract_id), method: :get, class:"btn btn-default" %></li>
 		</ul>
   </div>
 </div>
@@ -68,7 +68,7 @@
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Volume Variance (e.g. +/-15%)</label>
+          <label class="col-2 col-form-label"> Volume Variance</label>
           <input type="text" value="<%= @line.volume_variance %>" class="form-control" readonly=true >
         </div>
       </td>

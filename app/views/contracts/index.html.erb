@@ -42,7 +42,15 @@
         <td align="right"><%= contract.lines.where("status='A'").count %></</td>
         <!--<td align="right"><%#= number_with_delimiter(contract.lines.sum(:volume), delimiter: ",") if contract.lines %></</td>-->
         <td align="center"><%= contract.updated_at.strftime("%m/%d/%Y") %></td>
-        <td align="right"><img title="has attachment" src="/attachment.png" <%= "hidden" if !contract.cfile.present? %> /></td>
+        <td align="right">
+          <a id="attachment-link" target="_blank" href=<% if contract.cfile.present? %>
+                  <%= contract.cfile.document %>
+                  <% else %>
+                  <%= "\"\" hidden" %>
+                  <% end %> >
+          <img src="/attachment.png" title="document attachment"/>
+          </a>
+        </td>
         <td>
           <div class="dropdown pull-right">
             <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

@@ -9,7 +9,7 @@ class Terminal < ApplicationRecord
     end
     
     def abbrtcn
-        "#{abbr} --< #{tcn} >"
+        "#{abbr}&nbsp;&nbsp;&nbsp;(#{tcn})".html_safe
     end
     
 end
