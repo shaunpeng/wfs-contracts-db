@@ -83,7 +83,7 @@ class LinesController < ApplicationController
                                     :index_2, :adder_2, :pct_index_2, :index_3, :adder_3, :pct_index_3,
                                     :adder_inout, :adder_schedule, :pct_rins_discount, :index_rins,
                                     :summer_rvp, :rack_discount, :rack_discount_policy, :rebate_policy,
-                                    :penalty_policy)
+                                    :penalty_policy, :short_list)
     end
     
 end

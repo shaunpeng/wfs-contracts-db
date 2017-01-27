@@ -30,7 +30,7 @@
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :prod_category_id, "Product Category*" %></label>
           <% options = options_from_collection_for_select(ProdCategory.order(:name), 'id', 'name', f.object.prod_category_id ) %>
-          <%= f.select(:adder_inout, ["", "BioDiesel","Diesel","Gasoline","Ethanol"], {}, { :class => "form-control", :id => "prod-category-short" }) %>
+          <%= f.select(:prod_category_id, [["BioDiesel",2],["Diesel",3],["Ethanol",4],["Flexible Fuels",5],["Gasoline",6],["Kerosene",8]], {}, { :class => "form-control", :id => "prod-category-short" }) %>
           <%= f.select(:prod_category_id, options, {include_blank: !line.prod_category_id.present? }, { :class => "form-control", :id =>"prod-category-long" }) %>
         </div>
       </td>
@@ -54,7 +54,9 @@
           <label class="col-2 col-form-label inline-block" title="Blank means multiple unspecified products under the specified category.">
             Product (DTN)
             <div class="inline-block">
-              <input type="checkbox" id="shortlist-checkbox" onclick="handleClick(this);" checked >Short List
+              <%= f.check_box :short_list, {:id => "shortlist-checkbox", :checked => defaulttrue(line.short_list), :onclick => "checkboxClick(this);"}, "true", "false" %>
+              <!--<input type="checkbox" id="shortlist-checkbox" onclick="checkboxClick(this);" checked >-->
+              Short List
             </div>
           </label>
           <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :nameabbr,  f.object.product_id ) %>
@@ -122,7 +124,6 @@
 			<td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
-          <% puts f.object.index_1 %>
           <%= f.select :index_1, grouped_options_for_select(LinesHelper::IndexOption,f.object.index_1), {include_blank: !line.index_1.present?}, { :class => "form-control"}  %>
         </div>
       </td>

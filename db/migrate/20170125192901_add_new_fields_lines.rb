@@ -25,6 +25,7 @@ class AddNewFieldsLines < ActiveRecord::Migration[5.0]
     add_column :lines, :rack_discount, :decimal
     add_column :lines, :rack_discount_policy, :text
     add_column :lines, :rebate_policy, :text
-    add_column :lines, :penalty_policy, :text    
+    add_column :lines, :penalty_policy, :text   
+    add_column :lines, :short_list, :boolean
   end
 end
