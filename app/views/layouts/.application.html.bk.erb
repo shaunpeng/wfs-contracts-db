@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WFS Land Contract Database</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <%= render partial: "layouts/navigation" %>
+	<%= render partial: "shared/flash_messages", flash: flash %>
+	
+	<div class="container">
+	  <%= bootstrap_flash %>
+    <%= yield %>
+  </div>
+  
+  <%= render partial: "layouts/footer" %>
+  
+  <!--<br>-->
+  <%#= debug(params) if Rails.env.development? %>
+
+  </body>
+</html>

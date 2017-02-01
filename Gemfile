@@ -13,7 +13,10 @@ gem 'puma' #, '~> 3.0'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
-# gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # gem 'bootstrap-datepicker-rails'
 gem 'momentjs-rails', '>= 2.9.0'
 gem 'carrierwave'

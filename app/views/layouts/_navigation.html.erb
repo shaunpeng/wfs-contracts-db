@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <%= link_to image_tag("wfs_sm.png", border: 0), root_path, class: "navbar-brand", id: "logo" %>
     </div>
@@ -18,7 +19,15 @@
         <li><a href="#">Customer Contracts</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Signed in as: WFS</a></li>
+        <% if user_signed_in? %>
+              <li class="inline-block">
+                <a disabled class="inline-block"><%= current_user.email.split("@")[0].upcase %>:</a>
+              </li>
+              <li class="inline-block">
+                <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+              </li>
+            </li>
+        <% end %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

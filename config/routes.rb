@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   root 'contracts#home'
   get 'contracts/index', to: 'contracts#index'
   
