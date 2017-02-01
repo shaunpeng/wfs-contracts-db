@@ -17,6 +17,11 @@
 
 <br>
 
+  <div class="field hide">
+    <%= f.number_field :created_by, class: "form-control", :value => contract.created_by.presence || current_user.id %>
+    <%= f.number_field :updated_by, class: "form-control", :value => current_user.id %>
+  </div>
+
 	<table class="table borderless">
 		<tr>
 			<td>

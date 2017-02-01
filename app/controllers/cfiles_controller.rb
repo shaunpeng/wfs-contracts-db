@@ -85,6 +85,6 @@ class CfilesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def cfile_params
       #params.fetch(:cfile, {}).permit(:name, :document, :contract_id)
-      params.require(:cfile).permit(:name, :document, :contract_id)
+      params.require(:cfile).permit(:name, :document, :contract_id, :created_by, :updated_by)
     end
 end

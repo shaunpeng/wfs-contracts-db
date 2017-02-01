@@ -85,7 +85,7 @@ class ContractsController < ApplicationController
     def contract_params
       params.require(:contract).permit(:contract_nbr, :sales_rep, :supplier, :supplier_nbr, 
                     :status, :company, :market_id, :start_date, :end_date, :renew_type,
-                    :formula_type, :pricing_cycle, :brand_type, :notes)
+                    :formula_type, :pricing_cycle, :brand_type, :notes, :created_by, :updated_by)
     end
     
 end

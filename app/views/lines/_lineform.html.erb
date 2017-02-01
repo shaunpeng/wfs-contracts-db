@@ -18,7 +18,9 @@
 <br>
 
   <div class="field hide">
-    <%= f.number_field :contract_id, class: "form-control", :value => line.contract_id.presence || @contract.id, :readonly => true %>
+    <%= f.number_field :contract_id, class: "form-control", :value => line.contract_id.presence || @contract.id %>
+    <%= f.number_field :created_by, class: "form-control", :value => line.created_by.presence || current_user.id %>
+    <%= f.number_field :updated_by, class: "form-control", :value => current_user.id %>
     <select class="form-control" id="index-option">
           <%= LinesHelper::IndexOption %>
     </select>

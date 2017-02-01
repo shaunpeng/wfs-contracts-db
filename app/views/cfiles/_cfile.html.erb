@@ -1,5 +1,9 @@
 <!--<%- model_class = Cfile -%>-->
 <%= form_for cfile_obj, :html => { multipart: true, :class => "form-horizontal", remote:true , id: 'file-upload-form' } do |f| %>
+
+    <%= f.hidden_field :created_by, :value => cfile_obj.created_by.presence || current_user.id %>
+    <%= f.hidden_field :updated_by, :value => current_user.id %>
+
       <div class="half-width field inline-block valign-top">
         <label class="col-2 col-form-label" title="Accpets file types: .jpg/.png/.pdf">
           Attached Document
