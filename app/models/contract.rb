@@ -10,6 +10,7 @@ class Contract < ApplicationRecord
     validates :formula_type, presence: true
     validates :pricing_cycle, presence: true
     validate :end_after_start
+    validate :end_if_not_evergreen
     has_many :lines
     has_one :cfile
     has_one :market
@@ -18,6 +19,14 @@ class Contract < ApplicationRecord
         if !end_date.nil?
             if end_date <= start_date
                errors.add(:base, 'End date must be after Start date')
+            end
+        end
+    end
+    
+    def end_if_not_evergreen
+        if renew_type != "Evergreen"
+            if end_date.nil?
+               errors.add(:base, 'End date cannot be blank if not evergreen')
             end
         end
     end

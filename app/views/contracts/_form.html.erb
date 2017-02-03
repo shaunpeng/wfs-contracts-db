@@ -83,7 +83,7 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :end_date, "End Date*" %></label>
+          <label class="col-2 col-form-label"><%= f.label :end_date, "End Date" %></label>
           <%= f.date_field :end_date, class: "form-control" %>
         </div>
       </td>
@@ -103,7 +103,7 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :pricing_cycle, "Pricing Cycle" %></label>
+          <label class="col-2 col-form-label"><%= f.label :pricing_cycle, "Pricing Cycle*" %></label>
           <%= f.select(:pricing_cycle, ["","12am-12am","6pm-6pm","5pm-5pm","7pm-7pm","Other"], {}, { :class => "form-control dropbdown-hide" }) %>
         </div>
       </td>

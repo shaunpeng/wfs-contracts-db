@@ -32,7 +32,7 @@
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :prod_category_id, "Product Category*" %></label>
           <% options = options_from_collection_for_select(ProdCategory.order(:name), 'id', 'name', f.object.prod_category_id ) %>
-          <%= f.select(:prod_category_id, [["BioDiesel",2],["Diesel",3],["Ethanol",4],["Flexible Fuels",5],["Gasoline",6],["Kerosene",8]], {}, { :class => "form-control", :id => "prod-category-short" }) %>
+          <%= f.select(:prod_category_id, [["BioDiesel",2],["Diesel",3],["Ethanol",4],["Flexible Fuels",5],["Gasoline",6],["Kerosene",8]], {include_blank: !line.prod_category_id.present?}, { :class => "form-control", :id => "prod-category-short" }) %>
           <%= f.select(:prod_category_id, options, {include_blank: !line.prod_category_id.present? }, { :class => "form-control", :id =>"prod-category-long" }) %>
         </div>
       </td>

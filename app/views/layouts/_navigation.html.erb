@@ -20,7 +20,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
-              <li class="inline-block">
+              <li class="inline-block" id="current-user-alias">
                 <a disabled class="inline-block"><%= current_user.email.split("@")[0].upcase %>:</a>
               </li>
               <li class="inline-block">
