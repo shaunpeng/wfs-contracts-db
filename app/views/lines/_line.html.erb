@@ -41,6 +41,9 @@
               <li>
                 <%= link_to 'Delete', set_status_inactive_line_path(line), method: :put, data: { confirm: 'Are you sure?' } %>
               </li>
+              <li>
+                <%= link_to 'Duplicate', duplicate_line_path(line), method: :get %>
+              </li>
             </ul>
           </div>
         </td>

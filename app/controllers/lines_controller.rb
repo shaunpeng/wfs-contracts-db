@@ -38,7 +38,7 @@ class LinesController < ApplicationController
   # PATCH/PUT /lines/1
   # PATCH/PUT /lines/1.json
   def update
-  @contract = Contract.find(@line.contract_id)
+    @contract = Contract.find(@line.contract_id)
     respond_to do |format|
       if @line.update(line_params)
         format.html { redirect_to @line, warning: 'Line was successfully updated.' }
@@ -67,7 +67,13 @@ class LinesController < ApplicationController
       redirect_to @contract, danger: 'Contract line was successfully deleted.'
   end
   
-
+  def duplicate
+      @line = Line.find(params[:id]) # find original object
+      @line = Line.new(@line.attributes.except(:id,:created_at)) # initialize duplicate (not saved)
+      @contract = Contract.find(@line.contract_id)
+      render :new, notice: 'Line was successfully duplicated. Click Create Line to save.'
+  end
+  
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_line

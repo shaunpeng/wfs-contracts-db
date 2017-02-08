@@ -8,6 +8,9 @@ Rails.application.routes.draw do
     member do
       put :set_status_inactive
     end
+    member do
+      get 'duplicate'
+    end
   end
   
   resources :cfiles
