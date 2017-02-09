@@ -1,5 +1,5 @@
 class Contract < ApplicationRecord
-    validates :contract_nbr, presence: true
+    # validates :contract_nbr, presence: true
     validates :supplier, presence: true
     validates :sales_rep, presence: true
     validates :market_id, presence: true
@@ -26,7 +26,7 @@ class Contract < ApplicationRecord
     def end_if_not_evergreen
         if renew_type != "Evergreen"
             if end_date.nil?
-               errors.add(:base, 'End date cannot be blank if not evergreen')
+               errors.add(:base, 'End date cannot be blank if renewal cycle is not evergreen')
             end
         end
     end
