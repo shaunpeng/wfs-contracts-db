@@ -341,3 +341,16 @@ textarea {
 .devise-bs .form-control {
     width: 100%;
 }
+
+.field a:hover {
+    color: black;
+    background: none;
+}
+
+.field a {
+    color: gray;
+    background: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}

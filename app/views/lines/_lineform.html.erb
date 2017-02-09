@@ -125,7 +125,8 @@
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :index_1 %></label>
+          <label class="col-2 col-form-label inline-block"><%= f.label :index_1 %></label>
+          <a data-toggle="modal" data-target="#index-formula-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           <%= f.select :index_1, grouped_options_for_select(LinesHelper::IndexOption,f.object.index_1), {include_blank: !line.index_1.present?}, { :class => "form-control"}  %>
         </div>
       </td>
@@ -145,19 +146,19 @@
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :pct_index_1, "Index 1 %" %></label>
+          <label class="col-2 col-form-label"><%= f.label :pct_index_1, "Product 1 Mix%" %></label>
           <%= f.number_field :pct_index_1, class: "form-control" %>
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :pct_index_2, "Index 2 %"  %></label>
+          <label class="col-2 col-form-label"><%= f.label :pct_index_2, "Product 2 Mix%"  %></label>
           <%= f.number_field :pct_index_2, class: "form-control" %>
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label"><%= f.label :pct_index_3, "Index 3 %"  %></label>
+          <label class="col-2 col-form-label"><%= f.label :pct_index_3, "Product 3 Mix%"  %></label>
           <%= f.number_field :pct_index_3, class: "form-control" %>
         </div>
       </td>
@@ -185,8 +186,10 @@
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Adder In/Out (explanation)</label>
-          <%= f.select(:adder_inout, ["", "In", "Out"], {}, { :class => "form-control" }) %>
+          <label class="col-2 col-form-label">Adder Blend/Component
+            <a data-toggle="modal" data-target="#index-formula-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+          </label>
+          <%= f.select(:adder_inout, ["", "Blend", "Component"], {}, { :class => "form-control" }) %>
         </div>
       </td>
       <td>
@@ -197,27 +200,30 @@
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Summer RVP</label>
-          <%= f.select(:summer_rvp, ["", "Y", "N"], {}, { :class => "form-control" }) %>
+          <label class="col-2 col-form-label">Has Summer RVP Grade</label>
+          <%= f.select(:summer_rvp, ["", "Yes", "No"], {}, { :class => "form-control" }) %>
         </div>
       </td>
     </tr>
     <tr>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">RINS Index</label>
+          <label class="col-2 col-form-label inline-block">RINS Index</label>
+          <a data-toggle="modal" data-target="#rins-formula-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           <%= f.select(:index_rins, ["","OPIS US Ethanol RIN Current","OPIS US Bio Rin Current","Platts Ethanol RIN Cal Yr02","Other"], {}, { :class => "form-control" }) %>
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">RINS Discount %</label>
+          <label class="col-2 col-form-label inline-block">RINS Discount %</label>
+          <a data-toggle="modal" data-target="#rins-formula-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           <%= f.number_field :pct_rins_discount, class: "form-control" %>
         </div>
       </td>
       <td>
         <div class="field">
-          <label class="col-2 col-form-label">Ethanol %</label>
+          <label class="col-2 col-form-label inline-block">Ethanol %</label>
+          <a data-toggle="modal" data-target="#rins-formula-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           <%= f.number_field :pct_ethanol, class: "form-control" %>
         </div>
       </td>
@@ -267,3 +273,44 @@
 </div>
 
 <% end %>
+
+<div class="modal fade" id="index-formula-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Index Formula</h3>
+      </div>
+      <div class="modal-body">
+        <p>
+          <h4><b>Adder Blend?</b></h4>
+          <img src="/formula-adder-in.png" />
+        </p>
+        <p>
+          <h4><b>Adder Component?</b></h4>
+          <img src="/formula-adder-out.png" />
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="rins-formula-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">RINS Formula</h3>
+      </div>
+      <div class="modal-body">
+        <img src="/formula-rins.png" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
