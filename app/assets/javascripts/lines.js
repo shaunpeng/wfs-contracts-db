@@ -62,7 +62,7 @@ $(document).on('turbolinks:load', function() {
         $('#line_index_3').html(options_index3);
     }
     
-    checkboxClick(document.getElementById('shortlist-checkbox'));
+    checkboxClick(document.getElementById('shortlist-checkbox'),product_shorthtml,product_longhtml);
     
 });
 
@@ -71,8 +71,10 @@ function filter_product(product_shorthtml,product_longhtml,shortlong) {
     product_category = $('#prod-category-' + shortlong + ' :selected').text();
     if (product_category !='') {
         escaped_category = product_category.replace(/([ #;&,.+*~\':"!^$[\]()=>|\/@])/g, '\\$1');
+        //confirm(product_shorthtml);
         options_short = $(product_shorthtml).filter("optgroup[label=" + escaped_category + "]").prepend("<option selected></option>").html();
         options_long = $(product_longhtml).filter("optgroup[label=" + escaped_category + "]").prepend("<option selected></option>").html();
+        //confirm(options_short);
         $('#prod-name-shortlist').html(options_short);
         $('#prod-name-longlist').html(options_long);
     } else {
@@ -80,7 +82,7 @@ function filter_product(product_shorthtml,product_longhtml,shortlong) {
     }
 };
 
-function checkboxClick(cb) {
+function checkboxClick(cb,product_shorthtml,product_longhtml) {
     if (cb.checked) {
       //confirm("checked");
         document.getElementById('prod-name-longlist').setAttribute("disabled", "disabled");

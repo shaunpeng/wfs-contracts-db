@@ -39,10 +39,10 @@
               <li><%= link_to 'Details', line %></li>
               <li><%= link_to 'Edit', edit_line_path(line) %></li>
               <li>
-                <%= link_to 'Delete', set_status_inactive_line_path(line), method: :put, data: { confirm: 'Are you sure?' } %>
+                <%= link_to 'Duplicate', duplicate_line_path(line), method: :get %>
               </li>
               <li>
-                <%= link_to 'Duplicate', duplicate_line_path(line), method: :get %>
+                <%= link_to 'Delete', set_status_inactive_line_path(line), method: :put, data: { confirm: 'Are you sure?' } %>
               </li>
             </ul>
           </div>

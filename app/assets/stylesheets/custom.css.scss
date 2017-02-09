@@ -333,3 +333,11 @@ textarea {
 .min-height {
     min-height: 150px !important;
 }
+
+.devise-bs {
+    max-width: 680px;
+}
+
+.devise-bs .form-control {
+    width: 100%;
+}
