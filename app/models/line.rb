@@ -21,7 +21,21 @@ class Line < ApplicationRecord
     end
     
     def index_present
-        if formula!= "Rack Posted"
+        if formula == "Rack Posted"
+            if rack_discount.blank?
+              errors.add(:base, 'Rack discount cannot be blank')
+            end
+        elsif formula == "OPIS"
+            if opis_grossnet.blank?
+              errors.add(:base, 'OPIS Gross/Net cannot be blank')
+            end
+            if opis_index_point.blank?
+              errors.add(:base, 'OPIS Index Point cannot be blank')
+            end
+            if opis_avglow.blank?
+              errors.add(:base, 'OPIS Low cannot be blank')
+            end
+        else
             if index_1.blank?
               errors.add(:base, 'Index(es) cannot be blank')
             end
@@ -30,5 +44,4 @@ class Line < ApplicationRecord
             end
         end
     end
-  
 end
