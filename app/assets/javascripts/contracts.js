@@ -10,7 +10,7 @@ $(document).on('turbolinks:load', function() {
             options = $(market_name).filter("optgroup[label=" + escaped_state + "]").prepend("<option selected></option>").html();
             return $('#market-name').html(options);
         } else {
-            confirm("Please select a state!");
+            confirm("Please select a State!");
         }
     });
 });

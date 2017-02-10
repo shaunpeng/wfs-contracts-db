@@ -69,7 +69,7 @@ class LinesController < ApplicationController
   
   def duplicate
       @line = Line.find(params[:id]) # find original object
-      @line = Line.new(@line.attributes.except(:id,:created_at)) # initialize duplicate (not saved)
+      @line = Line.new(@line.attributes.except(:id,:created_at,:updated_at,:created_by,:updated_by)) # initialize duplicate (not saved)
       @contract = Contract.find(@line.contract_id)
       render :new, notice: 'Line was successfully duplicated. Click Create Line to save.'
   end
@@ -89,7 +89,7 @@ class LinesController < ApplicationController
                                     :index_2, :adder_2, :pct_index_2, :index_3, :adder_3, :pct_index_3,
                                     :adder_inout, :adder_schedule, :pct_rins_discount, :index_rins,
                                     :summer_rvp, :rack_discount, :rack_discount_policy, :rebate_policy,
-                                    :penalty_policy, :short_list, :created_by, :updated_by)
+                                    :penalty_policy, :short_list, :created_by, :updated_by, :opis_grossnet, :opis_index_point, :opis_avglow)
     end
     
 end

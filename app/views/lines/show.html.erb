@@ -22,7 +22,7 @@
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Terminal City (DTN)</label>
+          <label class="col-2 col-form-label">Terminal City (DTN)</label>
 					<input type="text" value="<%= City.find(@line.city_id).name  %>" class="form-control" readonly=true >
         </div>
       </td>
@@ -42,13 +42,13 @@
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Terminal Operator (DTN)</label>
+          <label class="col-2 col-form-label">Terminal Operator (DTN)</label>
 					<input type="text" value="<%= Terminal.searchfield(@line.terminal_id,'abbr') + "  (" + Terminal.searchfield(@line.terminal_id,'tcn') + ")" if Terminal.find_by_id(@line.terminal_id).present? %>" class="form-control" readonly=true >
         </div>
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Volume (Gallons)</label>
+          <label class="col-2 col-form-label">Volume (Gallons)</label>
           <input type="text" value="<%= number_with_delimiter(@line.volume,delimiter: ",") %>" class="form-control" readonly=true >
         </div>
       </td>
@@ -56,19 +56,19 @@
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Cancel Date (if canceled)</label>
+          <label class="col-2 col-form-label">Cancel Date (if canceled)</label>
            <input type="date" value="<%= @line.cancel_date %>" class="form-control" readonly=true >
         </div>
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Payment Terms</label>
+          <label class="col-2 col-form-label">Payment Terms</label>
           <input type="text" value="<%= @line.payment_terms %>" class="form-control" readonly=true >
         </div>
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Volume Variance Allowed</label>
+          <label class="col-2 col-form-label">Volume Variance Allowed</label>
           <input type="text" value="<%= @line.volume_variance %>" class="form-control" readonly=true >
         </div>
       </td>
@@ -76,8 +76,8 @@
 		<tr>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Formula</label>
-					<input type="text" value="<%= @line.formula  %>" class="form-control" readonly=true >
+          <label class="col-2 col-form-label">Formula</label>
+					<input type="text" value="<%= @line.formula  %>" class="form-control" readonly=true id="formula-source" >
         </div>
       </td>
 			<td>
@@ -93,27 +93,47 @@
         </div>
       </td>
     </tr>
-		<tr>
+		<tr class="opis-fields">
 			<td>
         <div class="field">
-        <label class="col-2 col-form-label">Index 1</label>
-        <input type="text" value="<%= @line.index_1 %>" class="form-control" readonly=true >
+          <label class="col-2 col-form-label">OPIS Gross/Net</label>
+					<input type="text" value="<%= @line.opis_grossnet  %>" class="form-control" readonly=true >
         </div>
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Index 2</label>
+          <label class="col-2 col-form-label">OPIS Index Point</label>
+					<input type="text" value="<%= @line.opis_index_point %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">OPIS Low</label>
+          <input type="text" value="<%= @line.opis_avglow%>" class="form-control" readonly=true >
+        </div>
+      </td>
+    </tr>
+		<tr class="index-fields">
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Index 1</label>
+          <input type="text" value="<%= @line.index_1 %>" class="form-control" readonly=true >
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label">Index 2</label>
           <input type="text" value="<%= @line.index_2 %>" class="form-control" readonly=true >
         </div>
       </td>
 			<td>
         <div class="field">
-          <label class="col-2 col-form-label"> Index 3</label>
+          <label class="col-2 col-form-label">Index 3</label>
           <input type="text" value="<%= @line.index_3 %>" class="form-control" readonly=true >
         </div>
       </td>
     </tr>
-    <tr>
+    <tr class="index-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label">Product 1 Mix%</label>
@@ -133,7 +153,7 @@
         </div>
       </td>
     </tr>
-		<tr>
+		<tr class="index-fields">
 			<td>
         <div class="field">
           <label class="col-2 col-form-label">Adder 1</label>
@@ -166,14 +186,8 @@
           <input type="text" value="<%= @line.adder_schedule %>" class="form-control" readonly=true >
         </div>
       </td>
-      <td>
-        <div class="field">
-          <label class="col-2 col-form-label">Has Summer RVP Grade</label>
-          <input type="text" value="<%= @line.summer_rvp %>" class="form-control" readonly=true >
-        </div>
-      </td>
     </tr>
-    <tr>
+    <tr class="index-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label">RINS Index</label>
@@ -193,7 +207,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr class="rackposted-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label">Rack Posted Price Discount</label>
@@ -207,7 +221,7 @@
         </div>
       </td>
       <td>
-        <div class="field">
+        <div class="field hide">
           <label class="col-2 col-form-label">Line Status</label>
           <input type="text" value="<%= @line.status %>" class="form-control" readonly=true >
         </div>
@@ -227,6 +241,10 @@
         </div>
       </td>
       <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Has Summer RVP Grade</label>
+          <input type="text" value="<%= @line.summer_rvp %>" class="form-control" readonly=true >
+        </div>
       </td>
     </tr>
   </table>

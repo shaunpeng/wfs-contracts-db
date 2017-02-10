@@ -118,7 +118,7 @@
       <td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :sales_rep,"Sales Rep*" %></label>
-          <%= f.text_field :sales_rep, class: "form-control" %>
+          <%= f.select :sales_rep, options_for_select(ContractsHelper::SalesrepOption,f.object.sales_rep), {include_blank: !contract.sales_rep.present?}, { :class => "form-control"}  %>
         </div>
       </td>
       <td>

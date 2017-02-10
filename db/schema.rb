@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170201222011) do
+ActiveRecord::Schema.define(version: 20170209220132) do
 
   create_table "cfiles", force: :cascade do |t|
     t.string   "name"
@@ -98,6 +98,9 @@ ActiveRecord::Schema.define(version: 20170201222011) do
     t.boolean  "short_list"
     t.integer  "created_by"
     t.integer  "updated_by"
+    t.string   "opis_grossnet"
+    t.string   "opis_index_point"
+    t.string   "opis_avglow"
   end
 
   create_table "markets", force: :cascade do |t|

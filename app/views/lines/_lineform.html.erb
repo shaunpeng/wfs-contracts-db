@@ -60,6 +60,7 @@
               <!--<input type="checkbox" id="shortlist-checkbox" onclick="checkboxClick(this);" checked >-->
               Short List
             </div>
+            <a data-toggle="modal" data-target="#product-modal"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </label>
           <% options_short = option_groups_from_collection_for_select(ProdCategory.order(:name), :usualproducts, :name, :id, :nameabbr,  f.object.product_id ) %>
           <%= f.select(:product_id, options_short, {include_blank: !line.product_id.present? }, { :class => "form-control", :id =>"prod-name-shortlist", :title => "Blank means multiple unspecified  products under the specified category." } ) %>
@@ -122,7 +123,27 @@
         </div>
       </td>
     </tr>
-		<tr>
+		<tr class="opis-fields">
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :opis_grossnet, "OPIS Gross/Net*" %></label>
+          <%= f.select(:opis_grossnet, ["", "Gross","Net"], {}, { :class => "form-control", :id => "formula-source" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :opis_index_point, "OPIS Index Point*" %></label>
+          <%= f.select(:opis_index_point, ["", "Contract", "Contract Net","Rack","Rack Unbranded","Rack Branded"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+			<td>
+        <div class="field">
+          <label class="col-2 col-form-label"><%= f.label :opis_avglow, "OPIS Index Low*" %></label>
+          <%= f.select(:opis_avglow, ["", "LOW","AVG","HIGH"], {}, { :class => "form-control" }) %>
+        </div>
+      </td>
+    </tr>
+		<tr class="index-fields">
 			<td>
         <div class="field">
           <label class="col-2 col-form-label inline-block"><%= f.label :index_1 %></label>
@@ -143,7 +164,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr class="index-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label"><%= f.label :pct_index_1, "Product 1 Mix%" %></label>
@@ -183,7 +204,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr class="index-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label">Adder Blend/Component
@@ -198,14 +219,8 @@
           <%= f.select(:adder_schedule, ["", "Yearly", "Monthly"], {}, { :class => "form-control" }) %>
         </div>
       </td>
-      <td>
-        <div class="field">
-          <label class="col-2 col-form-label">Has Summer RVP Grade</label>
-          <%= f.select(:summer_rvp, ["", "Yes", "No"], {}, { :class => "form-control" }) %>
-        </div>
-      </td>
     </tr>
-    <tr>
+		<tr class="index-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label inline-block">RINS Index</label>
@@ -228,7 +243,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr class="rackposted-fields">
       <td>
         <div class="field">
           <label class="col-2 col-form-label">Rack Posted Price Discount</label>
@@ -242,7 +257,7 @@
         </div>
       </td>
       <td>
-        <div class="field">
+        <div class="field hide">
           <label class="col-2 col-form-label"><%= f.label :status, "Line Status" %></label>
           <%= f.text_field :status, class: "form-control", :value => 'A', :readonly => true %>
         </div>
@@ -262,6 +277,10 @@
         </div>
       </td>
       <td>
+        <div class="field">
+          <label class="col-2 col-form-label">Has Summer RVP Grade</label>
+          <%= f.select(:summer_rvp, ["", "Yes", "No"], {}, { :class => "form-control" }) %>
+        </div>
       </td>
     </tr>
   </table>
@@ -279,15 +298,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="myModalLabel">Index Formula</h3>
+        <h3 class="modal-title">Index Formula</h3>
       </div>
       <div class="modal-body">
         <p>
-          <h4><b>Adder Blend?</b></h4>
+          <h4><b>Adder Blend</b></h4>
           <img src="/formula-adder-in.png" />
         </p>
         <p>
-          <h4><b>Adder Component?</b></h4>
+          <h4><b>Adder Component</b></h4>
           <img src="/formula-adder-out.png" />
         </p>
       </div>
@@ -303,10 +322,29 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="myModalLabel">RINS Formula</h3>
+        <h3 class="modal-title">RINS Formula</h3>
       </div>
       <div class="modal-body">
         <img src="/formula-rins.png" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">Product (DTN)</h3>
+      </div>
+      <div class="modal-body">
+        <h5>Leave product field blank if no product is specified under the category in the contract. Or duplicate the line and copy the fields to enter another product under the same product category.</h5>
+        <h5>Select the non-RVP product when both RVP and non-RVP products are sold throughout the year.</h5>
+        <h5>Short List: filters the DTN product list to the commonly used products.</h5>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
